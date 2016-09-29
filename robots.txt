@@ -1,0 +1,3 @@
+Sitemap:  https://seantis.ch/robots.txt
+User-agent: *
+Disallow:
