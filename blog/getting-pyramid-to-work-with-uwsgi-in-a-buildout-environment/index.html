@@ -1,7 +1,127 @@
-<!doctype html><html class="no-js" lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Getting Pyramid to work with uWSGI in a buildout environment</title><link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css"><link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"><link rel="stylesheet" href="../../static/css/normalize.min.css"><link rel="stylesheet" href="../../static/css/foundation.min.css "><link rel="stylesheet" href="../../static/css/ionicons.min.css "><link rel="stylesheet" href="../../static/css/app.css"><link rel="stylesheet" href="../../static/css/prism.css"><script src="../../static/js/custom.modernizr.js"></script></head><body><div class="row"><div class="large-3 push-9 columns"><div id="logo"><a id="brand" class="brand" href="../../"><img src="../../static/img/logo.svg" alt="seantis gmbh"></a></div></div><div class="large-9 pull-3 columns"><div id="navigation"><ul class="left" id="nav-tabs"><li><a href="../../portrait/">Portrait</a></li><li><a href="../../engineering/">Engineering</a></li><li><a href="../../services/">Services</a></li><li><a href="../../success-stories/">Erfolgsgeschichten</a></li><li><a href="../../news/">News</a></li><li><a href="../../blog/">Blog</a></li></ul></div></div></div><div class="row hide-for-small"><div class="large-12 columns"><div id="banner" style="background-image: url(../../static/img/healthdata.png);"><div class="large-5 large-offset-7 columns"><h4 class="subheader">Clinical Quality Management System</h4><p>Die interdisziplinäre medizinische Patientenakte unterstützt Ärzte bei der medizinischen Dokumentation über den gesamten Behandlungsverlauf.</p><a href="https://www.healthdata.ai">mehr &rarr;</a></div></div><div id="portlets-in-header"></div></div></div><div class="row"><div class="large-8 columns"><ul class="breadcrumbs"><li><a href="#"><i class="icon-home"></i></a></li><li><a href="/blog">Blog</a></li><li class="current">Getting Pyramid to work with uWSGI in a buildout environment</li></ul></div><div class="large-4 columns" id="search"><form id="searchbox" action="../../search/"><div class="row collapse"><div class="small-10 columns"><input type="text" name="q" id="tipue_search_input" autocomplete="off" requiredclass="search-query" placeholder="Suche"></div><div class="small-2 columns"><button type="submit" class="postfix"><i class="icon-search"></i></button></div></div></div></form></div><div class="row"><div class="large-8 columns"><div id="content"><div class="actionDate">14.06.2011</div><h1>Getting Pyramid to work with uWSGI in a buildout environment</h1><div class="documentDescription">uWSGI supports setting up sys.path with the paths of a virtualenv. But what if you are using buildout and virtualenv is not aware of your paths?</div><p>Setting up our first production server with <a href="https://www.seantis.ch/search?SearchableText=ocqms">ocqms</a> proved to be somewhat tricky, as my own understanding of uWSGI, Pyramid and buildout was limited to say the least. We always run our python projects in virtual environments, but we often use it for nothing more than a container from which to run bootstrap.py</p><p>Bootstrapping our environment like this, we tell buildout to create it's own interpreter script which sets up the path before it runs the python interpreter. We do this by setting the interpreter argument of zc.recipe.egg to something like 'interpreter = py', giving us the bin/py script to work with.</p><p>Though I'm still not entirely convinced that this is the only way, or indeed the right way, it means that we have to setup the python paths ourselves, if we want to use uWSGI as our WSGI server. Or indeed any WSGI server.</p><p>The thing is, uWSGI provides a case for virtualenv. But it only sets the python path to a specified directory. From there python python can find all required packages in the standard site-packages sub-directory.</p><p>Unfortunately, in our environment the site-packages are in buildout's eggs directory, rendering this option useless for us.</p><p>So, to get uWSGI to run with the correct paths we had to do the following.</p><p>First, be sure that your uwsgi.ini or similar uses these parameters:</p><pre><code>wsgi-file = /var/www/app/pyramid.wsgi  
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <title>Getting Pyramid to work with uWSGI in a buildout environment</title>
+      <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+      <link rel="stylesheet" href="../../static/css/normalize.min.css">
+      <link rel="stylesheet" href="../../static/css/foundation.min.css ">
+      <link rel="stylesheet" href="../../static/css/ionicons.min.css ">
+      <link rel="stylesheet" href="../../static/css/app.css">
+      <link rel="stylesheet" href="../../static/css/prism.css" />
+      <script src="../../static/js/custom.modernizr.js"></script>
+    </head>
+
+    <body>
+        
+        <!-- Header and Nav -->
+        <div class="row">
+          <div class="large-3 push-9 columns">
+            <div id="logo">
+              <a id="brand" class="brand" href="../../">
+                <img src="../../static/img/logo.svg" alt="seantis gmbh">
+              </a>
+            </div>
+          </div>
+          <div class="large-9 pull-3 columns">
+            <div id="navigation">
+              <ul class="left" id="nav-tabs">
+                <li><a href="../../portrait/">Portrait</a></li>
+                <li><a href="../../engineering/">Engineering</a></li>
+                <li><a href="../../services/">Services</a></li>
+                <li><a href="../../success-stories/">Erfolgsgeschichten</a></li>
+                <li><a href="../../news/">News</a></li>
+                <li><a href="../../blog/">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- First Band (Image) -->
+        <div class="row hide-for-small">
+          <div class="large-12 columns">
+            <div id="banner" style="background-image: url(../../static/img/healthdata.png);">
+              <div class="large-5 large-offset-7 columns">
+                <h4 class="subheader">Clinical Quality Management System</h4>
+                <p>Die interdisziplinäre medizinische Patientenakte unterstützt Ärzte bei der medizinischen Dokumentation über den gesamten Behandlungsverlauf.</p>
+                <a href="https://www.healthdata.ai">mehr &rarr;</a>
+              </div>
+            </div>
+            <div id="portlets-in-header"></div>
+          </div>
+        </div>
+
+        <!-- Second Band (Breadcrumbs & Search) -->
+        <div class="row">
+          <div class="large-8 columns">
+            <ul class="breadcrumbs">
+              <li><a href="#"><i class="icon-home"></i></a></li>
+              
+                
+                    <li><a href="/blog">Blog</a></li>
+                
+                <li class="current">Getting Pyramid to work with uWSGI in a buildout environment</li>
+              
+            </ul>
+          </div>
+          <div class="large-4 columns" id="search">
+            <form id="searchbox" action="../../search/">
+              <div class="row collapse">
+                <div class="small-10 columns">
+                  <input type="text" name="q" id="tipue_search_input" autocomplete="off" requiredclass="search-query" placeholder="Suche">
+                </div>
+                <div class="small-2 columns">
+                <button type="submit" class="postfix"><i class="icon-search"></i></button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Third Band (Content) -->
+        <div class="row">
+          <div class="large-8 columns">
+            <div id="content">
+                
+    <div class="actionDate">14.06.2011</div>
+    <h1>Getting Pyramid to work with uWSGI in a buildout environment</h1>
+    <div class="documentDescription">uWSGI supports setting up sys.path with the paths of a virtualenv. But what if you are using buildout and virtualenv is not aware of your paths?</div>
+    <p>Setting up our first production server with
+<a href="https://www.seantis.ch/search?SearchableText=ocqms">ocqms</a> proved to be
+somewhat tricky, as my own understanding of uWSGI, Pyramid and buildout was
+limited to say the least. We always run our python projects in virtual
+environments, but we often use it for nothing more than a container from which
+to run bootstrap.py</p>
+<p>Bootstrapping our environment like this, we tell buildout to create it's own
+interpreter script which sets up the path before it runs the python
+interpreter. We do this by setting the interpreter argument of zc.recipe.egg
+to something like 'interpreter = py', giving us the bin/py script to work
+with.</p>
+<p>Though I'm still not entirely convinced that this is the only way, or indeed
+the right way, it means that we have to setup the python paths ourselves, if
+we want to use uWSGI as our WSGI server. Or indeed any WSGI server.</p>
+<p>The thing is, uWSGI provides a case for virtualenv. But it only sets the
+python path to a specified directory. From there python python can find all
+required packages in the standard site-packages sub-directory.</p>
+<p>Unfortunately, in our environment the site-packages are in buildout's eggs
+directory, rendering this option useless for us.</p>
+<p>So, to get uWSGI to run with the correct paths we had to do the following.</p>
+<p>First, be sure that your uwsgi.ini or similar uses these parameters:</p>
+<pre><code>wsgi-file = /var/www/app/pyramid.wsgi  
 chdir = /var/www/app  
 post-buffering = 4096 
-</code></pre><p>This tells uWSGI to use the given WSGI script and to set the working dir prior to running it.</p><p>Note the post-buffering parameter. We had to use this to prevent a bug with pyramid and uwsgi where pyramid would not read the content of POSTs correctly. It probably has something to do with the following paste bug which seems to be fixed, but not yet included in the latest release:</p><p><a href="http://trac.pythonpaste.org/pythonpaste/ticket/473">http://trac.pythonpaste.org/pythonpaste/ticket/473</a></p><p>Anywho, having done that, create the pyramid.wsgi script as follows:</p><pre><code>import sys, os  
+</code></pre>
+<p>This tells uWSGI to use the given WSGI script and to set the working dir prior
+to running it.</p>
+<p>Note the post-buffering parameter. We had to use this to prevent a bug with
+pyramid and uwsgi where pyramid would not read the content of POSTs correctly.
+It probably has something to do with the following paste bug which seems to be
+fixed, but not yet included in the latest release:</p>
+<p><a href="http://trac.pythonpaste.org/pythonpaste/ticket/473">http://trac.pythonpaste.org/pythonpaste/ticket/473</a></p>
+<p>Anywho, having done that, create the pyramid.wsgi script as follows:</p>
+<pre><code>import sys, os  
 __this__ = os.getcwd()  
 
 def setup_python_path():      
@@ -27,10 +147,109 @@ setup_python_path()
 
 from pyramid.paster import get_app  
 application = get_app(os.path.join(__this__, 'production.ini'), 'app')
-</code></pre><p>As you can see, this script, residing in the root of the buildout directory, gathers all the directories that need to be known by python and adds them to the sys.path.</p><p>The wsgi application is then set up using a paster configuration. Note that get_app expects the name of your app, defined in the ini, as the second argument.</p><p>With this set up you should then be able to run</p><pre><code>uwsgi --ini /var/www/app/uwsgi.ini
-</code></pre><p><strong>EDIT</strong></p><p>As <a href="http://twitter.com/#!/unbit">unbit</a> pointed out, this can actually be done much simpler by removing the setup_python_path function in the code above and adding the following lines to the uwsgi.ini</p><pre><code>pythonpath = /var/www/app/eggs/*.egg  
+</code></pre>
+<p>As you can see, this script, residing in the root of the buildout directory,
+gathers all the directories that need to be known by python and adds them to
+the sys.path.</p>
+<p>The wsgi application is then set up using a paster configuration. Note that
+get_app expects the name of your app, defined in the ini, as the second
+argument.</p>
+<p>With this set up you should then be able to run</p>
+<pre><code>uwsgi --ini /var/www/app/uwsgi.ini
+</code></pre>
+<p><strong>EDIT</strong></p>
+<p>As <a href="http://twitter.com/#!/unbit">unbit</a> pointed out, this can actually be done
+much simpler by removing the setup_python_path function in the code above and
+adding the following lines to the uwsgi.ini</p>
+<pre><code>pythonpath = /var/www/app/eggs/*.egg  
 pythonpath = /var/www/app/src/*
-</code></pre><p>Which does the same with less code and is therefore a superior way of doing it.</p><div id="tipue_search_content"></div></div></div><div class="large-4 columns"><ul class="vcard"><li class="fn">seantis gmbh</li><li class="street-address">Unter der Egg 5</li><li><span class="zip">CH-6004</span><span class="state">Luzern</span></li><li class="phone"><i class="icon-ios7-telephone"></i> +41 41 511 22 50</li><li class="email"><i class="icon-at"></i><a href="mailto:info@seantis.ch">info@seantis.ch</a></li></ul><div id="right-column"><div><dl class="porletNews"><dt><a href="../../news/">News </a> & <a href="../../blog/"> Blog</a></dt><dd class="newsItem"><a href="../../news/dinacon-awards/">OneGov Cloud nominiert für die DINAcon Awards 2017</a></li></dd><dd class="newsItem"><a href="../../news/wahlen-abstimmungen-st-gallen/">Onlineportal für Wahl- und Abstimmungsresultate des Kantons St. Gallen</a></li></dd><dd class="newsItem"><a href="../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li></dd><dd class="newsItem"><a href="../../blog/open-data-wahlen-abstimmungen/">Schnittstelle opendata.swiss für Wahl- und Abstimmungsresultate</a></li></dd></dt></div><div></div></div></div></div><footer class="row"><div class="large-12 columns"><hr><div id="portlets-in-footer" class="row"><div class="large-12 columns"><div class="row"><div id="portlets-in-footer-1" class="large-4 columns"></div><div id="portlets-in-footer-2" class="large-4 columns"></div><div id="portlets-in-footer-3" class="large-4 columns"></div></div><div class="row"><div id="portlets-in-footer-4" class="large-12 columns"></div></div></div></div><div class="row"><div class="large-8 columns"><p>&copy; 2005 - 2016 by seantis gmbh | <a href="https://www.getlektor.com">Lektor</a> powered &amp; built with <a href="https://www.python.org">Python</a></p></div><div class="large-4 columns"><ul class="inline-list right"><li id="siteaction-webmail"><a href="https://webmail.seantis.ch" accesskey title="Webmail">Webmail</a></li></ul></div></div></div></footer><script src="../../static/js/jquery.min.js"></script><script src="../../static/js/foundation.min.js"></script><script src="../../static/js/prism.min.js"></script><script src="../../static/js/tipuesearch_set.js"></script><script src="../../static/js/tipuesearch.min.js"></script><script>
+</code></pre>
+<p>Which does the same with less code and is therefore a superior way of doing
+it.</p>
+
+
+                <div id="tipue_search_content"></div>
+            </div>
+          </div>
+          <div class="large-4 columns">
+            <ul class="vcard">
+              <li class="fn">seantis gmbh</li>
+              <li class="street-address">Unter der Egg 5</li>
+              <li><span class="zip">CH-6004</span> <span class="state">Luzern</span></li>
+              <li class="phone"><i class="icon-ios7-telephone"></i>
+              +41 41 511 22 50</li>
+              <li class="email"><i class="icon-at"></i>
+              <a href="mailto:info@seantis.ch">info@seantis.ch</a></li>
+            </ul>
+            <div id="right-column">
+                <div>
+                    
+
+                    <dl class="porletNews">
+                        <dt><a href="../../news/">News </a> & <a href="../../blog/"> Blog</a></dt>
+                        
+                            <dd class="newsItem">
+                                <a href="../../news/dinacon-awards/">OneGov Cloud nominiert für die DINAcon Awards 2017</a></li>
+                            </dd>
+                        
+                            <dd class="newsItem">
+                                <a href="../../news/wahlen-abstimmungen-st-gallen/">Onlineportal für Wahl- und Abstimmungsresultate des Kantons St. Gallen</a></li>
+                            </dd>
+                        
+                        
+                            <dd class="newsItem">
+                                <a href="../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li>
+                            </dd>
+                        
+                            <dd class="newsItem">
+                                <a href="../../blog/open-data-wahlen-abstimmungen/">Schnittstelle opendata.swiss  für Wahl- und Abstimmungsresultate</a></li>
+                            </dd>
+                        
+                    </dt>
+
+                </div>
+                <div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="row">
+          <div class="large-12 columns">
+            <hr />
+
+            <div id="portlets-in-footer" class="row">
+              <div class="large-12 columns">
+                <div class="row">
+                  <div id="portlets-in-footer-1" class="large-4 columns"></div>
+                  <div id="portlets-in-footer-2" class="large-4 columns"></div>
+                  <div id="portlets-in-footer-3" class="large-4 columns"></div>
+                </div>
+                <div class="row">
+                  <div id="portlets-in-footer-4" class="large-12 columns"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="large-8 columns">
+                <p>&copy; 2005 - 2016 by seantis gmbh | <a href="https://www.getlektor.com">Lektor</a> powered &amp; built with <a href="https://www.python.org">Python</a></p>
+              </div>
+              <div class="large-4 columns">
+                <ul class="inline-list right">
+                  <li id="siteaction-webmail"><a href="https://webmail.seantis.ch" accesskey="" title="Webmail">Webmail</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <script src="../../static/js/jquery.min.js"></script>
+        <script src="../../static/js/foundation.min.js"></script>
+        <script src="../../static/js/prism.min.js"></script>
+        <script src="../../static/js/tipuesearch_set.js"></script>
+        <script src="../../static/js/tipuesearch.min.js"></script>
+        <script>
             $(document).foundation();
             $(document).ready(function() {
                 $('#tipue_search_input').tipuesearch({
@@ -49,4 +268,6 @@ pythonpath = /var/www/app/src/*
                 var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
                 g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
             })();
-        </script></body></html>
+        </script>
+    </body>
+</html>
