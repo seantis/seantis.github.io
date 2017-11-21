@@ -87,6 +87,75 @@
     <div class="documentDescription">Empowering your data with open source.</div>
     
         <div class="blogListingEntry">
+            <div <span class="actionDate">12.12.2013</div>
+            <h2><a href="../../../blog/disease-registry-checklist/">Clinical (Disease) Registry Checklist</a></h2>
+            <div class="documentDescription">OCQMS was developed with the aim to build a robust and sustainable framework for clinical registries. </div>
+            <p>The table below shows how OCQMS scores according to a disease registry
+checklist: <a href="http://www.scfbm.org/content/8/1/21">http://www.scfbm.org/content/8/1/21</a></p>
+<p><strong>Learn more about OCQMS: <a href="https://www.healthdata.ai">www.healthdata.ai</a></strong></p>
+<h3><strong>1</strong>. <strong>Technology Choices</strong></h3>
+<p>|<br>
+---|---<br>
+Web-based or Desktop Application | Web-based, no Client Software Installation
+required<br>
+Relational Database or Unstructured Data | Relational Database (e.g.
+PostgreSQL)<br>
+Programming Language | Python<br>
+Cloud deployment vs Physical ICT Infrastructure | (Private) Cloud Deployment<br>
+Open Source vs Proprietary | Open Source Software Stack</p>
+<h3><strong>2</strong>. <strong>Professional Software Development</strong></h3>
+<p>|<br>
+Appropriate Software Project Management | Agile Development Methods<br>
+Well-structured, Commented Code | The Zen of Python (PEP 20), Style Guide for
+Python Code (PEP 8)<br>
+Version Control | Git<br>
+Issue Tracking | Trac<br>
+Documentation | Sphinx, Markdown<br>
+Software Deployment Instructions | Migration Scripts<br>
+Functional and Unit Testing | Test Coverage &gt;99%, &gt;2'250 Unit Tests<br>
+Deployment Process Documented<em> | Configuration Management with Puppet<br>
+Strategies to Capture Community Feedback</em> | Release Manager, Ticketing System</p>
+<h3><strong>3</strong>. <strong>Interoperability</strong></h3>
+<p>|<br>
+Export/Import Functionality | CSV, JSON, Excel Export<br>
+Webservice API | Export API (REST)<br>
+Data Standards | SQL, XML, PDF<br>
+Ontology (Data Elements, Disease elements) | ICD-10, SNOMED CT<br>
+XML Interfaces* | DICOM, HL7</p>
+<h3><strong>4</strong>. <strong>System Design</strong></h3>
+<p>| <strong>__</strong><br>
+Customisable for a Specific Disease, Patient Registry, Clinical Registry | For
+Medical Practice and Clinical Research<br>
+Modular Design (New Features, New Data Elements, New Ontologies) | &gt;30
+Clinical Modules Available<br>
+Internationalization<em> | i18n<br>
+Data Model</em> | Entity-Attribute-Value (EAV) Approach Combined with a Object
+Relational Mapper (ORM)</p>
+<h3><strong>5</strong>. <strong>Security</strong></h3>
+<p>| <strong>__</strong><br>
+De-Identification Process | Research Database incl. De-Identification
+Transformation<br>
+Two Factor Authentication | YubiKey<br>
+Multi-level User Access | Role-based Access Control (RBAC)<br>
+Work Groups | Group based Permissions on Hospital Level<br>
+Encryption | AES (Advanced Encryption Standard), 256-bit SSL Encryption<br>
+Audit Trail* | Full Audit Trail (TTW)</p>
+<h3><strong>6. Sustainability</strong></h3>
+<p>|<br>
+Ease of Exchange | Online Data Dictionary, Tabular Data Export<br>
+Effort Required | Seamless Integration into the Clinical Workflow, Report
+Generator</p>
+<p>Future Proofing | Standard SQL Database for Data Storage</p>
+<p>"Business Model"* | Software as a service (SaaS)</p>
+<ul>
+<li>added to the list<br>
+OCQMS is (not yet) open source: therefore the open source part has been
+omitted</li>
+</ul>
+
+        </div>
+    
+        <div class="blogListingEntry">
             <div <span class="actionDate">27.11.2013</div>
             <h2><a href="../../../blog/sicheres-login-mit-2-faktor-authentifizierung/">2-Faktor-Authentifizierung in OCQMS</a></h2>
             <div class="documentDescription">Sicheres Login mit 2-Faktor-Authentifizierung</div>
@@ -211,30 +280,6 @@ Pyramid und Plone gibt es hier: <a href="http://blog.stacktrace.ch/post/49178654
 
         </div>
     
-        <div class="blogListingEntry">
-            <div <span class="actionDate">22.04.2013</div>
-            <h2><a href="../../../blog/webcronmon-web-monitor/">WebCronMon - Web Monitor</a></h2>
-            <div class="documentDescription">Shows websites monitored on Webcron.org in kiosk mode.</div>
-            <p>At seantis we use <a href="https://www.webcron.org/">Webcron.org</a> to monitor our
-sites. For our customers, as well as for our office monitor screen, we wanted
-a simple auto-refreshing page that shows the status of our sites at a glance.
-We therefore wrote this small <a href="http://flask.pocoo.org/">Flask</a> application
-looking like this:</p>
-<p><img src="../../../blog/webcronmon-web-monitor/desktop.png" alt="Webcronmon"></p>
-<p>The monitor only shows the bare minimum of information to keep things simple:</p>
-<ul>
-<li>list monitors by group</li>
-<li>link the monitors to the actual website</li>
-<li>show the current state (online / offline since)</li>
-<li>show the uptime of the last 30 days</li>
-</ul>
-<p>The site will update the list every 60 seconds by default, unless configured
-otherwise or unless the timer on the upper right is toggled with a mouse-
-click.</p>
-<p><strong>GitHub project: <a href="https://github.com/seantis/webcronmon">https://github.com/seantis/webcronmon</a></strong></p>
-
-        </div>
-    
     
     
         <ul class="pagination cf right" role="navigation">
@@ -310,11 +355,11 @@ click.</p>
                         
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li>
+                                <a href="../../../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
                             </dd>
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/open-data-wahlen-abstimmungen/">Schnittstelle opendata.swiss  für Wahl- und Abstimmungsresultate</a></li>
+                                <a href="../../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li>
                             </dd>
                         
                     </dt>

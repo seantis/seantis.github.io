@@ -87,6 +87,169 @@
     <div class="documentDescription">Empowering your data with open source.</div>
     
         <div class="blogListingEntry">
+            <div <span class="actionDate">08.10.2010</div>
+            <h2><a href="../../../blog/suisseid-ad-absurdum/">SuisseID ad absurdum</a></h2>
+            <div class="documentDescription">Wir sind gerade dabei die Implementierung der SuisseID für Plone umzusetzen und mussten dabei feststellen, dass bestehende Implementierungen die Idee hinter einer Authentifizierung wie der SuisseID  nicht respektieren.</div>
+            <p><strong>Nachtrag (12.10.2010) Es geht uns in dieser Darstellung einzig um die Art und Weise wie Service-Provider die Authentifizierung implementieren. Es geht nicht um eine generelle Kritik an der SuisseID. Wir sind auch bemüht unsere Darstellung nach Kommentaren entsprechend zu ergänzen und zu präzisieren. Vielen Dank für die gute Diskussion!</strong></p>
+<p><strong>Vorbemerkung:</strong> Es geht uns hier nicht um eine grundlegende Kritik an zertifikatbasierter Authentifizierung oder SAML2, sondern darum wie SuisseID-Authentifizierungen implementiert sind.</p>
+<p><strong>Ergänzung (14.10.2010): </strong>Die SuisseID sieht <a href="http://www.suisseid.ch/unternehmen/einsatzszenarien/index.html">folgende Einsatzszenarien</a> vor:</p>
+<ol>
+<li>Authentifizierung rein Zertifikats-basiert</li>
+<li>Authentifizierung via einen IdP (Identity Provider)</li>
+<li>Abfrage von Attributen der SuisseID via einen IdP</li>
+</ol>
+<p>Auch Kombinationen sind zulässig. Die direkte Authentifizierung mittels des
+SuisseID-Zertifikates scheint uns für Internetanwendungen, aus den unten
+genannten Gründen, nach wie vor problematisch.</p>
+<p>Vielen Dank für den entsprechenden Kommentar!</p>
+<h2>#</h2>
+<h3>Ablauf 1: Wie es sein sollte!</h3>
+<p>Hier mal der Prozess der Authentifizierung mit SuisseID für unsere Plone-Site.
+Ich sehe  in der rechten Spalte eine Login-Box, in der ich mich mit meiner
+SuisseID anmelden kann.</p>
+<p><img src="../../../blog/suisseid-ad-absurdum/Plone1.png" alt="SuisseID Plone Front Site"></p>
+<p><img src="../../../blog/suisseid-ad-absurdum/Plone2.jpg" alt="SuisseID Plone Select Provider">Im Dropdown muss
+ich den SuisseID-Provider wählen. Zur Zeit vergeben SwissSign und QuoVadis
+SuisseIDs. Wie wir später sehen werden ist es wichtig, dass ich als Benutzer
+diese Auswahl selbst treffe und diese nicht irgendwie automatisch passiert.</p>
+<p>Nachdem ich meinen Provider gewählt habe, werde ich auf die Site von SwissSign
+weitergeleitet. Da ich mich nun bei SwissSign authentifizieren muss, fragt
+mich mein Browser nach dem Passwort meiner SuisseID.</p>
+<p><img src="../../../blog/suisseid-ad-absurdum/PlonePassword.png" alt="SuisseID Password"></p>
+<p>Ich gebe dieses ein und sehe nun ein weiteres Fenster, das mir mitteilt, an
+wen mein Zertifikat und damit auch einige persönliche Daten übermittelt
+werden. Ich sehe, dass es sich beim Empfänger um SwissSign handelt und da ich
+meinem Identitätsprovider vertraue, bin ich mit der Übermittlung
+einverstanden.</p>
+<p><img src="../../../blog/suisseid-ad-absurdum/PloneCertificate.jpg" alt="PloneCertificate.jpg"></p>
+<p>Als Benutzer werde ich nun in der Adressbar des Browsers schauen, ob ich
+wirklich auf der Site von SwissSign bin. Die grüne Adresszeile zeigt mir an,
+dass dies der Fall ist und dass die Site per SSL verschlüsselt ist. Es ist
+zentral, dass diese Seite bei SwissSign läuft. Man kann diesen Schritt nicht
+überspringen, da ich nur meinem eigenen Identitätsprovider vetraue und damit
+nur dieser mich authentifizieren kann und darf.</p>
+<p><img src="../../../blog/suisseid-ad-absurdum/Plone3_keine_email.jpg" alt="SuisseID Plone Name Vorname"></p>
+<p>Ich kann nun auch wählen welche Infos (Vorname, Nachname) ich zurück an unsere
+Plone Site übertragen will. Ich klicke also auf "Freigeben" und komme zurück
+auf die Plone Site wo ich nun angemeldet bin. Wenn ich hier "Abbrechen"
+klicke, dann werden überhaupt keine Daten an den anfragenden Dienst
+übermittelt.</p>
+<p>"Bin ich schon drin?" Ja, ich bin nun bei der Plone Site angemeldet. Alles
+bestens also! So bin ich auf der absolut sicheren Seite, weil ich nur meinem
+Provider Zugriff auf meine Daten gegeben habe.</p>
+<p><img src="../../../blog/suisseid-ad-absurdum/Bildschirmfoto20101008um17.51.21.png" alt="SuisseID Plone Logged
+in"></p>
+<h2>Ablauf 2: Wie es besser nicht sein sollte!</h2>
+<p>Nun schauen wir uns ein Beispiel an, welches gegen die Idee dieser
+Authentifizierung - seine Daten übermittelt man ausschliesslich an seinen
+Provider  - verstösst. Als zweites Beispiel schauen wir uns eine Applikation
+an, wo die Authentifizierung anders abläuft. (Korrektur 14.10.2010 vgl.
+Kommentar)</p>
+<p><img src="../../../blog/suisseid-ad-absurdum/wineshop1.png" alt="Wineshop1"></p>
+<p>Ich kicke auf den SuisseID-Button und HOPPLA werde nach dem Passwort meines
+Zertifikates gefragt!</p>
+<p><img src="../../../blog/suisseid-ad-absurdum/wineshop2.png" alt="Wineshop2"></p>
+<p>Der Weinladen verlangt also nach meinem Zertifikat. Das finde ich nicht so
+toll, denn eigentlich wollte ich meine email-Adresse und meinen vollen Namen
+nicht an den Weinshop (bzw. das SECO) übermitteln, da sich diese Informationen
+jedoch im Zertifikat befinden, werden sie ans SECO übermittelt!</p>
+<p><img src="../../../blog/suisseid-ad-absurdum/wineshop31.jpg" alt="Wineshop3"></p>
+<p>Eigentlich sollte der Weinshop jedoch nur mein Alter überprüfen. Dazu werde
+ich korrekterweise auf die Seite meines Identitätsproviders (in diesem Fall
+SwissSign) weitergeleitet:</p>
+<p><img src="../../../blog/suisseid-ad-absurdum/wineshop4.jpg" alt="wineshop4.jpg"></p>
+<p>Falls ich der Datenübermittlung zustimme, sendet SwissSign nur gerade diese
+Information (Nachweis dass ich älter als 18 bin) an den Weinshop. Was in
+diesem Ablauf nicht optimal läuft, ist dass der Wineshop selbst auf mein
+Zertifikat zugreift, um mir die manuelle Auswahl des Providers zu ersparen.
+Indem er das jedoch tut, wird gleichzeitig auch meine Email Adresse (und mein
+Arbeitgeber, der auf meinem persönlichen Zertifikat gespeichert ist)
+ausgelesen. Die Idee hinter einem Verfahren wie der SuisseID ist, dass ich nur
+meinem Indentitätsprovider voll vetrauen muss, und dieser vor jeder
+Datenübermittlung meine Zustimmung einholt. Somit sollte ich auch nur meinem
+Identitätsprovider Zugriff auf mein Authentifizierungszertifikat gewähren.</p>
+<p><img src="../../../blog/suisseid-ad-absurdum/firefox_settings.png" alt="SuisseID Firefox Settings">Verlangt
+jedoch bereits der Weinshop Zugriff auf mein Zertifikat und ich die darin
+enthaltenen persönlichen Daten nicht an ihn übermitteln will, so bleibt nur
+die Möglichkeit die Authentifizierung mittels SuisseID  abzubrechen!</p>
+<p>Ich muss zudem die Sicherheitseinstellungen in meinem Browser so setzen, dass
+ich jedes mal explizit ein Zertifikat auswählen möchte, falls eine Website ein
+solches verlangt. Ansonsten kann jede Website mittels SSL auf alle Daten
+meines Zertifikats zugreifen ohne dass ich überhaupt etwas davon bemerke. Man
+könnte jetzt natürlich argumentieren, dass auf meinem Zertifikat keine
+wirklich heiklen Daten liegen, sondern dass diese bei meinem
+Indentitätsprovider hinterlegt sind. Das stimmt aber nur teilweise: Mein
+amtlich beglaubigter Name, meine Email Adresse und meine Organisation sagen
+doch schon einiges über mich aus. Ich will diese Infos nicht irgendeine
+beliebige Website schicken!</p>
+<p>(Ergänzung 14.10.2010 vgl. Kommentar) Es handelt sich hier um eine Kombination
+der rein zertifikatsbasierten Authentifizierung mit der Abfrage von
+personenbezogenen Attributen beim IdP. Dies ist zwar zulässig, die
+Authentifizierung wäre jedoch wie in Ablauf 1 besser auch über den Identity
+Provider gelaufen, so hätte ich mein Zertifikat nur diesem zeigen müssen.</p>
+<h3>Ablauf 3: Wie es definitiv nicht sein sollte</h3>
+<p>Drittes Beispiel ist der Authentifizierungsprozess bei
+<a href="http://amazee.com">www.amazee.com</a>.</p>
+<p>Ich klicke als wiederum auf den SuisseID Button und werde - wie schon beim
+Weinshop - nach dem Passwort meines Zertifikates gefragt. Bemerkenswert ist
+hier, dass ich auf der Site von amazee bin und ich meine Daten an Clavid
+übermitteln werden sollen! Mit Clavid habe ich aber gar nichts am Hut, es
+handelt sich weder um die Seite bei der ich mich anmelden möchte (amazee) noch
+meinen Identitätsprovider (SwissSign). Trotzdem will Clavid auf mein
+Zertifikat und damit meine Daten zugreifen.</p>
+<p><img src="../../../blog/suisseid-ad-absurdum/2.jpg" alt="amazee1"></p>
+<p>Man könnte, wie bereits beim zweiten Prozess, wiederum argumentieren, dass
+diese Daten nicht wirklich heikel sind.</p>
+<p>Das wirklich bemerkenswerte passiert jedoch im nächsten Schritt. Ich komme nun
+auf eine Site die zwar derjenigen von SwissSign ähnlich sieht, hinter der sich
+aber Clavid versteckt!</p>
+<p><img src="../../../blog/suisseid-ad-absurdum/32.jpg" alt="amazee2"></p>
+<p>An diesem Punkt ist für mich als sicherheitsbewusster Benutzer definitiv
+Feierabend! Ich sollte hier auf der Site meines Providers (SwissSign) sein.
+Clavid kenne ich nicht und vertraue der Seite daher auch nicht. Clavid
+übernimmt hier also die Rolle meines Identitätsproviders, obwohl ich für die
+Authentifizerung nur meinem wirklichen Identitätsprovider (SwissSign)
+vertrauen sollte. Clavid liest als Drittpartei also nicht nur mein Zerifikat
+aus sondern gibt sich auch noch als Identitätsprovider aus.</p>
+<p>Die grundlegende Idee hinter dem der SuisseID zu Grunde liegenden
+Authentifizierungsverfahren besteht darin, dass ich mich nur auf der Seite
+meines Identitätsproviders (mit einem Zertifikat oder Passwort) anmelde und
+mich deshalb auch wirklich auf dieser Seite befinden muss (was ich an Hand der
+URL und des Zertifikat überprüfen kann). Dadurch ist der Prozess für den
+Benutzer transparent. Im Fall von amazee/Clavid ist jedoch völlig unklar ob
+und wie ich bei meinem Identitätsprovider authentifiziert werden. Bei Clavid
+handelt es sich nicht um einem authorisierten SuisseID Identitätsprovider und
+trotzdem übernimmt der Dienst meine Authentifizierung. Zusätzlich kann Clavid
+auch meine persönlichen Daten einsehen, obwohl ich nur der Übermittlung an
+amazee zugestimmt habe.</p>
+<p>Entgegen aller meiner Grundsätze klicke ich mal auf OK und tatsächlich habe
+ich nun einen Account bei amazee.</p>
+<p>(Ergänzung 14.10.2010 vgl. Kommentar) Es handelt sich hier (amazee möge mich
+korrigieren) um eine rein zertifikatsbasierte Authentifizierung, auch wenn die
+Seite für die "Freigabe" der Daten den entsprechenden Seiten der Identity
+Provider zum verwechseln ähnlich sieht.</p>
+<h3>Fazit - Bei der Implementierung die Idee des SuisseID-Prinzip (SAML2 oder</h3>
+<p>auch OpenID) ernst nehmen</p>
+<p>Die unser Prozess für die Anmeldung mit der SuisseID zeigt, dass man das
+Zertifikat des Benutzers auf Seiten des anfragenden Services weder auslesen
+muss noch soll. Das Zertifikat wird erst auf der SSL-Seite von SwissSign
+ausgelesen. Unsere Plone Seite muss gar nicht wissen wie sich der Benutzer bei
+SwissSign oder QuoVadis authentifiziert. Das kann über ein Passwort, ein One
+Time Token oder eben ein Zertifikat geschehen. Wie das geschieht liegt aber in
+der Verantwortung des Identitätsproviders. Dem Serviceprovider (unsere Plone
+Seite) ist die Art der Authentifizierung egal er muss nur dem
+Identitätsprovider vetrauen (dass dieser eine sichere Authentifizierung
+durchführt). Das ist die grundlegende Idee hiner SAML2 oder auch OpenID.</p>
+<p>Was der Idee widerspricht:</p>
+<ul>
+<li>Wenn jeder Serviceprovider rasch das Zertifikat des Benutzers ausliest (sei es auch nur um auf den passenden Provider weiterzuleiten). Der Endbenutzer muss so "erzogen" werden, dass er mit seinem Zertifikat sehr sorgfältig umgeht. Wenn nun inflationär im Browser die Frage nach dem Zugriff kommt, so legt er genau diese Vorsicht ab. Immer wenn er Zugriff auf sein Zertifikat gibt, so kann der Service-Provider persönliche Angaben wie die email-Adresse auslesen. Der Benutzer hat nicht wirklich eine Möglichkeit zu sagen, dass er diese Angabe nicht machen will (mehr zum Thema SuisseID und email-Adresse ein anderes Mal).</li>
+<li>Es dürfte keine "Pseudo"-Identitätsprovider wie Clavid geben, denn ich darf nur meinem Provider vertrauen.</li>
+<li>Was macht Clavid wirklich? Der Ablauf ist für uns unklar und intransparent und entspricht schon daher nicht der grundlegenden Idee des Protokolls</li>
+</ul>
+
+        </div>
+    
+        <div class="blogListingEntry">
             <div <span class="actionDate">28.09.2010</div>
             <h2><a href="../../../blog/mycontrol-flyer/">myControl Flyer</a></h2>
             <div class="documentDescription">Der Flyer für myControl ist im Druck und liegt demnächst in den Flughäfen auf.</div>
@@ -233,53 +396,6 @@ Versuch aber lohnt sich immer wieder!</p>
 
         </div>
     
-        <div class="blogListingEntry">
-            <div <span class="actionDate">01.09.2010</div>
-            <h2><a href="../../../blog/game-over-fuer-unnoetige-verbote/">Game over für unnötige Verbote</a></h2>
-            <div class="documentDescription">Verbot von Killerspielen – eine liberale Replik</div>
-            <p>Sie vergiften die Gedanken und korrumpieren die Moral der Jugend, welche ihre
-Zeit damit vergeudet in gefährliche Fantasiewelten abzutauchen. So äussersten
-sich im 18. Jahrhundert die Kritiker der neu aufkommenden Gattung der Romane
-und zeigten sich äussert besorgt wegen des Einflusses des neuen Mediums auf
-die junge Generation. An die jungendgefährdende Wirkung von Romanen glaubt
-heute niemand mehr.</p>
-<p>Dennoch hat der Luzerner Kantonsrat die Regierung mit einer Motion beauftragt,
-eine Standesinitiative auszuarbeiten, welche sogenannte Killergames verbieten
-soll.</p>
-<p><strong>Bekannter Abwehrreflex gegen neue Unterhaltungsformen</strong></p>
-<p>Die Kritik an Games passt in ein bekanntes Muster im Umgang mit neuen Formen
-der Unterhaltung. Im 18. Jahrhundert waren es die Romane, anfangs des 20.
-Jahrhunderts Filme, in den 50-er Jahren die Rock’n’Roll-Musik, in den 60-er
-Jahren die Hippie-Subkultur; die Liste lässt sich beliebig fortsetzen. Immer
-war es die junge Generation, die sich ins lockende Vergnügen stürzte, während
-die Generation der Eltern, die ihnen unbekannte angsteinflössende Unterhaltung
-zu verbannen suchte.</p>
-<p>Mit dem Erwachsenwerden der jungen Generation fand das neue Medium jeweils
-Akzeptanz und – um den Generationen-Zyklus in Gang zu halten – wurde eine neue
-aufkommende Form der Unterhaltung als gefährlich gebrandmarkt.</p>
-<p><strong>Praktische Einwände gegen ein Verbot</strong></p>
-<p>Die praktischen Einwände gegen Verbote solcher Art sind bekannt. Verbote
-lassen sich nicht durchsetzen, weil die Inhalte aus dem Internet
-heruntergeladen werden können. Da die Definition, was ein Killergame ausmacht,
-strittig bleibt, kommt es zu einer erheblichen Abgrenzungsproblematik und als
-Folge zu einem Katz-und-Maus-Spiel zwischen den behördlichen Sittenwächtern
-und den Spielproduzenten.</p>
-<p><strong>Zurück zu einer einfachen liberalen Grundhaltung</strong></p>
-<p>Viel schwerer wiegt jedoch der Eingriff in die Freiheit des Einzelnen. Die
-Motion fordert ein generelles Verbot  solcher Spiele, also explizit auch für
-Erwachsene. Es ist nicht zulässig, dass unter dem Denkmantel des
-Jugendschutzes mündigen Bürgern sozial erwünschtes Verhalten aufgezwungen
-wird. Wenn die erwachsene Gamerin in den eigenen vier Wänden nicht mehr ihrem
-Vergnügen nachgehen darf, dann ist dies ein – aus liberaler Sicht nur schwer
-zu rechtfertigender - Eingriff in die Freiheit des Einzelnen.</p>
-<p>Computerspiele gehören in das Reich der Fiktion. In der Realität haben die
-<em>FDP.Die Liberalen</em> in Luzern mit dem Referendum gegen das Gesellschaftsgesetz
-erfolgreich gezeigt, an welchem einfachen Massstab sich gelebter Liberalismus
-misst: „Wenn es nicht unbedingt notwendig ist, ein Gesetz zu erlassen, ist es
-unbedingt notwendig, ein Gesetz nicht zu erlassen. “ (Montesquieu)</p>
-
-        </div>
-    
     
     
         <ul class="pagination cf right" role="navigation">
@@ -355,11 +471,11 @@ unbedingt notwendig, ein Gesetz nicht zu erlassen. “ (Montesquieu)</p>
                         
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li>
+                                <a href="../../../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
                             </dd>
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/open-data-wahlen-abstimmungen/">Schnittstelle opendata.swiss  für Wahl- und Abstimmungsresultate</a></li>
+                                <a href="../../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li>
                             </dd>
                         
                     </dt>

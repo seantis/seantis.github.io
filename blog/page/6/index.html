@@ -87,6 +87,55 @@
     <div class="documentDescription">Empowering your data with open source.</div>
     
         <div class="blogListingEntry">
+            <div <span class="actionDate">07.03.2014</div>
+            <h2><a href="../../../blog/einfache-zusammenarbeit-alles-hat-eine-url/">Einfache Zusammenarbeit: alles hat eine URL</a></h2>
+            <div class="documentDescription">Wir verwenden Tools wie LaTeX, Trac, Git, Travis, Github und Chatrooms für die Zusammenarbeit im Team.</div>
+            <p>Mit den richtigen Werkzeugen ist die Zusammenarbeit produktiver und macht mehr
+Spass. Für unsere <strong>interne Zusammenarbeit</strong> setzen wir auf moderne Tools und
+ein einfaches Prinzip: alles hat eine URL.</p>
+<h3>LaTeX und Git für Dokumente</h3>
+<p>Konzepte (Offerten) schreiben wir in LaTeX (<a href="http://www.latex-project.org">www.latex-project.org</a>).
+Dokumente sind immer in einem Git Repository
+versioniert und schliessen ein Changelog ein. Damit können einfach mehrere
+Personen an einem Konzept schreiben. Nie mehr Microsoft Word!</p>
+<h3>Trac Projektmanagement-Tool</h3>
+<p>Für (nicht öffentliche) Projekte wird bei Projektstart das webbasierte
+Projektmanagement Tool «Trac» (<a href="http://trac.edgewall.org">http://trac.edgewall.org</a>) aufgesetzt. Darin
+werden Tickets erfasst und verantwortlichen Personen zugeordnet. Die
+Projektmanagerin des Kunden hat jederzeit vollen Zugriff auf das Trac des
+Projektes. Sie erfasst selbst Tickets und kann Themen «code-nah» mit dem
+Projektteam diskutieren. Auch die Triage von Issues findet für alle
+Projektmitglieder transparent im Projektmanagement-Tool statt.</p>
+<h3>Github für Open Source</h3>
+<p>Unser Quellcode wird mit der Versionsverwaltung-Software «Git» (<a href="http://www.git-scm.com">www.git-
+scm.com</a>) verwaltet. Für Open Source Projekt ist
+unser kompletter Code auf der Kollaborationsplattform «GitHub» verfügbar
+(<a href="http://www.github.com/seantis">www.github.com/seantis</a>).</p>
+<h3>Continous Integration Server</h3>
+<p>Für die kontinuierliche Integration und für das Ausführen der automatisierten
+Tests verwenden wir «Jenkins» (<a href="http://www.jenkins-ci.org">www.jenkins-ci.org</a>) bzw. «Travis» (<a href="http://www.travis-ci.org">www.travis-ci.org</a>) für Open
+Source Projekte. Es ist auf einen Blick erkennbar welches Commit zu einem
+fehlerhaften Build geführt hat.</p>
+<h3>Chatrooms</h3>
+<p>Für die direkte, weniger formale Kommunikation setzen wir auf «HipChat»
+(<a href="http://www.hipchat.com">www.hipchat.com</a>). Der Projektmanager des Kunden
+kann jederzeit einfach in den Chatroom des Projektes eingeladen werden. In
+unseren projekt- und themenspezifischen Chatrooms dürfen auch Bots mitreden:
+unsere Server (mehr als 30 Root Server) haben sogar ihren eigenen Raum «Server
+Café - where servers come to chat». Ein Bot für Github meldet Issues direkt in
+den entsprechenden Raum und Applikationen wie z.B.
+<a href="http://myControl.aero">myControl.aero</a> rufen voller Freude in den
+Chatraum wenn sich ein neuer User angemeldet hat oder ein Abo verkauft wurde.</p>
+<p><img src="../../../blog/einfache-zusammenarbeit-alles-hat-eine-url/bikeshedding.png" alt=""></p>
+<h3>Alles hat eine URL</h3>
+<p>Was verbindet alle diese Tools? Ein einfaches Prinzip: alles hat eine URL.<br>
+Konzepte, Tickets, Chats haben alle eine eigene URL. Dies stellt sicher, dass
+der Zugang für alle Berechtigten jederzeit gewährleistest ist, Inhalte
+durchsuchbar sind über Links einfach miteinander verknüpft werden können.</p>
+
+        </div>
+    
+        <div class="blogListingEntry">
             <div <span class="actionDate">24.02.2014</div>
             <h2><a href="../../../blog/medication-timeline/">Medication Timeline</a></h2>
             <div class="documentDescription">The medication timeline shows medication and disease activity scores combined on the same time axis.</div>
@@ -206,75 +255,6 @@ terminology in the world.»<br>
 
         </div>
     
-        <div class="blogListingEntry">
-            <div <span class="actionDate">12.12.2013</div>
-            <h2><a href="../../../blog/disease-registry-checklist/">Clinical (Disease) Registry Checklist</a></h2>
-            <div class="documentDescription">OCQMS was developed with the aim to build a robust and sustainable framework for clinical registries. </div>
-            <p>The table below shows how OCQMS scores according to a disease registry
-checklist: <a href="http://www.scfbm.org/content/8/1/21">http://www.scfbm.org/content/8/1/21</a></p>
-<p><strong>Learn more about OCQMS: <a href="https://www.healthdata.ai">www.healthdata.ai</a></strong></p>
-<h3><strong>1</strong>. <strong>Technology Choices</strong></h3>
-<p>|<br>
----|---<br>
-Web-based or Desktop Application | Web-based, no Client Software Installation
-required<br>
-Relational Database or Unstructured Data | Relational Database (e.g.
-PostgreSQL)<br>
-Programming Language | Python<br>
-Cloud deployment vs Physical ICT Infrastructure | (Private) Cloud Deployment<br>
-Open Source vs Proprietary | Open Source Software Stack</p>
-<h3><strong>2</strong>. <strong>Professional Software Development</strong></h3>
-<p>|<br>
-Appropriate Software Project Management | Agile Development Methods<br>
-Well-structured, Commented Code | The Zen of Python (PEP 20), Style Guide for
-Python Code (PEP 8)<br>
-Version Control | Git<br>
-Issue Tracking | Trac<br>
-Documentation | Sphinx, Markdown<br>
-Software Deployment Instructions | Migration Scripts<br>
-Functional and Unit Testing | Test Coverage &gt;99%, &gt;2'250 Unit Tests<br>
-Deployment Process Documented<em> | Configuration Management with Puppet<br>
-Strategies to Capture Community Feedback</em> | Release Manager, Ticketing System</p>
-<h3><strong>3</strong>. <strong>Interoperability</strong></h3>
-<p>|<br>
-Export/Import Functionality | CSV, JSON, Excel Export<br>
-Webservice API | Export API (REST)<br>
-Data Standards | SQL, XML, PDF<br>
-Ontology (Data Elements, Disease elements) | ICD-10, SNOMED CT<br>
-XML Interfaces* | DICOM, HL7</p>
-<h3><strong>4</strong>. <strong>System Design</strong></h3>
-<p>| <strong>__</strong><br>
-Customisable for a Specific Disease, Patient Registry, Clinical Registry | For
-Medical Practice and Clinical Research<br>
-Modular Design (New Features, New Data Elements, New Ontologies) | &gt;30
-Clinical Modules Available<br>
-Internationalization<em> | i18n<br>
-Data Model</em> | Entity-Attribute-Value (EAV) Approach Combined with a Object
-Relational Mapper (ORM)</p>
-<h3><strong>5</strong>. <strong>Security</strong></h3>
-<p>| <strong>__</strong><br>
-De-Identification Process | Research Database incl. De-Identification
-Transformation<br>
-Two Factor Authentication | YubiKey<br>
-Multi-level User Access | Role-based Access Control (RBAC)<br>
-Work Groups | Group based Permissions on Hospital Level<br>
-Encryption | AES (Advanced Encryption Standard), 256-bit SSL Encryption<br>
-Audit Trail* | Full Audit Trail (TTW)</p>
-<h3><strong>6. Sustainability</strong></h3>
-<p>|<br>
-Ease of Exchange | Online Data Dictionary, Tabular Data Export<br>
-Effort Required | Seamless Integration into the Clinical Workflow, Report
-Generator</p>
-<p>Future Proofing | Standard SQL Database for Data Storage</p>
-<p>"Business Model"* | Software as a service (SaaS)</p>
-<ul>
-<li>added to the list<br>
-OCQMS is (not yet) open source: therefore the open source part has been
-omitted</li>
-</ul>
-
-        </div>
-    
     
     
         <ul class="pagination cf right" role="navigation">
@@ -350,11 +330,11 @@ omitted</li>
                         
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li>
+                                <a href="../../../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
                             </dd>
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/open-data-wahlen-abstimmungen/">Schnittstelle opendata.swiss  für Wahl- und Abstimmungsresultate</a></li>
+                                <a href="../../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li>
                             </dd>
                         
                     </dt>

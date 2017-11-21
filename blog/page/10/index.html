@@ -87,6 +87,46 @@
     <div class="documentDescription">Empowering your data with open source.</div>
     
         <div class="blogListingEntry">
+            <div <span class="actionDate">18.08.2012</div>
+            <h2><a href="../../../blog/clinical-activity-stream/">OCQMS: Clinical Activity Stream</a></h2>
+            <div class="documentDescription">Concept to turn a technical (=boring) changelog into a social (=exciting) activity stream.</div>
+            <p><a href="https://www.healthdata.ai">OCQMS</a> includes a full <strong>changelog</strong>
+to record all changes made to <strong>patient and clinical data</strong>. In a medical IT
+systems it's a key requirement to track who did what and when. It used to be
+seen as an unpleasant duty and therefore boring stuff required for legal
+compliance only. Additionally, with current implementations it's not very
+likely that anyone will use the data recorded in the changelog at any time.</p>
+<p>Tracking all the read and write activities on all records of the system will
+leave you with thousands of log entries in no time. For OCQMS we built a
+simple activity table to present the information to authorized users.</p>
+<p>I must confess that the table looks a bit too technical and you could make it
+a bit more accessible for humans. But the information is there and it
+certainly makes sense not only to track the information in some dark technical
+orbit far away but to actually show it to the user. Everyone can see in real
+time that all actions (e.g., opening and reading a patients report) are
+tracked!</p>
+<p><img src="../../../blog/clinical-activity-stream/changelog.png" alt="Changelog"></p>
+<p>But hey: why not making the data more accessible by giving it some "social
+flavor". The same boring table suddenly looks like this.</p>
+<p><img src="../../../blog/clinical-activity-stream/clinical_activity_stream.png" alt="Clinical Activity
+Stream"></p>
+<p>You may say that a system for medical data is no Facebook. Right! But since
+humans are collecting the clinical data it is a "social undertaking". And
+treating patients requires teamwork and is therefore genuinely social.
+Physicians talk to their colleagues about patients and their treatment on the
+hospital floors.</p>
+<p>Some concepts from social networks such as Facebook could indeed be helpful:</p>
+<ul>
+<li><strong>profile image</strong>: the importance of the profile image seems immature at first sign. But it can make sense because it makes reading data and assigning an author much faster and less prone to error.</li>
+<li><strong>"just now": </strong>informations about events in written textual form are better suited for embedding into a chronological context (when did it happen).</li>
+<li><strong>comments: </strong>commenting about activities helps to keep track of the loosely structured data resulting from personal communication. Head physicians advise their team members and everyone can see the comments and reply instantly.</li>
+</ul>
+<p>So far the clinical activity stream is a concept with some mock-ups only but
+the implementation shouldn't be that hard.</p>
+
+        </div>
+    
+        <div class="blogListingEntry">
             <div <span class="actionDate">13.06.2012</div>
             <h2><a href="../../../blog/the-experience-of-learning-puppet/">The Experience of Learning Puppet</a></h2>
             <div class="documentDescription"></div>
@@ -242,16 +282,6 @@ Endgerätes an.</p>
 
         </div>
     
-        <div class="blogListingEntry">
-            <div <span class="actionDate">15.01.2012</div>
-            <h2><a href="../../../blog/mycontrol-aero-auf-japanisch/">myControl.aero auf Japanisch</a></h2>
-            <div class="documentDescription">Die Einstiegsseite von myControl.aero ist nun ins Japanische übersetzt.</div>
-            <p><img src="../../../blog/mycontrol-aero-auf-japanisch/Bildschirmfoto20120115um14.15.03.png" alt="myControl.aro
-Japanese"></p>
-<p>myControl.aero auf Japanisch: <a href="https://www.mycontrol.aero/?set_language=ja">https://www.mycontrol.aero/?set_language=ja</a></p>
-
-        </div>
-    
     
     
         <ul class="pagination cf right" role="navigation">
@@ -327,11 +357,11 @@ Japanese"></p>
                         
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li>
+                                <a href="../../../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
                             </dd>
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/open-data-wahlen-abstimmungen/">Schnittstelle opendata.swiss  für Wahl- und Abstimmungsresultate</a></li>
+                                <a href="../../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li>
                             </dd>
                         
                     </dt>

@@ -88,6 +88,58 @@
     
         <div class="blogListingEntry">
             <div <span class="actionDate">22.06.2010</div>
+            <h2><a href="../../../blog/designing-a-medication-form/">Designing a Medication Form</a></h2>
+            <div class="documentDescription"></div>
+            <p>For the online version of the national database of rheumatological diseases we
+had to design a web form to manage information about tions or more
+specifically prescriptions of tions. The database is used for l research,
+therefore consistent data is a key requirement.</p>
+<p>The requirements for such a form are:</p>
+<ol>
+<li>Prevent double entries of drugs.</li>
+<li>Give an overview over the on-going tions.</li>
+<li>Show the 'medication history' of a patient.</li>
+<li>The responsible physician might decide to change the dose of a drug during the treatment.</li>
+<li>If a drug isn't effective or even an adverse affect occurs the drug will be stopped and in case of the later the adverse event has to be reported.</li>
+<li>Incorrect or missing data needs to be fixed.</li>
+</ol>
+<p>First we took a look at <a href="http://www.google.com/health">Google Health</a> and
+their implementation of the medication part. What they basically have is a
+table with a row for each medication with an 'edit' option for each entry.</p>
+<p><img src="../../../blog/designing-a-medication-form/1.png" alt="mediaction_form_1"></p>
+<p>That's a good starting point. In our 'medication' tab we show a simular table
+of the on-going medications. The responsible physician gets a fast overview
+over the prescribed drugs.</p>
+<p><img src="../../../blog/designing-a-medication-form/2.png" alt="tion_form_2"></p>
+<p>To keep the picture clear we hide the dose adjustments. The adjustments unfold
+if one clicks on the '+' in the first column of each prescription.</p>
+<p><img src="../../../blog/designing-a-medication-form/3.png" alt="tion_form_3"></p>
+<p>After checking the existing data the doctor can add new drugs, stop current
+tions or adjust the dose of prescribed medications.<br>
+For the edit part we had _in-place editing _in mind but came to the conclusion
+that it doesn't work here. First, each change of the data needs to be
+confirmed (e.g., by clicking a 'save' button). And second, viewing and editing
+the data is not the same and therefore asks for different representations of
+the data. The application has 'edit' views as shown below.</p>
+<p><img src="../../../blog/designing-a-medication-form/4.png" alt="tion_form_4"></p>
+<p>After stopping a medication it will be moved to the table 'Discontinued
+medication'.</p>
+<p>Starting a new treatment is always in the context of the currently prescribed
+drugs. Therefore, the panel for adding new tion is placed below the current
+medication table. With the drop-down we avoid double entries as the options
+are filtered.</p>
+<p><img src="../../../blog/designing-a-medication-form/5.jpg" alt="tion_form_5"></p>
+<p>One word about widgets used on forms. We decided not to use any fancy widgets
+(e.g., a date picker widget). Instead a simple mix between input fields and a
+drop-down for the month is used. With this "hybrid" date widget we show the
+date format (dd/mm/yy) without any further explanation and keep data entry
+simple.</p>
+<p><img src="../../../blog/designing-a-medication-form/6.jpg" alt="tion_form_6"></p>
+
+        </div>
+    
+        <div class="blogListingEntry">
+            <div <span class="actionDate">22.06.2010</div>
             <h2><a href="../../../blog/deutsche-wikipedia-soll-auf-papier-erscheinen/">Deutsche Wikipedia soll auf Papier erscheinen</a></h2>
             <div class="documentDescription"></div>
             <p>Der deutsche Zenodot Verlag will ab Januar 2007 die deutsche Version von
@@ -147,21 +199,6 @@ gemeinsam an.</p>
 <p>Bereits realisiert ist unter <a href="http://www.stopspam.ch/">http://www.stopspam.ch</a>
 eine Plattform im Internet.</p>
 <p><a href="http://www.stopspam.ch/">http://www.stopspam.ch</a></p>
-
-        </div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">22.06.2010</div>
-            <h2><a href="../../../blog/google-docs/">Google Docs</a></h2>
-            <div class="documentDescription"></div>
-            <p>Google entwickelt sich von der Suchmaschine immer mehr zum Alleskönner im
-Netz. Neustes Projekt ist "Google Docs".</p>
-<p>Mit diesem online-Tool soll das Erstellen, das (gemeinsame) Bearbeiten und das
-Verwalten von Dokumenten revolutioniert werden. Und tatsächlich, die Beta-
-Version macht einen sehr guten Eindruck. Die Darstellung ist sehr
-übersichtlich und die Bedienung kinderleicht.</p>
-<p><img src="../../../blog/google-docs/docs.gif" alt="docs.gif"></p>
-<p><a href="http://docs.google.com/">http://docs.google.com</a></p>
 
         </div>
     
@@ -240,11 +277,11 @@ Version macht einen sehr guten Eindruck. Die Darstellung ist sehr
                         
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li>
+                                <a href="../../../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
                             </dd>
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/open-data-wahlen-abstimmungen/">Schnittstelle opendata.swiss  für Wahl- und Abstimmungsresultate</a></li>
+                                <a href="../../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li>
                             </dd>
                         
                     </dt>
