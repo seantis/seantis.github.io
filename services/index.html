@@ -108,14 +108,16 @@
 <p>Wir bieten bewusst ein minimalistisch gehaltenes <strong>Management Dashboard</strong>. Dieses ist direkt (ohne Login) über eine URL aufzurufen und bietet einen Überblick über alle aktiven Services sowie deren Status. Das Management Dashboard ist bewusst so konzipiert (Responsive Design), dass es problemlos von einem Smartphone aufgerufen werden kann.</p>
 <p>Der Web Monitor wird für den Kunden aufgesetzt und die entsprechenden Konfigurationen in der dahinterstehenden Monitoring Infrastruktur gemacht. Neue Services werden in den Monitor eingetragen, sobald sie aus der Staging- in die Production-Umgebung überführt werden. Das Management Dashboard bietet somit jederzeit einen Überblick über alle laufenden Services. Ein «down time» Monitoring mit <strong>SMS-Alerts</strong> wird eingerichtet, sobald ein Service von der Gruppe «Staging» in die Gruppe «Production» überführt wird.</p>
 <h3>Backup Services</h3>
-<p>Backups werden auf der <strong>Backup Infrastruktur</strong> von seantis gemacht. Das Backup erfolgt inkrementell, wird auf dem Quellsystem (Server) komprimiert und über eine sichere verschlüsselte Netzwerkverbindung auf einen dezidierten Offsite Backup Root-Server übertragen.</p>
+<p>Backups werden auf der <strong>Backup Infrastruktur</strong> von seantis gemacht. Das Backup erfolgt inkrementell, wird auf dem Quellsystem (Server) komprimiert und über eine sichere verschlüsselte Netzwerkverbindung auf einen dezidierten <strong>Offsite Backup</strong> Root-Server übertragen.</p>
 <p>Der Backup Plan sieht sieht folgende <strong>inkrementelle Backups</strong> vor:</p>
 <ul>
 <li>tägliche Rotatation: 7 Tage Retension</li>
 <li>wöchentliche Rotation: 4 Wochen Retension</li>
 <li>monatliche Rotation: 3 Monate Retension</li>
 </ul>
-<p>Der tägliche Backup-Prozess wird automatisch überwacht und seantis informiert, sollte es zu Problemen gekommen sein. seantis überprüft die Integrität der Daten auf der Harddisk (<a href="http://de.wikipedia.org/wiki/ZFS_(Dateisystem">ZFS</a>) Scrape). Während des <em>seantis Backup Days</em> werden die Backups auf virtuellen Servern eingespielt und damit überprüft, dass die Backups auch wirklich verwendbar sind. Die regelmässige Überprüfung auf <strong>Wiederherstellbarkeit (Restore Tests)</strong> ist somit auch sichergestellt.</p>
+<p>Der tägliche Backup-Prozess wird automatisch überwacht und seantis informiert, sollte es zu Problemen gekommen sein. seantis überprüft die Integrität der Daten auf der Harddisk (<a href="http://de.wikipedia.org/wiki/ZFS_(Dateisystem">ZFS</a>) Scrape).</p>
+<p>Vom Offsite Backup Server werden die Daten einmal wöchentlich auf einen verschlüsselten Datenträger übertragen. Dieser Datenträger wird in einem Tresorfach bei einer Schweizer  Bank hinterlegt. Die Datenträger im Schliessfach sind komplett entkoppelt und haben natürlich keine Netzwerk- bzw. Internetverbindung (<strong>Airgap Backup</strong>).</p>
+<p>Während des <em>seantis Backup Days</em> werden die Backups auf virtuellen Servern eingespielt und damit überprüft, dass die Backups auch wirklich verwendbar sind. Die regelmässige Überprüfung auf <strong>Wiederherstellbarkeit (Restore Tests)</strong> ist somit auch sichergestellt.</p>
 <h3>Service Level Agreement (SLA)</h3>
 <p>Die <strong>Reaktionszeit und Verfügbarkeiten</strong> sind in einem Service Level Agreement mit dem Kunden definiert.</p>
 <p>Ist auf Grund einer geplanten Serverwartung ein Service-Unterbruch zu erwarten so wird dieser vor dem Ereignis angekündigt. Die Information erfolgt über bei seantis über ein internes Tool (<strong>Schedule Maintenance</strong>), welches an eine definierte Kontaktliste eine standarisierte Email (inkl. Kalendereintrag) für das Wartungsfenster verschickt.</p>
