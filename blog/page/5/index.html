@@ -87,6 +87,34 @@
     <div class="documentDescription">Empowering your data with open source.</div>
     
         <div class="blogListingEntry">
+            <div <span class="actionDate">02.07.2014</div>
+            <h2><a href="../../../blog/intrusion-prevention-potentielle-einbrecher-automatisch-aussperren/">Intrusion Prevention: Potentielle Einbrecher automatisch aussperren</a></h2>
+            <div class="documentDescription">Um die sensiblen Daten in unseren Webapplikationen zu schützen setzen wir das  Intrusion Prevention System Fail2ban ein.</div>
+            <p>Webserver stehen in einer potentiell unsicheren Umgebung und sind daher durch
+«brute force»-Angriffe verwundbar. Ein Einbrecher versucht dabei mit «roher
+Gewalt» (simplem Ausprobieren Tausender möglicher Passwörter) in ein System
+einzubrechen.</p>
+<p>Eine solche Attacke muss erkannt und unterbunden werden. Benutzer, welche
+innerhalb eines kurzen Zeitraumes übermässig viele fehlgeschlagene Login-
+Versuche machen, werden vom System für eine gewisse Zeit automatisch
+blockiert. Damit ist es einem Angreifer nicht mehr möglich, sich mittels
+«wahllosem» Ausprobieren  von Passwörtern Zugriff zu verschaffen.</p>
+<p>Fail2ban scannt die Logfiles des Webservers (<a href="http://nginx.org">nginx</a>)
+und aktualisiert die Firewall-Regeln des Linux Kernel Firewalls
+(<a href="http://www.netfilter.org/projects/iptables">iptables</a>). Damit steht das
+Intrusion Prevention System (<a href="http://www.fail2ban.org">Fail2ban</a>) vor der
+Webapplikation (<a href="http://www.pylonsproject.org/projects/pyramid/about">Pyramid</a>)
+und schafft so eine weitere Schicht zum Einbruchsschutz.</p>
+<p>Mit Fail2Ban lässt sich die Rate der Anmeldeversuche einschränken, es schützt
+aber nicht vor Risiken einer schwachen Authentifizierungsmethode. Der Zugriff
+auf unsere Webapplikation erfolgt daher zweistufig: nach dem Login mit
+Benutzername und Passwort muss sich der Benutzer mit seinem persönlichen
+<a href="https://www.seantis.ch/blog/sicheres-login-mit-2-faktor-authentifizierung">YubiKey</a>
+identifizieren.</p>
+
+        </div>
+    
+        <div class="blogListingEntry">
             <div <span class="actionDate">19.06.2014</div>
             <h2><a href="../../../blog/data-driven-analysis-in-der-rheumaforschung/">Data-Driven Analysis in der Rheumaforschung</a></h2>
             <div class="documentDescription">Die Nadel im Heuhaufen finden</div>
@@ -168,36 +196,6 @@ programming language R (<a href="http://www.r-project.org">www.r-project.org</a
 
         </div>
     
-        <div class="blogListingEntry">
-            <div <span class="actionDate">23.03.2014</div>
-            <h2><a href="../../../blog/aerzte-von-klinikinformationssystemen-kis-enttaeuscht/">Warum Ärzte von Klinikinformationssystemen (KIS) enttäuscht sind</a></h2>
-            <div class="documentDescription">Die Einführung von IT im Gesundheitswesen bringt für Ärzte nicht den erhofften Nutzen.</div>
-            <p>Mehr als die Hälfte der Schweizer Spitalärzte sind unzufrieden mit dem
-Klinikinformationssystem (KIS) ihres Spitals. Der Swiss eHealth Barometer 2013
-zeigt für die KIS-Lösungen ein sehr durchzogenes Bild
-[<a href="http://www.gfsbern.ch/Neuigkeiten/tabid/177/itemid/827/amid/1151/swiss-
-ehealth-barometer-2013.aspx">http://www.gfsbern.ch/Neuigkeiten/tabid/177/itemid/827/amid/1151/swiss-
-ehealth-barometer-2013.aspx</a>].</p>
-<p><img src="../../../blog/aerzte-von-klinikinformationssystemen-kis-enttaeuscht/UnzufriedenheitKIS.png" alt="Unzufriedenheit-
-KIS"></p>
-<p>Ein KIS ist ein IT-Tool, welches für seine Nutzer direkten Nutzen stiften
-soll: das System soll den Arzt bei der Behandlung seiner Patienten
-unterstützen. Statt der eigentlichen Verlaufsdokumentation dominieren heute
-aber Administrativlösungen. Die Ärzte nehmen solche Tools nicht als
-Arbeitsunterstützung wahr, sondern sehen sich im Gegenteil mit zusätzlichem
-Erfassungsaufwand konfrontiert.</p>
-<p><img src="../../../blog/aerzte-von-klinikinformationssystemen-kis-enttaeuscht/Erfassungsaufwand.png" alt="Erfassungsaufwand"></p>
-<p>Die KIS-Lösungen scheinen mehr durch administrative Abläufe als durch die
-ärztliche Bedürfnisse getrieben. Ändern lässt sich dies, indem sich die Ärzte
-aktiver in die Entwicklung von IT-Applikationen einbringen. Nur so können IT-
-Systeme entwickelt werden, welche die Ärzte in der Behandlung ihrer Patienten
-unterstützen und einen echten medizinischen Mehrwert schaffen: “technology
-should serve doctors, rather than doctors serving technology”.
-[<a href="http://www.theatlantic.com/health/archive/2014/03/doctors-and-tech-who-serves-whom/284518/">http://www.theatlantic.com/health/archive/2014/03/doctors-and-tech-who-serves-whom/284518/</a>]</p>
-<p><strong>OCQMS - Klinische Dokumentation für Ärzte: <a href="https://www.healthdata.ai">www.healthdata.ai</a></strong></p>
-
-        </div>
-    
     
     
         <ul class="pagination cf right" role="navigation">
@@ -232,7 +230,7 @@ should serve doctors, rather than doctors serving technology”.
                 
                 
                     
-                        <li><a href="../../../blog/page/36/">36</a></li>
+                        <li><a href="../../../blog/page/37/">37</a></li>
                     
                 
 
@@ -273,11 +271,11 @@ should serve doctors, rather than doctors serving technology”.
                         
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
+                                <a href="../../../blog/deep-learning/">Deep Learning in Medical Research</a></li>
                             </dd>
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li>
+                                <a href="../../../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
                             </dd>
                         
                     </dt>

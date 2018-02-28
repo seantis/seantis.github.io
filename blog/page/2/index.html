@@ -87,6 +87,41 @@
     <div class="documentDescription">Empowering your data with open source.</div>
     
         <div class="blogListingEntry">
+            <div <span class="actionDate">29.06.2017</div>
+            <h2><a href="../../../blog/open-aviation-data/">Open Aviation Data</a></h2>
+            <div class="documentDescription">myControl.aero macht seine Datensätze für Flugzeuge und Flughäfen als Open Data verfügbar.</div>
+            <p><a href="https://www.mycontrol.aero">myControl.aero</a> - unser Logbook für Piloten - macht sämtliche Daten zu Flugzeugtypen, zivilen Luftfahrzeugen und Flughäfen öffentlich zugänglich. Die Daten können über die API von <a href="https://www.mycontrol.aero">myControl.aero</a> abgefragt werden.</p>
+<p>Unser Open Aviation Datensatz umfasst:</p>
+<ul>
+<li>Aircraft Types: 632</li>
+<li>Aircraft: 8'479</li>
+<li>Airports: 19'396</li>
+</ul>
+<h2>Lizenz</h2>
+<p>Die Daten werden durch die User von <a href="https://www.mycontrol.aero">myControl.aero</a> gepflegt und auf dem neusten Stand gehalten. Lizenziert sind die Daten unter einer "<a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>". Diese Lizenz bedeutet, dass die Daten wie folgt frei verwendet werden dürfen:</p>
+<ul>
+<li><strong>Teilen</strong> — das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten.</li>
+<li><strong>Bearbeiten</strong> — das Material remixen, verändern und darauf aufbauen und zwar für beliebige Zwecke, sogar kommerziell.</li>
+<li><strong>Unter der einzigen Bedingung der Namensnennung</strong> — Sie müssen angemessene Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden.</li>
+</ul>
+<h2>Links</h2>
+<p>Die Dokumentation findet sich hier: <a href="https://docs.mycontrol.aero/api/v10/public_data.html">https://docs.mycontrol.aero/api/v10/public_data.html</a>.</p>
+<p>Die direkten Einstiegspunkte der API sind hier:</p>
+<ul>
+<li><a href="https://mycontrol.aero/api/latest/types">https://mycontrol.aero/api/latest/types</a></li>
+<li><a href="https://mycontrol.aero/api/latest/aircrafts">https://mycontrol.aero/api/latest/aircrafts</a></li>
+<li><a href="https://mycontrol.aero/api/latest/airports">https://mycontrol.aero/api/latest/airports</a></li>
+</ul>
+<p>Beispiele:</p>
+<ul>
+<li>Alle Flugzeugtypen, welche 2016 gebaut wurden: <a href="https://mycontrol.aero/api/latest/aircrafts?year_built=2016">https://mycontrol.aero/api/latest/aircrafts?year_built=2016</a></li>
+<li>Alle Flughäfen mit asiatischer Zeitzone und einem Breitengrad von 47.xxxx: <a href="https://mycontrol.aero/api/latest/airports?latitude=47&amp;timezone=asia">https://mycontrol.aero/api/latest/airports?latitude=47&amp;timezone=asia</a></li>
+</ul>
+<p><img src="../../../blog/open-aviation-data/Open-Aviation-Data-API.png" alt="Open Aviation Data API"></p>
+
+        </div>
+    
+        <div class="blogListingEntry">
             <div <span class="actionDate">19.11.2016</div>
             <h2><a href="../../../blog/stable-marriage/">Ein Nobelpreis, stabile Ehen und die Zuteilung von Kindern auf Ferienpassangebote</a></h2>
             <div class="documentDescription">Zusammen mit Netcetera entwickelt seantis eine neue Plattform zur Verwaltung von betreuten Ferienangeboten (Ferienpass). Die Zuteilung der Kinder auf die Angebote erfolgt dabei gemäss dem Stable-Marriage-Algorithmus von Gale und Shapely.</div>
@@ -253,26 +288,6 @@ Auf der linken Seite sehen wir das 12 Teilnehmer nur 0-10% zufrieden sind.</p>
 
         </div>
     
-        <div class="blogListingEntry">
-            <div <span class="actionDate">24.10.2015</div>
-            <h2><a href="../../../blog/historisiertes-gemeindeverzeichnis-der-schweiz-als-json/">Historisiertes Gemeindeverzeichnis der Schweiz im Format JSON</a></h2>
-            <div class="documentDescription">BFS-Nummern der Schweizer Gemeinden zurück bis ins Jahr 1960 einfach aufbereitet.</div>
-            <p>Wir verwenden die BFS-Nummern der Schweizer Gemeinden in einem Projekt und
-mussten diese dafür aufbereiten. Wichtig zu wissen ist, dass sich die BFS-
-Nummer einer Gemeinde jedes Jahr ändern kann. Das historische
-Gemeindeverzeichnis der Schweiz ist beim BFS online verfügbar:</p>
-<p><a href="http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/02.html">http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/02.html</a></p>
-<p>Der durch das BFS zur Verfügung gestellte Datensatz (XML) enthält viele
-Informationen, welche je nach Anwendung uninteressant sind. Für unseren
-Anwendungsfall - ein einfacher Abgleich von BFS Nummer/Ort/Bezirk nach Jahr -
-haben wir deshalb JSON Dateien generiert und das Resultat Online gestellt. Das
-erlaubt es uns und anderen mit diesen Daten zu arbeiten, ohne sich mit dem
-komplexen XML auseinandersetzen zu müssen:</p>
-<p><strong>Swiss Municipalities as JSON: <a href="https://github.com/seantis/swiss-municipalities">https://github.com/seantis/swiss-municipalities</a></strong></p>
-<p><strong><img src="../../../blog/historisiertes-gemeindeverzeichnis-der-schweiz-als-json/BFS.png" alt=""></strong></p>
-
-        </div>
-    
     
     
         <ul class="pagination cf right" role="navigation">
@@ -299,7 +314,7 @@ komplexen XML auseinandersetzen zu müssen:</p>
                 
                 
                     
-                        <li><a href="../../../blog/page/36/">36</a></li>
+                        <li><a href="../../../blog/page/37/">37</a></li>
                     
                 
 
@@ -340,11 +355,11 @@ komplexen XML auseinandersetzen zu müssen:</p>
                         
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
+                                <a href="../../../blog/deep-learning/">Deep Learning in Medical Research</a></li>
                             </dd>
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li>
+                                <a href="../../../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
                             </dd>
                         
                     </dt>

@@ -87,6 +87,23 @@
     <div class="documentDescription">Empowering your data with open source.</div>
     
         <div class="blogListingEntry">
+            <div <span class="actionDate">17.02.2015</div>
+            <h2><a href="../../../blog/libres-python-reservation-library/">Libres - Python Reservation Library</a></h2>
+            <div class="documentDescription">Python library to reserve stuff in a calendar.</div>
+            <p>Not a replacement for Outlook or Google Calendar, but a library to manage
+reservations in the following use cases:</p>
+<ul>
+<li>Manage meeting rooms in a company. Users reserve the rooms themselves without an authority confirming/denying their reservations.</li>
+<li>Manage nursery spots. Parents apply for a spot in the nursery for their kid. Someone at the nursery goes through the applicants and decides who gets the spot. Parents may add an application to the waitinglist.</li>
+<li>Manage community facilities. Citizens see the availability of facilities online and call the municipality to reserve a facility. The management is done internally (maybe through an already existing software). A readonly calendar shows the state on the website.</li>
+</ul>
+<p> Libres as such does not provide any user interface for reservations. That is
+the job of other projects depending on Libres.</p>
+<p><strong><a href="http://libres.readthedocs.org/en/latest/">Documentation</a> | <a href="http://github.com/seantis/libres/">Source</a> | <a href="http://github.com/seantis/libres/issues">Bugs</a></strong></p>
+
+        </div>
+    
+        <div class="blogListingEntry">
             <div <span class="actionDate">04.02.2015</div>
             <h2><a href="../../../blog/health-service-bus/">Health Data Service Bus</a></h2>
             <div class="documentDescription">The health data service bus offers a set of webservices to interconnect and interoperate diverse applications, thereby enabling aggregation of services.</div>
@@ -214,34 +231,6 @@ for exploratory data analysis.</p>
 
         </div>
     
-        <div class="blogListingEntry">
-            <div <span class="actionDate">02.07.2014</div>
-            <h2><a href="../../../blog/intrusion-prevention-potentielle-einbrecher-automatisch-aussperren/">Intrusion Prevention: Potentielle Einbrecher automatisch aussperren</a></h2>
-            <div class="documentDescription">Um die sensiblen Daten in unseren Webapplikationen zu schützen setzen wir das  Intrusion Prevention System Fail2ban ein.</div>
-            <p>Webserver stehen in einer potentiell unsicheren Umgebung und sind daher durch
-«brute force»-Angriffe verwundbar. Ein Einbrecher versucht dabei mit «roher
-Gewalt» (simplem Ausprobieren Tausender möglicher Passwörter) in ein System
-einzubrechen.</p>
-<p>Eine solche Attacke muss erkannt und unterbunden werden. Benutzer, welche
-innerhalb eines kurzen Zeitraumes übermässig viele fehlgeschlagene Login-
-Versuche machen, werden vom System für eine gewisse Zeit automatisch
-blockiert. Damit ist es einem Angreifer nicht mehr möglich, sich mittels
-«wahllosem» Ausprobieren  von Passwörtern Zugriff zu verschaffen.</p>
-<p>Fail2ban scannt die Logfiles des Webservers (<a href="http://nginx.org">nginx</a>)
-und aktualisiert die Firewall-Regeln des Linux Kernel Firewalls
-(<a href="http://www.netfilter.org/projects/iptables">iptables</a>). Damit steht das
-Intrusion Prevention System (<a href="http://www.fail2ban.org">Fail2ban</a>) vor der
-Webapplikation (<a href="http://www.pylonsproject.org/projects/pyramid/about">Pyramid</a>)
-und schafft so eine weitere Schicht zum Einbruchsschutz.</p>
-<p>Mit Fail2Ban lässt sich die Rate der Anmeldeversuche einschränken, es schützt
-aber nicht vor Risiken einer schwachen Authentifizierungsmethode. Der Zugriff
-auf unsere Webapplikation erfolgt daher zweistufig: nach dem Login mit
-Benutzername und Passwort muss sich der Benutzer mit seinem persönlichen
-<a href="https://www.seantis.ch/blog/sicheres-login-mit-2-faktor-authentifizierung">YubiKey</a>
-identifizieren.</p>
-
-        </div>
-    
     
     
         <ul class="pagination cf right" role="navigation">
@@ -276,7 +265,7 @@ identifizieren.</p>
                 
                 
                     
-                        <li><a href="../../../blog/page/36/">36</a></li>
+                        <li><a href="../../../blog/page/37/">37</a></li>
                     
                 
 
@@ -317,11 +306,11 @@ identifizieren.</p>
                         
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
+                                <a href="../../../blog/deep-learning/">Deep Learning in Medical Research</a></li>
                             </dd>
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li>
+                                <a href="../../../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
                             </dd>
                         
                     </dt>

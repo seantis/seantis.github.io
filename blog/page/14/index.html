@@ -87,6 +87,48 @@
     <div class="documentDescription">Empowering your data with open source.</div>
     
         <div class="blogListingEntry">
+            <div <span class="actionDate">16.10.2010</div>
+            <h2><a href="../../../blog/logbook-fuer-helicopter-piloten/">Logbook für Helicopter-Piloten</a></h2>
+            <div class="documentDescription">Im Rahmen der Erweiterung unseres Online-Flugbuches &#34;myControl&#34; haben wir uns auch mit den Besonderheiten für Helikopter-Piloten auseinander gesetzt. </div>
+            <h3>Gesetzliche Grundlagen</h3>
+<p>Helipiloten zeichnen in ihrem Flugbuch die Rotor Turning Time auf. Die
+entsprechende Weisung gilt seit Januar 2007 und wurde vom BAZL im Zusammenhang
+mit der Einführung von JAR-FCL 2 erlassen.</p>
+<p><img src="../../../blog/logbook-fuer-helicopter-piloten/bazl.png" alt="RTT_BAZL"></p>
+<p><strong>Flight time</strong> ist nach JAR-FCL 2.001 definiert als:</p>
+<blockquote><p>The total time from the moment a helicopter’s rotor blades start turning
+until the moment the helicopter finally comes to rest at the end of the
+flight, and the rotor blades are stopped.</p>
+</blockquote>
+<p><strong>Block time</strong> ist gemäss der Verordnung des UVEK über die Betriebsregeln im gewerbsmässigen Luftverkehr (<a href="http://www.admin.ch/ch/d/sr/7/748.127.1.de.pdf">748.127.1</a> PDF) definiert als:</p>
+<blockquote><p>Gesamtzeit zwischen dem erstmaligen Abrollen eines Luftfahrzeugs aus seiner
+Parkposition zum Zweck des Startens bis zum Stillstand an der zugewiesenen
+Parkposition und bis alle Triebwerke abgestellt sind.<br>
+Bei Hubschraubern gilt als Blockzeit die Gesamtzeit zwischen der erstmaligen
+Fortbewegung eines Hubschraubers zum Zwecke des Abfluges und dem Stillstand
+nach Beendigung des Fluges.</p>
+</blockquote>
+<h3>Rotor Turning Time / Block Time</h3>
+<p>Aus den zwei Definitionen ergeben sich folgende Implikationen:</p>
+<ul>
+<li>Die Block Time ist kürzer als Rotor Turning Time (Motor läuft schon und Pilot geht z.B. noch die Checkliste durch.)</li>
+<li>Bei einem Flug mit mehrmaligem Absetzen „läuft“ die Rotor Turning Time weiter, die Blockzeit kann aber unterbrochen werden, wenn der Heli auf den Kufen steht.</li>
+<li>Für Currency Limitation ist einzig die Block Time relevant.</li>
+</ul>
+<p><img src="../../../blog/logbook-fuer-helicopter-piloten/Bildschirmfoto20101016um12.21.22.png" alt="rotor truning time"></p>
+<h3>Umsetzung in myControl</h3>
+<blockquote><p><strong>MyControl testen:
+<a href="https://www.mycontrol.aero/">https://www.mycontrol.aero</a></strong></p>
+</blockquote>
+<p>In myControl hat der Helipilot zusätzlich zur Rotor Turning Time für jeden
+Flug die Möglichkeit die Block Time zu loggen. Auf dem PDF-Ausdruck seines
+Flugbuches wird die Rotor Turning Time ausgewiesen, die Block Time wird
+ausschliesslich für die Berechung der Currency Limitation verwendet.</p>
+<p><img src="../../../blog/logbook-fuer-helicopter-piloten/flight_heli.png" alt="Flight Heli"></p>
+
+        </div>
+    
+        <div class="blogListingEntry">
             <div <span class="actionDate">08.10.2010</div>
             <h2><a href="../../../blog/suisseid-ad-absurdum/">SuisseID ad absurdum</a></h2>
             <div class="documentDescription">Wir sind gerade dabei die Implementierung der SuisseID für Plone umzusetzen und mussten dabei feststellen, dass bestehende Implementierungen die Idee hinter einer Authentifizierung wie der SuisseID  nicht respektieren.</div>
@@ -335,67 +377,6 @@ erster Linie aus Kostengründen sondern aufgrund besserer Qualität geschieht.</
 
         </div>
     
-        <div class="blogListingEntry">
-            <div <span class="actionDate">01.09.2010</div>
-            <h2><a href="../../../blog/die-leiden-des-jungen-unternehmers/">Die Leiden des jungen Unternehmers</a></h2>
-            <div class="documentDescription">Gedanken zum Unternehmertum aus der Software-Manufaktur von seantis</div>
-            <p><strong>Wann gründe ich ein Unternehmen?</strong></p>
-<p>Gleich vorweg: Dies ist keine Gebrauchanweisung zum Unternehmertum. Davon gibt
-es schon zu viele und wohl keine davon ist brauchbar, weil sie dem Umstand,
-dass das Glück der am meisten unterschätze Erfolgsfaktor ist, nicht Rechnung
-tragen. Dinge entwickeln sich nie so, wie man es sich vorgestellt hat.</p>
-<p>Der beste Zeitpunkt ein Unternehmen zu gründen? Während des Studiums! Als
-Student ist man jung, hat noch keine echten Verpflichtungen und - wenn man
-sich das Studium entsprechend einrichten kann - sogar etwas Zeit. Zudem ist
-man noch naiv genug es zu wagen. Während des Studiums bietet die eigene Firma
-einen guten Nebenjob; der Punkt der Entscheidung kommt mit dem
-Studienabschluss. Die Opportunitätskosten werden nun entscheidend höher und es
-gilt, den relativ hohen Einstiegslöhnen für Uniabsolventen zu widerstehen.
-Wenn man sein Unternehmen bereits während des Studiums gegründet hat, sollte
-man zu diesem Zeitpunkt bereits eine gewisse Kundenbasis haben und das Wasser,
-in das man nach dem Studienabschluss springt, sollte nicht mehr ganz so kalt
-sein. Einen impliziten Lohnverzicht bedeutet es aber auch so noch.</p>
-<p><strong>Wie starte ich?</strong></p>
-<p>Entscheidend ist, seinen Kunden eine Dienstleistung mit Mehrwert anbieten zu
-können. Die Art von Lösungen, welche wir unseren Kunden bieten, sind nur
-möglich, weil wir in eine globale Open-Source-Community - mit hunderten von
-Programmieren rund um den Globus - eingebettet sind. So standen uns von Anfang
-an mächtige Werkzeuge ohne grosse Startinvestitionen zur Verfügung. Das
-einzige Kapital, das wir in die Firma einzubringen hatten, ist unser Know-how.</p>
-<p><strong>Warum soll ich es wagen?</strong></p>
-<p>Unsere Motivation ist die unternehmerische Freiheit. Sie zwingt zu
-eigenständigen Entscheidungen und dazu, die Konsequenzen des eigenen Handelns
-voll zu tragen. Es geht uns jedoch nicht nur darum frei zu entscheiden, <em>was</em>
-wir tun, sondern genauso darum, <em>wie</em> wir es tun. Obwohl wir kein physisches
-Produkt, sondern ausschliesslich Software “produzieren”, verstehen wir uns als
-<em>Handwerker</em>. Die Arbeitsweise des Software-Handwerkers ist durch das
-zeitgleiche Lösen und Finden von neuen Problemen gekennzeichnet. Dem Open-
-Source-Programmierer steht der Angehöriges eines anderen modernen Stamms
-entgegen: jener Bürokrat, der nichts tun möchte, bevor nicht alle Ziele,
-Verfahren und politisch gewünschten Ergebnisse festgelegt sind. Für uns als
-Software-Handwerker sind das freie Experimentieren und die damit verbundenen
-Gestaltungsmöglichkeiten zentral. Dies schenkt einem unmittelbar eine
-emotionale Belohnung für den Erwerb von Fähigkeiten und man ist stolz auf
-seine eigenes Werk.</p>
-<p>Die Idee dahinter ist einfach, kommt aber in der modernen Arbeitswelt zu kurz.
-Was man tut, soll man mit Hingabe tun. Man macht eine Sache ihrer selbst
-willen gut!</p>
-<p><strong>Lohnt sich das Ganze?</strong></p>
-<p>Finanziell wohl nur sehr beschränkt; fast niemand wird mit der eigenen Firma
-reich. Das Ziel kann daher kein Monetäres sein. Es geht uns vielmehr darum,
-das zu tun, woran wir glauben, es geht darum, nach unseren eigenen
-Vorstellungen arbeiten zu können. Wir sehen, was wir tun, und wir erhalten ein
-direktes Feedback: Software, die funktioniert, oder ein erfolgreich
-akquiriertes neues Projekt. Wir haben uns bisher keine Minute gelangweilt.<br>
-So aber schafft diese Leidenschaft auch ein grosses Mass an Leiden; so bleibt
-Work-Life-Balance für uns ein Fremdwort; so gehört Scheitern auch dazu, nicht
-nur einmal, sondern immer und immer wieder. Aber nur wer scheitern kann, kann
-wirklich gewinnen.</p>
-<p>Die Freiheit bleibt immer ein Wagnis, niemand sagt, es sei einfach: der
-Versuch aber lohnt sich immer wieder!</p>
-
-        </div>
-    
     
     
         <ul class="pagination cf right" role="navigation">
@@ -430,7 +411,7 @@ Versuch aber lohnt sich immer wieder!</p>
                 
                 
                     
-                        <li><a href="../../../blog/page/36/">36</a></li>
+                        <li><a href="../../../blog/page/37/">37</a></li>
                     
                 
 
@@ -471,11 +452,11 @@ Versuch aber lohnt sich immer wieder!</p>
                         
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
+                                <a href="../../../blog/deep-learning/">Deep Learning in Medical Research</a></li>
                             </dd>
                         
                             <dd class="newsItem">
-                                <a href="../../../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></li>
+                                <a href="../../../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
                             </dd>
                         
                     </dt>
