@@ -1,195 +1,472 @@
 <!doctype html>
-<html class="no-js" lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-      <title>Data Driven Web Applications</title>
-      <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-      <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-      <link rel="stylesheet" href="./static/css/normalize.min.css">
-      <link rel="stylesheet" href="./static/css/foundation.min.css ">
-      <link rel="stylesheet" href="./static/css/ionicons.min.css ">
-      <link rel="stylesheet" href="./static/css/app.css">
-      <link rel="stylesheet" href="./static/css/prism.css" />
-      <script src="./static/js/custom.modernizr.js"></script>
-    </head>
+<html class="no-js" lang="de" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seantis gmbh</title>
+    <meta name="description" content="seantis gmbh entwickelt Webapplikationen für die medizinische Forschung, die öffentliche Verwaltung sowie für die Aviatik.">
+    <link rel="stylesheet" href="./static/css/foundation.min.css ">
+    <link rel="stylesheet" href="./static/css/fira.css ">
+    <link rel="stylesheet" href="./static/css/fontawesome.min.css ">
+    <link rel="stylesheet" href="./static/css/custom.css ">
+</head>
 
-    <body>
-        
-        <!-- Header and Nav -->
-        <div class="row">
-          <div class="large-3 push-9 columns">
-            <div id="logo">
-              <a id="brand" class="brand" href="./">
-                <img src="./static/img/logo.svg" alt="seantis gmbh">
-              </a>
-            </div>
-          </div>
-          <div class="large-9 pull-3 columns">
-            <div id="navigation">
-              <ul class="left" id="nav-tabs">
-                <li><a href="./portrait/">Portrait</a></li>
-                <li><a href="./engineering/">Engineering</a></li>
-                <li><a href="./services/">Services</a></li>
-                <li><a href="./success-stories/">Erfolgsgeschichten</a></li>
-                <li><a href="./news/">News</a></li>
-                <li><a href="./blog/">Blog</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+<body>
+    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium" style="display:none">
+        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+        <div class="title-bar-title"> <a href="./">Home</a></div>
+        <div class="title-bar-right contact"><a href="./contact/">Kontakt</a></div>
+    </div>
 
-        <!-- First Band (Image) -->
-        <div class="row hide-for-small">
-          <div class="large-12 columns">
-            <div id="banner" style="background-image: url(./static/img/healthdata.png);">
-              <div class="large-5 large-offset-7 columns">
-                <h4 class="subheader">Clinical Quality Management System</h4>
-                <p>Die interdisziplinäre medizinische Patientenakte unterstützt Ärzte bei der medizinischen Dokumentation über den gesamten Behandlungsverlauf.</p>
-                <a href="https://www.healthdata.ai">mehr &rarr;</a>
+    <div class="top" id="responsive-menu" style="display:none">
+        <div class="grid-container">
+            <div class="top-bar">
+              <div class="top-bar-left">
+                  <ul class="menu hide-for-small-only">
+                      <li><a href="./">Home</a></li>
+                  </ul>
+              </div>
+              <div class="top-bar-right">
+                  <ul class="menu" data-dropdown-menu>
+                      <li><a href="./portrait/">Über uns</a></li>
+                      <li><a href="./engineering/">Engineering</a></li>
+                      <li><a href="./services/">Services</a></li>
+                      <li><a href="./success-stories/">Erfolgsgeschichten</a></li>
+                      <li><a href="./news/">News</a></li>
+                      <li><a href="./blog/">Blog</a></li>
+                      <li class="contact"><a href="./contact/">Kontakt</a></li>
+                  </ul>
               </div>
             </div>
-            <div id="portlets-in-header"></div>
-          </div>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="header">
+            <div class="top-bar">
+                <div class="top-bar-left">
+                    <a href="./"><img id="logo" src="./static/img/logo.svg" alt="Zur Startseite"/></a>
+                </div>
+                <div class="top-bar-right">
+                    <form action="./search/">
+                        <div class="input-group show-for-medium">
+                            <input class="input-group-field" type="search" name="q" id="tipue_search_input">
+                            <div class="input-group-button">
+                                <input type="submit" class="button" value="Suche">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="hero">
+        <div class="grid-container">
+            <div id="splash">
+                <div class="grid-x grid-margin-x">
+                    <div class="large-5 large-offset-6 cell">
+                        <div id="square">
+                            <h3>Daten werden komplexer. Unsere Lösungen bleiben einfach.</h3>
+                            <p>Für die medizinische Forschung nutzen wir Deep Learning zum Scoring von Röntgenbildern.</p>
+                            <p><a href="./success-stories/deep-learning-xray/">&rarr; Projekt DeepXray</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="main-content">
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="large-7 large-offset-1 cell">
+                    <div id="intro">
+                        <h1>Data Driven Web Applications</h1>
+                        <p>Wir entwickeln Webapplikationen für die <a href="">medizinische Forschung</a>, <a href="">die öffentliche Verwaltung</a> sowie für die <a href="">Aviatik</a>.</p>
+                        <p>Bei unseren Projekten geht es um die Verarbeitung und Aufbereitung komplexer Daten. Wir sorgen für die einfache und korrekte Erfassung der Daten, deren statistische Auswertung und Visualisierung.</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!-- Second Band (Breadcrumbs & Search) -->
-        <div class="row">
-          <div class="large-8 columns">
-            <ul class="breadcrumbs">
-              <li><a href="#"><i class="icon-home"></i></a></li>
-              
-            </ul>
-          </div>
-          <div class="large-4 columns" id="search">
-            <form id="searchbox" action="./search/">
-              <div class="row collapse">
-                <div class="small-10 columns">
-                  <input type="text" name="q" id="tipue_search_input" autocomplete="off" requiredclass="search-query" placeholder="Suche">
+        <div id="solution">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x align-center">
+                    <div class="large-7 large-offset-1 cell">
+                        <h4><small>HealthData.ai</small></h4>
+                        <h3>Bridging the gap between clinical practice and medical research</h3>
+                        <p><a href="http://www.healthdata.ai">&rarr; mehr erfahren</a>
+                    </div>
+                    <div class="large-9 cell">
+                        <a href="http://www.healthdata.ai">
+                            <img src="./static/img/notebook.png" alt="HealthData.ai">
+                        </a>
+                    </div>
                 </div>
-                <div class="small-2 columns">
-                <button type="submit" class="postfix"><i class="icon-search"></i></button>
-                </div>
-              </div>
             </div>
-          </form>
         </div>
 
-        <!-- Third Band (Content) -->
-        <div class="row">
-          <div class="large-8 columns">
-            <div id="content">
-                
-  <h1>Data Driven Web Applications</h1>
-  <div class="documentDescription">Daten werden komplexer. Unsere Lösungen bleiben einfach.</div>
-  <p>Wir entwickeln Webapplikationen für die <a href="http://www.healthdata.ai">medizinische Forschung</a>, die <a href="https://onegovcloud.ch/">öffentliche Verwaltung</a> sowie für die <a href="https://mycontrol.aero/">Aviatik</a>.</p>
-<p>Bei unseren Projekten geht es um die Verarbeitung und Aufbereitung komplexer Daten. Wir sorgen für die einfache und korrekte Erfassung der Daten, deren statistische Auswertung und Visualisierung.</p>
-<p>Wir verbinden <a href="https://www.seantis.ch/portrait/open-mind-open-source">Open Source</a> mit <a href="https://www.seantis.ch/portrait/agile-softwareentwicklung">Agiler Methodik</a> und entwickeln Software mit höchstem Qualitätsanspruch. Nach dem Rollout übernehmen wir die Wartung und den <a href="https://www.seantis.ch/services">Betrieb (DevOps)</a> von komplexen IT-Lösung.</p>
-<blockquote><p>Zu unseren Kunden zählen:  <a href="http://ilo.org/">UNO ILO</a>, <a href="http://zg.ch/">Kanton Zug</a>, <a href="http://www.sz.ch/">Kanton Schwyz</a>, <a href="http://www.gr.ch/">Kanton Graubünden</a>, <a href="http://www.sg.ch">Kanton St. Gallen,</a> <a href="http://scqm.ch/">SCQM Foundation</a>, <a href="http://msd.com/">MSD Merck</a>, <a href="http://mt.com/">METTLER TOLEDO</a>, <a href="http://www.chuv.ch/">Centre Hospitalier Universitaire Vaudois</a>, <a href="http://www.bazl.admin.ch/">Bundesamt für Zivilluftfahrt (BAZL)</a>, <a href="http://www.swisshelicopter.ch/">Swiss Helicopter</a>, <a href="http://www.astrazeneca.com/">AstraZeneca</a>, <a href="http://www.i-med.ac.at/">Medizinische Universität Innsbruck</a>, <a href="http://www.rischrotkreuz.ch/">Gemeinde Risch</a>, <a href="http://www.wsl.ch/">Eidg. Forschungsanstalt für Wald, Schnee und Landschaft</a>, <a href="http://www.hirslanden.ch/">Privatklinikgruppe Hirslanden</a>, <a href="http://www.projuventute.ch">Pro Juventute</a>, <a href="https://www.concordia.ch">CONCORDIA</a></p>
-</blockquote>
+        <div id="platform">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-7 large-offset-1 cell">
+                        <h4><small>Agile Mindset - Open Source Toolset</small></h4>
+                        <h3>Softwareentwicklung mit hohem Qualitätsanspruch nach Agiler Methodik</h3>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-7 large-offset-1 cell">
+                        <p>Wir arbeiten seit mehr als zehn Jahren mit Open Source Software und sind aktiv in mehreren Open Source Communities. Mit Open Source verbinden wir mehr als einfach «Gratis-Software». Der Ansatz entspringt vielmehr einer Geisteshaltung und damit verbundenen Idealen auf dem Weg zu besseren IT-Lösungen. Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source Entwickler-Tools und arbeiten gemäss Agiler Methodik.</p>
+                        <p>Für unsere Webapplikationen durften wir <a href="./portrait/awards/">Preise und Auszeichnungen</a> entgegennehmen.</p>
 
-
-                <div id="tipue_search_content"></div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="large-4 columns">
-            <ul class="vcard">
-              <li class="fn">seantis gmbh</li>
-              <li class="street-address">Unter der Egg 5</li>
-              <li><span class="zip">CH-6004</span> <span class="state">Luzern</span></li>
-              <li class="phone"><i class="icon-ios7-telephone"></i>
-              +41 41 511 22 50</li>
-              <li class="email"><i class="icon-at"></i>
-              <a href="mailto:info@seantis.ch">info@seantis.ch</a></li>
-            </ul>
-            <div id="right-column">
-                <div>
+
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="cell">
+                        <img class="full" src="./static/img/onegovcloud.jpg" alt="OneGov Cloud">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="listing">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-5 cell">
+                        <h4><small>Gemeinsam zum Erfolg</small></h4>
+                        <h3>Erfolgsgeschichten</h3>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
                     
-
-                    <dl class="porletNews">
-                        <dt><a href="./news/">News </a> & <a href="./blog/"> Blog</a></dt>
-                        
-                            <dd class="newsItem">
-                                <a href="./news/onegov-award/">OneGov Award 2018 für die Stiftung Pro Juventute</a></li>
-                            </dd>
-                        
-                            <dd class="newsItem">
-                                <a href="./news/patienten-app-kinderrheuma/">Patienten-App für Kinder und Jugendliche mit Rheuma</a></li>
-                            </dd>
-                        
-                        
-                            <dd class="newsItem">
-                                <a href="./blog/deep-learning/">Deep Learning in Medical Research</a></li>
-                            </dd>
-                        
-                            <dd class="newsItem">
-                                <a href="./blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
-                            </dd>
-                        
-                    </dt>
-
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                
+                                <div class="card-head padded">
+                                    <img src="./success-stories/concordia/MRT@600.png" alt="Effiziente und sichere Rücklaufverarbeitung von Mailings">
+                                </div>
+                                <div class="card-section">
+                                    <h4>Effiziente und sichere Rücklaufverarbeitung von Mailings</h4>
+                                    <p>Der Krankenversicherer CONCORDIA verarbeitet den Rücklauf aus Mailings Neukundenakquisition sicher und effizient.</p>
+                                    <a href="./success-stories/concordia/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                
+                                <div class="card-head ">
+                                    <img src="./success-stories/deep-learning-xray/Xray@600.jpg" alt="Deep Learning zum Scoring von Röntgenbildern">
+                                </div>
+                                <div class="card-section">
+                                    <h4>Deep Learning zum Scoring von Röntgenbildern</h4>
+                                    <p>Zusammen mit der Zürcher Hochschule für Angewandte Wissenschaften (ZHAW) hat seantis ein Maschine Learning Modell für das Scoring von Röntgenbildern entwickelt.</p>
+                                    <a href="./success-stories/deep-learning-xray/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                
+                                <div class="card-head padded">
+                                    <img src="./success-stories/wahl-abstimmungsresultate/Portale@600.png" alt="Besser Informiert am Wahlsonntag">
+                                </div>
+                                <div class="card-section">
+                                    <h4>Besser Informiert am Wahlsonntag</h4>
+                                    <p>Auf den neuen Datenportalen der Kantone Graubünden, Schwyz und Zug werden die Ergebnisse der Wahlen und Abstimmungen publiziert.</p>
+                                    <a href="./success-stories/wahl-abstimmungsresultate/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
                 </div>
-                <div><p><img src="./static/img/bosw.svg" alt="swiss made software"></p>
-</div>
             </div>
-          </div>
         </div>
 
-        <!-- Footer -->
-        <footer class="row">
-          <div class="large-12 columns">
-            <hr />
+        <div id="customers">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-7 large-offset-1 cell">
+                        <div class="intro">
+                            <h4><small>Gemeinsam zum Erfolg</small></h4>
+                            <h3>Überzeugende Lösungen &ndash; erfolgreiche Kunden</h3>
+                            <p>Der Kunde steht immer im Zentrum. Mit unseren langjährigen Kunden pflegen wir offene und vertrauensvolle Beziehungen.</p>
+                            <p><a href="./portrait/">&rarr; mehr erfahren</a></p>
+                        </div>
+                    </div>
+                </div>
 
-            <div id="portlets-in-footer" class="row">
-              <div class="large-12 columns">
-                <div class="row">
-                  <div id="portlets-in-footer-1" class="large-4 columns"></div>
-                  <div id="portlets-in-footer-2" class="large-4 columns"></div>
-                  <div id="portlets-in-footer-3" class="large-4 columns"></div>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.usz.ch"><img src="./static/img/customers/usz.png" alt="UniversitätsSpital Zürich"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.chuv.ch"><img src="./static/img/customers/chuv.png" alt="Centre hospitalier universitaire vaudois"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.hug-ge.ch"><img src="./static/img/customers/hug.png" alt="Hôpitaux Universitaires Gèneve"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.scqm.ch"><img src="./static/img/customers/scqm.svg" alt="Swiss Clinical Quality Management in Rheumatic Diseases"></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
-                  <div id="portlets-in-footer-4" class="large-12 columns"></div>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.zg.ch"><img src="./static/img/customers/zg.svg" alt="Kanton Zug"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.gr.ch"><img src="./static/img/customers/gr.svg" alt="Kanton Graubünden"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.sg.ch"><img src="./static/img/customers/sg.svg" alt="Kanton St.Gallen"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.sz.ch"><img src="./static/img/customers/sz.svg" alt="Kanton Schwyz"></a>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://stadt.winterthur.ch"><img src="./static/img/customers/winterthur.svg" alt="Stadt Winterthur"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.duerrenaesch.ch"><img src="./static/img/customers/duerrenaesch.svg" alt="Gemeinde Dürrenäsch"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.rueti.ch"><img src="./static/img/customers/rueti.svg" alt="Gemeinde Rüti ZH"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.ebikon.ch"><img src="./static/img/customers/ebikon.png" alt="Gemeinde Ebikon"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.baar.ch"><img src="./static/img/customers/baar.png" alt="Gemeinde Baar"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.musikschule-rontal.ch"><img src="./static/img/customers/musikschule-rontal.svg" alt="Musikschule Rontal"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.ilo.org"><img src="./static/img/customers/ilo.png" alt="International Labour Organization"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.swisshelicopter.ch"><img src="./static/img/customers/swisshelicopter.svg" alt="Swiss Helicopter"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.projuventute.ch"><img src="./static/img/customers/pro-juventute.svg" alt="Pro Juventute"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.msd.ch"><img src="./static/img/customers/msd.svg" alt="MSD"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.concordia.ch"><img src="./static/img/customers/concordia.svg" alt="Concordia"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href="http://www.mt.com"><img src="./static/img/customers/mt.svg" alt="Mettler Toledo"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    <div class="listing team">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-10 large-offset-1 cell">
+                    <h4><small>Wir machen es möglich</small></h4>
+                    <h3>Unser Team</h3>
+                </div>
+            </div>
+            <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
+                <div class="large-5 cell large-offset-1">
+                    <div class="card" data-equalizer-watch>
+                        <img src="./static/img/team/Fabian-Reinhard.jpg" alt="Fabian Reinhard">
+                        <div class="card-section">
+                            <h4>Fabian Reinhard</h4>
+                            <p>M A UZH</p>
+                            <p><strong>Managing Partner<br />
+                                Solution Architect</strong>
+                            </p>
+                            <p class="bio">Fabian studierte Politikwissenschaften, VWL und Allgemeines Staatsrecht an der <a href="">Universität Zürich</a> und hat sich an der <a href="">Harvard University</a> weitergebildet. Fabian entwickelt Ideen und schreibt Konzepte und wenn immer möglich selbst Programmcode um nicht die technische Bodenhaftung zu verlieren und zu sehr auf der konzeptionellen Ebene zu schweben.</p>
+                            <p>
+                                <ul>
+                                    <li>Hermes 5 Foundation</li>
+                                    <li>ITIL V3 Foundation</li>
+                                </ul>
+                            <p>
+                                <a href="mailto:fabian.reinhard@seantis.ch"><i class="far fa-envelope"></i>fabian.reinhard@seantis.ch<br /></a>
+                                <a href="https://www.seantis.ch/portrait/pgp-keys/58C1BF15.asc"><i class="fas fa-key"></i>PGP Public Key</a><br />
+                                <a href="https://github.com/freinhard"><i class="fab fa-github"></i>Github</a><br />
+                                <a href="https://keybase.io/freinhard"><i class="fab fa-keybase"></i>Keybase</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="large-5 cell">
+                    <div class="card" data-equalizer-watch>
+                        <img src="./static/img/team/Tobias-Reinhard.jpg" alt="Tobias Reinhard">
+                        <div class="card-section">
+                            <h4>Dr. Tobias Reinhard</h4>
+                            <p>dipl. inform. UZH</p>
+                            <p><strong>Partner<br />
+                                Software Engineer</strong>
+                            </p>
+                            <p class="bio">Tobias studierte Informatik an der <a href="">Universität Zürich</a> und promovierte ebenda im Bereich Requirements Engineering. Er ist verantwortlich für die Bereiche technische Spezifikation sowie Entwicklung. Tobias ist der Kopf hinter unserer Plattform <a href="http://www.healthdata.ai">HealthData.ai</a>. Tobias programmiert selbst, weil es für ihn keine Theorie ohne Praxis und vice versa geben kann.
+                            <p>
+                                <a href="mailto:tobias.reinhard@seantis.ch"><i class="far fa-envelope"></i>tobias.reinhard@seantis.ch<br /></a>
+                                <a href="https://www.seantis.ch/portrait/pgp-keys/BDFA49D2.asc"><i class="fas fa-key"></i>PGP Public Key</a><br />
+                                <a href="https://github.com/treinhard"><i class="fab fa-github"></i>Github</a><br />
+                                <a href="https://keybase.io/treinhard"><i class="fab fa-keybase"></i>Keybase</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
+                <div class="large-5 cell large-offset-1">
+                    <div class="card" data-equalizer-watch>
+                        <img src="./static/img/team/Denis-krienbuehl.jpg" alt="Denis Krienbühl">
+                        <div class="card-section">
+                            <h4>Denis Krienbühl</h4>
+                            <p>Inform. eidg. FA</p>
+                            <p><strong>Software Engineer</strong></p>
+                            <p class="bio">Denis hat einen Lehrabschluss als Informatiker. Denis ist als Softwarearchitekt und als Full Stack Developer verantwortlich für die Entwicklung der <a href="http://www.onegovcloud.ch">OneGov Cloud</a>.
+                                Dank konsequentem Einsatz von DevOps Tools orchestriert und administiert Denis eine Flotte von mehr als 50 Servern. Denis is Mitbegründer und Mitorganisator des <a href="https://www.python-summit.ch">Swiss Python Summit</a>.</p>
+                            <p>
+                                <a href="mailto:denis.krienbuehl@seantis.ch"><i class="far fa-envelope"></i>denis.krienbuehl@seantis.ch<br /></a>
+                                <a href="https://www.seantis.ch/portrait/pgp-keys/A4FE6299.asc"><i class="fas fa-key"></i>PGP Public Key</a><br />
+                                <a href="https://github.com/href"><i class="fab fa-github"></i>Github</a><br />
+                                <a href="https://keybase.io/href"><i class="fab fa-keybase"></i>Keybase</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="large-5 cell">
+                    <div class="card" data-equalizer-watch>
+                        <img src="./static/img/team/Marc-Sommerhalder.jpg" alt="Marc Sommerhalder">
+                        <div class="card-section">
+                            <h4>Marc Sommerhalder</h4>
+                            <p>dipl. Ing. FH, B A</p>
+                            <p><strong>Software Engineer</strong></p>
+                            <p class="bio">Marc studierte Elektrotechnik an der <a href="https://www.zhaw.ch">Zürcher Hochschule für Angewandte Wissenschaften (ZHAW)</a>, Kulturwissenschaften an der <a href="https://www.unilu.ch">Universität Luzern</a> und zur Zeit Psychologie an der <a href="https://fernuni.ch">Fernuni Schweiz</a>. Er ist unter anderem verantwortlich für die Weiterentwicklung der Wahl- und Abstimmungsplattformen.
+                            </p>
+                            <p>
+                                <a href="mailto:marc.sommerhalder@seantis.ch"><i class="far fa-envelope"></i>marc.sommerhalder@seantis.ch<br /></a>
+                                <a href="https://www.seantis.ch/portrait/pgp-keys/C2FE713E.asc"><i class="fas fa-key"></i>PGP Public Key</a><br />
+                                <a href="https://github.com/msom"><i class="fab fa-github"></i>Github</a><br />
+                                <a href="https://keybase.io/msom"><i class="fab fa-keybase"></i>Keybase</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+
+    <footer>
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-7 large-offset-1 cell">
+                    <h4>Building data-driven web applications with an open-source toolset and an agile mindset</h4>
+                    <p>Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source Entwickler-Tools und arbeiten gemäss Agiler Methodik.</p>
+                </div>
+                <div class="large-4 cell">
+                    <h5>Cloud Platform</h5>
+                    <ul>
+                        <li><a href="http://www.healthdata.ai">HealthData.ai</a></li>
+                        <li><a href="http://www.onegovcloud.ch">OneGov Cloud</a></li>
+                        <li><a href="http://www.mycontrol.aero">myControl.aero</a></li>
+                    </ul>
+                    <a class="button" href="./contact/">Kontakt</a>
+                </div>
             </div>
 
-            <div class="row">
-              <div class="large-8 columns">
-                <p>&copy; 2005 - 2018 by seantis gmbh | <a href="https://www.getlektor.com">Lektor</a> powered &amp; built with <a href="https://www.python.org">Python</a></p>
-              </div>
-              <div class="large-4 columns">
-                <ul class="inline-list right">
-                  <li id="siteaction-webmail"><a href="https://webmail.seantis.ch" accesskey="" title="Webmail">Webmail</a></li>
-                </ul>
-              </div>
+            <div class="grid-x grid-padding-x">
+                <div class="large-10 large-offset-1 cell">
+                    <div id="copyright">© 2005 - 2018 by seantis gmbh | Lektor powered & built with Python</div>
+                </div>
             </div>
-          </div>
-        </footer>
 
-        <script src="./static/js/jquery.min.js"></script>
-        <script src="./static/js/foundation.min.js"></script>
-        <script src="./static/js/prism.min.js"></script>
-        <script src="./static/js/tipuesearch_set.js"></script>
-        <script src="./static/js/tipuesearch.min.js"></script>
-        <script>
-            $(document).foundation();
-            $(document).ready(function() {
-                $('#tipue_search_input').tipuesearch({
-                  'mode': 'json',
-                  'contentLocation': "./static/js/tipuesearch_content__primary.json"
-                });
-            });
+        </div>
+    </footer>
 
-            var _paq = _paq || [];
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-                var u="//stats.seantis.ch/";
-                _paq.push(['setTrackerUrl', u+'piwik.php']);
-                _paq.push(['setSiteId', '15']);
-                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-            })();
-        </script>
-    </body>
+    <script src="./static/js/jquery.min.js"></script>
+    <script src="./static/js/what-input.min.js"></script>
+    <script src="./static/js/foundation.min.js"></script>
+    <script src="./static/js/tipuesearch_set.js"></script>
+    <script src="./static/js/tipuesearch.min.js"></script>
+    <script src="./static/js/app.js"></script>
+
+    <script>
+        $(document).foundation();
+
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//stats.seantis.ch/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '15']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+
+        
+    </script>
+</body>
 </html>

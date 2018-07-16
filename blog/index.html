@@ -1,332 +1,252 @@
 <!doctype html>
-<html class="no-js" lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-      <title>Blog</title>
-      <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-      <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-      <link rel="stylesheet" href="../static/css/normalize.min.css">
-      <link rel="stylesheet" href="../static/css/foundation.min.css ">
-      <link rel="stylesheet" href="../static/css/ionicons.min.css ">
-      <link rel="stylesheet" href="../static/css/app.css">
-      <link rel="stylesheet" href="../static/css/prism.css" />
-      <script src="../static/js/custom.modernizr.js"></script>
-    </head>
+<html class="no-js" lang="de" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seantis gmbh</title>
+    <meta name="description" content="seantis gmbh entwickelt Webapplikationen für die medizinische Forschung, die öffentliche Verwaltung sowie für die Aviatik.">
+    <link rel="stylesheet" href="../static/css/foundation.min.css ">
+    <link rel="stylesheet" href="../static/css/fira.css ">
+    <link rel="stylesheet" href="../static/css/fontawesome.min.css ">
+    <link rel="stylesheet" href="../static/css/custom.css ">
+</head>
 
-    <body>
+<body>
+    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium" style="display:none">
+        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+        <div class="title-bar-title"> <a href="../">Home</a></div>
+        <div class="title-bar-right contact"><a href="../contact/">Kontakt</a></div>
+    </div>
+
+    <div class="top" id="responsive-menu" style="display:none">
+        <div class="grid-container">
+            <div class="top-bar">
+              <div class="top-bar-left">
+                  <ul class="menu hide-for-small-only">
+                      <li><a href="../">Home</a></li>
+                  </ul>
+              </div>
+              <div class="top-bar-right">
+                  <ul class="menu" data-dropdown-menu>
+                      <li><a href="../portrait/">Über uns</a></li>
+                      <li><a href="../engineering/">Engineering</a></li>
+                      <li><a href="../services/">Services</a></li>
+                      <li><a href="../success-stories/">Erfolgsgeschichten</a></li>
+                      <li><a href="../news/">News</a></li>
+                      <li><a href="../blog/">Blog</a></li>
+                      <li class="contact"><a href="../contact/">Kontakt</a></li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="header">
+            <div class="top-bar">
+                <div class="top-bar-left">
+                    <a href="../"><img id="logo" src="../static/img/logo.svg" alt="Zur Startseite"/></a>
+                </div>
+                <div class="top-bar-right">
+                    <form action="../search/">
+                        <div class="input-group show-for-medium">
+                            <input class="input-group-field" type="search" name="q" id="tipue_search_input">
+                            <div class="input-group-button">
+                                <input type="submit" class="button" value="Suche">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="hero">
+        <div class="grid-container">
+            <div id="splash">
+                <div class="grid-x grid-margin-x">
+                    <div class="large-5 large-offset-6 cell">
+                        <div id="square">
+                            <h3>Daten werden komplexer. Unsere Lösungen bleiben einfach.</h3>
+                            <p>Für die medizinische Forschung nutzen wir Deep Learning zum Scoring von Röntgenbildern.</p>
+                            <p><a href="../success-stories/deep-learning-xray/">&rarr; Projekt DeepXray</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="main-content">
+        <div class="listing">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-7 large-offset-1 cell">
+                        <h1>Blog</h1>
+                        <p class="lead">Empowering your data with open source.</p>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>28.02.2018</small></h5>
+                                    <h4>Deep Learning in Medical Research</h4>
+                                    <p>Referat im Rahmen des Info-Forum Freies Unternehmertum (IFU) zum Thema Künstliche Intelligenz  und Deep Learning.</p>
+                                    <a href="../blog/deep-learning/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>21.11.2017</small></h5>
+                                    <h4>Strukturierte Daten in Verzeichnissen</h4>
+                                    <p>Verzeichnisse der OneGov Cloud erlauben die Verwaltung und Publikation von strukturierten Daten in Verzeichnissen. Beispiele für solche Verzeichnisse können Datensätze zu Vereinen, Firmen, Restaurants, Kitas oder Grillplätzen sein.</p>
+                                    <a href="../blog/strukturierte-daten-verzeichnisse/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>20.10.2017</small></h5>
+                                    <h4>Formulare einfach erstellen mit Formcode</h4>
+                                    <p>Mit Formcode können eigene Formulare schnell und einfach erstellt werden.</p>
+                                    <a href="../blog/formulare-mit-formcode/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>09.10.2017</small></h5>
+                                    <h4>Schnittstelle opendata.swiss  für Wahl- und Abstimmungsresultate</h4>
+                                    <p>Die Datensätze für Wahl- und Abstimmungsresultate werden über eine Schnittstelle im Open Government Data Portal des Bundes indexiert.</p>
+                                    <a href="../blog/open-data-wahlen-abstimmungen/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>26.09.2017</small></h5>
+                                    <h4>Verbesserte Kartenansicht mit geodätischen Linien</h4>
+                                    <p>Die aktuellste Version von myControl.aero optimiert die Kartenansicht mit Hilfe geodätischer Linien.</p>
+                                    <a href="../blog/kartenansicht-mycontrol-aero/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>29.06.2017</small></h5>
+                                    <h4>Open Aviation Data</h4>
+                                    <p>myControl.aero macht seine Datensätze für Flugzeuge und Flughäfen als Open Data verfügbar.</p>
+                                    <a href="../blog/open-aviation-data/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+    
+    <div class="pager">
+        <nav aria-label="Pagination">
+            <ul class="pagination">
+                
+                    <li class="pagination-previous disabled">Vorherige</li>
+                
+                    
+                        
+                            <li class="current" aria-label="Seite 1">1</li>
+                        
+                    
+                    
+                        
+                            <li><a href="../blog/page/2/">2</a></li>
+                        
+                    
+                    
+                        <li class="ellipsis" aria-hidden="true"></li>
+                    
+                    
+                        
+                            <li><a href="../blog/page/31/">31</a></li>
+                        
+                    
+
+                
+                    <li class="pagination-next"><a href="../blog/page/2/">Nächste</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-7 large-offset-1 cell">
+                    <h4>Building data-driven web applications with an open-source toolset and an agile mindset</h4>
+                    <p>Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source Entwickler-Tools und arbeiten gemäss Agiler Methodik.</p>
+                </div>
+                <div class="large-4 cell">
+                    <h5>Cloud Platform</h5>
+                    <ul>
+                        <li><a href="http://www.healthdata.ai">HealthData.ai</a></li>
+                        <li><a href="http://www.onegovcloud.ch">OneGov Cloud</a></li>
+                        <li><a href="http://www.mycontrol.aero">myControl.aero</a></li>
+                    </ul>
+                    <a class="button" href="../contact/">Kontakt</a>
+                </div>
+            </div>
+
+            <div class="grid-x grid-padding-x">
+                <div class="large-10 large-offset-1 cell">
+                    <div id="copyright">© 2005 - 2018 by seantis gmbh | Lektor powered & built with Python</div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/js/what-input.min.js"></script>
+    <script src="../static/js/foundation.min.js"></script>
+    <script src="../static/js/tipuesearch_set.js"></script>
+    <script src="../static/js/tipuesearch.min.js"></script>
+    <script src="../static/js/app.js"></script>
+
+    <script>
+        $(document).foundation();
+
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//stats.seantis.ch/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '15']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+
         
-        <!-- Header and Nav -->
-        <div class="row">
-          <div class="large-3 push-9 columns">
-            <div id="logo">
-              <a id="brand" class="brand" href="../">
-                <img src="../static/img/logo.svg" alt="seantis gmbh">
-              </a>
-            </div>
-          </div>
-          <div class="large-9 pull-3 columns">
-            <div id="navigation">
-              <ul class="left" id="nav-tabs">
-                <li><a href="../portrait/">Portrait</a></li>
-                <li><a href="../engineering/">Engineering</a></li>
-                <li><a href="../services/">Services</a></li>
-                <li><a href="../success-stories/">Erfolgsgeschichten</a></li>
-                <li><a href="../news/">News</a></li>
-                <li><a href="../blog/">Blog</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- First Band (Image) -->
-        <div class="row hide-for-small">
-          <div class="large-12 columns">
-            <div id="banner" style="background-image: url(../static/img/healthdata.png);">
-              <div class="large-5 large-offset-7 columns">
-                <h4 class="subheader">Clinical Quality Management System</h4>
-                <p>Die interdisziplinäre medizinische Patientenakte unterstützt Ärzte bei der medizinischen Dokumentation über den gesamten Behandlungsverlauf.</p>
-                <a href="https://www.healthdata.ai">mehr &rarr;</a>
-              </div>
-            </div>
-            <div id="portlets-in-header"></div>
-          </div>
-        </div>
-
-        <!-- Second Band (Breadcrumbs & Search) -->
-        <div class="row">
-          <div class="large-8 columns">
-            <ul class="breadcrumbs">
-              <li><a href="#"><i class="icon-home"></i></a></li>
-              
-                
-                <li class="current">Blog</li>
-              
-            </ul>
-          </div>
-          <div class="large-4 columns" id="search">
-            <form id="searchbox" action="../search/">
-              <div class="row collapse">
-                <div class="small-10 columns">
-                  <input type="text" name="q" id="tipue_search_input" autocomplete="off" requiredclass="search-query" placeholder="Suche">
-                </div>
-                <div class="small-2 columns">
-                <button type="submit" class="postfix"><i class="icon-search"></i></button>
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-
-        <!-- Third Band (Content) -->
-        <div class="row">
-          <div class="large-8 columns">
-            <div id="content">
-                
-    <h1>Blog</h1>
-    <div class="documentDescription">Empowering your data with open source.</div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">28.02.2018</div>
-            <h2><a href="../blog/deep-learning/">Deep Learning in Medical Research</a></h2>
-            <div class="documentDescription">Referat im Rahmen des Info-Forum Freies Unternehmertum (IFU) zum Thema Künstliche Intelligenz  und Deep Learning.</div>
-            <p><img src="../blog/deep-learning/AI-IFU.jpeg" alt="AI-IFU"></p>
-<p>Das Referat zeigt neue Ansätze der Datenverarbeitung im Zeitalter von Big Data und Künstlicher Intelligenz.</p>
-<ol>
-<li>The Age of Artificial Intelligence Is Here.</li>
-<li>All That Data (Big Data)</li>
-<li>Pattern Recognition (Learning vs. Programming)</li>
-<li>Artificial Intelligence in Medical Research</li>
-<li>Is Artificial Intelligence Over-Hyped?</li>
-</ol>
-<p><a href="../blog/deep-learning/AI-IFU.pdf">Foliensatz [PDF - 4MB]</a></p>
-<p><strong>HealthData.ai - Medical Research in Practice: <a href="http://www.healthdata.ai">www.healthdata.ai</a></strong></p>
-
-        </div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">21.11.2017</div>
-            <h2><a href="../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></h2>
-            <div class="documentDescription">Verzeichnisse der OneGov Cloud erlauben die Verwaltung und Publikation von strukturierten Daten in Verzeichnissen. Beispiele für solche Verzeichnisse können Datensätze zu Vereinen, Firmen, Restaurants, Kitas oder Grillplätzen sein.</div>
-            <h2>Weg von Themen</h2>
-<p>Mit dem Inhaltstyp 'Thema' bietet die OneGov Cloud eine flexible Art um Informationen zu präsentieren. Der Inhaltstyp 'Thema' ist der richtige Ansatz, solange entweder keine Schema vorhanden ist (für einfache Artikel) oder wenn quasi-strukturierte Inhalte sorgfältig eingepflegt werden.</p>
-<p>Unstrukturierte Inhalte - selbst wenn diese sorgfältig gepflegt werden - haben aber den Nachteil, diese sich eben auch nur unstrukturiert nutzen lassen. So können einfache Listen nicht nach bestimmten Merkmalen gefiltert oder die Einhaltung eines vordefinierten Schemas kann nicht sichergestellt werden. Die neu entwickelten Verzeichnisse schaffen hier Abhilfe.</p>
-<h2>Hin zu Strukturen</h2>
-<p>Die OneGov Cloud kennt bereits strukturierte Inhalte. Veranstaltungen sind beispielsweise hochstrukturiert, ebenso Personen. Da Personen als strukturierter Inhaltstyp erfasst werden, können diese auch mit Themen verknüpft werden. Zusätzlich gibt es Formulare als Inhaltstyp mit benutzerdefinierten Schemata.</p>
-<p>Benutzerdefinierte Schemata sind in der Entwicklung aufwändig. So kann bei Formularen das E-Mail-Feld beispielsweise verschiedene Namen tragen sowie mal oben und mal unten im Formular auftauchen.</p>
-<p>Es muss daher über Formcode definiert werden, was für Felder existieren und was deren Funktion ist. Verzeichnisse sind in dieser Hinsicht den Formularen ähnlich. Darum setzen wir bei Verzeichnissen wie schon bei Formularen auf Formcode.</p>
-<h2>Flexibilität hat Ihren Preis</h2>
-<p>Je flexibler ein Tool, desto komplizierter ist es in der Bedienung. Je weniger flexibel ein Tool, desto weniger nützlich ist es in der Nutzung. Am Ende besteht die Kunst darin einen guten Mittelweg zu finden.</p>
-<p>Wir glauben bei Verzeichnissen den guten Mittelweg gefunden zu haben. Bevor wir die Details beschreiben, <a href="https://govikon.onegovcloud.ch/directory/kunden">können Sie hier ein Beispiel-Verzeichnis ansehen</a>:</p>
-<p><img src="../blog/strukturierte-daten-verzeichnisse/Verzeichnis.png" alt="Verzeichnis"></p>
-<h3>Freie Defintion der Felder</h3>
-<p>Verzeichnisse können wie Formulare jede Art von Feldern beinhalten. Alle Einträge des Verzeichnisses haben dabei die gleichen Felder und diese sind garantiert konsistent. Konsistent heisst, dass wenn ein Feld als Pflicht markiert wird, die OneGov Cloud sicherstellt, dass alle Einträge auch wirklich einen Wert im entsprechenden Feld haben. Das gilt auch, ein zusätzliches Feld erst später hinzugefügt oder ein bestehendes Feld verändert wird.</p>
-<h3>Titel und Lead</h3>
-<p>Mit frei gewählten Feldern ist nicht mehr direkt gegeben, welches Felder den Titel bzw. welches den Lead ausmacht. Wir unterstützen deshalb ein freies Textformat. Die Konfiguration erfolgt auf einfache Art und Weise.</p>
-<p><img src="../blog/strukturierte-daten-verzeichnisse/Konfiguration-Verzeichnis.png" alt="Konfiguration-Verzeichnis"></p>
-<h3>Darstellung</h3>
-<p>Nicht alle Felder werden direkt öffentlich angezeigt. Jedes Feld kann entweder versteckt bleiben, und es kann definiert werden in welchem Inhaltsblock dieses angezeigt werden soll. Diese Zuordnung erfolgt über eine einfache Konfiguration. Sichtbare Felder werden automatisch für die Volltextsuche indexiert.</p>
-<h3>Filter</h3>
-<p>Wie bereist erwähnt, werden Filteransichten erst dank vordefinierter Strukturen möglich. Werden zum Verzeichnis Informationen als Multiple-Choice erfasst, so können diese als direkt als Filter verwendet werden.</p>
-<p>Dabei ist der Filter spezifisch an den Feld-Typ geknüpft. Multiple-Choice Kategorien können beispielsweise kombiniert gefiltert werden (Sport <strong>und</strong> Fussball). Single-Choice Attribute hingegen sorgen für einen exklusiven Filter (Ja <strong>oder</strong> Nein).</p>
-<h3>Koordinaten</h3>
-<p>Einträge werden standardmässig auf einer grossen Karte angezeigt. Dies ermöglicht eine attraktive Darstellung von Inhalten und macht es für den User einfach Angebote in seiner Nähe zu finden.</p>
-<h3>Import</h3>
-<p>Die Daten für Verzeichnisse existieren oftmals schon irgendwo als Excel-Datei. Verzeichnisse unterstützen deshalb einen direkten Import. Dieser ist allerdings klar auf einen initialen Import ausgelegt. Ein laufender Austausch ist zwar möglich, aber nicht unbedingt empfehlenswert. Besser ist es die Daten direkt in der OneGov Cloud zu pflegen.</p>
-<h2>Vorlagen</h2>
-<p>Wir haben grossen Wert auf die Vereinfachung von Formcode gelegt (<a href="https://govikon.onegovcloud.ch/news/formcode-vereinfacht">Formulare einfach erstellen mit Formcode</a>). Auch Verzeichnisse sollen so einfach wie möglich definiert werden können. Trotzdem ist das Erstellen eines Verzeichnisses eher etwas für erfahrene Benutzer. Wie bei den Formularen möchten wir deshalb in der Zukunft gewisse Vorlagen bieten. Für den Moment verzichten wir jedoch noch darauf, da wir erst beobachten möchten, wofür Verzeichnisse effektiv eingesetzt werden. Erst wenn dies klar ist, können wir auch gute Vorlagen definieren.</p>
-<p>Auch möchten wir in der Zukunft eine (optional kostenpflichtige) Erfassung von neuen Einträgen durch anonyme Benutzer zulassen. Diese Anfragen werden wie gewohnt über das Ticket-System in einen Workflow zur Publikation eingebunden.</p>
-<p>Bei der Erstellung Ihres ersten Verzeichnisses sind wir Ihnen gerne behilflich. Da Verzeichnisse auch versteckt erstellt werden können, ist es auch kein Problem, wenn Sie einfach mal ein Verzeichnis zum Ausprobieren erstellen.</p>
-<p><strong>OneGov Cloud - Smart Government Platform: <a href="https://onegovcloud.ch">https://onegovcloud.ch</a></strong></p>
-
-        </div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">20.10.2017</div>
-            <h2><a href="../blog/formulare-mit-formcode/">Formulare einfach erstellen mit Formcode</a></h2>
-            <div class="documentDescription">Mit Formcode können eigene Formulare schnell und einfach erstellt werden.</div>
-            <p>Für die Definition von Formularen setzt die <a href="https://onegovcloud.ch">OneGov Cloud</a> seit Beginn auf eine Eigenentwicklung: Formcode.  Mit der neusten Version wird es noch einfacher mit Formcode zu arbeiten.</p>
-<p>Die Erstellung bzw. Definition von Formularen wird bei anderen Softwarelösungen meist über komplizierte Benutzeroberflächen realisiert. Das funktioniert gut für einfache Formulare: man verschiebt ein paar Felder in eine Box und schon steht das eigene Formular. WYSIWYG (What you see is what you get) nennt man dies im Jargon.</p>
-<p>Für Anfänger mag dies gut sein, für Profis ist es aber ein eher mühsamer Prozess. Trotz Erfahrung wird man nicht wirklich schneller im Erstellen von Formularen. Auch fehlt meist die Möglichkeit das ganze Formular oder einen Teil davon in ein anderes Formular zu kopieren.</p>
-<h3>Formcode</h3>
-<p>Statt auf ein komplexes UI Tool haben wir von Anfang an auf eine Art eigene Programmiersprache gesetzt. Intern nennen wir unsere Programmiersprache "Formcode".</p>
-<p>Formcode ermöglicht das einfache Erstellen von Formularen ganz ohne komplizierte Benutzeroberfläche. Dabei sollte der Code zur Definition eines Formulars möglichst einem Formular - wie es als Eingabemaske aussieht - ähneln. Wie die untenstehende Formulardefinition in Formcode zeigt, gelingt dies recht gut.</p>
-<p><img src="../blog/formulare-mit-formcode/definitition.png" alt="Formcode Definition"></p>
-<h3>Nichts für Anfänger?</h3>
-<p>Zu unserer eigenen Überraschung durften wir bald feststellen, dass viele unserer Benutzer mit dem Code selbstständig gut zurecht kommen. Anhand der Beispiele, welche wir mitliefern, wurden effektiv eigene Formulare ohne weitere Anleitung erstellt.</p>
-<p>Verständlicherweise haben wir mehrfach Anfragen nach einer Dokumentation erhalten. Eine solche gab es bis heute noch nicht. Dokumentationen sind zwar nützlich, müssen aber gepflegt werden. Zu oft geschieht dies über die Jahre zu wenig und die Dokumentation veraltet und wird unbrauchbar.</p>
-<h3>Vorlagen</h3>
-<p>Als Alternative zu einer Dokumentation haben wir neu eine Sammlung von Vorlagen zusammengestellt. Das erlaubt das Zusammen-Klicken von Formularen, ohne dass das Know-How von Formcode verloren geht. Ein versierter Benutzer mit etwas Übung wird den Code weiter direkt tippen und arbeitet so effizienter. Ein neuer Benutzer kann dank der Snippets selbstständig neue Formulare erstellen.</p>
-<p>Formcode hat noch einen weiteren Vorteil; in den Snippets erscheinen bisher unbekannte Arten von Formularfeldern. Wussten Sie beispielsweise dass wir ein Feld für die Unternehmens-Identifkationsnummer inkl. Validierung haben? Wir auch nicht 😉.</p>
-<p><strong>OneGov Cloud - Smart Government Platform: <a href="https://onegovcloud.ch">https://onegovcloud.ch</a></strong></p>
-<p><img src="../blog/formulare-mit-formcode/snippets.png" alt="Formcode Snippets"></p>
-
-        </div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">09.10.2017</div>
-            <h2><a href="../blog/open-data-wahlen-abstimmungen/">Schnittstelle opendata.swiss  für Wahl- und Abstimmungsresultate</a></h2>
-            <div class="documentDescription">Die Datensätze für Wahl- und Abstimmungsresultate werden über eine Schnittstelle im Open Government Data Portal des Bundes indexiert.</div>
-            <p>Das Thema Open Government Data (OGD) gewinnt politisch an Gewicht. Der Bund hat das Portal <a href="https://opendata.swiss">opendata.swiss</a> lanciert. Das Portal soll als Verzeichnis von ODG-Datensätzen dienen. In Zusammenarbeit mit der Betreiberin des OGD-Portals des Bundes hat seantis eine Schnittstelle zur automatischen Publikation bzw. Registrierung als Linked Open Data der Wahl- und Abstimmungsdaten der Kantone Graubünden und Zug auf <a href="https://opendata.swiss">opendata.swiss</a> entwickelt.</p>
-<p>Die Datensätze von Wahl- und Abstimmungsresultaten werden auf dem Portal <a href="https://opendata.swiss">opendata.swiss</a> aufgelistet. Der Ablauf des Datenaustausches sieht wie folgt aus:</p>
-<ul>
-<li>Die Datenportale der Kantone stellen jeweils einen "catalog endpoint“ zur Verfügung (z.B. <a href="https://abstimmungen.gr.ch/catalog.rdf">https://abstimmungen.gr.ch/catalog.rdf</a>)</li>
-<li>Der "catalog endpoint“ ist ein Verzeichnis aller Datensätze mit Links zu den Daten.</li>
-<li>Der Harvester von <a href="https://opendata.swiss">opendata.swiss</a> "erntet" die Daten gemäss "catalog endpoint“ automatisch periodisch.</li>
-<li><a href="https://opendata.swiss">opendata.swiss</a> listet die die Datensätze auf dem eigenen Portal auf und verlinkt diese auf die Datenportale der Kantone.</li>
-</ul>
-<p>Dies alles geschieht automatisch ohne Zutun der Kantonsverantwortlichen. Neue Abstimmungs- bzw. Wahlresultate werden nach der Publikation auf der OneGov Cloud automatisch auch auf <a href="https://opendata.swiss">opendata.swiss</a> publiziert.</p>
-<p>Die Endpoints können neben dem Portal des Bundes auch von beliebigen anderen Services als Katalog im RDF-Format für alle Datensätze eines OneGov Cloud Datenportals verwendet werden.</p>
-<ul>
-<li><strong>OneGov Cloud: <a href="https://www.onegovcloud.ch">https://www.onegovcloud.ch</a></strong></li>
-<li>Wahlen &amp; Abstimmungen Kanton Zug: <a href="https://wab.zug.ch/">https://wab.zug.ch/</a></li>
-<li>Wahlen &amp; Abstimmungen Kanton St. Gallen: <a href="https://abstimmungen.gr.ch">https://abstimmungen.gr.ch</a></li>
-</ul>
-<p><img src="../blog/open-data-wahlen-abstimmungen/catalog.png" alt="Catalog RDF"></p>
-
-        </div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">26.09.2017</div>
-            <h2><a href="../blog/kartenansicht-mycontrol-aero/">Verbesserte Kartenansicht mit geodätischen Linien</a></h2>
-            <div class="documentDescription">Die aktuellste Version von myControl.aero optimiert die Kartenansicht mit Hilfe geodätischer Linien.</div>
-            <p>Flüge werden neu als geodätische Linien (<a href="https://de.wikipedia.org/wiki/Geodäte">https://de.wikipedia.org/wiki/Geodäte</a>) angezeigt. Der geodätische Weg stellt auf der Karte eine näherungsweise korrekte Darstellung transatlantischer Flüge sicher. Zudem werden Flughäfen je nach Anzahl Starts und Landungen in unterschiedlicher Grösse dargestellt. So ist auf einen Blick ersichtlich, welche Flughäfen öfters angeflogen wurden.</p>
-<p>Die Neuerungen sind ab sofort für alle User von myControl.aero verfügbar. Wir danken für das wertvolle Feedback all unserer User.</p>
-<p><strong>myControl.aero - Pilot Logbook in the Cloud: <a href="https://mycontrol.aero">https://mycontrol.aero</a></strong></p>
-<p><img src="../blog/kartenansicht-mycontrol-aero/map.png" alt="map"></p>
-
-        </div>
-    
-    
-    
-        <ul class="pagination cf right" role="navigation">
-            <!--  -->
-                
-                    
-                        <li class="current">1</li>
-                    
-                
-                
-                    
-                        <li><a href="../blog/page/2/">2</a></li>
-                    
-                
-                
-                    <li class="ellipsis">...</li>
-                
-                
-                    
-                        <li><a href="../blog/page/37/">37</a></li>
-                    
-                
-
-            <!-- 
-                <li class="pagination-next"><a href="../blog/page/2/">Nächste</a></li>
-             -->
-        </ul>
-    
-
-
-                <div id="tipue_search_content"></div>
-            </div>
-          </div>
-          <div class="large-4 columns">
-            <ul class="vcard">
-              <li class="fn">seantis gmbh</li>
-              <li class="street-address">Unter der Egg 5</li>
-              <li><span class="zip">CH-6004</span> <span class="state">Luzern</span></li>
-              <li class="phone"><i class="icon-ios7-telephone"></i>
-              +41 41 511 22 50</li>
-              <li class="email"><i class="icon-at"></i>
-              <a href="mailto:info@seantis.ch">info@seantis.ch</a></li>
-            </ul>
-            <div id="right-column">
-                <div>
-                    
-
-                    <dl class="porletNews">
-                        <dt><a href="../news/">News </a> & <a href="../blog/"> Blog</a></dt>
-                        
-                            <dd class="newsItem">
-                                <a href="../news/onegov-award/">OneGov Award 2018 für die Stiftung Pro Juventute</a></li>
-                            </dd>
-                        
-                            <dd class="newsItem">
-                                <a href="../news/patienten-app-kinderrheuma/">Patienten-App für Kinder und Jugendliche mit Rheuma</a></li>
-                            </dd>
-                        
-                        
-                            <dd class="newsItem">
-                                <a href="../blog/deep-learning/">Deep Learning in Medical Research</a></li>
-                            </dd>
-                        
-                            <dd class="newsItem">
-                                <a href="../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
-                            </dd>
-                        
-                    </dt>
-
-                </div>
-                <div></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Footer -->
-        <footer class="row">
-          <div class="large-12 columns">
-            <hr />
-
-            <div id="portlets-in-footer" class="row">
-              <div class="large-12 columns">
-                <div class="row">
-                  <div id="portlets-in-footer-1" class="large-4 columns"></div>
-                  <div id="portlets-in-footer-2" class="large-4 columns"></div>
-                  <div id="portlets-in-footer-3" class="large-4 columns"></div>
-                </div>
-                <div class="row">
-                  <div id="portlets-in-footer-4" class="large-12 columns"></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="large-8 columns">
-                <p>&copy; 2005 - 2018 by seantis gmbh | <a href="https://www.getlektor.com">Lektor</a> powered &amp; built with <a href="https://www.python.org">Python</a></p>
-              </div>
-              <div class="large-4 columns">
-                <ul class="inline-list right">
-                  <li id="siteaction-webmail"><a href="https://webmail.seantis.ch" accesskey="" title="Webmail">Webmail</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </footer>
-
-        <script src="../static/js/jquery.min.js"></script>
-        <script src="../static/js/foundation.min.js"></script>
-        <script src="../static/js/prism.min.js"></script>
-        <script src="../static/js/tipuesearch_set.js"></script>
-        <script src="../static/js/tipuesearch.min.js"></script>
-        <script>
-            $(document).foundation();
-            $(document).ready(function() {
-                $('#tipue_search_input').tipuesearch({
-                  'mode': 'json',
-                  'contentLocation': "../static/js/tipuesearch_content__primary.json"
-                });
-            });
-
-            var _paq = _paq || [];
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-                var u="//stats.seantis.ch/";
-                _paq.push(['setTrackerUrl', u+'piwik.php']);
-                _paq.push(['setSiteId', '15']);
-                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-            })();
-        </script>
-    </body>
+    </script>
+</body>
 </html>

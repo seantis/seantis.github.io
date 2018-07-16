@@ -1,388 +1,265 @@
 <!doctype html>
-<html class="no-js" lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-      <title>Blog</title>
-      <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-      <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-      <link rel="stylesheet" href="../../../static/css/normalize.min.css">
-      <link rel="stylesheet" href="../../../static/css/foundation.min.css ">
-      <link rel="stylesheet" href="../../../static/css/ionicons.min.css ">
-      <link rel="stylesheet" href="../../../static/css/app.css">
-      <link rel="stylesheet" href="../../../static/css/prism.css" />
-      <script src="../../../static/js/custom.modernizr.js"></script>
-    </head>
+<html class="no-js" lang="de" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seantis gmbh</title>
+    <meta name="description" content="seantis gmbh entwickelt Webapplikationen für die medizinische Forschung, die öffentliche Verwaltung sowie für die Aviatik.">
+    <link rel="stylesheet" href="../../../static/css/foundation.min.css ">
+    <link rel="stylesheet" href="../../../static/css/fira.css ">
+    <link rel="stylesheet" href="../../../static/css/fontawesome.min.css ">
+    <link rel="stylesheet" href="../../../static/css/custom.css ">
+</head>
 
-    <body>
+<body>
+    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium" style="display:none">
+        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+        <div class="title-bar-title"> <a href="../../../">Home</a></div>
+        <div class="title-bar-right contact"><a href="../../../contact/">Kontakt</a></div>
+    </div>
+
+    <div class="top" id="responsive-menu" style="display:none">
+        <div class="grid-container">
+            <div class="top-bar">
+              <div class="top-bar-left">
+                  <ul class="menu hide-for-small-only">
+                      <li><a href="../../../">Home</a></li>
+                  </ul>
+              </div>
+              <div class="top-bar-right">
+                  <ul class="menu" data-dropdown-menu>
+                      <li><a href="../../../portrait/">Über uns</a></li>
+                      <li><a href="../../../engineering/">Engineering</a></li>
+                      <li><a href="../../../services/">Services</a></li>
+                      <li><a href="../../../success-stories/">Erfolgsgeschichten</a></li>
+                      <li><a href="../../../news/">News</a></li>
+                      <li><a href="../../../blog/">Blog</a></li>
+                      <li class="contact"><a href="../../../contact/">Kontakt</a></li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="header">
+            <div class="top-bar">
+                <div class="top-bar-left">
+                    <a href="../../../"><img id="logo" src="../../../static/img/logo.svg" alt="Zur Startseite"/></a>
+                </div>
+                <div class="top-bar-right">
+                    <form action="../../../search/">
+                        <div class="input-group show-for-medium">
+                            <input class="input-group-field" type="search" name="q" id="tipue_search_input">
+                            <div class="input-group-button">
+                                <input type="submit" class="button" value="Suche">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="hero">
+        <div class="grid-container">
+            <div id="splash">
+                <div class="grid-x grid-margin-x">
+                    <div class="large-5 large-offset-6 cell">
+                        <div id="square">
+                            <h3>Daten werden komplexer. Unsere Lösungen bleiben einfach.</h3>
+                            <p>Für die medizinische Forschung nutzen wir Deep Learning zum Scoring von Röntgenbildern.</p>
+                            <p><a href="../../../success-stories/deep-learning-xray/">&rarr; Projekt DeepXray</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="main-content">
+        <div class="listing">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-7 large-offset-1 cell">
+                        <h1>Blog</h1>
+                        <p class="lead">Empowering your data with open source.</p>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>19.09.2012</small></h5>
+                                    <h4>Die ärztliche Handschrift und Dokumentationsfehler</h4>
+                                    <p>Werden Verschreibungen von Medikamenten von Hand erledigt, kommt es oft zu Fehlern bei der Medikamentenabgabe.</p>
+                                    <a href="../../../blog/die-aerztliche-handschrift-und-dokumentationsfehler/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>12.09.2012</small></h5>
+                                    <h4>SHIP - Swiss Healthcare Insurance Premiums</h4>
+                                    <p>Wie offen sind die Prämiendaten der Krankenkassen?</p>
+                                    <a href="../../../blog/ship-swiss-healthcare-insurance-premiums/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>10.09.2012</small></h5>
+                                    <h4>Artikel über die OneGov Box in der «eGov Präsenz»</h4>
+                                    <p>Die Strategie der starken Gemeinschaft – einer für alle, alle für einen</p>
+                                    <a href="../../../blog/artikel-ueber-die-onegov-box-in-der-egov-praesenz-2-2012/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>23.08.2012</small></h5>
+                                    <h4>Have We Stolen the Microsoft Logo?</h4>
+                                    <p>Our company has the same logo since it has been founded in 2005.</p>
+                                    <a href="../../../blog/microsoft-has-stolen-our-logo/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>18.08.2012</small></h5>
+                                    <h4>OCQMS: Clinical Activity Stream</h4>
+                                    <p>Concept to turn a technical (=boring) changelog into a social (=exciting) activity stream.</p>
+                                    <a href="../../../blog/clinical-activity-stream/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>13.06.2012</small></h5>
+                                    <h4>The Experience of Learning Puppet</h4>
+                                    <p></p>
+                                    <a href="../../../blog/the-experience-of-learning-puppet/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+    
+    <div class="pager">
+        <nav aria-label="Pagination">
+            <ul class="pagination">
+                
+                    <li class="pagination-previous"><a href="../../../blog/page/7/">Vorherige</a></li>
+                
+                    
+                        
+                            <li><a href="../../../blog/">1</a></li>
+                        
+                    
+                    
+                        <li class="ellipsis" aria-hidden="true"></li>
+                    
+                    
+                        
+                            <li><a href="../../../blog/page/7/">7</a></li>
+                        
+                    
+                    
+                        
+                            <li class="current" aria-label="Seite 8">8</li>
+                        
+                    
+                    
+                        
+                            <li><a href="../../../blog/page/9/">9</a></li>
+                        
+                    
+                    
+                        <li class="ellipsis" aria-hidden="true"></li>
+                    
+                    
+                        
+                            <li><a href="../../../blog/page/31/">31</a></li>
+                        
+                    
+
+                
+                    <li class="pagination-next"><a href="../../../blog/page/9/">Nächste</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-7 large-offset-1 cell">
+                    <h4>Building data-driven web applications with an open-source toolset and an agile mindset</h4>
+                    <p>Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source Entwickler-Tools und arbeiten gemäss Agiler Methodik.</p>
+                </div>
+                <div class="large-4 cell">
+                    <h5>Cloud Platform</h5>
+                    <ul>
+                        <li><a href="http://www.healthdata.ai">HealthData.ai</a></li>
+                        <li><a href="http://www.onegovcloud.ch">OneGov Cloud</a></li>
+                        <li><a href="http://www.mycontrol.aero">myControl.aero</a></li>
+                    </ul>
+                    <a class="button" href="../../../contact/">Kontakt</a>
+                </div>
+            </div>
+
+            <div class="grid-x grid-padding-x">
+                <div class="large-10 large-offset-1 cell">
+                    <div id="copyright">© 2005 - 2018 by seantis gmbh | Lektor powered & built with Python</div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="../../../static/js/jquery.min.js"></script>
+    <script src="../../../static/js/what-input.min.js"></script>
+    <script src="../../../static/js/foundation.min.js"></script>
+    <script src="../../../static/js/tipuesearch_set.js"></script>
+    <script src="../../../static/js/tipuesearch.min.js"></script>
+    <script src="../../../static/js/app.js"></script>
+
+    <script>
+        $(document).foundation();
+
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//stats.seantis.ch/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '15']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+
         
-        <!-- Header and Nav -->
-        <div class="row">
-          <div class="large-3 push-9 columns">
-            <div id="logo">
-              <a id="brand" class="brand" href="../../../">
-                <img src="../../../static/img/logo.svg" alt="seantis gmbh">
-              </a>
-            </div>
-          </div>
-          <div class="large-9 pull-3 columns">
-            <div id="navigation">
-              <ul class="left" id="nav-tabs">
-                <li><a href="../../../portrait/">Portrait</a></li>
-                <li><a href="../../../engineering/">Engineering</a></li>
-                <li><a href="../../../services/">Services</a></li>
-                <li><a href="../../../success-stories/">Erfolgsgeschichten</a></li>
-                <li><a href="../../../news/">News</a></li>
-                <li><a href="../../../blog/">Blog</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- First Band (Image) -->
-        <div class="row hide-for-small">
-          <div class="large-12 columns">
-            <div id="banner" style="background-image: url(../../../static/img/healthdata.png);">
-              <div class="large-5 large-offset-7 columns">
-                <h4 class="subheader">Clinical Quality Management System</h4>
-                <p>Die interdisziplinäre medizinische Patientenakte unterstützt Ärzte bei der medizinischen Dokumentation über den gesamten Behandlungsverlauf.</p>
-                <a href="https://www.healthdata.ai">mehr &rarr;</a>
-              </div>
-            </div>
-            <div id="portlets-in-header"></div>
-          </div>
-        </div>
-
-        <!-- Second Band (Breadcrumbs & Search) -->
-        <div class="row">
-          <div class="large-8 columns">
-            <ul class="breadcrumbs">
-              <li><a href="#"><i class="icon-home"></i></a></li>
-              
-                
-                <li class="current">Blog</li>
-              
-            </ul>
-          </div>
-          <div class="large-4 columns" id="search">
-            <form id="searchbox" action="../../../search/">
-              <div class="row collapse">
-                <div class="small-10 columns">
-                  <input type="text" name="q" id="tipue_search_input" autocomplete="off" requiredclass="search-query" placeholder="Suche">
-                </div>
-                <div class="small-2 columns">
-                <button type="submit" class="postfix"><i class="icon-search"></i></button>
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-
-        <!-- Third Band (Content) -->
-        <div class="row">
-          <div class="large-8 columns">
-            <div id="content">
-                
-    <h1>Blog</h1>
-    <div class="documentDescription">Empowering your data with open source.</div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">13.05.2013</div>
-            <h2><a href="../../../blog/flask-vs--django-vs--pyramid-vs--plone/">Flask vs. Django vs. Pyramid vs. Plone</a></h2>
-            <div class="documentDescription">Python Web Frameworks im Vergleich</div>
-            <p>Wir entwickeln Web Applikationen mit unterschiedlichen Python Frameworks.
-Unterschiedliche Anforderungen verlangen nach unterschiedlichen Werkzeugen.<br>
-Einen direkten Vergleich zwischen den Python Web Frameworks Flask, Django,
-Pyramid und Plone gibt es hier: <a href="http://blog.stacktrace.ch/post/49178654214">http://blog.stacktrace.ch/post/49178654214</a></p>
-
-        </div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">22.04.2013</div>
-            <h2><a href="../../../blog/webcronmon-web-monitor/">WebCronMon - Web Monitor</a></h2>
-            <div class="documentDescription">Shows websites monitored on Webcron.org in kiosk mode.</div>
-            <p>At seantis we use <a href="https://www.webcron.org/">Webcron.org</a> to monitor our
-sites. For our customers, as well as for our office monitor screen, we wanted
-a simple auto-refreshing page that shows the status of our sites at a glance.
-We therefore wrote this small <a href="http://flask.pocoo.org/">Flask</a> application
-looking like this:</p>
-<p><img src="../../../blog/webcronmon-web-monitor/desktop.png" alt="Webcronmon"></p>
-<p>The monitor only shows the bare minimum of information to keep things simple:</p>
-<ul>
-<li>list monitors by group</li>
-<li>link the monitors to the actual website</li>
-<li>show the current state (online / offline since)</li>
-<li>show the uptime of the last 30 days</li>
-</ul>
-<p>The site will update the list every 60 seconds by default, unless configured
-otherwise or unless the timer on the upper right is toggled with a mouse-
-click.</p>
-<p><strong>GitHub project: <a href="https://github.com/seantis/webcronmon">https://github.com/seantis/webcronmon</a></strong></p>
-
-        </div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">06.04.2013</div>
-            <h2><a href="../../../blog/sprechen-wir-ueber-das-problem-statt-ueber-die-loesung/">Über das Problem sprechen statt über die Lösung!</a></h2>
-            <div class="documentDescription">Wir alle neigen dazu, voreilig über Lösungen zu sprechen, anstatt zuerst das zugrundeliegende Problem gründlich zu analysieren.</div>
-            <p>Die perzipierte Lösung ohne ausführlichere Beschreibung des zugrunde liegenden
-Problems (im Sinne von zu lösender Aufgabe) kann für das Projekt zum Risiko
-werden. Das Denken in vorgespurten Lösungskategorien verengt vorzeitig den
-Möglichkeitsraum für die zu entwickelnde Lösung. Gut möglich, dass es
-passendere und bessere Lösungen gibt.</p>
-<p>Das Nachdenken über das Problem an sich darf nicht übersprungen werden.</p>
-<p><strong>1) Beschreibung des Problems</strong><br>
-Ein paar wenige Sätze zur Beschreibung des Problems. Sätze und nicht Bullet
-Points! Also auch kein Power Point bitte.</p>
-<p><strong>2) Ursachen des Problems</strong><br>
-Verschiedene Erklärungsversuche (Arbeitshypothesen) sollen aufgestellt werden.</p>
-<p><strong>3) Quantifizierung des Problems</strong><br>
-Wie gross ist das Problem relativ gesehen: haben 5 von 1'000 Benutzern ein
-Problem oder sind es 500 von 1'000? Die Relationen abschätzen zu können hilft.</p>
-<p><strong>4) Abgrenzungen (Scope)</strong><br>
-Es soll beschrieben werden, was nicht Teil des Problems ist. Es mag paradox
-erscheinen, aber das explizite Benennen von Elementen, die nicht Teil des
-Problems sind, macht durchaus Sinn.</p>
-<p><strong>5) Begrifflichkeiten klären </strong><br>
-Für Personen mit unterschiedlichem Hintergrund darf nicht davon ausgegangen
-werden, dass sie unter einem verwendeten Begriff das Gleiche verstehen.</p>
-<p><strong>6) Quick Fix</strong><br>
-Gibt es eine einfache Möglichkeit, das Problem rasch aus der Welt zu schaffen?
-Können bestehende Prozesse so angepasst werden, dass sich das Problem mit
-kleinem Aufwand - so genannt "administrativ" - bewältigen lässt.</p>
-<p>Die Schritte 2)-6) kann man sich auch sparen. Sie sollen lediglich
-illustrieren, dass die gründliche Analyse eines Problems mehr bringt, als die
-voreilige Zuflucht zu eine bekannte Lösung.</p>
-<h3>Probleme zu finden ist schwierig genug</h3>
-<p>Warum haben viele Leute die Tendenz voreilig über die Lösung sprechen zu
-wollen, statt zuerst gründlich über das zugrundeliegende Problem nachzudenken?<br>
-Es wird zu wenig anerkannt, dass allein schon das Finden und Beschreiben von
-Problemen wertvoll und keinesfalls trivial ist!</p>
-<p>[..] I’ve learned one of the biggest mistakes “nontechnical” people make when
-communicating to great hackers about product is that we try and tell them the
-solutions before we ever tell them the problem.  It’s like we don’t trust them
-to be able to think through and reach their own solution.  When in reality
-their solution is usually 10-100x better than ours because they are the ones
-building it!!</p>
-<p>I started thinking about this and realized maybe its because nontechnical
-people don’t realize the value they’ve created just by finding the problem.
-Truly, just being able to find and articulate the problem is really valuable
-when building a product.</p>
-<p><a href="http://katgleason.tumblr.com/post/47257463324/talk-about-the-problem-not-the-
-solution">http://katgleason.tumblr.com/post/47257463324/talk-about-the-problem-not-the-
-solution</a></p>
-
-        </div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">22.03.2013</div>
-            <h2><a href="../../../blog/referat-bechterew-symposium/">SCQM-Datenbank am Bechterew-Symposium</a></h2>
-            <div class="documentDescription"></div>
-            <p>PD Dr. med. Adrian Ciurea präsentiert am Bechterew-Symposium vor Betroffenen
-Forschungsergebnisse der  Langzeitstudie Morbus Bechterew («Spondylitis
-ankylosans»).</p>
-<p>Es motiviert uns sehr zu sehen, wie wir mit der Entwicklung und dem Betrieb
-der Nationalen Online-Datenbank für entzündlich rheumatische Erkrankungen
-unseren Beitrag für diese Forschung leisten dürfen.</p>
-<p><strong>Swiss Clinical Quality Management in Rheumatic Diseases: </strong><a href="http://www.scqm.ch">www.scqm.ch</a><strong><br>
-Schweizerischen Vereinigung Morbus Bechterew</strong>:
-<a href="http://www.bechterew.ch">www.bechterew.ch</a></p>
-
-        </div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">23.01.2013</div>
-            <h2><a href="../../../blog/sicheres-login-mit-yubikey/">Sicheres Login mit YubiKey</a></h2>
-            <div class="documentDescription">Webapplikationen mit schützenswerten Daten verlangen nach einer sicheren Authentifizierungslösung.</div>
-            <h3>Was ist ein YubiKey?</h3>
-<p>Ein YubiKey funktioniert wie eine externe Tastatur und kann einfach per USB an
-Ihr PC/Mac angeschlossen werden. Der YubiKey funktioniert auf allen
-Betriebsystemen ohne zusätzliche  Software/Treiber-Installation.</p>
-<p><img src="../../../blog/sicheres-login-mit-yubikey/yubikeyonkeyring.jpg" alt="YubiKey"></p>
-<h3> </h3>
-<p>Wie funktioniert der YubiKey?</p>
-<p>Der YubiKey ist nichts anderes als eine USB-Tastatur. Der Clou: er hat nur
-einen (goldenen) Kopf und eine Funktionalität. Der YubiKey erzeugt ein
-OneTime-Token. Das erzeugte Einmalpasswort wird serverseitig validiert und
-authentifiziert den Benutzer.</p>
-<h3>Der Login-Prozess</h3>
-<p>Jedes Mal, wenn der Benutzer den Knopf drückt, wird ein neues OneTime Token
-erzeugt. Auf dem Login-Formular müssen daher ein persönliches Passwort und das
-YubiKey Token eingegeben werden. Auf das Eintippen des Benutzernames (eMail-
-Adresse) kann verzichtet werden, da der YubiKey automatisch eine eindeutige
-YubiKey ID mitschickt.</p>
-<p><img src="../../../blog/sicheres-login-mit-yubikey/yubikeydemo.png" alt="YubiKey Demo"></p>
-<p>Angenehmer Nebeneffekt: andere bekannte Zwei-Faktor-Authenfizierungen machen
-den Prozess für den Benutzer mühsamer: ich muss z.B. das Token von meinem
-Handy ablesen und dieses dann in das entsprechende Formularfeld übertragen.
-YubiKey hingegen erspart dem User Tippen und macht den Login-Prozess bequemer.</p>
-<h3>Der YubiKey in Ihrer Organisation</h3>
-<p>Um die Authentifikation für Ihre Webapplikation sicher zu machen, werden alle
-Ihre Mitarbeiter mit YubiKeys ausgerüstet.</p>
-<p>Der Prozess dazu könnte wie folgt aussehen:</p>
-<ol>
-<li>seantis bestellt für Sie die YubiKeys</li>
-<li>Jedem Benutzeraccount wird ein YubiKey zugeordnet</li>
-<li>seantis schickt die YubiKeys per Post an Ihre Mitarbeiter</li>
-<li>Ihre Mitarbeiter können sich sofort mit ihrem persönlichen YubiKey sicher einloggen.</li>
-</ol>
-<p>Sie können organisatorisch sicherstellen, dass alle Mitarbeiter ihre YubiKeys
-sicher in den Büroräumlichkeiten verwahren. So besteht eine erweiterte
-Kontrolle wer wo und wann Zugriff auf sensible Daten hat.<br>
-Persönliche YubiKeys lassen sich mit sofortiger Wirkung entziehen.<br>
-Ein YubiKey lässt sich damit bei einer personellen Mutation einfach von einem
-Benutzer einziehen und an einen anderen weitergeben.</p>
-<h3>Ein YubiKey verloren</h3>
-<p>Geht ein Schlüssel verloren oder wird gestohlen, so lässt sich dieser mit
-sofortiger Wirkung für ungültig erklären (revozieren).</p>
-
-        </div>
-    
-    
-    
-        <ul class="pagination cf right" role="navigation">
-            <!-- 
-                <li class="pagination-previous"><a href="../../../blog/page/7/">Vorherige</a></li>
-             -->
-                
-                    
-                        <li><a href="../../../blog/">1</a></li>
-                    
-                
-                
-                    <li class="ellipsis">...</li>
-                
-                
-                    
-                        <li><a href="../../../blog/page/7/">7</a></li>
-                    
-                
-                
-                    
-                        <li class="current">8</li>
-                    
-                
-                
-                    
-                        <li><a href="../../../blog/page/9/">9</a></li>
-                    
-                
-                
-                    <li class="ellipsis">...</li>
-                
-                
-                    
-                        <li><a href="../../../blog/page/37/">37</a></li>
-                    
-                
-
-            <!-- 
-                <li class="pagination-next"><a href="../../../blog/page/9/">Nächste</a></li>
-             -->
-        </ul>
-    
-
-
-                <div id="tipue_search_content"></div>
-            </div>
-          </div>
-          <div class="large-4 columns">
-            <ul class="vcard">
-              <li class="fn">seantis gmbh</li>
-              <li class="street-address">Unter der Egg 5</li>
-              <li><span class="zip">CH-6004</span> <span class="state">Luzern</span></li>
-              <li class="phone"><i class="icon-ios7-telephone"></i>
-              +41 41 511 22 50</li>
-              <li class="email"><i class="icon-at"></i>
-              <a href="mailto:info@seantis.ch">info@seantis.ch</a></li>
-            </ul>
-            <div id="right-column">
-                <div>
-                    
-
-                    <dl class="porletNews">
-                        <dt><a href="../../../news/">News </a> & <a href="../../../blog/"> Blog</a></dt>
-                        
-                            <dd class="newsItem">
-                                <a href="../../../news/onegov-award/">OneGov Award 2018 für die Stiftung Pro Juventute</a></li>
-                            </dd>
-                        
-                            <dd class="newsItem">
-                                <a href="../../../news/patienten-app-kinderrheuma/">Patienten-App für Kinder und Jugendliche mit Rheuma</a></li>
-                            </dd>
-                        
-                        
-                            <dd class="newsItem">
-                                <a href="../../../blog/deep-learning/">Deep Learning in Medical Research</a></li>
-                            </dd>
-                        
-                            <dd class="newsItem">
-                                <a href="../../../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
-                            </dd>
-                        
-                    </dt>
-
-                </div>
-                <div></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Footer -->
-        <footer class="row">
-          <div class="large-12 columns">
-            <hr />
-
-            <div id="portlets-in-footer" class="row">
-              <div class="large-12 columns">
-                <div class="row">
-                  <div id="portlets-in-footer-1" class="large-4 columns"></div>
-                  <div id="portlets-in-footer-2" class="large-4 columns"></div>
-                  <div id="portlets-in-footer-3" class="large-4 columns"></div>
-                </div>
-                <div class="row">
-                  <div id="portlets-in-footer-4" class="large-12 columns"></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="large-8 columns">
-                <p>&copy; 2005 - 2018 by seantis gmbh | <a href="https://www.getlektor.com">Lektor</a> powered &amp; built with <a href="https://www.python.org">Python</a></p>
-              </div>
-              <div class="large-4 columns">
-                <ul class="inline-list right">
-                  <li id="siteaction-webmail"><a href="https://webmail.seantis.ch" accesskey="" title="Webmail">Webmail</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </footer>
-
-        <script src="../../../static/js/jquery.min.js"></script>
-        <script src="../../../static/js/foundation.min.js"></script>
-        <script src="../../../static/js/prism.min.js"></script>
-        <script src="../../../static/js/tipuesearch_set.js"></script>
-        <script src="../../../static/js/tipuesearch.min.js"></script>
-        <script>
-            $(document).foundation();
-            $(document).ready(function() {
-                $('#tipue_search_input').tipuesearch({
-                  'mode': 'json',
-                  'contentLocation': "../../../static/js/tipuesearch_content__primary.json"
-                });
-            });
-
-            var _paq = _paq || [];
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-                var u="//stats.seantis.ch/";
-                _paq.push(['setTrackerUrl', u+'piwik.php']);
-                _paq.push(['setSiteId', '15']);
-                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-            })();
-        </script>
-    </body>
+    </script>
+</body>
 </html>

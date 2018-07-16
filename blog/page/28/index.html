@@ -1,359 +1,265 @@
 <!doctype html>
-<html class="no-js" lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-      <title>Blog</title>
-      <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-      <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-      <link rel="stylesheet" href="../../../static/css/normalize.min.css">
-      <link rel="stylesheet" href="../../../static/css/foundation.min.css ">
-      <link rel="stylesheet" href="../../../static/css/ionicons.min.css ">
-      <link rel="stylesheet" href="../../../static/css/app.css">
-      <link rel="stylesheet" href="../../../static/css/prism.css" />
-      <script src="../../../static/js/custom.modernizr.js"></script>
-    </head>
+<html class="no-js" lang="de" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seantis gmbh</title>
+    <meta name="description" content="seantis gmbh entwickelt Webapplikationen für die medizinische Forschung, die öffentliche Verwaltung sowie für die Aviatik.">
+    <link rel="stylesheet" href="../../../static/css/foundation.min.css ">
+    <link rel="stylesheet" href="../../../static/css/fira.css ">
+    <link rel="stylesheet" href="../../../static/css/fontawesome.min.css ">
+    <link rel="stylesheet" href="../../../static/css/custom.css ">
+</head>
 
-    <body>
+<body>
+    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium" style="display:none">
+        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+        <div class="title-bar-title"> <a href="../../../">Home</a></div>
+        <div class="title-bar-right contact"><a href="../../../contact/">Kontakt</a></div>
+    </div>
+
+    <div class="top" id="responsive-menu" style="display:none">
+        <div class="grid-container">
+            <div class="top-bar">
+              <div class="top-bar-left">
+                  <ul class="menu hide-for-small-only">
+                      <li><a href="../../../">Home</a></li>
+                  </ul>
+              </div>
+              <div class="top-bar-right">
+                  <ul class="menu" data-dropdown-menu>
+                      <li><a href="../../../portrait/">Über uns</a></li>
+                      <li><a href="../../../engineering/">Engineering</a></li>
+                      <li><a href="../../../services/">Services</a></li>
+                      <li><a href="../../../success-stories/">Erfolgsgeschichten</a></li>
+                      <li><a href="../../../news/">News</a></li>
+                      <li><a href="../../../blog/">Blog</a></li>
+                      <li class="contact"><a href="../../../contact/">Kontakt</a></li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="header">
+            <div class="top-bar">
+                <div class="top-bar-left">
+                    <a href="../../../"><img id="logo" src="../../../static/img/logo.svg" alt="Zur Startseite"/></a>
+                </div>
+                <div class="top-bar-right">
+                    <form action="../../../search/">
+                        <div class="input-group show-for-medium">
+                            <input class="input-group-field" type="search" name="q" id="tipue_search_input">
+                            <div class="input-group-button">
+                                <input type="submit" class="button" value="Suche">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="hero">
+        <div class="grid-container">
+            <div id="splash">
+                <div class="grid-x grid-margin-x">
+                    <div class="large-5 large-offset-6 cell">
+                        <div id="square">
+                            <h3>Daten werden komplexer. Unsere Lösungen bleiben einfach.</h3>
+                            <p>Für die medizinische Forschung nutzen wir Deep Learning zum Scoring von Röntgenbildern.</p>
+                            <p><a href="../../../success-stories/deep-learning-xray/">&rarr; Projekt DeepXray</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="main-content">
+        <div class="listing">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-7 large-offset-1 cell">
+                        <h1>Blog</h1>
+                        <p class="lead">Empowering your data with open source.</p>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>22.06.2010</small></h5>
+                                    <h4>Reisen am Bildschirm</h4>
+                                    <p></p>
+                                    <a href="../../../blog/reisen-am-bildschirm/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>22.06.2010</small></h5>
+                                    <h4>repoze.bfg Language Negotiator</h4>
+                                    <p></p>
+                                    <a href="../../../blog/repoze-bfg-language-negotiator/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>22.06.2010</small></h5>
+                                    <h4>RSS - News im Abo</h4>
+                                    <p></p>
+                                    <a href="../../../blog/rss-news-im-abo/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>22.06.2010</small></h5>
+                                    <h4>RSS-Icon von Firefox bei Microsoft</h4>
+                                    <p></p>
+                                    <a href="../../../blog/rss-icon-von-firefox-bei-microsoft/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>22.06.2010</small></h5>
+                                    <h4>Run auf google analytics</h4>
+                                    <p></p>
+                                    <a href="../../../blog/run-auf-google-analytics/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h5 class="subheader"><small>22.06.2010</small></h5>
+                                    <h4>seantis engagiert sich: Jugendmusical Solothurn</h4>
+                                    <p></p>
+                                    <a href="../../../blog/seantis-engagiert-sich-jugendmusical-solothurn/">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+    
+    <div class="pager">
+        <nav aria-label="Pagination">
+            <ul class="pagination">
+                
+                    <li class="pagination-previous"><a href="../../../blog/page/27/">Vorherige</a></li>
+                
+                    
+                        
+                            <li><a href="../../../blog/">1</a></li>
+                        
+                    
+                    
+                        <li class="ellipsis" aria-hidden="true"></li>
+                    
+                    
+                        
+                            <li><a href="../../../blog/page/27/">27</a></li>
+                        
+                    
+                    
+                        
+                            <li class="current" aria-label="Seite 28">28</li>
+                        
+                    
+                    
+                        
+                            <li><a href="../../../blog/page/29/">29</a></li>
+                        
+                    
+                    
+                        <li class="ellipsis" aria-hidden="true"></li>
+                    
+                    
+                        
+                            <li><a href="../../../blog/page/31/">31</a></li>
+                        
+                    
+
+                
+                    <li class="pagination-next"><a href="../../../blog/page/29/">Nächste</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-7 large-offset-1 cell">
+                    <h4>Building data-driven web applications with an open-source toolset and an agile mindset</h4>
+                    <p>Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source Entwickler-Tools und arbeiten gemäss Agiler Methodik.</p>
+                </div>
+                <div class="large-4 cell">
+                    <h5>Cloud Platform</h5>
+                    <ul>
+                        <li><a href="http://www.healthdata.ai">HealthData.ai</a></li>
+                        <li><a href="http://www.onegovcloud.ch">OneGov Cloud</a></li>
+                        <li><a href="http://www.mycontrol.aero">myControl.aero</a></li>
+                    </ul>
+                    <a class="button" href="../../../contact/">Kontakt</a>
+                </div>
+            </div>
+
+            <div class="grid-x grid-padding-x">
+                <div class="large-10 large-offset-1 cell">
+                    <div id="copyright">© 2005 - 2018 by seantis gmbh | Lektor powered & built with Python</div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="../../../static/js/jquery.min.js"></script>
+    <script src="../../../static/js/what-input.min.js"></script>
+    <script src="../../../static/js/foundation.min.js"></script>
+    <script src="../../../static/js/tipuesearch_set.js"></script>
+    <script src="../../../static/js/tipuesearch.min.js"></script>
+    <script src="../../../static/js/app.js"></script>
+
+    <script>
+        $(document).foundation();
+
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//stats.seantis.ch/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '15']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+
         
-        <!-- Header and Nav -->
-        <div class="row">
-          <div class="large-3 push-9 columns">
-            <div id="logo">
-              <a id="brand" class="brand" href="../../../">
-                <img src="../../../static/img/logo.svg" alt="seantis gmbh">
-              </a>
-            </div>
-          </div>
-          <div class="large-9 pull-3 columns">
-            <div id="navigation">
-              <ul class="left" id="nav-tabs">
-                <li><a href="../../../portrait/">Portrait</a></li>
-                <li><a href="../../../engineering/">Engineering</a></li>
-                <li><a href="../../../services/">Services</a></li>
-                <li><a href="../../../success-stories/">Erfolgsgeschichten</a></li>
-                <li><a href="../../../news/">News</a></li>
-                <li><a href="../../../blog/">Blog</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- First Band (Image) -->
-        <div class="row hide-for-small">
-          <div class="large-12 columns">
-            <div id="banner" style="background-image: url(../../../static/img/healthdata.png);">
-              <div class="large-5 large-offset-7 columns">
-                <h4 class="subheader">Clinical Quality Management System</h4>
-                <p>Die interdisziplinäre medizinische Patientenakte unterstützt Ärzte bei der medizinischen Dokumentation über den gesamten Behandlungsverlauf.</p>
-                <a href="https://www.healthdata.ai">mehr &rarr;</a>
-              </div>
-            </div>
-            <div id="portlets-in-header"></div>
-          </div>
-        </div>
-
-        <!-- Second Band (Breadcrumbs & Search) -->
-        <div class="row">
-          <div class="large-8 columns">
-            <ul class="breadcrumbs">
-              <li><a href="#"><i class="icon-home"></i></a></li>
-              
-                
-                <li class="current">Blog</li>
-              
-            </ul>
-          </div>
-          <div class="large-4 columns" id="search">
-            <form id="searchbox" action="../../../search/">
-              <div class="row collapse">
-                <div class="small-10 columns">
-                  <input type="text" name="q" id="tipue_search_input" autocomplete="off" requiredclass="search-query" placeholder="Suche">
-                </div>
-                <div class="small-2 columns">
-                <button type="submit" class="postfix"><i class="icon-search"></i></button>
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-
-        <!-- Third Band (Content) -->
-        <div class="row">
-          <div class="large-8 columns">
-            <div id="content">
-                
-    <h1>Blog</h1>
-    <div class="documentDescription">Empowering your data with open source.</div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">22.06.2010</div>
-            <h2><a href="../../../blog/das-gesicht-von-google/">Das Gesicht von Google</a></h2>
-            <div class="documentDescription"></div>
-            <p>Google gilt im Netz mittlerweile als die Institution schlechthin. Zu
-besonderen Anlässen ändert die beliebteste Website jeweils ihr Aussehen. So
-zeichnen sich beispielsweise bei Olympischen Spielen die Olympischen Ringe im
-Google-Logo ab.</p>
-<p>Da Google ja mittlerweile Allgemeingut ist, hat auch jeder das Gefühl ein
-Anrecht auf ein Google-Logo zu seinen Ehren zu haben. Vom Sonderlogo zum Tag
-des Schmetterlings bis zu einem Heiratsantrag an seine Freundin soll alles
-vorkommen...</p>
-<p>Viele Nutzer schrecken auch nicht davor zurück, Google mit eigenen Vorschlägen
-zu "beglücken" (<a href="http://www.google.com/intl/en/customlogos.html">Google-Fan-
-Logos</a>).</p>
-<p><a href="http://www.welt.de/webwelt/article798746/Der_Kampf_um_das_Google-
-Gesicht_.html">http://www.welt.de/webwelt/article798746/Der_Kampf_um_das_Google-
-Gesicht_.html</a></p>
-<p><a href="http://www.google.com/intl/en/customlogos.html">http://www.google.com/intl/en/customlogos.html</a></p>
-
-        </div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">22.06.2010</div>
-            <h2><a href="../../../blog/designing-a-medication-form/">Designing a Medication Form</a></h2>
-            <div class="documentDescription"></div>
-            <p>For the online version of the national database of rheumatological diseases we
-had to design a web form to manage information about tions or more
-specifically prescriptions of tions. The database is used for l research,
-therefore consistent data is a key requirement.</p>
-<p>The requirements for such a form are:</p>
-<ol>
-<li>Prevent double entries of drugs.</li>
-<li>Give an overview over the on-going tions.</li>
-<li>Show the 'medication history' of a patient.</li>
-<li>The responsible physician might decide to change the dose of a drug during the treatment.</li>
-<li>If a drug isn't effective or even an adverse affect occurs the drug will be stopped and in case of the later the adverse event has to be reported.</li>
-<li>Incorrect or missing data needs to be fixed.</li>
-</ol>
-<p>First we took a look at <a href="http://www.google.com/health">Google Health</a> and
-their implementation of the medication part. What they basically have is a
-table with a row for each medication with an 'edit' option for each entry.</p>
-<p><img src="../../../blog/designing-a-medication-form/1.png" alt="mediaction_form_1"></p>
-<p>That's a good starting point. In our 'medication' tab we show a simular table
-of the on-going medications. The responsible physician gets a fast overview
-over the prescribed drugs.</p>
-<p><img src="../../../blog/designing-a-medication-form/2.png" alt="tion_form_2"></p>
-<p>To keep the picture clear we hide the dose adjustments. The adjustments unfold
-if one clicks on the '+' in the first column of each prescription.</p>
-<p><img src="../../../blog/designing-a-medication-form/3.png" alt="tion_form_3"></p>
-<p>After checking the existing data the doctor can add new drugs, stop current
-tions or adjust the dose of prescribed medications.<br>
-For the edit part we had _in-place editing _in mind but came to the conclusion
-that it doesn't work here. First, each change of the data needs to be
-confirmed (e.g., by clicking a 'save' button). And second, viewing and editing
-the data is not the same and therefore asks for different representations of
-the data. The application has 'edit' views as shown below.</p>
-<p><img src="../../../blog/designing-a-medication-form/4.png" alt="tion_form_4"></p>
-<p>After stopping a medication it will be moved to the table 'Discontinued
-medication'.</p>
-<p>Starting a new treatment is always in the context of the currently prescribed
-drugs. Therefore, the panel for adding new tion is placed below the current
-medication table. With the drop-down we avoid double entries as the options
-are filtered.</p>
-<p><img src="../../../blog/designing-a-medication-form/5.jpg" alt="tion_form_5"></p>
-<p>One word about widgets used on forms. We decided not to use any fancy widgets
-(e.g., a date picker widget). Instead a simple mix between input fields and a
-drop-down for the month is used. With this "hybrid" date widget we show the
-date format (dd/mm/yy) without any further explanation and keep data entry
-simple.</p>
-<p><img src="../../../blog/designing-a-medication-form/6.jpg" alt="tion_form_6"></p>
-
-        </div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">22.06.2010</div>
-            <h2><a href="../../../blog/deutsche-wikipedia-soll-auf-papier-erscheinen/">Deutsche Wikipedia soll auf Papier erscheinen</a></h2>
-            <div class="documentDescription"></div>
-            <p>Der deutsche Zenodot Verlag will ab Januar 2007 die deutsche Version von
-Wikipedia in Buchform herausbringen. Das heisst, die gedruckte Enzyklopädie
-wäre dann weder frei noch aktuell. Die grössten Vorteile von Wikipedia würden
-also nicht zum Tragen kommen.</p>
-<p>Geplant ist ein Umfang von 100 Bänden mit je 800 Seiten. Kosten soll ein Band
-15 Euro. Wen sich die Herausgeber als mögliche Zielgruppe ausgedacht haben,
-bleibt deshalb mehr als rätselhaft.</p>
-<p>Projekt WP 1.0:<br>
-<a href="http://www.wp10.de/">http://www.wp10.de</a></p>
-<p>Artikel in Spiegel online:<br>
-<a href="http://www.spiegel.de/netzwelt/netzkultur/0,1518,397567,00.html">http://www.spiegel.de/netzwelt/netzkultur/0,1518,397567,00.html</a></p>
-
-        </div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">22.06.2010</div>
-            <h2><a href="../../../blog/ein-handy-zum-streicheln---1/">Ein Handy zum Streicheln...</a></h2>
-            <div class="documentDescription"></div>
-            <p>Was ist los wenn ein Saal voller IT-Journalisten ununterbrochen klatscht und
-in wahre Begeisterungsstürme ausbricht? Sie müssen jedenfalls bei einem
-geschichtsträchtigen Anlass sein! Richtig: bei der Vorstellung des neuen
-Apple-Handys, kurz "iPhone".</p>
-<p>Sicher hat das Gerät einige schöne Neuerungen und das Design ist auch nicht
-schlecht. Die Präsentation von Apple-Chef Steve Jobs erinnerte jedoch mehr an
-die Rede eines Gurus vor seinen Anhängern.</p>
-<p>Allzu zynisch möchte ich mich jedoch an dieser Stelle nicht äussern. Die
-Option mir selber mal ein iPhone anzuschaffen, möchte ich mir ja nicht völlig
-verbauen...</p>
-<p><a href="http://www.apple.com/iphone">http://www.apple.com/iphone</a></p>
-
-        </div>
-    
-        <div class="blogListingEntry">
-            <div <span class="actionDate">22.06.2010</div>
-            <h2><a href="../../../blog/ein-handy-mast-auf-dem-mount-everest/">Ein Handy-Mast auf dem Mount Everest</a></h2>
-            <div class="documentDescription"></div>
-            <p>Auf dem höchsten Berg der Welt soll bald jeder mit seinem Mobiltelfon
-erreichbar sein. Zwei chinesische Unternehmen wollen in Zusammenarbeit mit dem
-Militär das höchste Funkloch der Erde schliessen.</p>
-<p>Der Handymast auf 6'500 m.ü.M. soll pünktlich zu den Olympischen Spielen 2008
-stehen...</p>
-<p><a href="http://www.spiegel.de/netzwelt/mobil/0,1518,511177,00.html">http://www.spiegel.de/netzwelt/mobil/0,1518,511177,00.html</a></p>
-
-        </div>
-    
-    
-    
-        <ul class="pagination cf right" role="navigation">
-            <!-- 
-                <li class="pagination-previous"><a href="../../../blog/page/27/">Vorherige</a></li>
-             -->
-                
-                    
-                        <li><a href="../../../blog/">1</a></li>
-                    
-                
-                
-                    <li class="ellipsis">...</li>
-                
-                
-                    
-                        <li><a href="../../../blog/page/27/">27</a></li>
-                    
-                
-                
-                    
-                        <li class="current">28</li>
-                    
-                
-                
-                    
-                        <li><a href="../../../blog/page/29/">29</a></li>
-                    
-                
-                
-                    <li class="ellipsis">...</li>
-                
-                
-                    
-                        <li><a href="../../../blog/page/37/">37</a></li>
-                    
-                
-
-            <!-- 
-                <li class="pagination-next"><a href="../../../blog/page/29/">Nächste</a></li>
-             -->
-        </ul>
-    
-
-
-                <div id="tipue_search_content"></div>
-            </div>
-          </div>
-          <div class="large-4 columns">
-            <ul class="vcard">
-              <li class="fn">seantis gmbh</li>
-              <li class="street-address">Unter der Egg 5</li>
-              <li><span class="zip">CH-6004</span> <span class="state">Luzern</span></li>
-              <li class="phone"><i class="icon-ios7-telephone"></i>
-              +41 41 511 22 50</li>
-              <li class="email"><i class="icon-at"></i>
-              <a href="mailto:info@seantis.ch">info@seantis.ch</a></li>
-            </ul>
-            <div id="right-column">
-                <div>
-                    
-
-                    <dl class="porletNews">
-                        <dt><a href="../../../news/">News </a> & <a href="../../../blog/"> Blog</a></dt>
-                        
-                            <dd class="newsItem">
-                                <a href="../../../news/onegov-award/">OneGov Award 2018 für die Stiftung Pro Juventute</a></li>
-                            </dd>
-                        
-                            <dd class="newsItem">
-                                <a href="../../../news/patienten-app-kinderrheuma/">Patienten-App für Kinder und Jugendliche mit Rheuma</a></li>
-                            </dd>
-                        
-                        
-                            <dd class="newsItem">
-                                <a href="../../../blog/deep-learning/">Deep Learning in Medical Research</a></li>
-                            </dd>
-                        
-                            <dd class="newsItem">
-                                <a href="../../../blog/strukturierte-daten-verzeichnisse/">Strukturierte Daten in Verzeichnissen</a></li>
-                            </dd>
-                        
-                    </dt>
-
-                </div>
-                <div></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Footer -->
-        <footer class="row">
-          <div class="large-12 columns">
-            <hr />
-
-            <div id="portlets-in-footer" class="row">
-              <div class="large-12 columns">
-                <div class="row">
-                  <div id="portlets-in-footer-1" class="large-4 columns"></div>
-                  <div id="portlets-in-footer-2" class="large-4 columns"></div>
-                  <div id="portlets-in-footer-3" class="large-4 columns"></div>
-                </div>
-                <div class="row">
-                  <div id="portlets-in-footer-4" class="large-12 columns"></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="large-8 columns">
-                <p>&copy; 2005 - 2018 by seantis gmbh | <a href="https://www.getlektor.com">Lektor</a> powered &amp; built with <a href="https://www.python.org">Python</a></p>
-              </div>
-              <div class="large-4 columns">
-                <ul class="inline-list right">
-                  <li id="siteaction-webmail"><a href="https://webmail.seantis.ch" accesskey="" title="Webmail">Webmail</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </footer>
-
-        <script src="../../../static/js/jquery.min.js"></script>
-        <script src="../../../static/js/foundation.min.js"></script>
-        <script src="../../../static/js/prism.min.js"></script>
-        <script src="../../../static/js/tipuesearch_set.js"></script>
-        <script src="../../../static/js/tipuesearch.min.js"></script>
-        <script>
-            $(document).foundation();
-            $(document).ready(function() {
-                $('#tipue_search_input').tipuesearch({
-                  'mode': 'json',
-                  'contentLocation': "../../../static/js/tipuesearch_content__primary.json"
-                });
-            });
-
-            var _paq = _paq || [];
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-                var u="//stats.seantis.ch/";
-                _paq.push(['setTrackerUrl', u+'piwik.php']);
-                _paq.push(['setSiteId', '15']);
-                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-            })();
-        </script>
-    </body>
+    </script>
+</body>
 </html>
