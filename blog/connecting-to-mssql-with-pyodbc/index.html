@@ -91,10 +91,11 @@
     <div class="grid-container">
         <div class="grid-x grid-margin-x">
             <div class="large-7 large-offset-1 cell">
-                <h5 class="subheader"><small>03.02.2011</small></h5>
-                <h1>Connecting to MSSQL with pyodbc</h1>
-                <p class="lead">How to connect to a MSSQL database sever from a debian server via pyodbc.</p>
-                <p>First, you need to install some packages.</p>
+                <div class="main-content">
+                    <h5 class="subheader"><small>03.02.2011</small></h5>
+                    <h1>Connecting to MSSQL with pyodbc</h1>
+                    <p class="lead">How to connect to a MSSQL database sever from a debian server via pyodbc.</p>
+                    <p>First, you need to install some packages.</p>
 <pre><code>$ sudo aptitude install unixodbc unixodbc-dev freetds-dev sqsh tdsodbc
 </code></pre>
 <p>With FreeTDS installed configure it like this:</p>
@@ -139,6 +140,7 @@ cnxn = pyodbc.connect('DSN=myServer;UID=USERNAME;PWD=PASSWORD')
 on-ubuntu/">http://lambie.org/2008/02/28/connecting-to-an-mssql-database-from-ruby-
 on-ubuntu/</a></p>
 
+                </div>
             </div>
         </div>
     </div>
