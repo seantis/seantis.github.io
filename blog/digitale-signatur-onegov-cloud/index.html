@@ -112,7 +112,7 @@
 <p>Dateien und Bilder sind auf der OneGov Cloud nach dem Upload grundsätzlich öffentlich. Allerdings sind Uploads praktisch unauffindbar. Man muss die Datei irgendwo auf der Webseite verlinken um diese auffindbar zu machen.</p>
 <p>Signierte Dateien sind nicht direkt öffentlich, sondern durchlaufen einen Publikationsworkflow. Der Publikationszeitpunkt kann über die Dateiverwaltung gesteuert werden. So kann man eine Datei beispielsweise bereits auf einer Themen-Seite verlinken, diese aber erst ab einem bestimmten Zeitpunkt veröffentlichen. Die Veröffentlichung ist dabei auf die Stunde exakt steuerbar.</p>
 <h3>Digitale Signaturen</h3>
-<p>Dokumente können in der OneGov Cloud rechtsgültig digital unterzeichnet werden. Der Prozess der digitalen Signatur stellt erhöhte Anforderungen an die Sicherheit. Nur Administratoren haben das Recht zum digitalen Signieren und selbst wenn sie bereits eingeloggt sind müssen sie zum Signieren immer ihren YubiKey verwenden. Damit wird verhindert, dass jemand unbefugt ein Dokument mit einer elektronischen Signatur erstellt. Für eine missbräuchliche Signatur müsste also nicht nur das Login und Passwort des Administrator in die falschen Hände geraten, sondern auch dessen physischer YubiKey gestohlen worden sein. Eine handschriftliche Unterschrift zu fälschen scheint uns einfacher.</p>
+<p>Dokumente können in der OneGov Cloud rechtsgültig digital unterzeichnet werden. Der Prozess der digitalen Signatur stellt erhöhte Anforderungen an die Sicherheit. Nur Administratoren haben das Recht zum digitalen Signieren und selbst wenn sie bereits eingeloggt sind müssen sie zum Signieren immer ihren YubiKey verwenden. Damit wird verhindert, dass jemand unbefugt ein Dokument mit einer elektronischen Signatur erstellt. Für eine missbräuchliche Signatur müssten also nicht nur das Login und Passwort des Administrators in falsche Hände geraten, sondern auch dessen physischer YubiKey gestohlen worden sein. Eine handschriftliche Unterschrift zu fälschen scheint uns einfacher.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EhZSS1maX2I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><p>Vor jedem digitalen Signaturvorgang wird also zur Sicherheit im Hintergrund das Login und der YubiKey geprüft. Ein sogenannter digitaler Fingerabdruck des Dokuments wird danach an den ‚All-in Signing Service‘ der Swisscom gesendet wo das Dokument digital signiert wird.</p>
 <p>Folgende Informationen werden für die Nachvollziehbarkeit permanent aufgezeichnet:</p>
 <ul>
@@ -125,7 +125,7 @@
 </ul>
 <p>Selbst wenn die Datei später gelöscht wird, können wir weiterhin prüfen ob eine bestimmte Datei auf unserem System signiert wurde.</p>
 <h3>Amtliche Publikationen</h3>
-<p>Elektronisch unterschriebene Dokumente erhalten einen speziellen Status als amtliche Publikationen. Amtliche Publikationen werden auf einer neuen Ansicht dargestellt, welche prominent von der der Startseite verlinkt ist.</p>
+<p>Elektronisch unterschriebene Dokumente erhalten einen speziellen Status als amtliche Publikationen. Amtliche Publikationen werden auf einer neuen Ansicht dargestellt, welche prominent von der Startseite verlinkt ist.</p>
 <p>Auf der Ansicht Publikationen werden Dokumente angezeigt, welche folgende Eigenschaften haben:</p>
 <ul>
 <li>Die Datei ist ein PDF.</li>
@@ -135,9 +135,9 @@
 <p>Hierbei gruppieren wir die Dateien nach Zeitpunkt der Erstellung, also wann diese hochgeladen wurden. Somit können auch bestehende Dokument neu digital signiert werden.</p>
 <p><img src="../../blog/digitale-signatur-onegov-cloud/Publikationen.png" alt="Publikationen"></p>
 <h3>Verifikation digitaler Signaturen</h3>
-<p>Signierte Dateien können grundsätzlich im Adobe Acrobat Reader auf Ihre Signatur hin überprüft werden. Dafür muss das Programm Acrobat Reader auf dem Rechner installiert sein und der Benutzer muss wissen, wie die Überprüfung vorgenommen werden kann.</p>
-<p>Um die Überprüfung zu vereinfachen ist auf der Ansicht mit dem amtlichen Publikationen ein kleines Tool zur Verifizierung der signierten Dateien eingebaut. Hat ein User ein Dokument heruntergeladen oder auf anderem Weg erhalten, kann er die digitale Signatur direkt auf der OneGov Cloud überprüfen lassen. Dies geschieht im Browser, ohne dass die Datei auf dem Server hochgeladen wird.</p>
-<p>Für die Prüfung wird das zu prüfende signierte Dokument einfach  ins Prüffeld geladen. Das Ergebnis der Prüfung wird unmittelbar angezeigt.</p>
+<p>Signierte Dateien können grundsätzlich im Adobe Acrobat Reader auf ihre Signatur hin überprüft werden. Dafür muss das Programm Acrobat Reader auf dem Rechner installiert sein und der Benutzer muss wissen, wie die Überprüfung vorgenommen werden kann.</p>
+<p>Um die Überprüfung zu vereinfachen ist auf der Ansicht mit dem amtlichen Publikationen ein kleines Tool zur Verifizierung der signierten Dateien eingebaut. Hat ein User ein Dokument heruntergeladen oder auf anderem Weg erhalten, kann er die digitale Signatur direkt auf der OneGov Cloud überprüfen lassen. Dies geschieht im Browser, ohne dass die Datei auf den Server hochgeladen wird.</p>
+<p>Für die Prüfung wird das zu prüfende signierte Dokument einfach  ins Prüffeld gezogen. Das Ergebnis der Prüfung wird unmittelbar angezeigt.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OMnV8HTf8Lc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><h3>Shared Signing Service</h3>
 <p>Das Zertifikatsmanagement ist erfahrungsgemäss eine nicht ganz einfache Sache. In Zusammenarbeit mit der Swisscom bietet die OneGov Cloud allen Gemeinden einen ‚Shared Signing Service‘ ohne Zusatzkosten an. Einziger Nachteil: im Adobe Acrobat Reader wird das verwendete Zertifikat als ‚signed.onegovcloud.ch‘ angezeigt. Ist dies nicht gewünscht, so bezieht die Gemeinde bei der Swisscom ein eigenes Zertifikat. Auch dafür können wir in Zusammenarbeit mit der Swisscom ein sehr attraktives Angebot machen. Die OneGov Cloud bietet also auch bei der digitalen Signatur die ideale Lösung für alle Gemeinden, gross und klein.</p>
 <h3>Volltextsuche für Dokumente</h3>
