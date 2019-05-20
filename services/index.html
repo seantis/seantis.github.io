@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../static/css/foundation.min.css?h=facd6dca ">
     <link rel="stylesheet" href="../static/css/fira.css?h=bcd50a1c ">
     <link rel="stylesheet" href="../static/css/fontawesome.min.css?h=20d2d431 ">
-    <link rel="stylesheet" href="../static/css/custom.css?h=c930a765 ">
+    <link rel="stylesheet" href="../static/css/custom.css?h=ded5dc09 ">
 </head>
 
 <body>
@@ -108,7 +108,7 @@
 <h3>Service Monitoring (Ping)</h3>
 <p>Das Monitoring Tool ruft die Seiten periodisch auf und überwacht so deren Status. Ist eine Seite nicht erreichbar, weil der Webserver nicht richtig läuft, oder weil es ein Problem in der Applikation gibt, so schlägt das <strong>Monitoring Tool Alarm</strong> und ein Kreis von Personen wird per E-Mail/SMS in definierten <strong>Eskalationsstufen</strong> benachrichtigt.</p>
 <p>Das Monitoring geschieht auf Applikationsebene (analog zu einem direkten Zugriff via Browser). Damit werden Ausfälle bzw. Probleme sofort direkt erkannt. Falls gewünscht können Verantwortliche des Kunden ab einer erhöhten Eskalationsstufe (z.B. 1h «down time») ebenfalls automatisch benachrichtigt werden.</p>
-<p>Für das eigentliche Monitoring setzen wir auf einen externen Anbieter, welcher Websites dezentral mit Knoten verteilt über die ganze Welt überwacht (<a href="https://www.nodeping.com/">https://www.nodeping.com</a>). Diese Monitoring-Infrastruktur selbst zu betreiben macht wenig Sinn, da diese so unabhängig wie möglich sein muss.</p>
+<p>Für das eigentliche Monitoring setzen wir auf einen externen Anbieter, welcher Websites dezentral mit Knoten verteilt über die ganze Welt überwacht (<a href="https://nodeping.com/">https://nodeping.com</a>). Diese Monitoring-Infrastruktur selbst zu betreiben macht wenig Sinn, da diese so unabhängig wie möglich sein muss.</p>
 <p>Wir bieten bewusst ein minimalistisch gehaltenes <strong>Management Dashboard</strong>. Dieses ist direkt (ohne Login) über eine URL aufzurufen und bietet einen Überblick über alle aktiven Services sowie deren Status. Das Management Dashboard ist bewusst so konzipiert (Responsive Design), dass es problemlos von einem Smartphone aufgerufen werden kann.</p>
 <p>Der Web Monitor wird für den Kunden aufgesetzt und die entsprechenden Konfigurationen in der dahinterstehenden Monitoring Infrastruktur gemacht. Neue Services werden in den Monitor eingetragen, sobald sie aus der Staging- in die Production-Umgebung überführt werden. Das Management Dashboard bietet somit jederzeit einen Überblick über alle laufenden Services. Ein «down time» Monitoring mit <strong>SMS-Alerts</strong> wird eingerichtet, sobald ein Service von der Gruppe «Staging» in die Gruppe «Production» überführt wird.</p>
 <h3>Backup Services</h3>
