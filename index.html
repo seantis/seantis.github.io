@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>seantis gmbh</title>
     <meta name="description" content="seantis gmbh entwickelt Webapplikationen für die medizinische Forschung, die öffentliche Verwaltung sowie für die Aviatik.">
-    <link rel="stylesheet" href="./static/css/foundation.min.css?h=facd6dca ">
-    <link rel="stylesheet" href="./static/css/fira.css?h=bcd50a1c ">
-    <link rel="stylesheet" href="./static/css/fontawesome.min.css?h=20d2d431 ">
-    <link rel="stylesheet" href="./static/css/custom.css?h=ded5dc09 ">
+    <link rel="stylesheet" href="./static/css/foundation.min.css?h=facd6dca">
+    <link rel="stylesheet" href="./static/css/fira.css?h=bcd50a1c">
+    <link rel="stylesheet" href="./static/css/fontawesome.min.css?h=20d2d431">
+    <link rel="stylesheet" href="./static/css/custom.css?h=ded5dc09">
+    <link rel="stylesheet" href="./static/css/aos.css?h=9a26a349" />
+
 </head>
 
 <body>
+
     <!-- <div class="announcement"><a href="./news/job-python-entwickler/">&rarr; Full Stack Python-Entwickler(in) (60-100%)<i class="fab fa-python"></i></a></div> -->
     <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium" style="display:none">
         <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
@@ -74,7 +77,7 @@
 
     
 
-    <div id="hero">
+    <div id="hero" data-aos="fade-up">
         <div class="grid-container">
             <div id="splash">
                 <div class="grid-x grid-margin-x">
@@ -104,7 +107,7 @@
         </div>
 
         <div id="solutions">
-            <div class="listing team products">
+            <div class="listing team products" data-aos="fade-up">
                 <div class="grid-container">
                     <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="small">
                         <div class="large-4 medium-4 cell">
@@ -158,7 +161,7 @@
 
                     </div>
                 </div>
-                <div class="grid-x grid-padding-x">
+                <div class="grid-x grid-padding-x" data-aos="fade-up">
                     <div class="cell">
                         <img class="full" src="./static/img/team/office.jpg" alt="Team">
                     </div>
@@ -414,7 +417,6 @@
 
         <div id="award">
             <div class="grid-container">
-
                 <div class="grid-x grid-padding-x">
                     <div class="large-7 large-offset-1 medium-10 medium-offset-1 cell">
                         <h4><small>Preisgekrönte Plattform</small></h4>
@@ -427,7 +429,7 @@
                         <p><a href="./news/pro-juventute-feriennet-best-of-swiss-web/">&rarr; mehr erfahren</a></p>
                     </div>
                 </div>
-                <div class="grid-x grid-padding-x">
+                <div class="grid-x grid-padding-x" data-aos="fade-up">
                     <div class="cell">
                         <img class="full" src="./static/img/bosw.jpg" alt="Best of Swiss Web 2019">
                     </div>
@@ -475,6 +477,12 @@
     </footer>
 
     <script src="./static/js/jquery.min.js?h=1055018c"></script>
+
+    <script src="./static/js/aos.js?h=e38950c1"></script>
+    <script>
+        AOS.init();
+    </script>
+
     <script src="./static/js/what-input.min.js?h=d37c555d"></script>
     <script src="./static/js/foundation.min.js?h=4abb5655"></script>
     <script src="./static/js/tipuesearch_set.js?h=51d521ed"></script>
@@ -497,5 +505,6 @@
 
         
     </script>
+
 </body>
 </html>
