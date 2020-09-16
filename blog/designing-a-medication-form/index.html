@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="../../static/css/foundation.min.css?h=facd6dca">
     <link rel="stylesheet" href="../../static/css/fira.css?h=bcd50a1c">
     <link rel="stylesheet" href="../../static/css/fontawesome.min.css?h=20d2d431">
-    <link rel="stylesheet" href="../../static/css/custom.css?h=8d89f829">
+    <link rel="stylesheet" href="../../static/css/custom.css?h=6781b9c9">
     <link rel="stylesheet" href="../../static/css/aos.css?h=9a26a349" />
 </head>
 
@@ -28,7 +28,7 @@
     <!-- <div class="announcement"><a href="../../news/deep-learning-rheumatologie/">&rarr; Wissenschaftliche Publikation zur Anwendung von Deep Learning in der Rheumatologie <i class="far fa-newspaper"></i></a></div> -->
     <!-- <div class="announcement"><a href="../../news/covid-19/">&rarr; Studie zu COVID-19 für Rheumapatienten <i class="far fa-newspaper"></i></a></div> -->
     <!-- <div class="announcement"><a href="../../news/job-apprenticeship-application-developer/">👩‍💻 Lehrstelle als Informatiker (Fachrichtung Applikationsentwicklung) ab Sommer 2021 oder 2022</a></div> -->
-    <div class="announcement"><a href="../../blog/nzz-hackback/">🛡Gastkommentar Cyber Security @NZZ #donthackback ⚔️</a></div>
+    <div class="announcement"><a href="../nzz-hackback/">🛡Gastkommentar Cyber Security @NZZ #donthackback ⚔️</a></div>
 
     <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium" style="display:none">
         <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
@@ -58,7 +58,7 @@
                       
                           <li class=" "><a href="../../news/">News</a></li>
                       
-                          <li class=" active"><a href="../../blog/">Blog</a></li>
+                          <li class=" active"><a href="../">Blog</a></li>
                       
                           <li class="contact "><a href="../../contact/">Kontakt</a></li>
                       
@@ -121,14 +121,14 @@ therefore consistent data is a key requirement.</p>
 <p>First we took a look at <a href="http://www.google.com/health">Google Health</a> and
 their implementation of the medication part. What they basically have is a
 table with a row for each medication with an 'edit' option for each entry.</p>
-<p><img src="../../blog/designing-a-medication-form/1.png" alt="mediaction_form_1"></p>
+<p><img src="1.png" alt="mediaction_form_1"></p>
 <p>That's a good starting point. In our 'medication' tab we show a simular table
 of the on-going medications. The responsible physician gets a fast overview
 over the prescribed drugs.</p>
-<p><img src="../../blog/designing-a-medication-form/2.png" alt="tion_form_2"></p>
+<p><img src="2.png" alt="tion_form_2"></p>
 <p>To keep the picture clear we hide the dose adjustments. The adjustments unfold
 if one clicks on the '+' in the first column of each prescription.</p>
-<p><img src="../../blog/designing-a-medication-form/3.png" alt="tion_form_3"></p>
+<p><img src="3.png" alt="tion_form_3"></p>
 <p>After checking the existing data the doctor can add new drugs, stop current
 tions or adjust the dose of prescribed medications.<br>
 For the edit part we had _in-place editing _in mind but came to the conclusion
@@ -136,20 +136,20 @@ that it doesn't work here. First, each change of the data needs to be
 confirmed (e.g., by clicking a 'save' button). And second, viewing and editing
 the data is not the same and therefore asks for different representations of
 the data. The application has 'edit' views as shown below.</p>
-<p><img src="../../blog/designing-a-medication-form/4.png" alt="tion_form_4"></p>
+<p><img src="4.png" alt="tion_form_4"></p>
 <p>After stopping a medication it will be moved to the table 'Discontinued
 medication'.</p>
 <p>Starting a new treatment is always in the context of the currently prescribed
 drugs. Therefore, the panel for adding new tion is placed below the current
 medication table. With the drop-down we avoid double entries as the options
 are filtered.</p>
-<p><img src="../../blog/designing-a-medication-form/5.jpg" alt="tion_form_5"></p>
+<p><img src="5.jpg" alt="tion_form_5"></p>
 <p>One word about widgets used on forms. We decided not to use any fancy widgets
 (e.g., a date picker widget). Instead a simple mix between input fields and a
 drop-down for the month is used. With this "hybrid" date widget we show the
 date format (dd/mm/yy) without any further explanation and keep data entry
 simple.</p>
-<p><img src="../../blog/designing-a-medication-form/6.jpg" alt="tion_form_6"></p>
+<p><img src="6.jpg" alt="tion_form_6"></p>
 
                 </div>
             </div>
@@ -177,7 +177,7 @@ simple.</p>
                     <h5>Cloud Platform</h5>
                     <ul>
                         <li><a href="http://www.healthdata.ai">HealthData.ai</a></li>
-                        <li><a href="http://www.onegovcloud.ch">OneGov Cloud</a></li>
+                        <li><a href="https://onegovcloud.ch">OneGov Cloud</a></li>
                         <li><a href="http://www.mycontrol.aero">myControl.aero</a></li>
                     </ul>
                     <a class="button" href="../../contact/">Kontakt</a>

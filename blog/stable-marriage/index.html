@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="../../static/css/foundation.min.css?h=facd6dca">
     <link rel="stylesheet" href="../../static/css/fira.css?h=bcd50a1c">
     <link rel="stylesheet" href="../../static/css/fontawesome.min.css?h=20d2d431">
-    <link rel="stylesheet" href="../../static/css/custom.css?h=8d89f829">
+    <link rel="stylesheet" href="../../static/css/custom.css?h=6781b9c9">
     <link rel="stylesheet" href="../../static/css/aos.css?h=9a26a349" />
 </head>
 
@@ -28,7 +28,7 @@
     <!-- <div class="announcement"><a href="../../news/deep-learning-rheumatologie/">&rarr; Wissenschaftliche Publikation zur Anwendung von Deep Learning in der Rheumatologie <i class="far fa-newspaper"></i></a></div> -->
     <!-- <div class="announcement"><a href="../../news/covid-19/">&rarr; Studie zu COVID-19 für Rheumapatienten <i class="far fa-newspaper"></i></a></div> -->
     <!-- <div class="announcement"><a href="../../news/job-apprenticeship-application-developer/">👩‍💻 Lehrstelle als Informatiker (Fachrichtung Applikationsentwicklung) ab Sommer 2021 oder 2022</a></div> -->
-    <div class="announcement"><a href="../../blog/nzz-hackback/">🛡Gastkommentar Cyber Security @NZZ #donthackback ⚔️</a></div>
+    <div class="announcement"><a href="../nzz-hackback/">🛡Gastkommentar Cyber Security @NZZ #donthackback ⚔️</a></div>
 
     <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium" style="display:none">
         <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
@@ -58,7 +58,7 @@
                       
                           <li class=" "><a href="../../news/">News</a></li>
                       
-                          <li class=" active"><a href="../../blog/">Blog</a></li>
+                          <li class=" active"><a href="../">Blog</a></li>
                       
                           <li class="contact "><a href="../../contact/">Kontakt</a></li>
                       
@@ -112,23 +112,23 @@
 <p>Auf der neuen Ferienpass-Plattform wird die Zuteilung von Teilnehmern zu Angeboten mit einer modifizierten Version des Gale und Shapely Stable-Marriage-Algorithmus umgesetzt.</p>
 <p>Um die neue Zuteilung zu verstehen ist es nützlich, das Grundprinzip dahinter zu kennen. Der Mechanismus löst nämlich ein anderes Problem als die Zuteilung bei Ferienpässen. Das gelöste Problem nennt sich “Stable Marriages Problem”, auf Deutsch, das Problem der «Stabilen Ehen».</p>
 <p>Stellen wir uns vor, wir haben eine Gruppe unverheirateter Männer und eine gleich grosse Gruppe unverheirateter Frauen:</p>
-<p><img src="../../blog/stable-marriage/image-1.png" alt=""></p>
+<p><img src="image-1.png" alt=""></p>
 <p>Wir möchten nun jeden Mann mit einer Frau verheiraten, so dass am Schluss keine Singles übrig bleiben. Dass dies etwas archaisch ist, ignorieren wir hier einfach - das Stable Marriages Problem wurde schliesslich in den 60ern formuliert.</p>
 <p>Dabei möchten wir, dass die so entstandenen Ehen alle stabil sind. Was bedeutet das? Wir betrachten eine Ehe als stabil, wenn kein Mann eine andere Frau finden kann, welche lieber mit ihm als mit ihrem Ehemann zusammen wäre. Wenn sich solch ein Paar finden würde, dann wären die Ehen nämlich instabil, denn es würde ein Nährboden zur Untreue geschaffen.</p>
-<p><img src="../../blog/stable-marriage/image-2.png" alt=""></p>
+<p><img src="image-2.png" alt=""></p>
 <h2>Darum prüfe Alternativen, wer sich ewig bindet</h2>
 <p>Das Problem der Stable Marriages löst der Gale und Shapely Algorithmus, indem er alle Männer auffordert alle Frauen nach Präferenz zu ordnen. Alfred möchte beispielsweise am liebsten Anna heiraten. Möchte Anna dies nicht, so möchte er Bettina und wenn nicht Bettina, dann Christina heiraten:</p>
-<p><img src="../../blog/stable-marriage/image-3.png" alt=""></p>
+<p><img src="image-3.png" alt=""></p>
 <p>Mit einer solchen Liste ausgestattet, fragt Alfred zuerst Anna. Anna sagt dabei entweder “vielleicht” oder “nein”. Ist Alfred der Erste, der Anna fragt, so sagt sie “vielleicht”, denn es könnte ja sein, dass ihr kein weiterer Mann je wieder einen Heiratsantrag stellt.</p>
 <p>Wenn jetzt Billy ebenfalls am liebsten Anna heiraten möchte, so fragt er Anna, nachdem Alfred bereits gefragt hat - und hier wird es interessant. Nun ist Anna nämlich bereits verlobt, sie kann aber nach ihrer eigenen Präferenz nun beurteilen, ob sie lieber Alfred oder Billy heiraten würde. Bleibt sie bei Alfred, so sagt sie nein zu Billy. Wechselt sie zu Billy, so sagt sie Alfred ab.
 Nehmen wir an, Anna mag Billy lieber, dann ist Alfred nun wieder Single und fragt als nächstes seine zweite Wahl, nämlich Bettina:</p>
-<p><img src="../../blog/stable-marriage/image-4.png" alt=""></p>
+<p><img src="image-4.png" alt=""></p>
 <p>Die Männer fragen also alle Frauen in der Reihenfolge ihrer Präferenz und die Frauen akzeptieren zuerst den ersten Antrag und entscheiden sich dann jeweils anders, wenn sich jemand besseres findet.</p>
 <p>Das Resultat, bei dem alle verheiratet sind, ist eine Gruppe von Ehen, die stabil sind. Denn alle Männer haben die beste Frau gefunden, welche bereit ist Ja zu sagen. Und alle Frauen haben den jeweils besten Mann behalten.</p>
 <h2>Weitere Anwendungen des Algorithmus</h2>
 <p>Nun ist das so beschriebene Beispiel abstrakt und mathematisch - im realen Leben heiratet man nicht einfach auf biegen und brechen - aber es löst eine generelle Klasse von Problemen. Nämlich das Problem, wenn zwei Gruppen miteinander stabil verknüpft werden sollen.</p>
 <p>Das könnten zum Beispiel Studenten sein, die sich für eine Vorlesung anmelden. Die Studenten wählen die Vorlesungen aus, die sie am liebsten besuchen würden, und die Professoren wählen die Studenten aus, welche sie am liebsten in der Klasse hätten. Das Resultat ist stabil, da kein Student eine bessere Klasse finden kann, welche ihn aufnehmen würde.</p>
-<p><img src="../../blog/stable-marriage/nature.jpg" alt="Stable Marriage nature.com"></p>
+<p><img src="nature.jpg" alt="Stable Marriage nature.com"></p>
 <p><em>Bild: NOBEL 2012 Economics: Stable allocations and market design: <a href="http://www.nature.com/nature/journal/v492/n7427/fig_tab/492054a_F1.html">http://www.nature.com/nature/journal/v492/n7427/fig_tab/492054a_F1.html</a></em></p>
 <p>Ein anderes Beispiel ist die Zuweisung von Medizinstudenten auf Kliniken. Oder die Zuweisung von Kindern zu Kinderkrippen. Oder die Zuweisung von Teilnehmern zu Durchführungen in einem Ferienpass.</p>
 <h2>Die Zuweisung auf der Ferienpass-Plattform</h2>
@@ -167,14 +167,14 @@ Nun ist die Zufriedenheit eine kaum messbare und abstrakte Grösse. Vereinfacht 
 Unabhängig davon haben wir auch Extreme ausprobiert, wie z.B. ein Ferienpass mit 5 Angeboten und 500 Teilnehmern.</p>
 <h3>Resultat des gierigen Algorithmus</h3>
 <p>Die Resultate sprechen für sich. Bei 100 Angeboten und 100 Teilnehmern mit jeweils rund 5 Einträgen auf der Wunschliste ist dies das Resultat des gierigen Algorithmus:</p>
-<p><img src="../../blog/stable-marriage/results-1.png" alt=""></p>
+<p><img src="results-1.png" alt=""></p>
 <p>Auf der rechten Seite des Diagramms sehen wir, dass 20 Teilnehmer 90-100% zufrieden sind. 11 Teilnehmer sind 80-90% zufrieden, 9 Teilnehmer sind 70-80% zufrieden und so weiter.
 Auf der linken Seite sehen wir das 12 Teilnehmer nur 0-10% zufrieden sind.</p>
 <p>Oben rechts ist ersichtlich, dass die globale Zufriedenheit sich auf 61.88% beläuft und 56% der Durchführungen genug Teilnehmer haben. Die Standardabweichung gibt an, was sich anhand der Balken zeigt: die Zufriedenheit ist pro Teilnehmer sehr unterschiedlich.</p>
 <p>Zur Erinnerung: Dieser Ansatz maximiert die Durchführbarkeit, ohne Rücksicht auf die Zufriedenheit.</p>
 <h3>Resultat abgewandelten Stable-Marriage-Algorithmus</h3>
 <p>Das Resultat des gewählten Algorithmus, der auf dem Stable-Marriage-Algorithmus von Gale und Shapely basiert, ist wesentlich besser:</p>
-<p><img src="../../blog/stable-marriage/results-2.png" alt=""></p>
+<p><img src="results-2.png" alt=""></p>
 <p>Fast alle Teilnehmer sind sehr zufrieden und wir haben nur eine leicht tiefere Durchführbarkeit. Ein klarer Gewinner.</p>
 <p>Das Resultat überrascht vielleicht etwas (und deutet darauf hin, dass es zwischen dem gierigen und dem gewählten Algorithmus noch andere Optionen gibt). Aber es bestätigt, was sich bei unseren Experimenten doch immer wieder gezeigt hat. Die Zufriedenheit lässt sich maximieren, die Durchführbarkeit nicht.</p>
 <p>Die Durchführbarkeit wird nämlich von den Wunschlisten der Teilnehmer dominiert. Will man mehr Angebote durchführen, so braucht man mehr Teilnehmer. Glücklicherweise ist das Maximieren der Zufriedenheit ein guter Weg, um neue Teilnehmer zu gewinnen!</p>
@@ -213,7 +213,7 @@ Auf der linken Seite sehen wir das 12 Teilnehmer nur 0-10% zufrieden sind.</p>
                     <h5>Cloud Platform</h5>
                     <ul>
                         <li><a href="http://www.healthdata.ai">HealthData.ai</a></li>
-                        <li><a href="http://www.onegovcloud.ch">OneGov Cloud</a></li>
+                        <li><a href="https://onegovcloud.ch">OneGov Cloud</a></li>
                         <li><a href="http://www.mycontrol.aero">myControl.aero</a></li>
                     </ul>
                     <a class="button" href="../../contact/">Kontakt</a>
