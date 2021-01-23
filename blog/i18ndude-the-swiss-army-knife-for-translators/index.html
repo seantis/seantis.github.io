@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="../../static/css/foundation.min.css?h=883e6026">
     <link rel="stylesheet" href="../../static/css/fira.css?h=bcd50a1c">
     <link rel="stylesheet" href="../../static/css/fontawesome.min.css?h=20d2d431">
-    <link rel="stylesheet" href="../../static/css/custom.css?h=12da79e2">
+    <link rel="stylesheet" href="../../static/css/custom.css?h=59da21ef">
     <link rel="stylesheet" href="../../static/css/aos.css?h=9a26a349" />
 </head>
 
@@ -260,6 +260,10 @@ done
             var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
             g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
         })();
+
+        $(function(){
+            $(".storybox-"+(new Date().getTime() % 2 +1)).css("display", "block");
+        });
 
         
         </script>

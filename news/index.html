@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="../static/css/foundation.min.css?h=883e6026">
     <link rel="stylesheet" href="../static/css/fira.css?h=bcd50a1c">
     <link rel="stylesheet" href="../static/css/fontawesome.min.css?h=20d2d431">
-    <link rel="stylesheet" href="../static/css/custom.css?h=12da79e2">
+    <link rel="stylesheet" href="../static/css/custom.css?h=59da21ef">
     <link rel="stylesheet" href="../static/css/aos.css?h=9a26a349" />
 </head>
 
@@ -150,7 +150,7 @@
                                 <div class="card-section">
                                     <h5 class="subheader"><small>11.11.2020</small></h5>
                                     <h4>Deep Learning zum Scoring von Röntgenbildern als Webservice</h4>
-                                    <p>Im Rahmen einer Bachelorarbeit am Departement Informatik der Hochschule Luzern wurde ein Webservice zur Beurteilung von Röntgenbilder mit Deep Learning entwickelt.</p>
+                                    <p>Im Rahmen seiner Bachelorarbeit am Departement Informatik der Hochschule Luzern hat unser Mitarbeiter Patrick Bucher ein Webservice zur Beurteilung von Röntgenbilder mit Deep Learning entwickelt.</p>
                                     <a href="deeplearning-xray-webservice/">&rarr; mehr erfahren</a>
                                 </div>
                             </div>
@@ -324,6 +324,10 @@
             var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
             g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
         })();
+
+        $(function(){
+            $(".storybox-"+(new Date().getTime() % 2 +1)).css("display", "block");
+        });
 
         
         </script>
