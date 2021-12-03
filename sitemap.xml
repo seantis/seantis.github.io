@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.seantis.ch/</loc></url>
-  <url><loc>https://www.seantis.ch/startup/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/digitale-zertifikate/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/patienten-app-fiebersyndrom/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/ebikon-digital/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/staatskalender-bs/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/aircraft-configurator-pilatus/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/digitale-kursverwaltung/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/swissvotes-abstimmungen/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/staatskalender-ar/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/fhir-api/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/docare/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/data-monitor-issues/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/deep-learning-xray/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/concordia/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/feriennet-pro-juventute/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/5vorzmittag/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/musikschule-rontal/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/crowdfunding-theater/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/wahl-abstimmungsresultate/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/uno-ilo/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/arthritis-checkup/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/wocado/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/cobal/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/ship/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/scqm/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/veranstaltungskalender/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/balance-finder/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/nzz-libro/</loc></url>
+  <url><loc>https://www.seantis.ch/success-stories/rainin/</loc></url>
   <url><loc>https://www.seantis.ch/news/</loc></url>
   <url><loc>https://www.seantis.ch/news/mrna-covid-19/</loc></url>
   <url><loc>https://www.seantis.ch/news/job-python-entwickler/</loc></url>
@@ -102,30 +130,30 @@
   <url><loc>https://www.seantis.ch/news/cobal-kompetenzen-basiertes-lernen-1/</loc></url>
   <url><loc>https://www.seantis.ch/news/python-zope-plone-entwickler-in-gesucht-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/inserateaufgabe-fuer-den-zuger-marktplatz-en/</loc></url>
-  <url><loc>https://www.seantis.ch/news/amtsblatt-zug/</loc></url>
   <url><loc>https://www.seantis.ch/news/amtsblatt-zug-en/</loc></url>
+  <url><loc>https://www.seantis.ch/news/amtsblatt-zug/</loc></url>
   <url><loc>https://www.seantis.ch/news/arthritis-check-up-snf-studie-zur-frueherkennung-der-rheumatoiden-arthritis-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/arthritis-check-up-snf-studie-zur-frueherkennung-der-rheumatoiden-arthritis/</loc></url>
   <url><loc>https://www.seantis.ch/news/fallstudie-auf-plone-org-easyfinder-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/familienergaenzende-kinderbetreuung-im-kanton-zug-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/fallstudie-auf-plone-org-easyfinder/</loc></url>
   <url><loc>https://www.seantis.ch/news/familienergaenzende-kinderbetreuung-im-kanton-zug/</loc></url>
-  <url><loc>https://www.seantis.ch/news/happy-new-year/</loc></url>
   <url><loc>https://www.seantis.ch/news/happy-new-year-en/</loc></url>
+  <url><loc>https://www.seantis.ch/news/happy-new-year/</loc></url>
   <url><loc>https://www.seantis.ch/news/seantisblog-online-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/inserateaufgabe-fuer-den-zuger-marktplatz/</loc></url>
-  <url><loc>https://www.seantis.ch/news/mettler-toledo-balance-support-site/</loc></url>
   <url><loc>https://www.seantis.ch/news/mettler-toledo-balance-support-site-en/</loc></url>
-  <url><loc>https://www.seantis.ch/news/mettler-toledo-easyfinder-2-0/</loc></url>
+  <url><loc>https://www.seantis.ch/news/mettler-toledo-balance-support-site/</loc></url>
   <url><loc>https://www.seantis.ch/news/mettler-toledo-easyfinder-2-0-en/</loc></url>
+  <url><loc>https://www.seantis.ch/news/mettler-toledo-easyfinder-2-0/</loc></url>
   <url><loc>https://www.seantis.ch/news/mettler-toledo-labx-activation-portal-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/mettler-toledo-labx-activation-portal/</loc></url>
   <url><loc>https://www.seantis.ch/news/mettler-toledo-microsite-quantos/</loc></url>
   <url><loc>https://www.seantis.ch/news/mettler-toledo-microsite-quantos-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/mt-activation-portal-mit-webservices-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/mt-activation-portal-mit-webservices/</loc></url>
-  <url><loc>https://www.seantis.ch/news/muehlehof-uzwil-ch-online/</loc></url>
   <url><loc>https://www.seantis.ch/news/muehlehof-uzwil-ch-online-en/</loc></url>
+  <url><loc>https://www.seantis.ch/news/muehlehof-uzwil-ch-online/</loc></url>
   <url><loc>https://www.seantis.ch/news/nationale-datenbank-zur-erforschung-rheumatologischer-erkrankungen-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/nationale-rheuma-datenbank-in-public-beta-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/nationale-datenbank-zur-erforschung-rheumatologischer-erkrankungen/</loc></url>
@@ -138,8 +166,8 @@
   <url><loc>https://www.seantis.ch/news/plone-update-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/plone-update-2-5-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/plone-update-2-5/</loc></url>
-  <url><loc>https://www.seantis.ch/news/primecos-com-online-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/primecos-com-online/</loc></url>
+  <url><loc>https://www.seantis.ch/news/primecos-com-online-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/scqm-online-neues-patient-interface/</loc></url>
   <url><loc>https://www.seantis.ch/news/scqm-online-neues-patient-interface-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/scqm-online-screencast-en/</loc></url>
@@ -154,31 +182,29 @@
   <url><loc>https://www.seantis.ch/news/seantis-invoice-open-source-fakturierung-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/seantisblog-online/</loc></url>
   <url><loc>https://www.seantis.ch/news/sponsoring-plone-konferenz-2008/</loc></url>
-  <url><loc>https://www.seantis.ch/news/the-definitive-guide-to-plone-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/the-definitive-guide-to-plone/</loc></url>
-  <url><loc>https://www.seantis.ch/news/webmail-update/</loc></url>
+  <url><loc>https://www.seantis.ch/news/the-definitive-guide-to-plone-en/</loc></url>
   <url><loc>https://www.seantis.ch/news/webmail-update-en/</loc></url>
+  <url><loc>https://www.seantis.ch/news/webmail-update/</loc></url>
   <url><loc>https://www.seantis.ch/news/news/</loc></url>
   <url><loc>https://www.seantis.ch/news/flight-log-online/</loc></url>
   <url><loc>https://www.seantis.ch/news/flight-log-online-en/</loc></url>
-  <url><loc>https://www.seantis.ch/search/</loc></url>
-  <url><loc>https://www.seantis.ch/portrait/</loc></url>
-  <url><loc>https://www.seantis.ch/portrait/ventures/</loc></url>
-  <url><loc>https://www.seantis.ch/portrait/open-mind-open-source/</loc></url>
-  <url><loc>https://www.seantis.ch/portrait/pgp-keys/</loc></url>
-  <url><loc>https://www.seantis.ch/portrait/informationssicherheit-iso-27001/</loc></url>
-  <url><loc>https://www.seantis.ch/portrait/mitgliedschaften/</loc></url>
-  <url><loc>https://www.seantis.ch/portrait/agile-softwareentwicklung/</loc></url>
-  <url><loc>https://www.seantis.ch/portrait/digitale-nachhaltigkeit/</loc></url>
-  <url><loc>https://www.seantis.ch/portrait/awards/</loc></url>
-  <url><loc>https://www.seantis.ch/portrait/seantis-gmbh/</loc></url>
+  <url><loc>https://www.seantis.ch/robots.txt</loc></url>
   <url><loc>https://www.seantis.ch/academy/</loc></url>
   <url><loc>https://www.seantis.ch/academy/python-basics/</loc></url>
   <url><loc>https://www.seantis.ch/academy/webdev/</loc></url>
-  <url><loc>https://www.seantis.ch/services/</loc></url>
-  <url><loc>https://www.seantis.ch/contact/</loc></url>
-  <url><loc>https://www.seantis.ch/engineering/</loc></url>
+  <url><loc>https://www.seantis.ch/startup/</loc></url>
   <url><loc>https://www.seantis.ch/careers/</loc></url>
+  <url><loc>https://www.seantis.ch/portrait/</loc></url>
+  <url><loc>https://www.seantis.ch/portrait/pgp-keys/</loc></url>
+  <url><loc>https://www.seantis.ch/portrait/digitale-nachhaltigkeit/</loc></url>
+  <url><loc>https://www.seantis.ch/portrait/seantis-gmbh/</loc></url>
+  <url><loc>https://www.seantis.ch/portrait/awards/</loc></url>
+  <url><loc>https://www.seantis.ch/portrait/mitgliedschaften/</loc></url>
+  <url><loc>https://www.seantis.ch/portrait/ventures/</loc></url>
+  <url><loc>https://www.seantis.ch/portrait/open-mind-open-source/</loc></url>
+  <url><loc>https://www.seantis.ch/portrait/informationssicherheit-iso-27001/</loc></url>
+  <url><loc>https://www.seantis.ch/portrait/agile-softwareentwicklung/</loc></url>
   <url><loc>https://www.seantis.ch/blog/</loc></url>
   <url><loc>https://www.seantis.ch/blog/publikationsportal-wahlen-open-source/</loc></url>
   <url><loc>https://www.seantis.ch/blog/eVoting/</loc></url>
@@ -367,34 +393,8 @@
   <url><loc>https://www.seantis.ch/blog/wie-cool-ist-cuil/</loc></url>
   <url><loc>https://www.seantis.ch/blog/wikipedia-oder-am-anfang-war-eine-gute-idee/</loc></url>
   <url><loc>https://www.seantis.ch/blog/die-apps-sind-tot-es-leben-die-apps/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/digitale-zertifikate/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/patienten-app-fiebersyndrom/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/ebikon-digital/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/staatskalender-bs/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/aircraft-configurator-pilatus/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/digitale-kursverwaltung/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/swissvotes-abstimmungen/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/staatskalender-ar/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/fhir-api/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/docare/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/data-monitor-issues/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/deep-learning-xray/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/concordia/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/feriennet-pro-juventute/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/5vorzmittag/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/musikschule-rontal/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/crowdfunding-theater/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/wahl-abstimmungsresultate/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/uno-ilo/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/arthritis-checkup/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/wocado/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/cobal/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/ship/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/scqm/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/veranstaltungskalender/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/balance-finder/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/nzz-libro/</loc></url>
-  <url><loc>https://www.seantis.ch/success-stories/rainin/</loc></url>
-  <url><loc>https://www.seantis.ch/robots.txt</loc></url>
+  <url><loc>https://www.seantis.ch/engineering/</loc></url>
+  <url><loc>https://www.seantis.ch/search/</loc></url>
+  <url><loc>https://www.seantis.ch/services/</loc></url>
+  <url><loc>https://www.seantis.ch/contact/</loc></url>
 </urlset>
