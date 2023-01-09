@@ -23,37 +23,6 @@
 &lt;h3&gt;Deine Bewerbung&lt;/h3&gt;
 &lt;p&gt;Bei Fragen meldest du dich bei Fabian Reinhard (+41 41 511 22 50) oder schickst deine Bewerbungsunterlagen direkt an &lt;a href="mailto:fabian.reinhard@seantis.ch"&gt;fabian.reinhard@seantis.ch&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Wir arbeiten nicht mit Personalvermittlern zusammen. Unerbetene Angebote und Zusendungen von Personalvermittlern werden ungelesen gelöscht.&lt;/em&gt;&lt;/p&gt;
-</content></entry><entry><title>Full Stack Python-Entwickler:in (40-100%)</title><link href="https://www.seantis.ch/news/job-python-entwickler/" rel="alternate"></link><updated>2022-10-04T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:4bf1b600-c5a2-30b5-9afa-e61d00113827</id><content type="html">&lt;p&gt;seantis entwickelt qualitativ hochstehende Software mit den besten Open Source Tools nach Agiler Methodik (&lt;a href="https://www.seantis.ch/portrait/agile-softwareentwicklung/"&gt;Agiles Mindset - Open Source Toolset&lt;/a&gt;). Wir entwickeln und betreiben drei digitale Plattformen:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="http://www.healthdata.ai"&gt;HealthData.ai&lt;/a&gt;&lt;/strong&gt; für die medizinische Forschung&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://admin.digital"&gt;admin.digital&lt;/a&gt;&lt;/strong&gt; für die öffentliche Hand&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="http://www.mycontrol.aero"&gt;myControl.aero&lt;/a&gt;&lt;/strong&gt; für die Aviatik&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Qualität und Informationssicherheit gehören seit der Gründung zu unseren Grundwerten. Seit 2021 führen wir ein nach ISO 27001 zertifiziertes &lt;a href="https://seantis.ch/portrait/informationssicherheit-iso-27001/"&gt;Informationssicherheitsmanagementsystem&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Zur Verstärkung unseres Python-Entwicklerteams suchen wir eine/n Full Stack Python-Entwickler:in.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;Du möchtest&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Mit modernen leichtgewichtigen Python Frameworks (&lt;a href="https://trypyramid.com"&gt;Pyramid&lt;/a&gt;, &lt;a href="https://morepath.readthedocs.io/en/latest/"&gt;morepath&lt;/a&gt;) Lösungen für komplexe Daten entwicklen.&lt;/li&gt;
-&lt;li&gt;In einem Team mit erfahrenen Python-Entwicklern zusammenarbeiten.&lt;/li&gt;
-&lt;li&gt;Dich stetig weiterentwickeln und State of the Art Software Engineering (CleanCode, TDD, DDD, CI/CD) praktizieren.&lt;/li&gt;
-&lt;li&gt;Eigene Ideen einbringen und selbst Verantwortung übernehmen.&lt;/li&gt;
-&lt;li&gt;Deinen Beitrag in der Open Source Community leisten.&lt;/li&gt;
-&lt;li&gt;In sehr zentralen Büroräumlichkeiten in der Nähe des Bahnhofs Luzern und/oder im Homeoffice arbeiten.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Du bringst mit&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Hohes Qualitätsbewusstsein und echte Leidenschaft für Softwareentwicklung.&lt;/li&gt;
-&lt;li&gt;Fundierte Kenntnisse und Praxis in der objektorientierten Programmierung.&lt;/li&gt;
-&lt;li&gt;Idealerweise Kenntnisse der Programmiersprache Python.&lt;/li&gt;
-&lt;li&gt;Erfahrung in der Entwicklung von Webapplikationen (HTML, JavaScript, CSS).&lt;/li&gt;
-&lt;li&gt;Verständnis für automatisiertes Software-Testing.&lt;/li&gt;
-&lt;li&gt;Sicheren Umgang mit der Linux Shell sowie der Versionsverwaltung Git.&lt;/li&gt;
-&lt;li&gt;Kenntnisse SQL, idealerweise SQLAlchemy.&lt;/li&gt;
-&lt;li&gt;Interesse für DevOps.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Deine Bewerbung&lt;/h3&gt;
-&lt;p&gt;Bei Fragen meldest du dich bei Fabian Reinhard (+41 41 511 22 50) oder schickst deine Bewerbungsunterlagen - idealerweise mit Link auf dein &lt;a href="http://www.github.com"&gt;Github&lt;/a&gt;-Profil - direkt an &lt;a href="mailto:fabian.reinhard@seantis.ch"&gt;fabian.reinhard@seantis.ch&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Wir arbeiten nicht mit Personalvermittlern zusammen. Unerbetene Angebote und Zusendungen von Personalvermittlern werden ungelesen gelöscht.&lt;/em&gt;&lt;/p&gt;
 </content></entry><entry><title>Digitalisierung des Behördenstempels</title><link href="https://www.seantis.ch/news/elektronische-siegel/" rel="alternate"></link><updated>2022-07-26T00:00:00Z</updated><author><name>Fabian Reinhard</name></author><id>urn:uuid:bd8e4850-3a54-3e04-820d-5a5339ddb429</id><content type="html">&lt;p&gt;Das elektronische Siegel ist der Behördenstempels des digitalen Zeitalters. Behörden können mit elektronischen Siegeln einen Herkunftsnachweis erbringen sowie den Zeitpunkt, die Integrität und Authentizität eines Dokumentes bestätigen. Das &lt;a href="https://www.fedlex.admin.ch/eli/cc/2016/752/de"&gt;Bundesgesetz über die elektronische Signatur (ZertES)&lt;/a&gt; regelt die Verwendung von elektronischen Siegel und erlaubt damit, rechtskonforme Signaturen im Namen einer Organisation als juristische Person durchzuführen und ein gesiegeltes Dokument als Beweisstück vorzulegen.&lt;/p&gt;
 &lt;p&gt;Elektronische Siegel basieren technisch auf dem gleichen Verfahren wie eine elektronische Signatur und werden von admin.digital über den &lt;a href="https://trustservices.swisscom.com/elektronische-siegel/"&gt;Signing Service der Swisscom&lt;/a&gt; erstellt.&lt;/p&gt;
 &lt;h3&gt;Urheberschaft und Unveränderbarkeit&lt;/h3&gt;
@@ -627,4 +596,55 @@ gibt.&lt;/p&gt;
 Mitarbeiterverzeichnis.&lt;/p&gt;
 &lt;p&gt;Mitarbeitendenverzeichnis der Pädagogischen Hochschule Zug:
 &lt;strong&gt;&lt;a href="https://phzg.zug.ch/mitarbeitende"&gt;https://phzg.zug.ch/mitarbeitende&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content></entry><entry><title>Neuer Internetauftritt der Gemeinde Risch</title><link href="https://www.seantis.ch/news/neuer-internetauftritt-der-gemeinde-risch/" rel="alternate"></link><updated>2013-11-27T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:8052f46a-d383-329a-a1e7-873937dfe0a8</id><content type="html">&lt;p&gt;Der neue Internetauftritt von Risch ist frisch, modern und benutzerfreundlich.
+Er ist das Resultat einer eingehenden Bedarfsanalyse und einem mehrstufigen
+Auswahlverfahren. Auf den ersten Blick fallen die vielen Bilder, die sich in
+einer Diaschau abwechselnden Hauptfotos und die strukturierte Navigation auf.&lt;/p&gt;
+&lt;p&gt;Neu fusst der Auftritt auf der Plattform OneGov Box. Die komplett webbasierte
+Open-Source-Lösung wurde vom Kanton Zug mitentwickelt und wird von einer
+Gemeinschaft von Partnern getragen und weiterentwickelt. Ziel ist es, Lösungen
+zu entwickeln, zu nutzen und weiterzuentwickeln, die auf die verschiedenen
+Bedürfnisse der Nutzerinnen und Nutzer zugeschnitten sind. Mitarbeitende der
+Gemeinde Risch arbeiten seit längerem mit Modulen dieser Lösung. Sie sind mit
+dem Instrument vertraut und schätzen dessen Zuverlässigkeit.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Schnell ans Ziel&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Sämtliche Inhalte der neuen Website sind auf einer gemeinsamen Datenbank
+gespeichert. Eine zentrale Suche über den ganzen Webauftritt lässt die
+Besucherinnen und Besucher spezifische Informationen leicht finden. Parallel
+dazu können Inhalte auch über das Lebenslagen-Prinzip gefunden werden. Dieses
+Prinzip richtet sich konsequent nach den Bedürfnissen der Bürgerinnen und
+Bürger. Es erhöht die Dienstleistungsqualität und stellt den Benutzerinnen und
+Benutzer Informationen zu allem Wissenswerten der entsprechenden Lebenslage
+als Linklisten zur Verfügung. Dank diesem Aufbau sind die Nutzerinnen und
+Nutzer mit ganz wenigen Klicks am Ziel.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Redaktorenteam&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Die Website der Gemeinde wird neu von einem Redaktorenteam betreut. In jeder
+Abteilung ist eine Person für den entsprechenden Inhalt verantwortlich. Damit
+können Ergänzungen oder Änderungen unmittelbar und direkt aus den Abteilungen
+durchgeführt werden. Die Redaktorinnen und Redaktoren haben in den vergangenen
+Wochen den gesamten Inhalt des Internetauftritts geprüft, ergänzt und auf die
+neue Plattform gezügelt. Das Wissen um die Bedienung und Aktualisierung ist
+damit breit abgestützt. Alle Dienstleistungen der Gemeinde sind jetzt mit der
+zuständigen Abteilung oder Person verknüpft. Bei Fragen oder technischen
+Problemen kann das Redaktorenteam auf die leistungsfähige Online-Hilfe des
+Kantons zurückgreifen.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Barrierefrei&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Der neue Internetauftritt ist praktisch barrierefrei und von jedem beliebigen
+Endgerät abrufbar. Barrierefreie Webauftritte können von allen Nutzern
+unabhängig von körperlichen oder technischen Möglichkeiten genutzt werden.
+Dazu müssen entsprechende gestalterische und technische Voraussetzungen
+erfüllt sein. Die neue Website von Risch erfüllt diese Anforderungen. Sie ist
+damit auch zum Beispiel für Menschen mit einer Sehschwäche besser nutzbar.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Mobil&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Immer mehr Menschen greifen mit mobilen Geräten auf das Internet zu. Das
+Responsive Webdesign berücksichtigt diesen Trend. Der grafische Aufbau des
+neuen Internetauftritts erfolgt anhand des Gerätes, mit dem die Seite
+betrachtet wird. Dies betrifft insbesondere die Anordnung und Darstellung
+einzelner Elemente, wie beispielsweise Bilder, Navigation und Texte. Die
+Website von Risch sieht also nicht immer gleich aus, sie passt sich vielmehr
+dem Display von Smartphones, Tablets und Computerbildschirm an.&lt;/p&gt;
+&lt;p&gt;Quelle: &lt;a href="http://www.zg.ch/behoerden/gemeinden/risch-
+rotkreuz/verwaltung/aktuelles/mitteilungen/mit-wenigen-klicks-ans-ziel"&gt;http://www.zg.ch/behoerden/gemeinden/risch-
+rotkreuz/verwaltung/aktuelles/mitteilungen/mit-wenigen-klicks-ans-ziel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Webauftritt Gemeinde Risch: &lt;a href="http://www.rischrotkreuz.ch"&gt;www.rischrotkreuz.ch&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </content></entry></feed>
