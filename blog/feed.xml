@@ -17,14 +17,14 @@
 &lt;p&gt;&lt;strong&gt;Zusammenfassend bringt eine Vulnerability Disclosure Policy viele Vorteile. Sie etabliert klare Regeln für beide Seiten - Hacker und Unternehmen - im Umgang mit Schwachstellen und kann verhindern, dass Schwachstellen ungemeldet ihren Weg in falsche Hände finden.&lt;/strong&gt;&lt;/p&gt;
 </content></entry><entry><title>Schweizer Käse statt Burgmauern für bessere Informationssicherheit</title><link href="https://www.seantis.ch/blog/cybersecurity-resilienz-resignation/" rel="alternate"></link><updated>2022-09-26T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:8cb3f708-4345-32e4-8541-9185a56679ca</id><content type="html">&lt;h3&gt;Die Cyber-Bedrohung wächst&lt;/h3&gt;
 &lt;p&gt;Die Anzahl erfasster Cyber-Straftaten steigt weiter an, gemäss Zahlen aus Deutschland (&lt;a href="https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/JahresberichteUndLagebilder/Cybercrime/cybercrimeBundeslagebild2021.pdf"&gt;Bundeslagebild 2021 Cybercrime&lt;/a&gt;), im Jahr 2021 um über 12 %. Die Statistik für die Schweiz dürfte vergleichbar sein (&lt;a href="https://www.ncsc.admin.ch/ncsc/de/home/dokumentation/berichte/lageberichte/halbjahresbericht-2021-2.html"&gt;Halbjahresbericht NCSC&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;&lt;img src="ransomware.png" alt="ransomware"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/cybersecurity-resilienz-resignation/ransomware.png" alt="ransomware"&gt;&lt;/p&gt;
 &lt;div class="figcaption"&gt;IBM X-Force Threat Intelligence Index 2022: https://www.ibm.com/downloads/cas/ADLMYLAZ&lt;/div&gt;&lt;p&gt;Ransomware (Erpressungstrojaner) ist aktuell eines der grössten operativen Risiken für viele Organisationen und Firmen. Die Gefahr Opfer eines Cyber-Angriffs zu werden rangiert daher in Risikomanagementsystemen verantwortungsbewusster Organisationen weit oben. Risiken zu erkennen, die möglichen Folgen für die Organisation abzuschätzen und daraus abgeleitet Massnahmen zu ergreifen, um das Schadenspotential zu beschränken, ist die Aufgabe jeder Geschäftsleitung.&lt;/p&gt;
 &lt;h3&gt;Angreifer und Angriffsvektoren&lt;/h3&gt;
 &lt;p&gt;Wer geeignete Schutzmassnahmen plant, muss sich damit auseinandersetzen, wer die Angreifer sind und welche Mittel sie einsetzen. Zahlen aus dem &lt;a href="https://www.ibm.com/downloads/cas/ADLMYLAZ"&gt;IBM X-Force Threat Intelligence Index&lt;/a&gt; zeigen, dass die Angreifer zu 97% einen kriminellen Hintergrund haben. Nur 2% der Angriffe kommen von staatlichen Akteuren und geschätzte 1% von sogenannten Hacktivisten.&lt;/p&gt;
-&lt;p&gt;&lt;img src="infections.png" alt="infections"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/cybersecurity-resilienz-resignation/infections.png" alt="infections"&gt;&lt;/p&gt;
 &lt;div class="figcaption"&gt;IBM X-Force Threat Intelligence Index 2022: https://www.ibm.com/downloads/cas/ADLMYLAZ&lt;/div&gt;&lt;p&gt;Bezüglich Angriffsvektoren decken Phishing, die Ausnützung von Schwachstellen sowie gestohlene Passwörter über 80% der Mittel und Wege zur Kompromittierung eines Systems ab. Bemerkenswert ist der Rückgang bei gestohlenen Passwörtern. Der Bericht von IBM verweist hier explizit auf Zwei-Faktor-Authentifizierung (2FA) und folgert, dass diese Massnahme breiter ausgerollt wurde und nun Wirkung zeige.&lt;/p&gt;
 &lt;h3&gt;In der Praxis: «Outrun the Bear»&lt;/h3&gt;
-&lt;p&gt;&lt;img src="outrun-bear.png" alt="outrun-bear"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/cybersecurity-resilienz-resignation/outrun-bear.png" alt="outrun-bear"&gt;&lt;/p&gt;
 &lt;div class="figcaption"&gt;Original creator unknown, sourced from https://kerricox.files.wordpress.com/2012/04/outrun-the-bear.jpg&lt;/div&gt;&lt;p&gt;Wir haben gesehen, dass 97% der Angreifer einen kriminellen Hintergrund haben. Cyber-Kriminelle handeln opportunistisch und werden daher den Weg des geringsten Widerstandes gehen, um ihre Ziele zu erreichen. Daraus folgt, dass die meisten Angriffe eben nicht gezielt gegen eine bestimmte Organisation oder Firma erfolgen, sondern dass diese ein Zufallsopfer werden. Es trifft die Organisation mit der schwächsten Verteidigung beziehungsweise mit den meisten Schwachstellen. Die Eintretenswahrscheinlichkeit des Schadensfalls kann mit einem guten Grundschutz, bestehend aus technischen und organisatorischen Massnahmen, erheblich gesenkt werden. In der Praxis bedeutet dies für viele Firmen, dass die Massnahmen nicht perfekt sein müssen, sondern nur relativ besser als die der anderen Organisationen. Das Cartoon «Outrun the Bear» zeigt, dass man nicht schneller als der Bär sein muss, um davonzukommen.&lt;/p&gt;
 &lt;h3&gt;Nicht der Mensch ist schuld&lt;/h3&gt;
 &lt;p&gt;Seit Jahren wird argumentiert, dass an mehr als 80% der Sicherheitsvorfällen Menschen schuld sein sollen (IBM Cyber Security Intelligence Index). Richtig ist, dass Cybersecurity nicht in erster Linie als ein technisches Problem betrachtet werden darf. Menschen haben Schwachstellen und machen Fehler. Awareness Trainings, bei denen Benutzer beispielsweise lernen nicht auf suspekte Links zu klicken, können helfen Risiken zu verringern. Die menschliche Natur aber werden solche Schulungen nicht ändern. Der renommierte Security Researcher Bruce Schneier hat dazu einen interessanten Beitrag mit dem Titel «&lt;a href="https://ieeexplore.ieee.org/document/7676198"&gt;Stop Trying to Fix the User&lt;/a&gt;» geschrieben. Wir müssen endlich aufhören den Usern die Schuld zu geben und stattdessen bessere digitale Werkzeuge entwickeln, welche viel weniger anfällig sind für menschliche Schwachstellen.&lt;/p&gt;
@@ -33,11 +33,11 @@
 &lt;/blockquote&gt;
 &lt;h3&gt;Jede Software hat Schwachstellen&lt;/h3&gt;
 &lt;p&gt;Menschen entwickeln Software; Quellcode wird von Menschen geschrieben. Daraus folgt, dass keine Software ohne Fehler ist und diese – genau wie Menschen selbst – Schwachstellen enthält. Schwachstellen in Software können durch Cyber-Kriminelle ausgenützt werden. Es ist nicht absehbar, dass es in naher Zukunft fehlerfreie Software ohne Schwachstellen oder fehlerhafte Konfigurationen geben wird.&lt;/p&gt;
-&lt;p&gt;&lt;img src="vulnerabilities.png" alt="vulnerabilities"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/cybersecurity-resilienz-resignation/vulnerabilities.png" alt="vulnerabilities"&gt;&lt;/p&gt;
 &lt;div class="figcaption"&gt;IBM X-Force Threat Intelligence Index 2022: https://www.ibm.com/downloads/cas/ADLMYLAZ&lt;/div&gt;&lt;h3&gt;Resilienz – Schweizer Käse statt Burgmauern&lt;/h3&gt;
 &lt;p&gt;Wir müssen ergo damit leben, dass sowohl die Benutzer als auch die Software-Schwachstellen haben, welche potenziell durch einen böswilligen Akteur ausgenützt werden können. Die IT-Sicherheit setzt seit jeher auf Analogien aus der physischen Welt. Beim Schutz der digitalen Infrastruktur hilft aber die Analogie der dicken Burgmauern nicht weiter. Für die Cyber-Verteidigung brauchen wir ein neues mentales Modell, nämlich Schweizer Käse statt Burgmauern.&lt;/p&gt;
 &lt;p&gt;Das &lt;a href="https://en.wikipedia.org/wiki/Swiss_cheese_model"&gt;Swiss Cheese Model&lt;/a&gt; hat sich als Modell für die Unfallprävention bereits in verschiedenen Domänen etabliert. Das Ziel ist es einen sogenannten «Single Point of Failure» zu vermeiden. In der Luftfahrt beispielsweise muss eine ganze Reihe von Massnahmen versagen, damit es zu einem sicherheitsrelevanten Vorfall kommt. Auch die Massnahmen zur Pandemiebekämpfung können wir gemäss dem Swiss Cheese Model interpretieren. Keine der Interventionen ist perfekt und wirkt für sich allein zu 100%. In der Kombination aber sind die Massnahmen wirksam. Entscheidend ist, dass die Löcher in den Scheiben des Schweizer Käses nicht übereinander liegen.&lt;/p&gt;
-&lt;p&gt;&lt;img src="swiss-cheese.png" alt="swiss-cheese"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/cybersecurity-resilienz-resignation/swiss-cheese.png" alt="swiss-cheese"&gt;&lt;/p&gt;
 &lt;div class="figcaption"&gt;Wikipedia: https://en.wikipedia.org/wiki/Swiss_cheese_model&lt;/div&gt;&lt;p&gt;Angewandte Modelle für mehrstufige Sicherheit – oder Verteidigung in der Tiefe – sind Ansätze wie Zero Trust (vgl. &lt;a href="https://research.google/pubs/pub43231/"&gt;BeyondCorp&lt;/a&gt; von Google) oder noch konkreter Zwei-Faktor-Authentifizierung (2FA). Hat der Angreifer die erste Hürde (das Passwort) überwunden, so wird er durch den zweiten Faktor (vgl. z.B. &lt;a href="https://www.admin.digital/neuerungen/alle/yubikey/"&gt;YubiKey&lt;/a&gt;) aufgehalten. Solche Modelle mit mehrstufigen Schutzmechanismen erhöhen die Resilienz, da bereits in der Konzeption davon ausgegangen wird, dass einzelne Hürden durch den Angreifer überwunden werden können. Auch in diesem Fall ist das System aber nicht unmittelbar kompromittiert.&lt;/p&gt;
 &lt;h3&gt;Können wir für Informationssicherheit garantieren?&lt;/h3&gt;
 &lt;p&gt;Unsere Systeme verarbeiten hochsensitive personenbezogene Daten. Informationssicherheit ist daher Teil der DNA unseres Unternehmens. Wir führen ein Informationssicherheitsmanagementsystem und sind gemäss &lt;a href="https://www.seantis.ch/portrait/informationssicherheit-iso-27001/"&gt;ISO/IEC 27001:2013&lt;/a&gt; zertifiziert.&lt;/p&gt;
@@ -51,7 +51,7 @@
 &lt;h3&gt;Verbesserungen für mehr Sicherheit&lt;/h3&gt;
 &lt;p&gt;Der simulierte Angriff hat auf einem Testsystem der &lt;a href="https://www.healthdata.ai/"&gt;HealthData.ai&lt;/a&gt; Plattform ohne echte Daten stattgefunden. Die Penetration Tester haben ein Benutzerkonto erhalten und konnten sich wie normale User innerhalb des Systems bewegen. Der Test hat keine schweren oder gar kritischen Schwachstellen aufgedeckt. Dank der Erkenntnisse der Security Researchers von HackerOne konnten aber Verbesserungen umgesetzt werden, welche die Sicherheit unserer Plattform weiter erhöhen. Wir planen eine Wiederholung der Pentetration Tests in regelmässigen Abständen.&lt;/p&gt;
 &lt;h3&gt;Informationssicherheit ISO 27001&lt;/h3&gt;
-&lt;p&gt;In der IT-Sicherheit gibt es leider keine Garantien. Sicherheit ist kein Zustand, sondern ein Prozess. In unserem &lt;a href="../../portrait/informationssicherheit-iso-27001/"&gt;zertifizierten Informationssicherheits-Managementsystems&lt;/a&gt; sind messbare Ziele definiert, welche eine kontinuierliche Überwachung und Steuerung erlauben, so dass unsere Prozesse bezüglich Informationssicherheit überwacht und stetig verbessert werden können. Penetration Testing kann einen wichtigen Beitrag für mehr Informationssicherheit leisten.&lt;/p&gt;
+&lt;p&gt;In der IT-Sicherheit gibt es leider keine Garantien. Sicherheit ist kein Zustand, sondern ein Prozess. In unserem &lt;a href="/portrait/informationssicherheit-iso-27001/"&gt;zertifizierten Informationssicherheits-Managementsystems&lt;/a&gt; sind messbare Ziele definiert, welche eine kontinuierliche Überwachung und Steuerung erlauben, so dass unsere Prozesse bezüglich Informationssicherheit überwacht und stetig verbessert werden können. Penetration Testing kann einen wichtigen Beitrag für mehr Informationssicherheit leisten.&lt;/p&gt;
 </content></entry><entry><title>Offenes Publikationsportal für Wahl- und Abstimmungsdaten</title><link href="https://www.seantis.ch/blog/publikationsportal-wahlen-open-source/" rel="alternate"></link><updated>2021-06-17T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:b9b455e2-8331-31dd-a42a-c9d6b2e2fbc5</id><content type="html">&lt;p&gt;&lt;strong&gt;Erschienen als Praxisbeispiel in der Open Source Studie Schweiz 2021&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Wahlen und Abstimmungen sind die Ecksteine demokratischer Systeme. Die Transparenz und Nachvollziehbarkeit von Resultaten politischer Willensäusserungen ist für die Legitimität politischer Entscheidungen vital. Aus diesem Grund müssen Wahl- und Abstimmungsergebnisse einfach öffentlich zugänglich sein.&lt;/p&gt;
 &lt;h3&gt;Open Data, Open Source, Open API&lt;/h3&gt;
@@ -67,8 +67,8 @@
 &lt;p&gt;Dass die Infrastruktur für Wahlen und Abstimmungen zum Ziel von Cyber-Angriffen werden kann, zeigen aktuelle Beispiele aus dem Ausland. Wie bei jedem IT-System sind sowohl die Architektur, die technischen Details der Implementierung als auch die Integrität und Verfügbarkeit des Systems im Betrieb für die Sicherheit entscheidend. Um z.B. die technische Verfügbarkeit zu gefährden braucht es nicht einmal böswillige Akteure, das System kann ebenso durch Lastspitzen am Wahlsonntag ins Wanken geraten. Für einen zuverlässigen und sicheren Betrieb betreibt seantis die Portale der Kantone auf der bewährten Infrastruktur der OneGov Cloud bei einem zuverlässigen Schweizer Cloud Provider, zertifiziert gemäss ISO 27001.&lt;/p&gt;
 &lt;h3&gt;Downloads&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="OSS-Studie2021.pdf"&gt;Open Source Studie Schweiz 2021&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="OneGov-Cloud-WAB.pdf"&gt;OneGov Cloud Publikationsplattform Wahlen &amp;amp; Abstimmungen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/blog/publikationsportal-wahlen-open-source/OSS-Studie2021.pdf"&gt;Open Source Studie Schweiz 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/blog/publikationsportal-wahlen-open-source/OneGov-Cloud-WAB.pdf"&gt;OneGov Cloud Publikationsplattform Wahlen &amp;amp; Abstimmungen&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;Fabian Reinhard, Managing Partner, seantis GmbH. Studium Universität Zürich (Politologie und VWL) und Weiterbildung Harvard Kennedy School. Mitglied des Parlamentes, Präsident FDP Stadt Luzern.&lt;/em&gt;&lt;/p&gt;
 </content></entry><entry><title>Die andere Sicht: Vertrauen in E-Voting ist mehr als ein Verschlüs­selungs­protokoll</title><link href="https://www.seantis.ch/blog/eVoting/" rel="alternate"></link><updated>2020-12-21T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:199cf7fe-26ea-31bf-804f-951226d364d4</id><content type="html">&lt;p&gt;&lt;strong&gt;«&lt;a href="https://www.inside-it.ch/de/post/die-andere-sicht-vertrauen-in-e-voting-ist-mehr-als-ein-verschluesselungsprotokoll-20201221"&gt;Die andere Sicht: Vertrauen in E-Voting ist mehr als ein Verschlüs­selungs­protokoll&lt;/a&gt;», Inside IT am 21. Dezember 2020&lt;/strong&gt;&lt;/p&gt;
@@ -142,7 +142,7 @@
 </content></entry><entry><title>Der magische Feriennet-Algorithmus</title><link href="https://www.seantis.ch/blog/wundersamer-zuteilungsalgorithmus/" rel="alternate"></link><updated>2019-09-11T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:ccfa0666-bdef-3734-ac5f-722fe6f974b4</id><content type="html">&lt;p&gt;Der Vortrag zeigt, wie die Zuteilung von Kinder auf Ferienpassangebote als «Matching Problem» interpretiert werden kann. Die Anwendung des Gale–Shapley Algorithmus bzw. der wissenschaftlichen Theorie von Lloyd S. Shapley und Alvin E. Roth, für welche die beiden Wirschaftswissenschaftlter im Jahr 2012 einen Nobelpreis erhalten haben, garantiert für eine möglichst faire Zuteilung.&lt;/p&gt;
 &lt;p&gt;Der Zuteilungs-Algorithmus ist für die Feriennetplattform implementiert und hat dort bereits die faire Zuteilung von mehr als 30'000 Kindern auf über 150'000 Angebote (Stand September 2019) sichergestellt.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="Feriennet.pdf"&gt;Foliensatz [PDF - 4MB]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/blog/wundersamer-zuteilungsalgorithmus/Feriennet.pdf"&gt;Foliensatz [PDF - 4MB]&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Pro Juventute Feriennet: &lt;a href="https://feriennet.projuventute.ch"&gt;https://feriennet.projuventute.ch&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;OneGov Cloud: &lt;a href="https://admin.digital"&gt;https://admin.digital&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -158,7 +158,7 @@
 &lt;li&gt;Es ist möglich eine Datei direkt beim Hochladen zu bearbeiten.&lt;/li&gt;
 &lt;li&gt;Dateien können zu einem bestimmten Zeitpunkt publiziert werden.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="Dateiverwaltung.png" alt="Dateiverwaltung"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/digitale-signatur-onegov-cloud/Dateiverwaltung.png" alt="Dateiverwaltung"&gt;&lt;/p&gt;
 &lt;h3&gt;Workflow zur Publikationssteuerung&lt;/h3&gt;
 &lt;p&gt;Dateien und Bilder sind auf der OneGov Cloud nach dem Upload grundsätzlich öffentlich. Allerdings sind Uploads praktisch unauffindbar. Man muss die Datei irgendwo auf der Webseite verlinken um diese auffindbar zu machen.&lt;/p&gt;
 &lt;p&gt;Signierte Dateien sind nicht direkt öffentlich, sondern durchlaufen einen Publikationsworkflow. Der Publikationszeitpunkt kann über die Dateiverwaltung gesteuert werden. So kann man eine Datei beispielsweise bereits auf einer Themen-Seite verlinken, diese aber erst ab einem bestimmten Zeitpunkt veröffentlichen. Die Veröffentlichung ist dabei auf die Stunde exakt steuerbar.&lt;/p&gt;
@@ -184,7 +184,7 @@
 &lt;li&gt;Die Datei wurde elektronisch signiert.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Hierbei gruppieren wir die Dateien nach Zeitpunkt der Erstellung, also wann diese hochgeladen wurden. Somit können auch bestehende Dokument neu digital signiert werden.&lt;/p&gt;
-&lt;p&gt;&lt;img src="Publikationen.png" alt="Publikationen"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/digitale-signatur-onegov-cloud/Publikationen.png" alt="Publikationen"&gt;&lt;/p&gt;
 &lt;h3&gt;Verifikation digitaler Signaturen&lt;/h3&gt;
 &lt;p&gt;Signierte Dateien können grundsätzlich im Adobe Acrobat Reader auf ihre Signatur hin überprüft werden. Dafür muss das Programm Acrobat Reader auf dem Rechner installiert sein und der Benutzer muss wissen, wie die Überprüfung vorgenommen werden kann.&lt;/p&gt;
 &lt;p&gt;Um die Überprüfung zu vereinfachen ist auf der Ansicht mit dem amtlichen Publikationen ein kleines Tool zur Verifizierung der signierten Dateien eingebaut. Hat ein User ein Dokument heruntergeladen oder auf anderem Weg erhalten, kann er die digitale Signatur direkt auf der OneGov Cloud überprüfen lassen. Dies geschieht im Browser, ohne dass die Datei auf den Server hochgeladen wird.&lt;/p&gt;
@@ -195,7 +195,7 @@
 &lt;p&gt;Zu guter Letzt gibt es auch noch eine Verbesserung bei der Suche. Mit der neuen Version der OneGov Cloud werden die Inhalte von Dokumenten in den Index für die Volltextsuche aufgenommen. Angemeldete Benutzer können alle PDF Dateien durchsuchen, Besucher nur publizierte und signierte Dateien. Voraussetzung für die Indexierung ist, dass das PDF eingebetteten Text enthält. Ist im PDF lediglich ein Bild eines Dokumentes und kein Text gespeichert, können die Inhalte des Dokumentes nicht indexiert werden. Dokumente mit nur Bilddateien (z.B. aus einem Scanner) sind grundsätzlich zu vermeiden. Wenn das System die Textinhalte nicht auswerten kann, so ist nämlich auch die Barrierefreiheit z.B. für Sehbehinderte nicht gegeben.&lt;/p&gt;
 &lt;p&gt;Die digitale Signatur ist ab sofort in der OneGov Cloud verfügbar. Mehr Informationen zur OneGov Cloud: &lt;a href="https://admin.digital"&gt;onegovcloud.ch&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Fabian Reinhard, &lt;a href="mailto:fabian.reinhard@seantis.ch"&gt;fabian.reinhard@seantis.ch&lt;/a&gt;, +41 41 511 22 50&lt;/strong&gt;&lt;/p&gt;
-</content></entry><entry><title>OneGov Cloud – Government as a Platform</title><link href="https://www.seantis.ch/blog/onegov-cloud-government-as-a-platform/" rel="alternate"></link><updated>2018-07-30T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:d617915d-b6e0-398b-9462-5647a631911d</id><content type="html">&lt;p&gt;&lt;img src="highway.jpg" alt="Highway"&gt;&lt;/p&gt;
+</content></entry><entry><title>OneGov Cloud – Government as a Platform</title><link href="https://www.seantis.ch/blog/onegov-cloud-government-as-a-platform/" rel="alternate"></link><updated>2018-07-30T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:d617915d-b6e0-398b-9462-5647a631911d</id><content type="html">&lt;p&gt;&lt;img src="/blog/onegov-cloud-government-as-a-platform/highway.jpg" alt="Highway"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Highway in Shanghai, China. Foto &lt;a href="https://unsplash.com/photos/7nrsVjvALnA?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText"&gt;Denys Nevozhai&lt;/a&gt; auf &lt;a href="https://unsplash.com/search/photos/highway?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Government as a Platform&lt;/h2&gt;
 &lt;p&gt;Der Technologie-Publizist Tim O’Reilly – seines Zeichens Vater des Begriffs „Web 2.0“ – hat bereits im Jahr 2011 die Idee von „Government as a Platform“ ausgerufen. Das traditionelle Regierungs- bzw. Verwaltungsmodell versinnbildlicht O’Reilly als „Vending Machine Government“. Wie am Verkaufsautomaten bezahlen wir und bekommen dafür einen standardisierten Service. Wenn wir nicht bekommen, was wir erwarten, ist unsere Form der Partizipation auf das Schütteln des Verkaufsautomaten beschränkt.&lt;/p&gt;
@@ -221,7 +221,7 @@
 &lt;h4&gt;Links&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;OneGov Cloud – Smart Government Platform: &lt;a href="https://admin.digital"&gt;https://admin.digital&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="Open-Source-Studie-2018.pdf"&gt;Open Source Studie 2018&lt;/a&gt; [PDF, 5MB]&lt;/li&gt;
+&lt;li&gt;&lt;a href="/blog/onegov-cloud-government-as-a-platform/Open-Source-Studie-2018.pdf"&gt;Open Source Studie 2018&lt;/a&gt; [PDF, 5MB]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Literatur&lt;/h4&gt;
 &lt;p&gt;O'Reilly Tim (2011): Government as a Platform, in: Innovations: Technology, Governance, Globalization - MIT Press. &lt;a href="https://www.mitpressjournals.org/doi/pdf/10.1162/INOV_a_00056"&gt;https://www.mitpressjournals.org/doi/pdf/10.1162/INOV_a_00056&lt;/a&gt;&lt;/p&gt;
@@ -237,12 +237,12 @@
 &lt;h2&gt;Flexibilität hat Ihren Preis&lt;/h2&gt;
 &lt;p&gt;Je flexibler ein Tool, desto komplizierter ist es in der Bedienung. Je weniger flexibel ein Tool, desto weniger nützlich ist es in der Nutzung. Am Ende besteht die Kunst darin einen guten Mittelweg zu finden.&lt;/p&gt;
 &lt;p&gt;Wir glauben bei Verzeichnissen den guten Mittelweg gefunden zu haben. Bevor wir die Details beschreiben, &lt;a href="https://govikon.onegovcloud.ch/directory/kunden"&gt;können Sie hier ein Beispiel-Verzeichnis ansehen&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src="Verzeichnis.png" alt="Verzeichnis"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/strukturierte-daten-verzeichnisse/Verzeichnis.png" alt="Verzeichnis"&gt;&lt;/p&gt;
 &lt;h3&gt;Freie Defintion der Felder&lt;/h3&gt;
 &lt;p&gt;Verzeichnisse können wie Formulare jede Art von Feldern beinhalten. Alle Einträge des Verzeichnisses haben dabei die gleichen Felder und diese sind garantiert konsistent. Konsistent heisst, dass wenn ein Feld als Pflicht markiert wird, die OneGov Cloud sicherstellt, dass alle Einträge auch wirklich einen Wert im entsprechenden Feld haben. Das gilt auch, ein zusätzliches Feld erst später hinzugefügt oder ein bestehendes Feld verändert wird.&lt;/p&gt;
 &lt;h3&gt;Titel und Lead&lt;/h3&gt;
 &lt;p&gt;Mit frei gewählten Feldern ist nicht mehr direkt gegeben, welches Felder den Titel bzw. welches den Lead ausmacht. Wir unterstützen deshalb ein freies Textformat. Die Konfiguration erfolgt auf einfache Art und Weise.&lt;/p&gt;
-&lt;p&gt;&lt;img src="Konfiguration-Verzeichnis.png" alt="Konfiguration-Verzeichnis"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/strukturierte-daten-verzeichnisse/Konfiguration-Verzeichnis.png" alt="Konfiguration-Verzeichnis"&gt;&lt;/p&gt;
 &lt;h3&gt;Darstellung&lt;/h3&gt;
 &lt;p&gt;Nicht alle Felder werden direkt öffentlich angezeigt. Jedes Feld kann entweder versteckt bleiben, und es kann definiert werden in welchem Inhaltsblock dieses angezeigt werden soll. Diese Zuordnung erfolgt über eine einfache Konfiguration. Sichtbare Felder werden automatisch für die Volltextsuche indexiert.&lt;/p&gt;
 &lt;h3&gt;Filter&lt;/h3&gt;
@@ -263,7 +263,7 @@
 &lt;h3&gt;Formcode&lt;/h3&gt;
 &lt;p&gt;Statt auf ein komplexes UI Tool haben wir von Anfang an auf eine Art eigene Programmiersprache gesetzt. Intern nennen wir unsere Programmiersprache "Formcode".&lt;/p&gt;
 &lt;p&gt;Formcode ermöglicht das einfache Erstellen von Formularen ganz ohne komplizierte Benutzeroberfläche. Dabei sollte der Code zur Definition eines Formulars möglichst einem Formular - wie es als Eingabemaske aussieht - ähneln. Wie die untenstehende Formulardefinition in Formcode zeigt, gelingt dies recht gut.&lt;/p&gt;
-&lt;p&gt;&lt;img src="definitition.png" alt="Formcode Definition"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/formulare-mit-formcode/definitition.png" alt="Formcode Definition"&gt;&lt;/p&gt;
 &lt;h3&gt;Nichts für Anfänger?&lt;/h3&gt;
 &lt;p&gt;Zu unserer eigenen Überraschung durften wir bald feststellen, dass viele unserer Benutzer mit dem Code selbstständig gut zurecht kommen. Anhand der Beispiele, welche wir mitliefern, wurden effektiv eigene Formulare ohne weitere Anleitung erstellt.&lt;/p&gt;
 &lt;p&gt;Verständlicherweise haben wir mehrfach Anfragen nach einer Dokumentation erhalten. Eine solche gab es bis heute noch nicht. Dokumentationen sind zwar nützlich, müssen aber gepflegt werden. Zu oft geschieht dies über die Jahre zu wenig und die Dokumentation veraltet und wird unbrauchbar.&lt;/p&gt;
@@ -271,7 +271,7 @@
 &lt;p&gt;Als Alternative zu einer Dokumentation haben wir neu eine Sammlung von Vorlagen zusammengestellt. Das erlaubt das Zusammen-Klicken von Formularen, ohne dass das Know-How von Formcode verloren geht. Ein versierter Benutzer mit etwas Übung wird den Code weiter direkt tippen und arbeitet so effizienter. Ein neuer Benutzer kann dank der Snippets selbstständig neue Formulare erstellen.&lt;/p&gt;
 &lt;p&gt;Formcode hat noch einen weiteren Vorteil; in den Snippets erscheinen bisher unbekannte Arten von Formularfeldern. Wussten Sie beispielsweise dass wir ein Feld für die Unternehmens-Identifkationsnummer inkl. Validierung haben? Wir auch nicht 😉.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;OneGov Cloud - Smart Government Platform: &lt;a href="https://admin.digital"&gt;https://admin.digital&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="snippets.png" alt="Formcode Snippets"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/formulare-mit-formcode/snippets.png" alt="Formcode Snippets"&gt;&lt;/p&gt;
 </content></entry><entry><title>Schnittstelle opendata.swiss  für Wahl- und Abstimmungsresultate</title><link href="https://www.seantis.ch/blog/open-data-wahlen-abstimmungen/" rel="alternate"></link><updated>2017-10-09T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:2b47fb73-e17f-3583-ba09-4d7732590767</id><content type="html">&lt;p&gt;Das Thema Open Government Data (OGD) gewinnt politisch an Gewicht. Der Bund hat das Portal &lt;a href="https://opendata.swiss"&gt;opendata.swiss&lt;/a&gt; lanciert. Das Portal soll als Verzeichnis von ODG-Datensätzen dienen. In Zusammenarbeit mit der Betreiberin des OGD-Portals des Bundes hat seantis eine Schnittstelle zur automatischen Publikation bzw. Registrierung als Linked Open Data der Wahl- und Abstimmungsdaten der Kantone Graubünden und Zug auf &lt;a href="https://opendata.swiss"&gt;opendata.swiss&lt;/a&gt; entwickelt.&lt;/p&gt;
 &lt;p&gt;Die Datensätze von Wahl- und Abstimmungsresultaten werden auf dem Portal &lt;a href="https://opendata.swiss"&gt;opendata.swiss&lt;/a&gt; aufgelistet. Der Ablauf des Datenaustausches sieht wie folgt aus:&lt;/p&gt;
 &lt;ul&gt;
@@ -287,11 +287,11 @@
 &lt;li&gt;Wahlen &amp;amp; Abstimmungen Kanton Zug: &lt;a href="https://wab.zug.ch/"&gt;https://wab.zug.ch/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Wahlen &amp;amp; Abstimmungen Kanton St. Gallen: &lt;a href="https://abstimmungen.gr.ch"&gt;https://abstimmungen.gr.ch&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="catalog.png" alt="Catalog RDF"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/open-data-wahlen-abstimmungen/catalog.png" alt="Catalog RDF"&gt;&lt;/p&gt;
 </content></entry><entry><title>Verbesserte Kartenansicht mit geodätischen Linien</title><link href="https://www.seantis.ch/blog/kartenansicht-mycontrol-aero/" rel="alternate"></link><updated>2017-09-26T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:cc854ea0-1a1d-31f0-865a-c882a4e414bf</id><content type="html">&lt;p&gt;Flüge werden neu als geodätische Linien (&lt;a href="https://de.wikipedia.org/wiki/Geodäte"&gt;https://de.wikipedia.org/wiki/Geodäte&lt;/a&gt;) angezeigt. Der geodätische Weg stellt auf der Karte eine näherungsweise korrekte Darstellung transatlantischer Flüge sicher. Zudem werden Flughäfen je nach Anzahl Starts und Landungen in unterschiedlicher Grösse dargestellt. So ist auf einen Blick ersichtlich, welche Flughäfen öfters angeflogen wurden.&lt;/p&gt;
 &lt;p&gt;Die Neuerungen sind ab sofort für alle User von myControl.aero verfügbar. Wir danken für das wertvolle Feedback all unserer User.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;myControl.aero - Pilot Logbook in the Cloud: &lt;a href="https://mycontrol.aero"&gt;https://mycontrol.aero&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="map.png" alt="map"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/kartenansicht-mycontrol-aero/map.png" alt="map"&gt;&lt;/p&gt;
 </content></entry><entry><title>Open Aviation Data</title><link href="https://www.seantis.ch/blog/open-aviation-data/" rel="alternate"></link><updated>2017-06-29T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:47bdbde1-9b1c-35f5-a473-482b7db56933</id><content type="html">&lt;p&gt;&lt;a href="https://www.mycontrol.aero"&gt;myControl.aero&lt;/a&gt; - unser Logbook für Piloten - macht sämtliche Daten zu Flugzeugtypen, zivilen Luftfahrzeugen und Flughäfen öffentlich zugänglich. Die Daten können über die API von &lt;a href="https://www.mycontrol.aero"&gt;myControl.aero&lt;/a&gt; abgefragt werden.&lt;/p&gt;
 &lt;p&gt;Unser Open Aviation Datensatz umfasst:&lt;/p&gt;
 &lt;ul&gt;
@@ -319,7 +319,7 @@
 &lt;li&gt;Alle Flugzeugtypen, welche 2016 gebaut wurden: &lt;a href="https://mycontrol.aero/api/latest/aircrafts?year_built=2016"&gt;https://mycontrol.aero/api/latest/aircrafts?year_built=2016&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Alle Flughäfen mit asiatischer Zeitzone und einem Breitengrad von 47.xxxx: &lt;a href="https://mycontrol.aero/api/latest/airports?latitude=47&amp;amp;timezone=asia"&gt;https://mycontrol.aero/api/latest/airports?latitude=47&amp;amp;timezone=asia&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="Open-Aviation-Data-API.png" alt="Open Aviation Data API"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/open-aviation-data/Open-Aviation-Data-API.png" alt="Open Aviation Data API"&gt;&lt;/p&gt;
 </content></entry><entry><title>Ein Nobelpreis, stabile Ehen und die Zuteilung von Kindern auf Ferienpassangebote</title><link href="https://www.seantis.ch/blog/stable-marriage/" rel="alternate"></link><updated>2016-11-19T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:813dbd9d-f3fb-3835-8ba1-d39bbf0f9c4f</id><content type="html">&lt;p&gt;Alle Eltern von Kindern, die an einem Ferienpass teilnehmen, kennen das Problem. In jedem einzelnen Angebot gibt es nur eine beschränkte Anzahl Plätze. Das eigene Kind macht es extrem unglücklich, wenn es nicht an seinen favorisierten Angeboten teilnehmen kann. Der Kurs bei der Feuerwehr oder auf dem Ponyhof ist immer viel zu schnell ausgebucht.&lt;/p&gt;
 &lt;p&gt;Auf der anderen Seite stehen die Organisatoren eines lokalen Ferienpassangebotes, die ehrlich darum bemüht sind, die Zuteilung der Kinder auf die Kurse möglichst fair vorzunehmen. Dabei sind auch  sie mit der Restriktion der beschränkten Anzahl Plätze konfrontiert. Erschwerend kommt für die Organisatoren hinzu, dass sie neben der Maximalanzahl Kinder in einem Kurs auch eine Minimalanzahl pro Kurs zu erfüllen haben, damit ein Angebot überhaupt durchgeführt werden kann.&lt;/p&gt;
 &lt;p&gt;Keine einfache Ausgangslage also für Kinder, Eltern und Organisatoren.&lt;/p&gt;
@@ -327,23 +327,23 @@
 &lt;p&gt;Auf der neuen Ferienpass-Plattform wird die Zuteilung von Teilnehmern zu Angeboten mit einer modifizierten Version des Gale und Shapely Stable-Marriage-Algorithmus umgesetzt.&lt;/p&gt;
 &lt;p&gt;Um die neue Zuteilung zu verstehen ist es nützlich, das Grundprinzip dahinter zu kennen. Der Mechanismus löst nämlich ein anderes Problem als die Zuteilung bei Ferienpässen. Das gelöste Problem nennt sich “Stable Marriages Problem”, auf Deutsch, das Problem der «Stabilen Ehen».&lt;/p&gt;
 &lt;p&gt;Stellen wir uns vor, wir haben eine Gruppe unverheirateter Männer und eine gleich grosse Gruppe unverheirateter Frauen:&lt;/p&gt;
-&lt;p&gt;&lt;img src="image-1.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/stable-marriage/image-1.png" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;Wir möchten nun jeden Mann mit einer Frau verheiraten, so dass am Schluss keine Singles übrig bleiben. Dass dies etwas archaisch ist, ignorieren wir hier einfach - das Stable Marriages Problem wurde schliesslich in den 60ern formuliert.&lt;/p&gt;
 &lt;p&gt;Dabei möchten wir, dass die so entstandenen Ehen alle stabil sind. Was bedeutet das? Wir betrachten eine Ehe als stabil, wenn kein Mann eine andere Frau finden kann, welche lieber mit ihm als mit ihrem Ehemann zusammen wäre. Wenn sich solch ein Paar finden würde, dann wären die Ehen nämlich instabil, denn es würde ein Nährboden zur Untreue geschaffen.&lt;/p&gt;
-&lt;p&gt;&lt;img src="image-2.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/stable-marriage/image-2.png" alt=""&gt;&lt;/p&gt;
 &lt;h2&gt;Darum prüfe Alternativen, wer sich ewig bindet&lt;/h2&gt;
 &lt;p&gt;Das Problem der Stable Marriages löst der Gale und Shapely Algorithmus, indem er alle Männer auffordert alle Frauen nach Präferenz zu ordnen. Alfred möchte beispielsweise am liebsten Anna heiraten. Möchte Anna dies nicht, so möchte er Bettina und wenn nicht Bettina, dann Christina heiraten:&lt;/p&gt;
-&lt;p&gt;&lt;img src="image-3.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/stable-marriage/image-3.png" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;Mit einer solchen Liste ausgestattet, fragt Alfred zuerst Anna. Anna sagt dabei entweder “vielleicht” oder “nein”. Ist Alfred der Erste, der Anna fragt, so sagt sie “vielleicht”, denn es könnte ja sein, dass ihr kein weiterer Mann je wieder einen Heiratsantrag stellt.&lt;/p&gt;
 &lt;p&gt;Wenn jetzt Billy ebenfalls am liebsten Anna heiraten möchte, so fragt er Anna, nachdem Alfred bereits gefragt hat - und hier wird es interessant. Nun ist Anna nämlich bereits verlobt, sie kann aber nach ihrer eigenen Präferenz nun beurteilen, ob sie lieber Alfred oder Billy heiraten würde. Bleibt sie bei Alfred, so sagt sie nein zu Billy. Wechselt sie zu Billy, so sagt sie Alfred ab.
 Nehmen wir an, Anna mag Billy lieber, dann ist Alfred nun wieder Single und fragt als nächstes seine zweite Wahl, nämlich Bettina:&lt;/p&gt;
-&lt;p&gt;&lt;img src="image-4.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/stable-marriage/image-4.png" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;Die Männer fragen also alle Frauen in der Reihenfolge ihrer Präferenz und die Frauen akzeptieren zuerst den ersten Antrag und entscheiden sich dann jeweils anders, wenn sich jemand besseres findet.&lt;/p&gt;
 &lt;p&gt;Das Resultat, bei dem alle verheiratet sind, ist eine Gruppe von Ehen, die stabil sind. Denn alle Männer haben die beste Frau gefunden, welche bereit ist Ja zu sagen. Und alle Frauen haben den jeweils besten Mann behalten.&lt;/p&gt;
 &lt;h2&gt;Weitere Anwendungen des Algorithmus&lt;/h2&gt;
 &lt;p&gt;Nun ist das so beschriebene Beispiel abstrakt und mathematisch - im realen Leben heiratet man nicht einfach auf biegen und brechen - aber es löst eine generelle Klasse von Problemen. Nämlich das Problem, wenn zwei Gruppen miteinander stabil verknüpft werden sollen.&lt;/p&gt;
 &lt;p&gt;Das könnten zum Beispiel Studenten sein, die sich für eine Vorlesung anmelden. Die Studenten wählen die Vorlesungen aus, die sie am liebsten besuchen würden, und die Professoren wählen die Studenten aus, welche sie am liebsten in der Klasse hätten. Das Resultat ist stabil, da kein Student eine bessere Klasse finden kann, welche ihn aufnehmen würde.&lt;/p&gt;
-&lt;p&gt;&lt;img src="nature.jpg" alt="Stable Marriage nature.com"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/stable-marriage/nature.jpg" alt="Stable Marriage nature.com"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Bild: NOBEL 2012 Economics: Stable allocations and market design: &lt;a href="http://www.nature.com/nature/journal/v492/n7427/fig_tab/492054a_F1.html"&gt;http://www.nature.com/nature/journal/v492/n7427/fig_tab/492054a_F1.html&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Ein anderes Beispiel ist die Zuweisung von Medizinstudenten auf Kliniken. Oder die Zuweisung von Kindern zu Kinderkrippen. Oder die Zuweisung von Teilnehmern zu Durchführungen in einem Ferienpass.&lt;/p&gt;
 &lt;h2&gt;Die Zuweisung auf der Ferienpass-Plattform&lt;/h2&gt;
@@ -382,14 +382,14 @@ Nun ist die Zufriedenheit eine kaum messbare und abstrakte Grösse. Vereinfacht 
 Unabhängig davon haben wir auch Extreme ausprobiert, wie z.B. ein Ferienpass mit 5 Angeboten und 500 Teilnehmern.&lt;/p&gt;
 &lt;h3&gt;Resultat des gierigen Algorithmus&lt;/h3&gt;
 &lt;p&gt;Die Resultate sprechen für sich. Bei 100 Angeboten und 100 Teilnehmern mit jeweils rund 5 Einträgen auf der Wunschliste ist dies das Resultat des gierigen Algorithmus:&lt;/p&gt;
-&lt;p&gt;&lt;img src="results-1.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/stable-marriage/results-1.png" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;Auf der rechten Seite des Diagramms sehen wir, dass 20 Teilnehmer 90-100% zufrieden sind. 11 Teilnehmer sind 80-90% zufrieden, 9 Teilnehmer sind 70-80% zufrieden und so weiter.
 Auf der linken Seite sehen wir das 12 Teilnehmer nur 0-10% zufrieden sind.&lt;/p&gt;
 &lt;p&gt;Oben rechts ist ersichtlich, dass die globale Zufriedenheit sich auf 61.88% beläuft und 56% der Durchführungen genug Teilnehmer haben. Die Standardabweichung gibt an, was sich anhand der Balken zeigt: die Zufriedenheit ist pro Teilnehmer sehr unterschiedlich.&lt;/p&gt;
 &lt;p&gt;Zur Erinnerung: Dieser Ansatz maximiert die Durchführbarkeit, ohne Rücksicht auf die Zufriedenheit.&lt;/p&gt;
 &lt;h3&gt;Resultat abgewandelten Stable-Marriage-Algorithmus&lt;/h3&gt;
 &lt;p&gt;Das Resultat des gewählten Algorithmus, der auf dem Stable-Marriage-Algorithmus von Gale und Shapely basiert, ist wesentlich besser:&lt;/p&gt;
-&lt;p&gt;&lt;img src="results-2.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/stable-marriage/results-2.png" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;Fast alle Teilnehmer sind sehr zufrieden und wir haben nur eine leicht tiefere Durchführbarkeit. Ein klarer Gewinner.&lt;/p&gt;
 &lt;p&gt;Das Resultat überrascht vielleicht etwas (und deutet darauf hin, dass es zwischen dem gierigen und dem gewählten Algorithmus noch andere Optionen gibt). Aber es bestätigt, was sich bei unseren Experimenten doch immer wieder gezeigt hat. Die Zufriedenheit lässt sich maximieren, die Durchführbarkeit nicht.&lt;/p&gt;
 &lt;p&gt;Die Durchführbarkeit wird nämlich von den Wunschlisten der Teilnehmer dominiert. Will man mehr Angebote durchführen, so braucht man mehr Teilnehmer. Glücklicherweise ist das Maximieren der Zufriedenheit ein guter Weg, um neue Teilnehmer zu gewinnen!&lt;/p&gt;
@@ -401,7 +401,7 @@ Auf der linken Seite sehen wir das 12 Teilnehmer nur 0-10% zufrieden sind.&lt;/p
 &lt;li&gt;&lt;a href="https://de.wikipedia.org/wiki/Sekretärinnenproblem"&gt;https://de.wikipedia.org/wiki/Sekretärinnenproblem&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://de.wikipedia.org/wiki/Globales_Matching"&gt;https://de.wikipedia.org/wiki/Globales_Matching&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content></entry><entry><title>Big Health Data</title><link href="https://www.seantis.ch/blog/big-health-data/" rel="alternate"></link><updated>2016-10-26T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:f3e3f884-dd2e-3433-8d0a-d111688d5683</id><content type="html">&lt;p&gt;&lt;img src="Cover-Slide.png" alt="Cover-Slide"&gt;&lt;/p&gt;
+</content></entry><entry><title>Big Health Data</title><link href="https://www.seantis.ch/blog/big-health-data/" rel="alternate"></link><updated>2016-10-26T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:f3e3f884-dd2e-3433-8d0a-d111688d5683</id><content type="html">&lt;p&gt;&lt;img src="/blog/big-health-data/Cover-Slide.png" alt="Cover-Slide"&gt;&lt;/p&gt;
 &lt;p&gt;Folgende drei Thesen werden in den Raum gestellt:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Big Health Data sind besonders komplexe Daten.&lt;/li&gt;
@@ -410,8 +410,8 @@ Auf der linken Seite sehen wir das 12 Teilnehmer nur 0-10% zufrieden sind.&lt;/p
 &lt;/ul&gt;
 &lt;p&gt;Wird dank Big Data Alchemy aus „garbage in - garbage out“ gar „garbage in - gold out“?&lt;/p&gt;
 &lt;p&gt;Vortrag im Rahmen des &lt;a href="http://www.rotaryclubluzern.ch"&gt;Rotary Club Luzern&lt;/a&gt; in der Reihe „Horizonte und Perspektiven“.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href="Big-Health-Data.pdf"&gt;Foliensatz [PDF - 19MB]&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</content></entry><entry><title>OneGov Cloud - Online-Gemeindeschalter as a Service</title><link href="https://www.seantis.ch/blog/online-gemeindeschalter-saas/" rel="alternate"></link><updated>2016-10-09T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:4857508d-9bcc-3018-9b55-abe70d563f44</id><content type="html">&lt;p&gt;&lt;img src="phone.jpg" alt="OneGov Cloud"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="/blog/big-health-data/Big-Health-Data.pdf"&gt;Foliensatz [PDF - 19MB]&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content></entry><entry><title>OneGov Cloud - Online-Gemeindeschalter as a Service</title><link href="https://www.seantis.ch/blog/online-gemeindeschalter-saas/" rel="alternate"></link><updated>2016-10-09T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:4857508d-9bcc-3018-9b55-abe70d563f44</id><content type="html">&lt;p&gt;&lt;img src="/blog/online-gemeindeschalter-saas/phone.jpg" alt="OneGov Cloud"&gt;&lt;/p&gt;
 &lt;h2&gt;GA-Tageskarten &amp;amp; Turnhallen&lt;/h2&gt;
 &lt;p&gt;Was ist E-Government in einer kleineren bis mittleren Schweizer Gemeinde? Versuchen wir für einmal keine theoretische, sondern eine praktische Definition anhand der Online-Transaktionen einer mittleren Schweizer Gemeinde:&lt;/p&gt;
 &lt;ul&gt;
@@ -437,7 +437,7 @@ Auf der linken Seite sehen wir das 12 Teilnehmer nur 0-10% zufrieden sind.&lt;/p
 &lt;p&gt;Als Kunde erfahre ich Servicequalität, insofern mein Anliegen effizient und für mich transparent erledigt wird. Dabei ist es mir gleichgültig, wie meine Transaktion hinter dem Online-Schalter weiterverarbeitet wird. Eine mögliche Prozess-Integration ist das Problem der Gemeindeverwaltung, nicht des Kunden. Selbst wenn meine Transaktion im Hintergrund manuelle Vorgänge auslöst (Concierge Service) stört mich dies nicht, sofern ich über den Status meiner Transaktion jederzeit transparent informiert werde (Service Ticketing).&lt;/p&gt;
 &lt;h2&gt;Service Center &amp;amp; Gemeinde-Bot&lt;/h2&gt;
 &lt;p&gt;Die vielzitierte Digitalisierung kann ihr Potential erst unter der Voraussetzung entfalten, dass die bestehenden Offline-Prozesse vereinfacht und nicht telquel in die Online-Welt übertragen werden. Geschieht diese Vereinfachung, so besteht die Möglichkeit, die Verarbeitung der Transaktionen in ein gemeinde-übergreifendes Shared-Service-Zentrum auszulagern. Konsequent weitergedacht könnte der Service in nicht all zu ferner Zukunft gar durch einen Gemeinde-Roboter (Bot) übernommen werden. Was nach Science Fiction tönen mag, ist soweit nicht entfernt: Betrugserkennungs-Systeme für Kreditkarten funktionieren genau an dieser Mensch-Maschinen Schnittstelle. Der Weg zum Gemeinde-Bot ist weniger weit, als man vielleicht denkt.&lt;/p&gt;
-&lt;p&gt;&lt;img src="Tweet.png" alt="Tweet Digitalisierung"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/online-gemeindeschalter-saas/Tweet.png" alt="Tweet Digitalisierung"&gt;&lt;/p&gt;
 &lt;h2&gt;Standards &amp;amp; Gemeinde APIs&lt;/h2&gt;
 &lt;p&gt;In einer idealen IT-Welt gibt es für alles einen allgemein gültigen Standard. In der realen Welt gibt es öffentliche Webservice-Schnittstellen (public REST APIs). Einer Gemeindeverwaltung kann es nämlich egal sein, ob eine Transaktion über das Online-Formular auf eigenemPortal, über eine Smartphone App eines Drittanbieters oder direkt über dieSchnittstelle aus der Software eines Unternehmens ausgelöst wird.&lt;/p&gt;
 &lt;p&gt;Eine (noch) fehlende semantische Standardisierung darf kein Grund sein, auf Webservice-Schnittstellen als eine zwingende Anforderung für E-Government-Portale zu verzichten.&lt;/p&gt;
@@ -451,7 +451,7 @@ Auf der linken Seite sehen wir das 12 Teilnehmer nur 0-10% zufrieden sind.&lt;/p
 &lt;hr&gt;
 &lt;p&gt;seantis gmbh entwickelt in der Gemeinschaft des Vereins OneGov.ch die Open Source Gemeindelösung &lt;strong&gt;OneGov Cloud&lt;/strong&gt;. Die OneGov Cloud wurde 2016 mit einem Best of SwissWeb Award in der Kategorie Public Affairs ausgezeichnet.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;OneGov Cloud - Der Online-Schalter für Gemeinden: &lt;a href="https://admin.digital"&gt;onegovcloud.ch&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</content></entry><entry><title>Dem Darmkrebs auf der Spur</title><link href="https://www.seantis.ch/blog/dem-darmkrebs-auf-der-spur/" rel="alternate"></link><updated>2016-06-01T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:04368c5a-fd7b-3421-a9a4-e8e8f3986a00</id><content type="html">&lt;p&gt;&lt;img src="2746075_pic_970x641.jpeg" alt="Truninger"&gt;&lt;/p&gt;
+</content></entry><entry><title>Dem Darmkrebs auf der Spur</title><link href="https://www.seantis.ch/blog/dem-darmkrebs-auf-der-spur/" rel="alternate"></link><updated>2016-06-01T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:04368c5a-fd7b-3421-a9a4-e8e8f3986a00</id><content type="html">&lt;p&gt;&lt;img src="/blog/dem-darmkrebs-auf-der-spur/2746075_pic_970x641.jpeg" alt="Truninger"&gt;&lt;/p&gt;
 &lt;p&gt;Seit 2015 läuft die Darmkrebsstudie Swiss Epigenetic CRC Cohort Study unter Leitung von Gastroenterologe Kaspar Truninger (Langenthal) und Molekularbiologe Primo Schär (Uni Basel). Die Software-Plattform für das Management der Studie entwickelt und betreibt seantis.&lt;/p&gt;
 &lt;p&gt;Für die Studie werden rund 1500 gesunde Probandinnen und Probanden untersucht. Das geschieht mit einer Blutprobe und drei Gewebeproben von der Darmschleimhaut. Zudem müssen die Probanden zahlreiche Fragen beantworten – so zu Körpergewicht, Beruf, Gesundheit (Rauchen), Ernährung und körperlicher Aktivität. Rekrutiert werden die Testpersonen in der Gastroenterologie Oberaargau, im Basler Clara-Spital und im Gastro Centro Lugano, dies während einer ohnehin geplanten Darmspiegelung. Im Laufe dieses Sommers sollte die Studie abgeschlossen sein. Erste Ergebnisse sind in einem Jahr zu erwarten.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Artikel der Berner Zeitung: &lt;a href="http://www.bernerzeitung.ch/magazin/dem-darmkrebs-auf-der-spur/story/23255942"&gt;http://www.bernerzeitung.ch/magazin/dem-darmkrebs-auf-der-spur/story/23255942&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -471,10 +471,10 @@ haben wir deshalb JSON Dateien generiert und das Resultat Online gestellt. Das
 erlaubt es uns und anderen mit diesen Daten zu arbeiten, ohne sich mit dem
 komplexen XML auseinandersetzen zu müssen:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Swiss Municipalities as JSON: &lt;a href="https://github.com/seantis/swiss-municipalities"&gt;https://github.com/seantis/swiss-municipalities&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;img src="BFS.png" alt=""&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src="/blog/historisiertes-gemeindeverzeichnis-der-schweiz-als-json/BFS.png" alt=""&gt;&lt;/strong&gt;&lt;/p&gt;
 </content></entry><entry><title>Intelligente Volltextsuche OneGov Cloud</title><link href="https://www.seantis.ch/blog/intelligente-volltextsuche-onegov-cloud/" rel="alternate"></link><updated>2015-09-25T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:aeacc825-0889-37d2-9aba-f0a5528d31e3</id><content type="html">&lt;p&gt;Dank Suchvervollständigung wird bereits beim Eintippen angezeigt welche
 Suchbegriffe mindestens ein Resultat versprechen.&lt;/p&gt;
-&lt;p&gt;&lt;img src="search.gif" alt="Suchvervollständigung"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/intelligente-volltextsuche-onegov-cloud/search.gif" alt="Suchvervollständigung"&gt;&lt;/p&gt;
 &lt;p&gt;Auch die schnelle Navigation per Tastatur ist sichergestellt: Pfeil
 runter/rauf wählt die Resultate aus, Enter führt die Suche aus und Pfeil
 rechts macht wie Google eine „Auf gut Glück!“ Anfrage, d.h. das erste Resultat
@@ -503,7 +503,7 @@ Vorteile:&lt;/p&gt;
 &lt;li&gt;Automatischer Puffer dank Pull-System&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Mehr Infos zur OneGov Cloud: &lt;a href="https://admin.digital"&gt;https://admin.digital&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="Tickets.png" alt="Tickets"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/service-ticketing-system-fuer-gemeinden/Tickets.png" alt="Tickets"&gt;&lt;/p&gt;
 </content></entry><entry><title>EAV als Datenmodell für medizinische Daten</title><link href="https://www.seantis.ch/blog/eav-als-datenmodell-fuer-medizinische-daten/" rel="alternate"></link><updated>2015-06-28T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:48e7c992-93de-3ad9-bdf6-a99509346bd6</id><content type="html">&lt;p&gt;Das OCQMS Datenmodell verwendet den Entity Attribute Value (EAV) Ansatz. Dabei
 werden Attribute nicht in einer Datenbankspalte sondern in einer
 Datenbankzeile abgelegt.&lt;/p&gt;
@@ -612,9 +612,9 @@ the job of other projects depending on Libres.&lt;/p&gt;
 It exposes webservices such as SOAP or REST as service providers. The message
 format can inlcude all forms of common data exchange formats such als XML (HL7
 V3) or JSON.&lt;/p&gt;
-&lt;p&gt;&lt;img src="HSB.png" alt="HSB"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/health-service-bus/HSB.png" alt="HSB"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Learn more about OCQMS: &lt;a href="https://www.healthdata.ai"&gt;www.healthdata.ai&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</content></entry><entry><title>Übersichtliches Formular für die Familienanamnese</title><link href="https://www.seantis.ch/blog/uebersichtliches-formular-fuer-die-familienanamnese/" rel="alternate"></link><updated>2014-10-10T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:957f1ea6-1e44-3fbe-9673-750b586aa70e</id><content type="html">&lt;p&gt;&lt;img src="FamilienAnamnese.png" alt=""&gt;&lt;br&gt;
+</content></entry><entry><title>Übersichtliches Formular für die Familienanamnese</title><link href="https://www.seantis.ch/blog/uebersichtliches-formular-fuer-die-familienanamnese/" rel="alternate"></link><updated>2014-10-10T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:957f1ea6-1e44-3fbe-9673-750b586aa70e</id><content type="html">&lt;p&gt;&lt;img src="/blog/uebersichtliches-formular-fuer-die-familienanamnese/FamilienAnamnese.png" alt=""&gt;&lt;br&gt;
 In der neuen Version von OCQMS wurde die Familienanamnese noch übersichtlicher
 gestaltet.&lt;/p&gt;
 &lt;p&gt;Die Anforderungen an ein Formular zur Familienanamnese:&lt;/p&gt;
@@ -627,12 +627,12 @@ gestaltet.&lt;/p&gt;
 &lt;li&gt;Zu jeder Krankheit kann eine Notiz erfasst werden.&lt;/li&gt;
 &lt;li&gt;Es können weitere Erkrankungen, welche nicht auf der definierten Liste sind hinzugefügt werden.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="EintragFamilie.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/uebersichtliches-formular-fuer-die-familienanamnese/EintragFamilie.png" alt=""&gt;&lt;/p&gt;
 </content></entry><entry><title>System Integration via APIs</title><link href="https://www.seantis.ch/blog/system-integration-via-apis/" rel="alternate"></link><updated>2014-09-29T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:4d392253-cdb7-39aa-a00c-1ecc61b76fde</id><content type="html">&lt;p&gt;&lt;a href="https://www.healthdata.ai"&gt;OCQMS&lt;/a&gt; offers APIs to integrate
 the application into different software environments. Application programming
 interfaces (API) are widely considered to be the most flexible and robust way
 to integrate different software applications.&lt;/p&gt;
-&lt;p&gt;&lt;img src="SolutionDesign.png" alt="OCQMS-APIs"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/system-integration-via-apis/SolutionDesign.png" alt="OCQMS-APIs"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;WAF: Web Application Firewall&lt;/li&gt;
 &lt;li&gt;IAM: Identity and Access Management&lt;/li&gt;
@@ -707,7 +707,7 @@ method of completing data fields.&lt;/p&gt;
 &lt;h3&gt;IPython notebook&lt;/h3&gt;
 &lt;p&gt;The interactive IPython notebook (&lt;a href="http://ipython.org/notebook.html"&gt;http://ipython.org/notebook.html&lt;/a&gt;) can be
 for exploratory data analysis.&lt;/p&gt;
-&lt;p&gt;&lt;img src="datapreprocessing.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/research-data-repository/datapreprocessing.png" alt=""&gt;&lt;/p&gt;
 </content></entry><entry><title>Intrusion Prevention: Potentielle Einbrecher automatisch aussperren</title><link href="https://www.seantis.ch/blog/intrusion-prevention-potentielle-einbrecher-automatisch-aussperren/" rel="alternate"></link><updated>2014-07-02T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:ea4042c8-a7db-3414-ba48-c78b471e65f2</id><content type="html">&lt;p&gt;Webserver stehen in einer potentiell unsicheren Umgebung und sind daher durch
 «brute force»-Angriffe verwundbar. Ein Einbrecher versucht dabei mit «roher
 Gewalt» (simplem Ausprobieren Tausender möglicher Passwörter) in ein System
@@ -734,7 +734,7 @@ Ansatz in der Datenanalyse. Mittels Clustering können Muster für die
 Klassifikation von PsA Patienten identifiziert werden.&lt;/p&gt;
 &lt;p&gt;Eine kurze Beschreibung des Ansatzes findet sich im SCQM Jahresbericht [PDF,
 S. 15]: &lt;a href="http://www.scqm.ch/uber-scqm/annual-reports/annual-report-2013"&gt;http://www.scqm.ch/uber-scqm/annual-reports/annual-report-2013&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="Cluster.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/data-driven-analysis-in-der-rheumaforschung/Cluster.png" alt=""&gt;&lt;/p&gt;
 </content></entry><entry><title>Clinical Data Management in OCQMS</title><link href="https://www.seantis.ch/blog/clinical-data-management-in-ocqms/" rel="alternate"></link><updated>2014-05-26T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:c1dcb0ba-986a-3c2a-8f42-6f5eafb3c056</id><content type="html">&lt;h3&gt;Data Entry&lt;/h3&gt;
 &lt;p&gt;Data is entered at the contributing hospitals by study nurses and medical
 docters. The data entry forms have a clear structure that makes them easy to
@@ -782,14 +782,14 @@ comparison to all cohort data. The charts can also help to discover outliers
 and correct erroneous values if needed.&lt;/p&gt;
 &lt;p&gt;The summary statistics are implemented using the open source statistical
 programming language R (&lt;a href="http://www.r-project.org"&gt;www.r-project.org&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;&lt;img src="summarystats.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/realtime-benchmarking-for-medical-data/summarystats.png" alt=""&gt;&lt;/p&gt;
 </content></entry><entry><title>Warum Ärzte von Klinikinformationssystemen (KIS) enttäuscht sind</title><link href="https://www.seantis.ch/blog/aerzte-von-klinikinformationssystemen-kis-enttaeuscht/" rel="alternate"></link><updated>2014-03-23T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:f0bfb7e3-bdef-38e6-ba3f-fa130883b6a3</id><content type="html">&lt;p&gt;Mehr als die Hälfte der Schweizer Spitalärzte sind unzufrieden mit dem
 Klinikinformationssystem (KIS) ihres Spitals. Der Swiss eHealth Barometer 2013
 zeigt für die KIS-Lösungen ein sehr durchzogenes Bild
 [&lt;a href="http://www.gfsbern.ch/Neuigkeiten/tabid/177/itemid/827/amid/1151/swiss-
 ehealth-barometer-2013.aspx"&gt;http://www.gfsbern.ch/Neuigkeiten/tabid/177/itemid/827/amid/1151/swiss-
 ehealth-barometer-2013.aspx&lt;/a&gt;].&lt;/p&gt;
-&lt;p&gt;&lt;img src="UnzufriedenheitKIS.png" alt="Unzufriedenheit-
+&lt;p&gt;&lt;img src="/blog/aerzte-von-klinikinformationssystemen-kis-enttaeuscht/UnzufriedenheitKIS.png" alt="Unzufriedenheit-
 KIS"&gt;&lt;/p&gt;
 &lt;p&gt;Ein KIS ist ein IT-Tool, welches für seine Nutzer direkten Nutzen stiften
 soll: das System soll den Arzt bei der Behandlung seiner Patienten
@@ -797,7 +797,7 @@ unterstützen. Statt der eigentlichen Verlaufsdokumentation dominieren heute
 aber Administrativlösungen. Die Ärzte nehmen solche Tools nicht als
 Arbeitsunterstützung wahr, sondern sehen sich im Gegenteil mit zusätzlichem
 Erfassungsaufwand konfrontiert.&lt;/p&gt;
-&lt;p&gt;&lt;img src="Erfassungsaufwand.png" alt="Erfassungsaufwand"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/aerzte-von-klinikinformationssystemen-kis-enttaeuscht/Erfassungsaufwand.png" alt="Erfassungsaufwand"&gt;&lt;/p&gt;
 &lt;p&gt;Die KIS-Lösungen scheinen mehr durch administrative Abläufe als durch die
 ärztliche Bedürfnisse getrieben. Ändern lässt sich dies, indem sich die Ärzte
 aktiver in die Entwicklung von IT-Applikationen einbringen. Nur so können IT-
@@ -842,7 +842,7 @@ Café - where servers come to chat». Ein Bot für Github meldet Issues direkt i
 den entsprechenden Raum und Applikationen wie z.B.
 &lt;a href="http://myControl.aero"&gt;myControl.aero&lt;/a&gt; rufen voller Freude in den
 Chatraum wenn sich ein neuer User angemeldet hat oder ein Abo verkauft wurde.&lt;/p&gt;
-&lt;p&gt;&lt;img src="bikeshedding.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/einfache-zusammenarbeit-alles-hat-eine-url/bikeshedding.png" alt=""&gt;&lt;/p&gt;
 &lt;h3&gt;Alles hat eine URL&lt;/h3&gt;
 &lt;p&gt;Was verbindet alle diese Tools? Ein einfaches Prinzip: alles hat eine URL.&lt;br&gt;
 Konzepte, Tickets, Chats haben alle eine eigene URL. Dies stellt sicher, dass
@@ -853,7 +853,7 @@ data with clinical scores (disease activity scores). The goal is to improve
 medication reconciliation by providing clinicians with more visual feedback
 for time-oriented medication data.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;More information about OCQMS: &lt;a href="https://www.healthdata.ai"&gt;www.healthdata.ai&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="Timeline.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/medication-timeline/Timeline.png" alt=""&gt;&lt;/p&gt;
 </content></entry><entry><title>Visualisierung Krankenkassenprämien 2014</title><link href="https://www.seantis.ch/blog/visualisierung-krankenkassenpraemien-2014/" rel="alternate"></link><updated>2014-02-18T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:88345afe-998e-338a-a644-cce5cb29babb</id><content type="html">&lt;p&gt;Die interaktive Karte mit allen Krankenkassenprämien der Schweiz wurde vor gut
 einem Jahr am Swiss Open Data Hackday in Basel entwickelt.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Die interaktive Karte ist leider nicht mehr online verfügbar.&lt;/strong&gt;&lt;/p&gt;
@@ -861,8 +861,8 @@ einem Jahr am Swiss Open Data Hackday in Basel entwickelt.&lt;/p&gt;
 einfachen Zugriff auf den konsolidierten Prämiensatz des BAGs.&lt;/p&gt;
 &lt;p&gt;SHIP - Swiss Healthcare Insurance Premiums:
 &lt;a href="https://pypi.python.org/pypi/ship"&gt;https://pypi.python.org/pypi/ship&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="ship2014.png" alt=""&gt;&lt;/p&gt;
-</content></entry><entry><title>Shared Access to Medical Records</title><link href="https://www.seantis.ch/blog/shared-access-to-medical-records/" rel="alternate"></link><updated>2014-01-31T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:f2e678f5-c9b9-3267-8bb4-60573a8f3b2b</id><content type="html">&lt;p&gt;&lt;img src="dataaccess.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/visualisierung-krankenkassenpraemien-2014/ship2014.png" alt=""&gt;&lt;/p&gt;
+</content></entry><entry><title>Shared Access to Medical Records</title><link href="https://www.seantis.ch/blog/shared-access-to-medical-records/" rel="alternate"></link><updated>2014-01-31T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:f2e678f5-c9b9-3267-8bb4-60573a8f3b2b</id><content type="html">&lt;p&gt;&lt;img src="/blog/shared-access-to-medical-records/dataaccess.png" alt=""&gt;&lt;/p&gt;
 &lt;h3&gt;Permission Levels&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Granting access results in the sharing of all data - not just part of a patients record (e.g. a single visit).&lt;/li&gt;
@@ -895,7 +895,7 @@ document their work in their own words.&lt;/p&gt;
 This doesn’t mean that some parts of a medical file such as medication and lab
 results are not suited for a more rigid tabular data structure. But they
 remain the exception to the rule.&lt;/p&gt;
-&lt;p&gt;&lt;img src="medicationtable.png" alt="Medication Table"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/smart-medical-terms-control/medicationtable.png" alt="Medication Table"&gt;&lt;/p&gt;
 &lt;h3&gt;Smart Medical Terms Control (SMTC)&lt;/h3&gt;
 &lt;p&gt;OCQMS doesn’t restrict doctors' freedom in documentation tasks. It allows
 doctors to write in an open-ended form. In addition to predefined questions
@@ -1011,7 +1011,7 @@ grundsätzlich unterschiedliche Arten von Tokens verwendet werden können. Es
 lässt sich konfigurieren, ob ein YubiKey, ein Token per SMS (mTAN) oder eine
 andere Variante wie eine Strichliste mit Transaktionsnummern verwendet werden
 wird.&lt;/p&gt;
-&lt;p&gt;&lt;img src="yubikey.png" alt="YubiKey"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/sicheres-login-mit-2-faktor-authentifizierung/yubikey.png" alt="YubiKey"&gt;&lt;/p&gt;
 &lt;p&gt;Auf dem Screenshot fällt auf, dass auf dem Formular nur ein YubiKey und kein
 Passwort eingegeben werden muss. Diese Methode ohne Passwort wäre nicht
 sicher, da damit ein gestohlener YubiKey zur Authentifizierung genügen würde.
@@ -1069,7 +1069,7 @@ The SCQM Foundation runs a scientific platform for prospective long-term
 studies on inflammatory rheumatic diseases&lt;br&gt;
 &lt;a href="http://www.scqm.ch"&gt;http://www.scqm.ch&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src="phd101212s.gif" alt="PHD-Revision"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/git-for-reproducibility-in-scientific-research/phd101212s.gif" alt="PHD-Revision"&gt;&lt;/p&gt;
 </content></entry><entry><title>BAU statt DAU</title><link href="https://www.seantis.ch/blog/bau-statt-dau/" rel="alternate"></link><updated>2013-05-27T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:e58807e6-0b27-3a6b-9e9b-0e4f5d52168d</id><content type="html">&lt;p&gt;Die Idee hinter dem DAU ist, dass ein Programm auch ohne Hintergrundwissen der
 zukünftigen Anwender benutzbar und von ihnen intuitiv anwendbar ist
 [&lt;a href="http://de.wikipedia.org/wiki/D%C3%BCmmster_anzunehmender_User"&gt;http://de.wikipedia.org/wiki/D%C3%BCmmster_anzunehmender_User&lt;/a&gt;]. Ich finde
@@ -1079,7 +1079,7 @@ das Konzept aus drei Gründen nicht überzeugend:&lt;/p&gt;
 &lt;li&gt;Weil man den DAU in der freien Wildbahn nicht beobachten kann, hat jeder seine eigene Vorstellung vom DAU. Argumentationen, die auf den DAU Bezug nehmen, sind daher immer äusserst subjektiv.&lt;/li&gt;
 &lt;li&gt;Software für den DAU zu designen ist eine Frechheit gegenüber allen anderen Benutzern. Für sie wird es nämlich mühsam und sie fühlen sich nicht ernst genommen. Alle Benutzer werden für dumm verkauft.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src="BAU.png" alt="BAU"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/bau-statt-dau/BAU.png" alt="BAU"&gt;&lt;/p&gt;
 &lt;p&gt;Der «betrunken anzunehmende User» BAU hat alle diese Nachteile nicht&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Der BAU ist real und die entsprechende Situation mit genügend Alkohol jederzeit reproduzierbar.&lt;/li&gt;
@@ -1101,7 +1101,7 @@ sites. For our customers, as well as for our office monitor screen, we wanted
 a simple auto-refreshing page that shows the status of our sites at a glance.
 We therefore wrote this small &lt;a href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt; application
 looking like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="desktop.png" alt="Webcronmon"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/webcronmon-web-monitor/desktop.png" alt="Webcronmon"&gt;&lt;/p&gt;
 &lt;p&gt;The monitor only shows the bare minimum of information to keep things simple:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;list monitors by group&lt;/li&gt;
@@ -1172,7 +1172,7 @@ Schweizerischen Vereinigung Morbus Bechterew&lt;/strong&gt;:
 &lt;p&gt;Ein YubiKey funktioniert wie eine externe Tastatur und kann einfach per USB an
 Ihr PC/Mac angeschlossen werden. Der YubiKey funktioniert auf allen
 Betriebsystemen ohne zusätzliche  Software/Treiber-Installation.&lt;/p&gt;
-&lt;p&gt;&lt;img src="yubikeyonkeyring.jpg" alt="YubiKey"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/sicheres-login-mit-yubikey/yubikeyonkeyring.jpg" alt="YubiKey"&gt;&lt;/p&gt;
 &lt;h3&gt; &lt;/h3&gt;
 &lt;p&gt;Wie funktioniert der YubiKey?&lt;/p&gt;
 &lt;p&gt;Der YubiKey ist nichts anderes als eine USB-Tastatur. Der Clou: er hat nur
@@ -1185,7 +1185,7 @@ erzeugt. Auf dem Login-Formular müssen daher ein persönliches Passwort und das
 YubiKey Token eingegeben werden. Auf das Eintippen des Benutzernames (eMail-
 Adresse) kann verzichtet werden, da der YubiKey automatisch eine eindeutige
 YubiKey ID mitschickt.&lt;/p&gt;
-&lt;p&gt;&lt;img src="yubikeydemo.png" alt="YubiKey Demo"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/sicheres-login-mit-yubikey/yubikeydemo.png" alt="YubiKey Demo"&gt;&lt;/p&gt;
 &lt;p&gt;Angenehmer Nebeneffekt: andere bekannte Zwei-Faktor-Authenfizierungen machen
 den Prozess für den Benutzer mühsamer: ich muss z.B. das Token von meinem
 Handy ablesen und dieses dann in das entsprechende Formularfeld übertragen.
@@ -1213,11 +1213,11 @@ sofortiger Wirkung für ungültig erklären (revozieren).&lt;/p&gt;
 nur zwei Tagen eine interaktive Karte mit allen Krankenkassenprämien der
 Schweiz entwickelt.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Die interaktive Karte ist leider nicht mehr online verfügbar.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="Bildschirmfoto20120930um13.45.35.png" alt="SHIPScreenshot"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/healthinsurance-opendata-ch/Bildschirmfoto20120930um13.45.35.png" alt="SHIPScreenshot"&gt;&lt;/p&gt;
 &lt;p&gt;Ein Audio-Live-Mitschnitt der Schlusspräsentation ist auch verfügbar
 (&lt;a href="http://infam.antville.org/stories/2137823"&gt;http://infam.antville.org/stories/2137823&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src="8035520111_63168e3ca7_o.jpg" alt="Team SHIP"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/healthinsurance-opendata-ch/8035520111_63168e3ca7_o.jpg" alt="Team SHIP"&gt;&lt;/p&gt;
 &lt;p&gt;Impressionen von "Open Data"-Enthusiasten beim Hacken:
 &lt;a href="http://www.flickr.com/photos/ph64/sets/72157631649312225"&gt;http://www.flickr.com/photos/ph64/sets/72157631649312225&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="8035512347_0b9dc141a2_o.jpg" alt="SHIP Präsentation"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/healthinsurance-opendata-ch/8035512347_0b9dc141a2_o.jpg" alt="SHIP Präsentation"&gt;&lt;/p&gt;
 </content></entry></feed>
