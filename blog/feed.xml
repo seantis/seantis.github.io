@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog Feed</title><link href="https://www.seantis.ch/blog/" rel="alternate"></link><link href="https://www.seantis.ch/blog/feed.xml" rel="self"></link><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2023-01-22T00:00:00Z</updated><author><name></name></author><subtitle>Trends und Expertise. Was uns betrifft und wie wir darüber denken.</subtitle><entry><title>Warum eine Vulnerability Disclosure Policy wichtig ist</title><link href="https://www.seantis.ch/blog/vulnerability-disclosure-policy/" rel="alternate"></link><updated>2023-01-22T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:8342f3ac-0f0b-3c61-b164-06c58567a2e3</id><content type="html">&lt;p&gt;Was ist eine Vulnerability Disclosure Policy (VDP) und wie hilft eine solche die Sicherheit von IT-Systemen zu verbessern? Einen absoluten Schutz vor Verwundbarkeiten gibt es nicht, doch es ist entscheidend, wie wir mit Schwachstellen in Software umgehen.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog Feed</title><link href="https://www.seantis.ch/blog/" rel="alternate"></link><link href="https://www.seantis.ch/blog/feed.xml" rel="self"></link><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2023-02-22T00:00:00Z</updated><author><name></name></author><subtitle>Trends und Expertise. Was uns betrifft und wie wir darüber denken.</subtitle><entry><title>Wie «Infrastructure as Code» die Qualität im Cloud-Betrieb erhöht</title><link href="https://www.seantis.ch/blog/infrastructure-as-code/" rel="alternate"></link><updated>2023-02-22T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:dc28497a-78be-3aec-9db4-37e762fe6a0c</id><content type="html">&lt;p&gt;Unser Ziel ist die Auslieferung von qualitativ hochwertiger Software in kurzen Zyklen. So wird die Software iterativ und inkrementell in enger Zusammenarbeit mit den Usern entwickelt. Für die Planung, die Tests und Umsetzung von Änderungen an der produktiven IT-Umgebung verwenden wir standardisierte Verfahren. So können wir das Risiko von negativen Auswirkungen auf Systeme, welche in produktivem Betrieb stehen, minimieren.&lt;/p&gt;
+&lt;h3&gt;«DevOps» und «Infrastructure as Code»&lt;/h3&gt;
+&lt;p&gt;seantis lebt eine «DevOps» Kultur und das «Infrastructure as Code» Paradigma. Bei DevOps arbeiten die für Entwicklung und Betrieb verantwortlichen Teams zusammen, um Anwendungen schnell, in hoher Qualität und kontrolliert zu erstellen, zu testen, bereitzustellen und zu überwachen. Die Trennung zwischen IT-Betrieb und Entwicklung wird bewusst aufgehoben.&lt;/p&gt;
+&lt;p&gt;Gemäss dem «Infrastructure as Code» Paradigma wird die Infrastruktur durch Code – und nicht durch manuelle Prozesse – verwaltet und bereitgestellt. Es werden Konfigurationsdateien erstellt, welche die komplette Spezifikation der Infrastruktur exakt vorgeben. So ist sichergestellt, dass immer genau die gleiche Umgebung provisioniert wird und die Infrastruktur so homogen wie möglich bleibt.  Ebenso werden undokumentierte und damit problematische Ad-hoc-Änderungen der Konfiguration vermieden.&lt;/p&gt;
+&lt;h3&gt;Zielsetzungen «Infrastructure as Code»&lt;/h3&gt;
+&lt;p&gt;Gemäss dem «Infrastructure as Code» (Morris 2016) Paradigma verfolgen wir folgende Ziele:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Die IT-Infrastruktur unterstützt und macht Änderungen möglich, anstatt ein Hindernis oder eine Beschränkung zu sein.&lt;/li&gt;
+&lt;li&gt;Veränderungen werden zur Routine, ohne Drama und Stress für die Mitarbeitenden&lt;/li&gt;
+&lt;li&gt;Die Mitarbeitenden verwenden ihre Zeit nicht für repetitive Aufgaben ohne Mehrwert.&lt;/li&gt;
+&lt;li&gt;Die Mitarbeitenden sind befähigt die Ressourcen, welche benötigt werden, selbstständig zu definieren, bereitzustellen und zu verwalten.&lt;/li&gt;
+&lt;li&gt;Als Team können wir Fehler rasch korrigieren. Wr versuchen nicht Fehler um jeden Preis zu vermeiden.&lt;/li&gt;
+&lt;li&gt;Verbesserungen werden kontinuierlich gemacht und ausgerollt. Grosse und risikoreiche «Big Bang» Projekte werden vermieden.&lt;/li&gt;
+&lt;li&gt;Funktionierende Software ist der Massstab: Implementation und automatisches Testing sind wichtiger als Meetings und Dokumente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;«Infrastructure as Code» (Morris 2016) basiert auf folgenden Prinzipen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Systeme können einfach reproduziert werden&lt;/li&gt;
+&lt;li&gt;Systeme sind wegwerfbar/ersetzbar («disposable»)&lt;/li&gt;
+&lt;li&gt;Systeme sind konsistent &lt;/li&gt;
+&lt;li&gt;Prozesse sind reproduzierbar&lt;/li&gt;
+&lt;li&gt;Das Design verändert sich ständig&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;«Infrastructure as Code» (Morris 2016) gibt folgende Praktiken vor:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Konfigurationen sind in Definitions-Dateien abgelegt&lt;/li&gt;
+&lt;li&gt;System und Prozesse sind selbst-dokumentiert&lt;/li&gt;
+&lt;li&gt;Die gesamte Konfiguration ist unter Versionskontrolle&lt;/li&gt;
+&lt;li&gt;Kontinuierliche automatische Tests für Systeme und Prozesse&lt;/li&gt;
+&lt;li&gt;Kleine kontinuierliche Änderungen statt grosser Projekte&lt;/li&gt;
+&lt;li&gt;Services sollen immer verfügbar sein.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Continuous Integration (Building/Testing Pipeline)&lt;/h3&gt;
+&lt;p&gt;Änderungen am Quellcode bzw. an der Konfiguration jeglicher Applikationen und Systeme sind ausschliesslich im Prozessablauf der Building/Testing Pipeline zulässig. Die Code Base aller Applikation sowie die Konfiguration aller IT-Systeme sind komplett unter Git Versionskontrolle. Bei jedem «Git Commit» wird automatisch ein «Build» und «Test Run» angestossen. Der technische Ablauf eines «Change Requests» sieht inkl. «Continuous Integration» wie folgt aus:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Der Entwickler macht ein Commit mit der Änderung im Code&lt;/li&gt;
+&lt;li&gt;Der «Build» und «Test» Prozess wird automatisch angestossen.&lt;/li&gt;
+&lt;li&gt;Nach erfolgreichem Building und Testing erstellt der IT-Mitarbeiter ein Release.&lt;/li&gt;
+&lt;li&gt;Das Release wird ausgerollt (Testing, Production). &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Informationssicherheit ISO/IEC 27001:2013&lt;/h3&gt;
+&lt;p&gt;Unsere System verarbeiten hochsensitive personenbezogene Daten. Informationssicherheit ist daher Teil der DNA unseres Unternehmens. Wir führen ein Informationssicherheitsmanagementsystem und sind gemäss &lt;a href="https://www.seantis.ch/portrait/informationssicherheit-iso-27001"&gt;ISO/IEC 27001:2013&lt;/a&gt; zertifiziert&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Kief Morris (2016): Infrastructure as Code: Managing Servers in the Cloud&lt;/em&gt;&lt;/p&gt;
+</content></entry><entry><title>Warum eine Vulnerability Disclosure Policy wichtig ist</title><link href="https://www.seantis.ch/blog/vulnerability-disclosure-policy/" rel="alternate"></link><updated>2023-01-22T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:8342f3ac-0f0b-3c61-b164-06c58567a2e3</id><content type="html">&lt;p&gt;Was ist eine Vulnerability Disclosure Policy (VDP) und wie hilft eine solche die Sicherheit von IT-Systemen zu verbessern? Einen absoluten Schutz vor Verwundbarkeiten gibt es nicht, doch es ist entscheidend, wie wir mit Schwachstellen in Software umgehen.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Was ist eine Vulnerability Disclosure Policy und was bringt eine solche?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Eine Vulnerability Disclosure Policy (kurz: VDP) regelt, wie ethische Hacker Systeme untersuchen dürfen und wie sie allfällige Schwachstellen an das betroffene Unternehmen melden können.&lt;/p&gt;
 &lt;p&gt;Im Gegenzug verpflichtet sich das Unternehmen, die Schwachstelle schnellstmöglich zu beheben. Darüber hinaus sichert das Unternehmen den verantwortungsbewussten Hackern zu, dass sie mit keinen strafrechtlichen Konsequenzen rechnen müssen, solange sie sich an die Vulnerability Disclosure Policy halten.&lt;/p&gt;
@@ -1209,15 +1252,4 @@ Benutzer einziehen und an einen anderen weitergeben.&lt;/p&gt;
 &lt;h3&gt;Ein YubiKey verloren&lt;/h3&gt;
 &lt;p&gt;Geht ein Schlüssel verloren oder wird gestohlen, so lässt sich dieser mit
 sofortiger Wirkung für ungültig erklären (revozieren).&lt;/p&gt;
-</content></entry><entry><title>healthinsurance.opendata.ch</title><link href="https://www.seantis.ch/blog/healthinsurance-opendata-ch/" rel="alternate"></link><updated>2012-09-30T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:b2a70484-dc97-3138-adfc-4610ef1b1b2b</id><content type="html">&lt;p&gt;Am Swiss Open Data Hackday dieses Wochenende in Basel haben wir innerhalb von
-nur zwei Tagen eine interaktive Karte mit allen Krankenkassenprämien der
-Schweiz entwickelt.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Die interaktive Karte ist leider nicht mehr online verfügbar.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="/blog/healthinsurance-opendata-ch/Bildschirmfoto20120930um13.45.35.png" alt="SHIPScreenshot"&gt;&lt;/p&gt;
-&lt;p&gt;Ein Audio-Live-Mitschnitt der Schlusspräsentation ist auch verfügbar
-(&lt;a href="http://infam.antville.org/stories/2137823"&gt;http://infam.antville.org/stories/2137823&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src="/blog/healthinsurance-opendata-ch/8035520111_63168e3ca7_o.jpg" alt="Team SHIP"&gt;&lt;/p&gt;
-&lt;p&gt;Impressionen von "Open Data"-Enthusiasten beim Hacken:
-&lt;a href="http://www.flickr.com/photos/ph64/sets/72157631649312225"&gt;http://www.flickr.com/photos/ph64/sets/72157631649312225&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="/blog/healthinsurance-opendata-ch/8035512347_0b9dc141a2_o.jpg" alt="SHIP Präsentation"&gt;&lt;/p&gt;
 </content></entry></feed>
