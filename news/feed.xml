@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>News Feed</title><link href="https://www.seantis.ch/news/" rel="alternate"></link><link href="https://www.seantis.ch/news/feed.xml" rel="self"></link><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2023-02-09T00:00:00Z</updated><author><name></name></author><subtitle>Aktuelles aus unserer Softwareschmiede zu unseren Projekten und Lösungen.</subtitle><entry><title>Schnittstelle zur GEVER Geschäftsverwaltung</title><link href="https://www.seantis.ch/news/gever-admin-digital/" rel="alternate"></link><updated>2023-02-09T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:963ad3f7-d66e-3b76-8ca3-48bea2c00694</id><content type="html">&lt;p&gt;Mit der neuen Komponente onegov.gever wurde in &lt;a href="https://www.admin.digital"&gt;admin.digital&lt;/a&gt; eine Anbindung an GEVER Systeme realisiert. So können Dokumente mit einem Klick an das Geschäftsverwaltungssystem übertragen werden. Neu gibt es die Option «Hochladen auf GEVER», die auf einem Ticket angezeigt wird. Ein Ticket kann mit dieser Option schnell und unkompliziert an ein GEVER System übermittelt werden. Die PDF-Version dieses Tickets wird on-the-fly generiert und anschliessend hochgeladen.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>News Feed</title><link href="https://www.seantis.ch/news/" rel="alternate"></link><link href="https://www.seantis.ch/news/feed.xml" rel="self"></link><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2023-04-29T00:00:00Z</updated><author><name></name></author><subtitle>Aktuelles aus unserer Softwareschmiede zu unseren Projekten und Lösungen.</subtitle><entry><title>Webportal Gemeinde Meggen gewinnt OneGov Award 2023</title><link href="https://www.seantis.ch/news/onegov-award-meggen/" rel="alternate"></link><updated>2023-04-29T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:84ee700c-2fe6-3e50-93e8-ad7d369b3017</id><content type="html">&lt;p&gt;Mit der Gemeinde Meggen setzt eine weitere Gemeinde auf die Open Source E-Government-Plattform aus Luzern. Gemeinsam mit dem Kunden wurde die bestehende Plattform weiterentwickelt. Dank dem SaaS-Modell ist sichergestellt, dass diese auch allen anderen Gemeinden, welche die Plattform von &lt;a href="https://www.admin.digital"&gt;admin.digital&lt;/a&gt; nutzen, zugutekommt. Einmal entwickeln – mehrfach nutzen!&lt;/p&gt;
+&lt;h3&gt;Hohe Sicherheit dank ISO/IEC 27001:2013-Zertifizierung&lt;/h3&gt;
+&lt;p&gt;Die Cyber-Bedrohung ist real auch für Schweizer Gemeinden. Bereits mehrere Schweizer Gemeinden wurden Opfer von Cyber-Angriffen, bei welchen Kriminelle sensitive Daten gestohlen haben und es zu Erpressungsversuchen gekommen ist. Im Online-Schalter werden sensitive personenbezogene Daten verarbeitet. Seantis führt deshalb ein «&lt;a href="https://www.seantis.ch/portrait/informationssicherheit-iso-27001/"&gt;Managementsystem Informationssicherheit&lt;/a&gt;», welches gemäss ISO/IEC 27001:2013 zertifiziert ist.&lt;/p&gt;
+&lt;h3&gt;Barrierefrei und benutzerzentriert&lt;/h3&gt;
+&lt;p&gt;Das neue Portal der Gemeinde Meggen macht zusätzliche Dienstleistungen digital verfügbar. Ebenso ist es für Besucherinnen und Besucher möglich, direkt online zu bezahlen. Ein Service-Ticketing-System stellt sicher, dass alle Anfragen zeitnah und in höchster Servicequalität bearbeitet werden.
+ Digitale Barrierefreiheit macht es möglich, dass das Megger Webportal von allen Menschen genutzt werden kann, unabhängig von körperlichen Einschränkungen. Das Portal wurde gemäss den Richtlinien des Bundes für die Gestaltung von barrierefreien Internetangeboten sowie unter Berücksichtigung der internationalen Accessibility Guidelines entwickelt.&lt;/p&gt;
+&lt;p&gt;Die Übergabe des OneGov Award 2023 erfolgte im Rahmen einer Veranstaltung in Zürich durch Benno Häfliger, Leiter der Geschäftsstelle Verein OneGov.ch, an Gemeindeschreiber Daniel Ottiger.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;News Gemeindemeggen: &lt;a href="https://www.meggen.ch/news/webportal-meggen-gewinnt-onegov-award-2023"&gt;https://www.meggen.ch/news/webportal-meggen-gewinnt-onegov-award-2023&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Digitale Plattform für Gemeinden und Kantone: &lt;a href="https://www.admin.digital"&gt;https://www.admin.digital&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Verein OneGov.ch: &lt;a href="https://www.onegov.ch"&gt;https://www.onegov.ch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content></entry><entry><title>Schnittstelle zur GEVER Geschäftsverwaltung</title><link href="https://www.seantis.ch/news/gever-admin-digital/" rel="alternate"></link><updated>2023-02-09T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:963ad3f7-d66e-3b76-8ca3-48bea2c00694</id><content type="html">&lt;p&gt;Mit der neuen Komponente onegov.gever wurde in &lt;a href="https://www.admin.digital"&gt;admin.digital&lt;/a&gt; eine Anbindung an GEVER Systeme realisiert. So können Dokumente mit einem Klick an das Geschäftsverwaltungssystem übertragen werden. Neu gibt es die Option «Hochladen auf GEVER», die auf einem Ticket angezeigt wird. Ein Ticket kann mit dieser Option schnell und unkompliziert an ein GEVER System übermittelt werden. Die PDF-Version dieses Tickets wird on-the-fly generiert und anschliessend hochgeladen.&lt;/p&gt;
 &lt;p&gt;Voraussetzung dafür ist, dass die API-Credentials in den Einstellungen hinterlegt werden. Dieser Schritt ist einmalig notwendig. Sobald die API-Credentials gespeichert sind, können aus der OneGov Cloud beliebig Dokumente hochgeladen werden. Diese werden dann an den GEVER-Endpunkt geschickt. Dort angelangt, kann das Dokument dann weiter zugeordnet werden. Der Eingangskorb von GEVER bietet sich hierfür an.&lt;/p&gt;
 &lt;p&gt;Als erstes GEVER System wurde die digitale Geschäftsverwaltung &lt;a href="https://www.4teamwork.ch/loesungen/onegov-gever/"&gt;OneGov GEVER&lt;/a&gt; der &lt;a href="https://www.4teamwork.ch"&gt;Fabasoft 4teamwork AG&lt;/a&gt; angebunden. Schnittstellen auf weitere Geschäftsverwaltungssystem sind geplant.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="https://www.admin.digital"&gt;admin.digital&lt;/a&gt; – Schweizer Cloud für die öffentliche Verwaltung&lt;/strong&gt;&lt;/p&gt;
@@ -579,55 +591,4 @@ gibt.&lt;/p&gt;
 Mitarbeiterverzeichnis.&lt;/p&gt;
 &lt;p&gt;Mitarbeitendenverzeichnis der Pädagogischen Hochschule Zug:
 &lt;strong&gt;&lt;a href="https://phzg.zug.ch/mitarbeitende"&gt;https://phzg.zug.ch/mitarbeitende&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</content></entry><entry><title>Neuer Internetauftritt der Gemeinde Risch</title><link href="https://www.seantis.ch/news/neuer-internetauftritt-der-gemeinde-risch/" rel="alternate"></link><updated>2013-11-27T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:8052f46a-d383-329a-a1e7-873937dfe0a8</id><content type="html">&lt;p&gt;Der neue Internetauftritt von Risch ist frisch, modern und benutzerfreundlich.
-Er ist das Resultat einer eingehenden Bedarfsanalyse und einem mehrstufigen
-Auswahlverfahren. Auf den ersten Blick fallen die vielen Bilder, die sich in
-einer Diaschau abwechselnden Hauptfotos und die strukturierte Navigation auf.&lt;/p&gt;
-&lt;p&gt;Neu fusst der Auftritt auf der Plattform OneGov Box. Die komplett webbasierte
-Open-Source-Lösung wurde vom Kanton Zug mitentwickelt und wird von einer
-Gemeinschaft von Partnern getragen und weiterentwickelt. Ziel ist es, Lösungen
-zu entwickeln, zu nutzen und weiterzuentwickeln, die auf die verschiedenen
-Bedürfnisse der Nutzerinnen und Nutzer zugeschnitten sind. Mitarbeitende der
-Gemeinde Risch arbeiten seit längerem mit Modulen dieser Lösung. Sie sind mit
-dem Instrument vertraut und schätzen dessen Zuverlässigkeit.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Schnell ans Ziel&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Sämtliche Inhalte der neuen Website sind auf einer gemeinsamen Datenbank
-gespeichert. Eine zentrale Suche über den ganzen Webauftritt lässt die
-Besucherinnen und Besucher spezifische Informationen leicht finden. Parallel
-dazu können Inhalte auch über das Lebenslagen-Prinzip gefunden werden. Dieses
-Prinzip richtet sich konsequent nach den Bedürfnissen der Bürgerinnen und
-Bürger. Es erhöht die Dienstleistungsqualität und stellt den Benutzerinnen und
-Benutzer Informationen zu allem Wissenswerten der entsprechenden Lebenslage
-als Linklisten zur Verfügung. Dank diesem Aufbau sind die Nutzerinnen und
-Nutzer mit ganz wenigen Klicks am Ziel.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Redaktorenteam&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Die Website der Gemeinde wird neu von einem Redaktorenteam betreut. In jeder
-Abteilung ist eine Person für den entsprechenden Inhalt verantwortlich. Damit
-können Ergänzungen oder Änderungen unmittelbar und direkt aus den Abteilungen
-durchgeführt werden. Die Redaktorinnen und Redaktoren haben in den vergangenen
-Wochen den gesamten Inhalt des Internetauftritts geprüft, ergänzt und auf die
-neue Plattform gezügelt. Das Wissen um die Bedienung und Aktualisierung ist
-damit breit abgestützt. Alle Dienstleistungen der Gemeinde sind jetzt mit der
-zuständigen Abteilung oder Person verknüpft. Bei Fragen oder technischen
-Problemen kann das Redaktorenteam auf die leistungsfähige Online-Hilfe des
-Kantons zurückgreifen.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Barrierefrei&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Der neue Internetauftritt ist praktisch barrierefrei und von jedem beliebigen
-Endgerät abrufbar. Barrierefreie Webauftritte können von allen Nutzern
-unabhängig von körperlichen oder technischen Möglichkeiten genutzt werden.
-Dazu müssen entsprechende gestalterische und technische Voraussetzungen
-erfüllt sein. Die neue Website von Risch erfüllt diese Anforderungen. Sie ist
-damit auch zum Beispiel für Menschen mit einer Sehschwäche besser nutzbar.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Mobil&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Immer mehr Menschen greifen mit mobilen Geräten auf das Internet zu. Das
-Responsive Webdesign berücksichtigt diesen Trend. Der grafische Aufbau des
-neuen Internetauftritts erfolgt anhand des Gerätes, mit dem die Seite
-betrachtet wird. Dies betrifft insbesondere die Anordnung und Darstellung
-einzelner Elemente, wie beispielsweise Bilder, Navigation und Texte. Die
-Website von Risch sieht also nicht immer gleich aus, sie passt sich vielmehr
-dem Display von Smartphones, Tablets und Computerbildschirm an.&lt;/p&gt;
-&lt;p&gt;Quelle: &lt;a href="http://www.zg.ch/behoerden/gemeinden/risch-
-rotkreuz/verwaltung/aktuelles/mitteilungen/mit-wenigen-klicks-ans-ziel"&gt;http://www.zg.ch/behoerden/gemeinden/risch-
-rotkreuz/verwaltung/aktuelles/mitteilungen/mit-wenigen-klicks-ans-ziel&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Webauftritt Gemeinde Risch: &lt;a href="http://www.rischrotkreuz.ch"&gt;www.rischrotkreuz.ch&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </content></entry></feed>
