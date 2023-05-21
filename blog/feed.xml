@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog Feed</title><link href="https://www.seantis.ch/blog/" rel="alternate"></link><link href="https://www.seantis.ch/blog/feed.xml" rel="self"></link><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2023-02-22T00:00:00Z</updated><author><name></name></author><subtitle>Trends und Expertise. Was uns betrifft und wie wir darüber denken.</subtitle><entry><title>Wie «Infrastructure as Code» die Qualität des Cloud-Betriebs erhöht</title><link href="https://www.seantis.ch/blog/infrastructure-as-code/" rel="alternate"></link><updated>2023-02-22T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:dc28497a-78be-3aec-9db4-37e762fe6a0c</id><content type="html">&lt;p&gt;Unser Ziel ist die Auslieferung von qualitativ hochwertiger Software in kurzen Zyklen. Dafür wird die Software iterativ und inkrementell in enger Zusammenarbeit mit den Usern entwickelt. Für die Planung, die Tests und Umsetzung von Änderungen an der produktiven IT-Umgebung verwenden wir standardisierte Verfahren. So können wir das Risiko von negativen Auswirkungen auf Systeme, welche in produktivem Betrieb stehen, minimieren.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog Feed</title><link href="https://www.seantis.ch/blog/" rel="alternate"></link><link href="https://www.seantis.ch/blog/feed.xml" rel="self"></link><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2023-05-21T00:00:00Z</updated><author><name></name></author><subtitle>Trends und Expertise. Was uns betrifft und wie wir darüber denken.</subtitle><entry><title>Defining a Research Data Pipeline: Key Steps for Effective Research</title><link href="https://www.seantis.ch/blog/research-data-pipeline/" rel="alternate"></link><updated>2023-05-21T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:21223105-b332-316b-86ee-e70a0a337827</id><content type="html">&lt;p&gt;A research data pipeline refers to the systematic flow of data from its collection to its analysis and interpretation. In this blog post, we will delve into the crucial stages of defining a research data pipeline, and we will also highlight the assistance that &lt;a href="https://www.healthdata.ai"&gt;HealthData.ai&lt;/a&gt; can provide throughout this process. These steps include defining a baseline, establishing inclusion and exclusion criteria, determining exposure and outcome measures, identifying relevant covariates, and considering the study size.&lt;/p&gt;
+&lt;h3&gt;Step 1: Define a Baseline&lt;/h3&gt;
+&lt;p&gt;Defining a baseline is the first step in establishing a research data pipeline. The baseline represents the starting point from which data collection and follow-up procedures begin. It is important to clearly define the time point or event that marks the baseline. For instance, the baseline could be the initiation of a specific medical intervention or the date of enrollment in a study. Defining the baseline ensures consistency and comparability across study participants.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/research-data-pipeline/1-Baseline.png" alt="1-Baseline"&gt;&lt;/p&gt;
+&lt;h3&gt;Step 2: Define Inclusion and Exclusion Criteria&lt;/h3&gt;
+&lt;p&gt;After establishing the baseline, researchers need to define inclusion and exclusion criteria. Inclusion criteria outline the characteristics or factors that determine eligibility for participation in the study. Conversely, exclusion criteria specify the characteristics or factors that disqualify individuals from being included. These criteria should be based on information available at the baseline, disregarding any subsequent events. Clearly defining these criteria ensures the selection of a relevant and representative study population.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/research-data-pipeline/2-Inclusion-Exclusion.png" alt="2-Inclusion-Exclusion"&gt;&lt;/p&gt;
+&lt;h3&gt;Step 3: Define Exposure&lt;/h3&gt;
+&lt;p&gt;The next step is to define the exposure variable or measure. The exposure variable refers to the factor or intervention of interest that researchers want to study. It is important to operationalize the exposure measure in a way that maximizes the use of available information. This could involve categorizing the exposure as a dichotomous variable (e.g., exposed or not exposed) or using a more granular scale, depending on the research question and available data.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/research-data-pipeline/3-Exposure.png" alt="3-Exposure"&gt;&lt;/p&gt;
+&lt;h3&gt;Step 4: Define Outcome&lt;/h3&gt;
+&lt;p&gt;Defining the outcome variable is essential for studying the impact or effect of the exposure of interest. The outcome variable represents the specific endpoint or result that researchers want to measure or observe. It could be a clinical outcome, such as the occurrence of a disease or the improvement in a patient's health status. Clearly defining the outcome variable enables researchers to focus their data collection efforts and align their analyses accordingly.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/research-data-pipeline/4-Outcome.png" alt="4-Outcome"&gt;&lt;/p&gt;
+&lt;h3&gt;Step 5: Define Covariates&lt;/h3&gt;
+&lt;p&gt;Covariates, also known as confounding variables, are additional factors that may influence the relationship between the exposure and outcome variables. It is important to identify and define relevant covariates that should be measured and controlled for in the study. These covariates can include demographic characteristics, medical history, lifestyle factors, or any other variables that might affect the relationship of interest. By considering covariates, researchers can minimize potential confounding and obtain more accurate results.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/research-data-pipeline/5-Covariats.png" alt="5-Covariats"&gt;&lt;/p&gt;
+&lt;h3&gt;Step 6: Participants (Study Size)&lt;/h3&gt;
+&lt;p&gt;Determining the study size is a crucial aspect of defining a research data pipeline. Researchers need to estimate the number of participants required to achieve sufficient statistical power and detect meaningful associations between the exposure and outcome variables. Various factors, such as the expected effect size, variability of the outcome, and significance level, need to be considered in sample size calculations. A larger sample size generally increases the study's precision and generalizability of findings.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/research-data-pipeline/6-Participants.png" alt="6-Participants"&gt;&lt;/p&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Establishing a research data pipeline is a vital step in conducting effective research. By defining a baseline, establishing inclusion and exclusion criteria, defining exposure and outcome variables, identifying relevant covariates, and considering the study size, researchers can ensure the collection of high-quality and reliable data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.healthdata.ai"&gt;HealthData.ai&lt;/a&gt; is built to assist you in crafting a well-designed research data pipeline for your project, enabling you to contribute to evidence-based decision-making and propel scientific advancement.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Recommend Reading: &lt;a href="https://effectivehealthcare.ahrq.gov/products/observational-cer-protocol/research"&gt;Developing a Protocol for Observational Comparative Effectiveness Research: A User’s Guide&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</content></entry><entry><title>Wie «Infrastructure as Code» die Qualität des Cloud-Betriebs erhöht</title><link href="https://www.seantis.ch/blog/infrastructure-as-code/" rel="alternate"></link><updated>2023-02-22T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:dc28497a-78be-3aec-9db4-37e762fe6a0c</id><content type="html">&lt;p&gt;Unser Ziel ist die Auslieferung von qualitativ hochwertiger Software in kurzen Zyklen. Dafür wird die Software iterativ und inkrementell in enger Zusammenarbeit mit den Usern entwickelt. Für die Planung, die Tests und Umsetzung von Änderungen an der produktiven IT-Umgebung verwenden wir standardisierte Verfahren. So können wir das Risiko von negativen Auswirkungen auf Systeme, welche in produktivem Betrieb stehen, minimieren.&lt;/p&gt;
 &lt;h3&gt;«DevOps» und «Infrastructure as Code»&lt;/h3&gt;
 &lt;p&gt;seantis lebt eine «DevOps» Kultur und das «Infrastructure as Code» Paradigma. Bei DevOps arbeiten die für Entwicklung und Betrieb verantwortlichen Teams zusammen, um Anwendungen schnell, in hoher Qualität und kontrolliert zu erstellen, zu testen, bereitzustellen und zu überwachen. Die Trennung zwischen IT-Betrieb und Entwicklung wird bewusst aufgehoben.&lt;/p&gt;
 &lt;p&gt;Firmen wie Netflix setzen sehr bewusst auf «DevOps». In seinem &lt;a href="https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249"&gt;Blog schreibt das Team von Netflix&lt;/a&gt; davon, wie das Team, welches den «Schmerz» des Betriebs spürt, besser darauf reagieren kann. Das Team, welches die Software entwickelt, soll auch für deren Betrieb zuständig sein.&lt;/p&gt;
@@ -1217,45 +1240,4 @@ unseren Beitrag für diese Forschung leisten dürfen.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Swiss Clinical Quality Management in Rheumatic Diseases: &lt;/strong&gt;&lt;a href="http://www.scqm.ch"&gt;www.scqm.ch&lt;/a&gt;&lt;strong&gt;&lt;br&gt;
 Schweizerischen Vereinigung Morbus Bechterew&lt;/strong&gt;:
 &lt;a href="http://www.bechterew.ch"&gt;www.bechterew.ch&lt;/a&gt;&lt;/p&gt;
-</content></entry><entry><title>Sicheres Login mit YubiKey</title><link href="https://www.seantis.ch/blog/sicheres-login-mit-yubikey/" rel="alternate"></link><updated>2013-01-23T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:0f664fcb-ff56-3df1-92fe-979e056e0912</id><content type="html">&lt;h3&gt;Was ist ein YubiKey?&lt;/h3&gt;
-&lt;p&gt;Ein YubiKey funktioniert wie eine externe Tastatur und kann einfach per USB an
-Ihr PC/Mac angeschlossen werden. Der YubiKey funktioniert auf allen
-Betriebsystemen ohne zusätzliche  Software/Treiber-Installation.&lt;/p&gt;
-&lt;p&gt;&lt;img src="/blog/sicheres-login-mit-yubikey/yubikeyonkeyring.jpg" alt="YubiKey"&gt;&lt;/p&gt;
-&lt;h3&gt; &lt;/h3&gt;
-&lt;p&gt;Wie funktioniert der YubiKey?&lt;/p&gt;
-&lt;p&gt;Der YubiKey ist nichts anderes als eine USB-Tastatur. Der Clou: er hat nur
-einen (goldenen) Kopf und eine Funktionalität. Der YubiKey erzeugt ein
-OneTime-Token. Das erzeugte Einmalpasswort wird serverseitig validiert und
-authentifiziert den Benutzer.&lt;/p&gt;
-&lt;h3&gt;Der Login-Prozess&lt;/h3&gt;
-&lt;p&gt;Jedes Mal, wenn der Benutzer den Knopf drückt, wird ein neues OneTime Token
-erzeugt. Auf dem Login-Formular müssen daher ein persönliches Passwort und das
-YubiKey Token eingegeben werden. Auf das Eintippen des Benutzernames (eMail-
-Adresse) kann verzichtet werden, da der YubiKey automatisch eine eindeutige
-YubiKey ID mitschickt.&lt;/p&gt;
-&lt;p&gt;&lt;img src="/blog/sicheres-login-mit-yubikey/yubikeydemo.png" alt="YubiKey Demo"&gt;&lt;/p&gt;
-&lt;p&gt;Angenehmer Nebeneffekt: andere bekannte Zwei-Faktor-Authenfizierungen machen
-den Prozess für den Benutzer mühsamer: ich muss z.B. das Token von meinem
-Handy ablesen und dieses dann in das entsprechende Formularfeld übertragen.
-YubiKey hingegen erspart dem User Tippen und macht den Login-Prozess bequemer.&lt;/p&gt;
-&lt;h3&gt;Der YubiKey in Ihrer Organisation&lt;/h3&gt;
-&lt;p&gt;Um die Authentifikation für Ihre Webapplikation sicher zu machen, werden alle
-Ihre Mitarbeiter mit YubiKeys ausgerüstet.&lt;/p&gt;
-&lt;p&gt;Der Prozess dazu könnte wie folgt aussehen:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;seantis bestellt für Sie die YubiKeys&lt;/li&gt;
-&lt;li&gt;Jedem Benutzeraccount wird ein YubiKey zugeordnet&lt;/li&gt;
-&lt;li&gt;seantis schickt die YubiKeys per Post an Ihre Mitarbeiter&lt;/li&gt;
-&lt;li&gt;Ihre Mitarbeiter können sich sofort mit ihrem persönlichen YubiKey sicher einloggen.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Sie können organisatorisch sicherstellen, dass alle Mitarbeiter ihre YubiKeys
-sicher in den Büroräumlichkeiten verwahren. So besteht eine erweiterte
-Kontrolle wer wo und wann Zugriff auf sensible Daten hat.&lt;br&gt;
-Persönliche YubiKeys lassen sich mit sofortiger Wirkung entziehen.&lt;br&gt;
-Ein YubiKey lässt sich damit bei einer personellen Mutation einfach von einem
-Benutzer einziehen und an einen anderen weitergeben.&lt;/p&gt;
-&lt;h3&gt;Ein YubiKey verloren&lt;/h3&gt;
-&lt;p&gt;Geht ein Schlüssel verloren oder wird gestohlen, so lässt sich dieser mit
-sofortiger Wirkung für ungültig erklären (revozieren).&lt;/p&gt;
 </content></entry></feed>
