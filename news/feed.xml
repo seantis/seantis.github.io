@@ -1,36 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>News Feed</title><link href="https://www.seantis.ch/news/" rel="alternate"></link><link href="https://www.seantis.ch/news/feed.xml" rel="self"></link><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2023-05-10T00:00:00Z</updated><author><name></name></author><subtitle>Aktuelles aus unserer Softwareschmiede zu unseren Projekten und Lösungen.</subtitle><entry><title>Full Stack Python-Entwickler:in (40-100%)</title><link href="https://www.seantis.ch/news/job-python-entwickler/" rel="alternate"></link><updated>2023-05-10T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:4bf1b600-c5a2-30b5-9afa-e61d00113827</id><content type="html">&lt;p&gt;seantis entwickelt qualitativ hochstehende Software mit den besten Open Source Tools nach Agiler Methodik (&lt;a href="https://www.seantis.ch/portrait/agile-softwareentwicklung/"&gt;Agiles Mindset - Open Source Toolset&lt;/a&gt;). Wir entwickeln und betreiben drei digitale Plattformen:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="http://www.healthdata.ai"&gt;HealthData.ai&lt;/a&gt;&lt;/strong&gt; für die medizinische Forschung&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://admin.digital"&gt;admin.digital&lt;/a&gt;&lt;/strong&gt; für die öffentliche Hand&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="http://www.mycontrol.aero"&gt;myControl.aero&lt;/a&gt;&lt;/strong&gt; für die Aviatik&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Qualität und Informationssicherheit gehören seit der Gründung zu unseren Grundwerten. Seit 2021 führen wir ein «&lt;a href="https://seantis.ch/portrait/informationssicherheit-iso-27001/"&gt;Managementsystem Informationssicherheit&lt;/a&gt;» zertifiziert nach ISO/IEC 27001:2013. Wir leben eine «DevOps» Kultur und orientieren uns am «&lt;a href="https://www.seantis.ch/blog/infrastructure-as-code/"&gt;Infrastructure as Code&lt;/a&gt;» Paradigma. Unseren Mitarbeitenden  bieten wir ein optimales Arbeitsumfeld für die Softwareentwicklung und unterstützen den «&lt;a href="https://www.seantis.ch/blog/we-support-the-hacker-pledge/"&gt;Hacker Pledge&lt;/a&gt;».&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Zur Verstärkung unseres Python-Entwicklungsteams suchen wir eine/n Full Stack Python-Entwickler:in mit Erfahrung in DevOps.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;Du möchtest&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Mit modernen leichtgewichtigen Python Frameworks (&lt;a href="https://trypyramid.com"&gt;Pyramid&lt;/a&gt;, &lt;a href="https://morepath.readthedocs.io/en/latest/"&gt;morepath&lt;/a&gt;) Lösungen für komplexe Daten entwicklen.&lt;/li&gt;
-&lt;li&gt;In einem Team mit erfahrenen Python-Entwicklern zusammenarbeiten.&lt;/li&gt;
-&lt;li&gt;Dich stetig weiterentwickeln und State of the Art Software Engineering (CleanCode, TDD, DDD, CI/CD) praktizieren.&lt;/li&gt;
-&lt;li&gt;Eigene Ideen einbringen und selbst Verantwortung übernehmen.&lt;/li&gt;
-&lt;li&gt;Deinen Beitrag in der Open Source Community leisten.&lt;/li&gt;
-&lt;li&gt;In sehr zentralen Büroräumlichkeiten in der Nähe des Bahnhofs Luzern und/oder im Homeoffice arbeiten.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Du bringst mit&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Hohes Qualitätsbewusstsein und echte Leidenschaft für Softwareentwicklung.&lt;/li&gt;
-&lt;li&gt;Fundierte Kenntnisse und Praxis in der objektorientierten Programmierung.&lt;/li&gt;
-&lt;li&gt;Kenntnisse der Programmiersprache Python.&lt;/li&gt;
-&lt;li&gt;Erfahrung in der Entwicklung von Webapplikationen (HTML, JavaScript, CSS).&lt;/li&gt;
-&lt;li&gt;Verständnis für automatisiertes Software-Testing.&lt;/li&gt;
-&lt;li&gt;Sicheren Umgang mit der Linux Shell sowie der Versionsverwaltung Git.&lt;/li&gt;
-&lt;li&gt;Kenntnisse SQL, idealerweise SQLAlchemy.&lt;/li&gt;
-&lt;li&gt;Interesse für DevOps.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Deine Bewerbung&lt;/h3&gt;
-&lt;p&gt;Bei Fragen meldest du dich bei Fabian Reinhard (+41 41 511 22 50) oder schickst deine Bewerbungsunterlagen - idealerweise mit Link auf dein &lt;a href="http://www.github.com"&gt;Github&lt;/a&gt;-Profil - direkt an &lt;a href="mailto:fabian.reinhard@seantis.ch"&gt;fabian.reinhard@seantis.ch&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Wir arbeiten nicht mit Personalvermittlern zusammen. Unerbetene Angebote und Zusendungen von Personalvermittlern werden ungelesen gelöscht.&lt;/em&gt;&lt;/p&gt;
-</content></entry><entry><title>Webportal Gemeinde Meggen gewinnt OneGov Award 2023</title><link href="https://www.seantis.ch/news/onegov-award-meggen/" rel="alternate"></link><updated>2023-04-29T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:84ee700c-2fe6-3e50-93e8-ad7d369b3017</id><content type="html">&lt;p&gt;Mit der Gemeinde Meggen setzt eine weitere Gemeinde auf die Open Source E-Government-Plattform aus Luzern. Gemeinsam mit dem Kunden wurde die bestehende Plattform weiterentwickelt. Dank dem SaaS-Modell ist sichergestellt, dass diese auch allen anderen Gemeinden, welche die Plattform von &lt;a href="https://www.admin.digital"&gt;admin.digital&lt;/a&gt; nutzen, zugutekommt. Einmal entwickeln – mehrfach nutzen!&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>News Feed</title><link href="https://www.seantis.ch/news/" rel="alternate"></link><link href="https://www.seantis.ch/news/feed.xml" rel="self"></link><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2023-04-29T00:00:00Z</updated><author><name></name></author><subtitle>Aktuelles aus unserer Softwareschmiede zu unseren Projekten und Lösungen.</subtitle><entry><title>Webportal Gemeinde Meggen gewinnt OneGov Award 2023</title><link href="https://www.seantis.ch/news/onegov-award-meggen/" rel="alternate"></link><updated>2023-04-29T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:84ee700c-2fe6-3e50-93e8-ad7d369b3017</id><content type="html">&lt;p&gt;Mit der Gemeinde Meggen setzt eine weitere Gemeinde auf die Open Source E-Government-Plattform aus Luzern. Gemeinsam mit dem Kunden wurde die bestehende Plattform weiterentwickelt. Dank dem SaaS-Modell ist sichergestellt, dass diese auch allen anderen Gemeinden, welche die Plattform von &lt;a href="https://www.admin.digital"&gt;admin.digital&lt;/a&gt; nutzen, zugutekommt. Einmal entwickeln – mehrfach nutzen!&lt;/p&gt;
 &lt;h3&gt;Hohe Sicherheit dank ISO/IEC 27001:2013-Zertifizierung&lt;/h3&gt;
 &lt;p&gt;Die Cyber-Bedrohung ist real auch für Schweizer Gemeinden. Bereits mehrere Schweizer Gemeinden wurden Opfer von Cyber-Angriffen, bei welchen Kriminelle sensitive Daten gestohlen haben und es zu Erpressungsversuchen gekommen ist. Im Online-Schalter werden sensitive personenbezogene Daten verarbeitet. Seantis führt deshalb ein «&lt;a href="https://www.seantis.ch/portrait/informationssicherheit-iso-27001/"&gt;Managementsystem Informationssicherheit&lt;/a&gt;», welches gemäss ISO/IEC 27001:2013 zertifiziert ist.&lt;/p&gt;
 &lt;h3&gt;Barrierefrei und benutzerzentriert&lt;/h3&gt;
@@ -609,4 +578,17 @@ umzustellen oder leiten Sie es Ihrem IT-Verantwortlichen weiter:
 &lt;p&gt;Wir sind darum bemüht die Umstellung so vorzunehmen, dass Sie davon möglichst
 nichts bemerken. Auf alle Fälle sind Ihre bestehenden E-Mail sicher und neue
 E-Mails werden Sie auch alle erhalten.&lt;/p&gt;
+</content></entry><entry><title>OneGov Box Personenverzeichnis</title><link href="https://www.seantis.ch/news/onegov-box-personenverzeichnis/" rel="alternate"></link><updated>2013-12-10T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:55e595a9-7eeb-3a0b-b8d7-0c92ff53fcdb</id><content type="html">&lt;p&gt;Das Modul ist generisch, so dass es sich für verschiedene Szenarien einsetzen
+lässt.  Die Informationen zu den einzelnen Einträgen lassen sich im System
+flexibel konfigurieren. Damit können die Personendaten strukturiert erfasst
+und aufbereitet werden.&lt;/p&gt;
+&lt;p&gt;Ein Beispiel für ein Personenverzeichnis ist ein Online-Staatskalender. Ein
+Staatskalender ist ein amtliches Adressbuch, welches die hierarchische
+Gliederung der staatlichen Behörden wiedergibt und über die Namen und
+Funktionen der Behördenmitglieder und anderen Staatsangestellten Auskunft
+gibt.&lt;/p&gt;
+&lt;p&gt;Ein anderes Beispiel für ein Online-Personenverzeichnis ist ein
+Mitarbeiterverzeichnis.&lt;/p&gt;
+&lt;p&gt;Mitarbeitendenverzeichnis der Pädagogischen Hochschule Zug:
+&lt;strong&gt;&lt;a href="https://phzg.zug.ch/mitarbeitende"&gt;https://phzg.zug.ch/mitarbeitende&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </content></entry></feed>
