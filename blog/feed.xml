@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog Feed</title><link href="https://www.seantis.ch/blog/" rel="alternate"></link><link href="https://www.seantis.ch/blog/feed.xml" rel="self"></link><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2023-06-26T00:00:00Z</updated><author><name></name></author><subtitle>Trends und Expertise. Was uns betrifft und wie wir darüber denken.</subtitle><entry><title>FHIR: A Leap Forward in Healthcare Digital Transformation</title><link href="https://www.seantis.ch/blog/fhir-digital-transformation/" rel="alternate"></link><updated>2023-06-26T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:5a3a7072-d2e7-3e21-9480-a02a424ea9f7</id><content type="html">&lt;p&gt;FHIR's innovative approach to healthcare data management has immense potential for enhancing patient care, streamlining workflows, and speeding up medical research. This blog post explores why FHIR is crucial and how it propels healthcare's digital transformation.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog Feed</title><link href="https://www.seantis.ch/blog/" rel="alternate"></link><link href="https://www.seantis.ch/blog/feed.xml" rel="self"></link><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2023-10-17T00:00:00Z</updated><author><name></name></author><subtitle>Trends und Expertise. Was uns betrifft und wie wir darüber denken.</subtitle><entry><title>Wir üben für den Ernstfall: Ransomware</title><link href="https://www.seantis.ch/blog/wir-proben-den-ernstfall-ransomware/" rel="alternate"></link><updated>2023-10-17T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:55d9eebb-7841-3b94-8f92-601c34ab782a</id><content type="html">&lt;blockquote&gt;&lt;p&gt;Bild: So stellt sich die künstliche Intelligenz &lt;a href="https://www.midjourneyai.ai/"&gt;Midjourney&lt;/a&gt; unsere Notfallübung vor.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Na, hat Ihnen diese Beschreibung Schweissperlen auf die Stirn getrieben? Dann
+ergeht es ihnen wie uns. Wir haben nämlich diesen Ernstfall vor Kurzem mit
+einer Tabletop-Übung erprobt.&lt;/p&gt;
+&lt;h2&gt;Tabletop-Übung&lt;/h2&gt;
+&lt;p&gt;Tabletop-Übungen sind eine Methode, um genau solche Ernstfälle in einem
+sicheren Rahmen zu proben. Dabei führt die Übungsleitung die Teilnehmenden
+durch ein fiktives Szenario. Die Teilnehmenden diskutieren, welche Schritte sie
+in den jeweiligen Situationen unternehmen würden. Dabei greifen sie auch auf
+interne Notfallpläne zurück. Die Übungsleitung dokumentiert alle Schritte
+sorgfältig, um sie später im Debriefing gemeinsam kritisch zu hinterfragen und zu
+reflektieren.&lt;/p&gt;
+&lt;p&gt;Die Übungsleitung ist bemüht, das Szenario möglichst realistisch zu gestalten.
+Sie kann das Szenario auch laufend anpassen und so für unerwartete Situationen
+sorgen. In unserem Beispiel haben wir sogar spontan E-Mails und
+Tweet-Nachrichten mit ChatGPT generiert, passend zu Ereignissen im Szenario.&lt;/p&gt;
+&lt;h2&gt;Szenario&lt;/h2&gt;
+&lt;p&gt;In unserem simulierten Szenario geraten verschiedene Schweizer KMUs ins Visier
+einer Hackergruppe. Dabei wurde ein System in unserer Infrastruktur durch
+Ransomware verschlüsselt. Die Angreifer forderten ein Lösegeld für die Freigabe
+unserer gesperrten Systeme und drohten damit, gestohlene Daten zu
+veröffentlichen.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/wir-proben-den-ernstfall-ransomware/ransom.png" alt="Ransom-Note"&gt;&lt;/p&gt;
+&lt;p&gt;Der Angriff fiel unseren Mitarbeitenden auf, als das System ungewöhnlich
+reagierte und schliesslich nicht mehr ansprechbar war. Als klar war, dass es
+sich um Ransomware handelte, griff unser Team sofort ein, aktivierte den
+Notfallplan und isolierte das betroffene System. Gleichzeitig informierten wir
+unsere fiktiven Kunden zeitnah und transparent über den laufenden Angriff.&lt;/p&gt;
+&lt;p&gt;Während einige Mitarbeitende das Einfallstor lokalisieren und schliessen,
+arbeiteten andere bereits an einem neuen System. Dank unserer konsequenten
+&lt;a href="/services"&gt;Backup-Strategie&lt;/a&gt; können wir schnell auf eine saubere Kopie der
+Daten zugreifen.&lt;/p&gt;
+&lt;p&gt;Intensive Untersuchungen wurden durchgeführt, um sicherzustellen, dass keine
+weiteren Systeme beeinträchtigt wurden. Zudem analysierten wir die auf dem
+System befindlichen Daten, um potenzielles Diebesgut der Hacker zu
+identifizieren. Diese enthielten keine sensiblen Informationen. Somit können
+uns die Hacker auch mit der Drohung, diese zu veröffentlichen, nicht schaden.&lt;/p&gt;
+&lt;p&gt;Nachdem das Team grünes Licht gab, dass das Netzwerk sauber ist, konnte das
+neue System in Betrieb genommen werden. Das Team kehrte langsam zum normalen
+Betrieb zurück, wobei der Kunde stets umfassend informiert und auf dem
+Laufenden gehalten wurde.&lt;/p&gt;
+&lt;h2&gt;Erkenntnisse&lt;/h2&gt;
+&lt;p&gt;Die Tabletop-Übung war nicht nur lehrreich, sondern auch äusserst
+aufschlussreich. Hier sind einige der wichtigsten Erkenntnisse:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Klare und transparente Kommunikation:&lt;/strong&gt; Wir haben den fiktiven Kunden frühzeitig
+ und transparent über den laufenden Angriff informiert, anstatt diese
+ Information zurückzuhalten. Dadurch stärken wir nicht nur das Vertrauen,
+ sondern verhindern auch, dass diese Information für unangenehme Überraschungen
+ sorgt. Darüber hinaus ermöglicht dies eine aktive Einbindung unserer Kunden und
+ Partner.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Zusammenarbeit:&lt;/strong&gt; Die Zusammenarbeit unserer Mitarbeitenden in
+ verschiedenen Rollen ist entscheidend. Nur gemeinsam können wir uns solchen
+ Herausforderungen stellen. Unser bewährter Modus Operandi ermöglichte eine
+ effiziente Verteilung der Aufgaben, sodass technische Mitarbeitende sich auf
+ technische Probleme konzentrieren konnten, während andere die Kommunikation mit
+ Kunden, Partnern und Behörden übernahmen.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Sensibilisierung&lt;/strong&gt;: Die Übung sensibilisierte uns erneut für das Thema und
+ verdeutlichte, wie verheerend solche Angriffe sein können.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Die Tabletop-Übung war äusserst aufschlussreich und eine lohnende Erfahrung für
+unser Team. Sie ermöglichte es uns, unsere Reaktionsfähigkeit zu verbessern und
+das Bewusstsein für solche Bedrohungen weiter zu schärfen. Wir sind fest davon
+überzeugt, dass regelmässige Übungen und gründliche Vorbereitung essentiell
+sind, um uns gegen derartige Bedrohungen wirksam zu wappnen.&lt;/p&gt;
+</content></entry><entry><title>FHIR: A Leap Forward in Healthcare Digital Transformation</title><link href="https://www.seantis.ch/blog/fhir-digital-transformation/" rel="alternate"></link><updated>2023-06-26T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:5a3a7072-d2e7-3e21-9480-a02a424ea9f7</id><content type="html">&lt;p&gt;FHIR's innovative approach to healthcare data management has immense potential for enhancing patient care, streamlining workflows, and speeding up medical research. This blog post explores why FHIR is crucial and how it propels healthcare's digital transformation.&lt;/p&gt;
 &lt;h3&gt;Interoperability for Health Data&lt;/h3&gt;
 &lt;p&gt;FHIR serves as a catalyst for healthcare interoperability. By providing a standardized data model and application programming interfaces (APIs), FHIR facilitates the exchange of health information between disparate systems, regardless of vendor or platform. Interoperability enables seamless communication among healthcare providers, clinics, hospitals, laboratories, and even patients.&lt;/p&gt;
 &lt;p&gt;It eliminates data silos, reduces errors, and ensures crucial information is available at the right time. This enhances patient safety and improves care coordination.&lt;/p&gt;
@@ -1201,50 +1271,4 @@ looking like this:&lt;/p&gt;
 otherwise or unless the timer on the upper right is toggled with a mouse-
 click.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;GitHub project: &lt;a href="https://github.com/seantis/webcronmon"&gt;https://github.com/seantis/webcronmon&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</content></entry><entry><title>Über das Problem sprechen statt über die Lösung!</title><link href="https://www.seantis.ch/blog/sprechen-wir-ueber-das-problem-statt-ueber-die-loesung/" rel="alternate"></link><updated>2013-04-06T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:a1d325d5-80f1-32c8-b528-bece0a6b1ced</id><content type="html">&lt;p&gt;Die perzipierte Lösung ohne ausführlichere Beschreibung des zugrunde liegenden
-Problems (im Sinne von zu lösender Aufgabe) kann für das Projekt zum Risiko
-werden. Das Denken in vorgespurten Lösungskategorien verengt vorzeitig den
-Möglichkeitsraum für die zu entwickelnde Lösung. Gut möglich, dass es
-passendere und bessere Lösungen gibt.&lt;/p&gt;
-&lt;p&gt;Das Nachdenken über das Problem an sich darf nicht übersprungen werden.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1) Beschreibung des Problems&lt;/strong&gt;&lt;br&gt;
-Ein paar wenige Sätze zur Beschreibung des Problems. Sätze und nicht Bullet
-Points! Also auch kein Power Point bitte.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2) Ursachen des Problems&lt;/strong&gt;&lt;br&gt;
-Verschiedene Erklärungsversuche (Arbeitshypothesen) sollen aufgestellt werden.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;3) Quantifizierung des Problems&lt;/strong&gt;&lt;br&gt;
-Wie gross ist das Problem relativ gesehen: haben 5 von 1'000 Benutzern ein
-Problem oder sind es 500 von 1'000? Die Relationen abschätzen zu können hilft.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;4) Abgrenzungen (Scope)&lt;/strong&gt;&lt;br&gt;
-Es soll beschrieben werden, was nicht Teil des Problems ist. Es mag paradox
-erscheinen, aber das explizite Benennen von Elementen, die nicht Teil des
-Problems sind, macht durchaus Sinn.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;5) Begrifflichkeiten klären &lt;/strong&gt;&lt;br&gt;
-Für Personen mit unterschiedlichem Hintergrund darf nicht davon ausgegangen
-werden, dass sie unter einem verwendeten Begriff das Gleiche verstehen.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;6) Quick Fix&lt;/strong&gt;&lt;br&gt;
-Gibt es eine einfache Möglichkeit, das Problem rasch aus der Welt zu schaffen?
-Können bestehende Prozesse so angepasst werden, dass sich das Problem mit
-kleinem Aufwand - so genannt "administrativ" - bewältigen lässt.&lt;/p&gt;
-&lt;p&gt;Die Schritte 2)-6) kann man sich auch sparen. Sie sollen lediglich
-illustrieren, dass die gründliche Analyse eines Problems mehr bringt, als die
-voreilige Zuflucht zu eine bekannte Lösung.&lt;/p&gt;
-&lt;h3&gt;Probleme zu finden ist schwierig genug&lt;/h3&gt;
-&lt;p&gt;Warum haben viele Leute die Tendenz voreilig über die Lösung sprechen zu
-wollen, statt zuerst gründlich über das zugrundeliegende Problem nachzudenken?&lt;br&gt;
-Es wird zu wenig anerkannt, dass allein schon das Finden und Beschreiben von
-Problemen wertvoll und keinesfalls trivial ist!&lt;/p&gt;
-&lt;p&gt;[..] I’ve learned one of the biggest mistakes “nontechnical” people make when
-communicating to great hackers about product is that we try and tell them the
-solutions before we ever tell them the problem.  It’s like we don’t trust them
-to be able to think through and reach their own solution.  When in reality
-their solution is usually 10-100x better than ours because they are the ones
-building it!!&lt;/p&gt;
-&lt;p&gt;I started thinking about this and realized maybe its because nontechnical
-people don’t realize the value they’ve created just by finding the problem.
-Truly, just being able to find and articulate the problem is really valuable
-when building a product.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://katgleason.tumblr.com/post/47257463324/talk-about-the-problem-not-the-
-solution"&gt;http://katgleason.tumblr.com/post/47257463324/talk-about-the-problem-not-the-
-solution&lt;/a&gt;&lt;/p&gt;
 </content></entry></feed>
