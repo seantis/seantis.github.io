@@ -1,0 +1,343 @@
+<!doctype html>
+<html class="no-js" lang="de" dir="ltr" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seantis gmbh</title>
+    <meta name="description"
+        content="seantis gmbh entwickelt Webapplikationen für die medizinische Forschung, die öffentliche Verwaltung sowie für die Aviatik.">
+    <meta property="og:description" content="&#34;Montag Morgen, der Kaffee ist noch warm. Plötzlich fallen Systeme aus, die Ursache ist nicht aufzufinden, es bricht Hektik aus. Und dann sinkt das Herz tief in die Brust: Die eigene IT ist mit einem Verschlüsselungstrojaner infiziert.&#34;">
+    <meta property="og:site_name" content="seantis">
+<meta property="og:url" content="https://www.seantis.ch/blog/wir-proben-den-ernstfall-ransomware/">
+<meta property="og:title" content="Wir üben für den Ernstfall: Ransomware">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.seantis.ch/og_image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="logo">
+    <link rel="stylesheet" href="/static/css/foundation.min.css?h=883e6026">
+    <link rel="stylesheet" href="/static/css/fira.css?h=bcd50a1c">
+    <link rel="stylesheet" href="/static/css/fontawesome.min.css?h=20d2d431">
+    <link rel="stylesheet" href="/static/css/custom.css?h=82b3b3b7">
+    <link rel="stylesheet" href="/static/css/aos.css?h=9a26a349" />
+</head>
+
+<body class="model-blog-post">
+
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+
+        <!-- Close button -->
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&times;</span>
+        </button>
+
+        <!-- Menu -->
+        <ul class="menu" data-dropdown-menu>
+            
+            
+            <li class=" "><a href="/portrait/">Über uns</a></li>
+            
+            <li class=" "><a href="/engineering/">Engineering</a></li>
+            
+            <li class=" "><a href="/services/">Services</a></li>
+            
+            <li class=" "><a href="/academy/">Academy</a></li>
+            
+            <li class=" "><a href="/success-stories/">Erfolgsgeschichten</a></li>
+            
+            <li class=" "><a href="/news/">News</a></li>
+            
+            <li class=" "><a href="/careers/">Jobs</a></li>
+            
+            <li class=" active"><a href="/blog/">Blog</a></li>
+            
+            <li class="contact "><a href="/contact/">Kontakt</a></li>
+            
+        </ul>
+
+    </div>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+        <!-- <div class="announcement"><a href="/news/job-python-entwickler/">&rarr; Jobs: Full Stack Python-Entwickler(in) (60-100%)<i class="fab fa-python"></i></a></div> -->
+        <!-- <div class="announcement"><a href="/news/deep-learning-rheumatologie/">&rarr; Wissenschaftliche Publikation zur Anwendung von Deep Learning in der Rheumatologie <i class="far fa-newspaper"></i></a></div> -->
+        <!-- <div class="announcement"><a href="/news/covid-19/">&rarr; Studie zu COVID-19 für Rheumapatienten <i class="far fa-newspaper"></i></a></div> -->
+        <!-- <div class="announcement"><a href="/news/job-apprenticeship-application-developer/">👩‍💻 Lehrstelle als Informatiker (Fachrichtung Applikationsentwicklung) ab Sommer 2021 oder 2022</a></div> -->
+        <!-- <div class="announcement"><a href="/blog/nzz-hackback/">🛡Gastkommentar Cyber Security @NZZ #donthackback ⚔️</a></div>-->
+        <!-- <div class="announcement"><a href="/success-stories/aircraft-configurator-pilatus/">Digitaler Konfigurator für die Pilatus Flugzeugwerke 🛩</a></div>-->
+        <!-- <div class="announcement"><a href="/portrait/informationssicherheit-iso-27001/"> ISO 27001 zertifiziertes Informationssicherheits-Managementsystem 🛡</a></div>-->
+        <!-- <div class="announcement"><a href="/blog/publikationsportal-wahlen-open-source/"> Unser Praxisbeispiel in der Open Source Studie Schweiz 2021 🗳</a></div> -->
+        <!-- <div class="announcement"><a href="/blog/cybersecurity-resilienz-resignation/">🧀 Schweizer Käse statt Burgmauern für bessere Informationssicherheit 🏰</a></div> -->
+        <div class="announcement"><a href="/news/onegov-award-meggen/">Webportal Gemeinde Meggen gewinnt OneGov Award 2023</a></div>
+
+
+        <div data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="small" data-margin-top="0">
+                <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium"
+                    style="display:none">
+                    <button type="button" class="menu-icon" data-toggle="offCanvas"></button>
+                    <div class="title-bar-title"> <a href="/">Home</a></div>
+                    <div class="title-bar-right contact"><a href="/contact/">Kontakt</a></div>
+                </div>
+
+                <div class="top" id="responsive-menu" style="display:none">
+                    <div class="grid-container">
+                        <div class="top-bar">
+                            <div class="top-bar-left">
+                                <ul class="menu hide-for-small-only">
+                                    <li><a href="/">Home</a></li>
+                                </ul>
+                            </div>
+                            <div class="top-bar-right">
+                                <ul class="menu" data-dropdown-menu>
+                                    
+                                    <li class=" "><a
+                                            href="/portrait/">Über uns</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/engineering/">Engineering</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/services/">Services</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/academy/">Academy</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/success-stories/">Erfolgsgeschichten</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/news/">News</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/careers/">Jobs</a></li>
+                                    
+                                    <li class=" active"><a
+                                            href="/blog/">Blog</a></li>
+                                    
+                                    <li class="contact "><a
+                                            href="/contact/">Kontakt</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-container">
+            <div class="header">
+                <div class="top-bar">
+                    <div class="top-bar-left">
+                        <a href="/"><img id="logo" src="/static/img/logo.svg"
+                                alt="Zur Startseite" /></a>
+                    </div>
+                    <div class="top-bar-right">
+                        <form action="/search/">
+                            <div class="input-group show-for-medium">
+                                <input class="input-group-field" type="search" name="q" id="tipue_search_input">
+                                <div class="input-group-button">
+                                    <input type="submit" class="button" value="Suche">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    <div class="head">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-7 large-offset-1 medium-10 medium-offset-1 cell">
+                    <h5 class="subheader"><small>17.10.2023</small></h5>
+                    <h1>Wir üben für den Ernstfall: Ransomware</h1>
+                    <p class="lead">&#34;Montag Morgen, der Kaffee ist noch warm. Plötzlich fallen Systeme aus, die Ursache ist nicht aufzufinden, es bricht Hektik aus. Und dann sinkt das Herz tief in die Brust: Die eigene IT ist mit einem Verschlüsselungstrojaner infiziert.&#34;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x" data-aos="fade-up">
+            <div class="large-9 cell">
+                <div class="dotted">
+                    <img class="full" src="/blog/wir-proben-den-ernstfall-ransomware/banner.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+            <div class="large-7 large-offset-1 medium-9 medium-offset-1 cell">
+                <div class="main-content">
+                    <blockquote><p>Bild: So stellt sich die künstliche Intelligenz <a href="https://www.midjourneyai.ai/">Midjourney</a> unsere Notfallübung vor.</p>
+</blockquote>
+<p>Na, hat Ihnen diese Beschreibung Schweissperlen auf die Stirn getrieben? Dann
+ergeht es ihnen wie uns. Wir haben nämlich diesen Ernstfall vor Kurzem mit
+einer Tabletop-Übung erprobt.</p>
+<h2>Tabletop-Übung</h2>
+<p>Tabletop-Übungen sind eine Methode, um genau solche Ernstfälle in einem
+sicheren Rahmen zu proben. Dabei führt die Übungsleitung die Teilnehmenden
+durch ein fiktives Szenario. Die Teilnehmenden diskutieren, welche Schritte sie
+in den jeweiligen Situationen unternehmen würden. Dabei greifen sie auch auf
+interne Notfallpläne zurück. Die Übungsleitung dokumentiert alle Schritte
+sorgfältig, um sie später im Debriefing gemeinsam kritisch zu hinterfragen und zu
+reflektieren.</p>
+<p>Die Übungsleitung ist bemüht, das Szenario möglichst realistisch zu gestalten.
+Sie kann das Szenario auch laufend anpassen und so für unerwartete Situationen
+sorgen. In unserem Beispiel haben wir sogar spontan E-Mails und
+Tweet-Nachrichten mit ChatGPT generiert, passend zu Ereignissen im Szenario.</p>
+<h2>Szenario</h2>
+<p>In unserem simulierten Szenario geraten verschiedene Schweizer KMUs ins Visier
+einer Hackergruppe. Dabei wurde ein System in unserer Infrastruktur durch
+Ransomware verschlüsselt. Die Angreifer forderten ein Lösegeld für die Freigabe
+unserer gesperrten Systeme und drohten damit, gestohlene Daten zu
+veröffentlichen.</p>
+<p><img src="/blog/wir-proben-den-ernstfall-ransomware/ransom.png" alt="Ransom-Note"></p>
+<p>Der Angriff fiel unseren Mitarbeitenden auf, als das System ungewöhnlich
+reagierte und schliesslich nicht mehr ansprechbar war. Als klar war, dass es
+sich um Ransomware handelte, griff unser Team sofort ein, aktivierte den
+Notfallplan und isolierte das betroffene System. Gleichzeitig informierten wir
+unsere fiktiven Kunden zeitnah und transparent über den laufenden Angriff.</p>
+<p>Während einige Mitarbeitende das Einfallstor lokalisieren und schliessen,
+arbeiteten andere bereits an einem neuen System. Dank unserer konsequenten
+<a href="/services">Backup-Strategie</a> können wir schnell auf eine saubere Kopie der
+Daten zugreifen.</p>
+<p>Intensive Untersuchungen wurden durchgeführt, um sicherzustellen, dass keine
+weiteren Systeme beeinträchtigt wurden. Zudem analysierten wir die auf dem
+System befindlichen Daten, um potenzielles Diebesgut der Hacker zu
+identifizieren. Diese enthielten keine sensiblen Informationen. Somit können
+uns die Hacker auch mit der Drohung, diese zu veröffentlichen, nicht schaden.</p>
+<p>Nachdem das Team grünes Licht gab, dass das Netzwerk sauber ist, konnte das
+neue System in Betrieb genommen werden. Das Team kehrte langsam zum normalen
+Betrieb zurück, wobei der Kunde stets umfassend informiert und auf dem
+Laufenden gehalten wurde.</p>
+<h2>Erkenntnisse</h2>
+<p>Die Tabletop-Übung war nicht nur lehrreich, sondern auch äusserst
+aufschlussreich. Hier sind einige der wichtigsten Erkenntnisse:</p>
+<ol>
+<li><p><strong>Klare und transparente Kommunikation:</strong> Wir haben den fiktiven Kunden frühzeitig
+ und transparent über den laufenden Angriff informiert, anstatt diese
+ Information zurückzuhalten. Dadurch stärken wir nicht nur das Vertrauen,
+ sondern verhindern auch, dass diese Information für unangenehme Überraschungen
+ sorgt. Darüber hinaus ermöglicht dies eine aktive Einbindung unserer Kunden und
+ Partner.</p>
+</li>
+<li><p><strong>Zusammenarbeit:</strong> Die Zusammenarbeit unserer Mitarbeitenden in
+ verschiedenen Rollen ist entscheidend. Nur gemeinsam können wir uns solchen
+ Herausforderungen stellen. Unser bewährter Modus Operandi ermöglichte eine
+ effiziente Verteilung der Aufgaben, sodass technische Mitarbeitende sich auf
+ technische Probleme konzentrieren konnten, während andere die Kommunikation mit
+ Kunden, Partnern und Behörden übernahmen.</p>
+</li>
+<li><p><strong>Sensibilisierung</strong>: Die Übung sensibilisierte uns erneut für das Thema und
+ verdeutlichte, wie verheerend solche Angriffe sein können.</p>
+</li>
+</ol>
+<h2>Fazit</h2>
+<p>Die Tabletop-Übung war äusserst aufschlussreich und eine lohnende Erfahrung für
+unser Team. Sie ermöglichte es uns, unsere Reaktionsfähigkeit zu verbessern und
+das Bewusstsein für solche Bedrohungen weiter zu schärfen. Wir sind fest davon
+überzeugt, dass regelmässige Übungen und gründliche Vorbereitung essentiell
+sind, um uns gegen derartige Bedrohungen wirksam zu wappnen.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <footer>
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-8 medium-8 cell">
+                        <h4>Building data-driven web applications with an open-source toolset and an agile mindset</h4>
+                        <p>Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source
+                            Entwickler-Tools und arbeiten gemäss Agiler Methodik.</p>
+                        <a href="http://www.swissmadesoftware.org">
+                            <img id="swissmadesoftware" src="/static/img/swissmadesoftware.png"
+                                alt="Swiss made software" />
+                        </a>
+                        <div class="bosw">
+                            <a href="https://www.bestofswissweb.ch">
+                                <img src="/static/img/bosw-2019.png" alt="Best of Swiss Web 2019" />
+                                <img src="/static/img/bosw-2016.svg" alt="Best of Swiss Web 2016" />
+                            </a>
+                            <a href="https://www.berufsbildungplus.ch">
+                                <img src="/static/img/vignette-sbfi.png" alt="Lehrbetrieb" />
+                            </a>
+                            <a href="/portrait/informationssicherheit-iso-27001/">
+                                <img src="/static/img/SSC_ISO27001_transparent.png"
+                                    alt="ISO/IEC 27001:2013" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="large-4 medium-4 cell">
+                        <h5>Cloud Platform</h5>
+                        <ul>
+                            <li><a href="http://www.healthdata.ai">HealthData.ai</a></li>
+                            <li><a href="https://admin.digital">OneGov Cloud</a></li>
+                            <li><a href="http://www.mycontrol.aero">myControl.aero</a></li>
+                        </ul>
+                        <a class="button" href="/contact/">Kontakt</a>
+                    </div>
+                </div>
+
+                <div class="grid-x grid-padding-x">
+                    <div class="large-12 cell">
+                        <div id="copyright">© 2005 - 2023 by seantis gmbh | Lektor powered &
+                            built with Python</div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="/static/js/jquery.min.js?h=1055018c"></script>
+
+    <script src="/static/js/aos.js?h=e38950c1"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="/static/js/what-input.min.js?h=d37c555d"></script>
+    <script src="/static/js/foundation.min.js?h=507bf6ca"></script>
+    <script src="/static/js/tipuesearch_set.js?h=51d521ed"></script>
+    <script src="/static/js/tipuesearch.min.js?h=bd976a7c"></script>
+    <script src="/static/js/app.js?h=a7d8dbf4"></script>
+
+    <script>
+        $(document).foundation();
+
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//stats.seantis.ch/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', '15']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+        })();
+
+        $(function () {
+            $(".storybox-" + (new Date().getTime() % 4 + 1)).css("display", "block");
+        });
+
+         
+    </script>
+
+</body>
+
+</html>
