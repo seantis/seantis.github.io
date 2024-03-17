@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>News Feed</title><link href="https://www.seantis.ch/news/" rel="alternate"></link><link href="https://www.seantis.ch/news/feed.xml" rel="self"></link><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2023-08-02T00:00:00Z</updated><author><name></name></author><subtitle>Aktuelles aus unserer Softwareschmiede zu unseren Projekten und Lösungen.</subtitle><entry><title>Swisscom Trust Services und seantis besiegeln Partnerschaft</title><link href="https://www.seantis.ch/news/swisscom-seantis-partnerschaft/" rel="alternate"></link><updated>2023-08-02T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:dfa32125-0c34-3312-b9fb-39f111e1e979</id><content type="html">&lt;p&gt;Das Luzerner Software-Unternehmen seantis arbeitet mit dem Zertifizierungsdienst bzw. Vertrauensdienst Swisscom Trust Services zusammen, um elektronische Siegel in seine Angebote zu integrieren.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>News Feed</title><link href="https://www.seantis.ch/news/" rel="alternate"></link><link href="https://www.seantis.ch/news/feed.xml" rel="self"></link><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2024-03-15T00:00:00Z</updated><author><name></name></author><subtitle>Aktuelles aus unserer Softwareschmiede zu unseren Projekten und Lösungen.</subtitle><entry><title>Stadt Wil treibt digitale Transformation mit admin.digital voran</title><link href="https://www.seantis.ch/news/stadt-wil/" rel="alternate"></link><updated>2024-03-15T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:6a3af799-94b1-37c0-a6ef-e93292645dc2</id><content type="html">&lt;p&gt;Das Projekt zielt darauf ab, mit einem digitalen Portal der Stadt Wil den Bedürfnissen und Ansprüchen der Bevölkerung bestmöglich gerecht zu werden. Der Stadtrat von Wil hat es sich zum Ziel gesetzt, mit dem neuen Portal die digitale Transformation in der Stadt Wil voranzutreiben.&lt;/p&gt;
+&lt;p&gt;Mit der Stadt Wil expandiert die Open-Source-Lösung admin.digital weiter und stärkt ihre Präsenz in der gesamten Schweiz. Das Projekt wird bis Ende 2024 umgesetzt.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cloud für die öffentliche Verwaltung: &lt;a href="http://www.admin.digital"&gt;www.admin.digital&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content></entry><entry><title>Swisscom Trust Services und seantis besiegeln Partnerschaft</title><link href="https://www.seantis.ch/news/swisscom-seantis-partnerschaft/" rel="alternate"></link><updated>2023-08-02T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:dfa32125-0c34-3312-b9fb-39f111e1e979</id><content type="html">&lt;p&gt;Das Luzerner Software-Unternehmen seantis arbeitet mit dem Zertifizierungsdienst bzw. Vertrauensdienst Swisscom Trust Services zusammen, um elektronische Siegel in seine Angebote zu integrieren.&lt;/p&gt;
 &lt;p&gt;Das auf Web-Applikationen für komplexe Daten spezialisierte Software-Entwicklerunternehmen hat einen Kundenstamm, der sich hauptsächlich aus der medizinischen Forschung, dem Behördenumfeld sowie der Aviatik zusammensetzt. Für Online-Services mit hohen Anforderungen an die Informationssicherheit setzt seantis einerseits Individualentwicklungen um, bietet andererseits aber auch Software-as-a-Service-Angebote. Dabei setzt das Unternehmen konsequent auf Open Source. Der Quellcode für die digitale Plattform admin.digital, der sich an öffentliche Verwaltungen richtet, ist etwa vollständig auf GitHub verfügbar.&lt;/p&gt;
 &lt;h3&gt;Software für die Forschung, Verwaltung und Aviatik&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.admin.digital/neuerungen/alle/elektronische-siegel/"&gt;admin.digital&lt;/a&gt; stellt schweizerischen Behörden eine digitale Version des Behördenstempels zur Verfügung. Damit können digitale Dokumente und Publikationen amtlich beglaubigt werden. Ein weiteres digitales Produkt mit elektronischen Siegeln ist &lt;a href="https://www.certificateclaim.com/"&gt;CertificateClaim&lt;/a&gt;, mit dem unter anderem Anbieter von Weiterbildungen ihre digitalen Kurszertifikate beglaubigen können.&lt;/p&gt;
@@ -563,30 +566,4 @@ haben in dieser Zeit nicht weniger als 28 Versionen erfolgreich ausgerollt.&lt;/
 &lt;/ul&gt;
 &lt;p&gt;**Visit myControl.aero: [&lt;a href="https://www.myControl.aero"&gt;https://www.myControl.aero&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; ](&lt;a href="https://www.mycontrol.aero/)**"&gt;https://www.mycontrol.aero/)**&lt;/a&gt;&lt;/p&gt;
-</content></entry><entry><title>Umstellung Mailserver</title><link href="https://www.seantis.ch/news/umstellung-mailserver/" rel="alternate"></link><updated>2014-01-13T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:c3bfa1c1-3dce-3da3-a741-5a6205bc5e2d</id><content type="html">&lt;p&gt;Der neue Server bringt neben verbesserter Sicherheit die Möglichkeit
-Abwesenheits- und Weiterleitungsregeln zu definieren. Diese finden Sie nach
-der Umstellung auf &lt;a href="https://webmail.seantis.ch"&gt;https://webmail.seantis.ch&lt;/a&gt; unter «Einstellungen/Filter».&lt;/p&gt;
-&lt;p&gt;Wir beginnen mit der Umstellung am Samstag 18. Januar um 09:00. Ab diesem
-Zeitpunkt können Sie für mindestens eine Stunde keine E-Mails versenden und
-keine neuen E-Mails empfangen. Ihre bestehenden E-Mails werden zu diesem
-Zeitpunkt vom alten auf den neuen Server kopiert.&lt;/p&gt;
-&lt;p&gt;Sie verlieren keine E-Mails, bestehende E-Mails werden kopiert und eingehende
-E-Mails erreichen Sie mit einer leichten Verzögerung. Während der Umstellung
-über das Wochenende können Sie jederzeit über unser Webmail E-Mails lesen und
-schreiben: &lt;a href="https://webmail.seantis.ch"&gt;https://webmail.seantis.ch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Unser neuer Mailserver nutzt neueste Sicherheitsfunktionen, welche es Dritt-
-Parteien erschweren Ihre E-Mails mitzulesen. Der alte E-Mail Server hatte die
-meisten dieser Funktionen bereits, es wurde bei E-Mail-Clients wie Outlook
-oder Thunderbird aber nicht erzwungen, diese auch zu nutzen. Je nach
-Einstellung kann es deshalb sein, dass Sie sich nach der Umstellung nicht mehr
-mit dem Mailserver verbinden können.&lt;/p&gt;
-&lt;p&gt;Die neuen Einstellungen können Sie bereits diese Woche - also vor der
-Umstellung - vornehmen. Wir haben eine Webseite aufgeschaltet, welche die
-Einstellungen beschreibt und Anleitungen für die gängigsten E-Mail-Programme
-enthält. Nutzen Sie diese Webseite, um Ihr Programm bereits diese Woche
-umzustellen oder leiten Sie es Ihrem IT-Verantwortlichen weiter:
-&lt;a href="https://www.seantis.ch/email-migration"&gt;http://www.seantis.ch/email-migration&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Wir sind darum bemüht die Umstellung so vorzunehmen, dass Sie davon möglichst
-nichts bemerken. Auf alle Fälle sind Ihre bestehenden E-Mail sicher und neue
-E-Mails werden Sie auch alle erhalten.&lt;/p&gt;
 </content></entry></feed>
