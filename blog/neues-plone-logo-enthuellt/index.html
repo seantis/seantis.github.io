@@ -258,17 +258,6 @@ Logo enthüllt. Das Logo lehnt sich an das bisherig an, besticht jedoch durch
     <script>
         $(document).foundation();
 
-        var _paq = _paq || [];
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function () {
-            var u = "//stats.seantis.ch/";
-            _paq.push(['setTrackerUrl', u + 'piwik.php']);
-            _paq.push(['setSiteId', '15']);
-            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
-        })();
-
         $(function () {
             $(".storybox-" + (new Date().getTime() % 4 + 1)).css("display", "block");
         });
