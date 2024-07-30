@@ -707,7 +707,7 @@ werden Attribute nicht in einer Datenbankspalte sondern in einer
 Datenbankzeile abgelegt.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;E&lt;/strong&gt;ntity (Datensatz): z.B. Patient&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;A&lt;/strong&gt;ttribute (Eigenschaft): z.B. Gewicht (Code &lt;a href="/blog/eav-als-datenmodell-fuer-medizinische-daten/www.snomed.org"&gt;SNOMED&lt;/a&gt;: 248334005)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A&lt;/strong&gt;ttribute (Eigenschaft): z.B. Gewicht (Code &lt;a href="http://www.snomed.org"&gt;SNOMED&lt;/a&gt;: 248334005)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;V&lt;/strong&gt;alue (Eigenschaftswert): z.B. 85kg&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Hohe Flexibilität dank Schemafreiheit&lt;/h3&gt;
