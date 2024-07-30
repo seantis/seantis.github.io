@@ -702,19 +702,19 @@ Vorteile:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Mehr Infos zur OneGov Cloud: &lt;a href="https://admin.digital"&gt;https://admin.digital&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="/blog/service-ticketing-system-fuer-gemeinden/Tickets.png" alt="Tickets"&gt;&lt;/p&gt;
-</content></entry><entry><title>EAV als Datenmodell für medizinische Daten</title><link href="https://www.seantis.ch/blog/eav-als-datenmodell-fuer-medizinische-daten/" rel="alternate"></link><updated>2015-06-28T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:48e7c992-93de-3ad9-bdf6-a99509346bd6</id><content type="html">&lt;p&gt;Das OCQMS Datenmodell verwendet den Entity Attribute Value (EAV) Ansatz. Dabei
+</content></entry><entry><title>EAV als Datenmodell für medizinische Daten</title><link href="https://www.seantis.ch/blog/eav-als-datenmodell-fuer-medizinische-daten/" rel="alternate"></link><updated>2015-06-28T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:48e7c992-93de-3ad9-bdf6-a99509346bd6</id><content type="html">&lt;p&gt;Das HealthData.ai Datenmodell verwendet den Entity Attribute Value (EAV) Ansatz. Dabei
 werden Attribute nicht in einer Datenbankspalte sondern in einer
 Datenbankzeile abgelegt.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Entity (Datensatz): z.B. Patient&lt;/li&gt;
-&lt;li&gt;Attribute (Eigenschaft): z.B. Gewicht&lt;/li&gt;
-&lt;li&gt;Value (Eigenschaftswert): z.B. 85kg&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;E&lt;/strong&gt;ntity (Datensatz): z.B. Patient&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A&lt;/strong&gt;ttribute (Eigenschaft): z.B. Gewicht (Code &lt;a href="/blog/eav-als-datenmodell-fuer-medizinische-daten/www.snomed.org"&gt;SNOMED&lt;/a&gt;: 248334005)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;V&lt;/strong&gt;alue (Eigenschaftswert): z.B. 85kg&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Hohe Flexibilität dank Schemafreiheit&lt;/h3&gt;
 &lt;p&gt;Das Datenmodell ist sehr flexibel, d.h. es können neue Attribute hinzugefügt
 oder entfernt werden ohne das Datenbankschema zu ändern. Das Schema (d.h. die
-Eingabefelder) für eine spezifische OCQMS Instanz wird als Inhalt in der
-Datenbank (bzw. Definition in XML) gespeichert. Die Protokolle sind in OCQMS
+Eingabefelder) für eine spezifische HealthData.ai Instanz wird als Inhalt in der
+Datenbank (bzw. Definition in XML) gespeichert. Die Protokolle sind in HealthData.ai
 konfigurierbar und nicht nicht «hart» in der Applikation programmiert und
 damit nicht an ein Datenbankschema gebunden.&lt;/p&gt;
 &lt;p&gt;Die schemafreie Datenbank ermöglicht die Erweiterung bzw. Anpassung
@@ -725,7 +725,7 @@ definiert. Die Definition erfolgt in der Metasprache XML.&lt;/p&gt;
 &lt;p&gt;Zu jedem Eigenschaftswert eines Attributs («Observation») können zusätzliche
 Metadaten wie z.B. der Autor oder die Erfassungszeit gespeichert werden. Dies
 ermöglicht die Speicherung eines kompletten Audit-Trails.&lt;/p&gt;
-&lt;p&gt;OCQMS bietet den kompletten «Audit Trail» aller Aktivitäten (Lesen,
+&lt;p&gt;HealthData.ai bietet den kompletten «Audit Trail» aller Aktivitäten (Lesen,
 Schreiben). Dabei werden folgende Informationen erfasst:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Wann: Zeitpunkt&lt;/li&gt;
@@ -733,7 +733,7 @@ Schreiben). Dabei werden folgende Informationen erfasst:&lt;/p&gt;
 &lt;li&gt;Wo: Kontext (z.B. Patient) und Datenfeld&lt;/li&gt;
 &lt;li&gt;Was: Wert&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Das Auditing ist beim OCQMS System direkt in die Applikation integriert (d.h.
+&lt;p&gt;Das Auditing ist beim HealthData.ai System direkt in die Applikation integriert (d.h.
 es gibt keine separaten Transaktionslogs oder Audittabellen). Dies ermöglicht
 einen direkten Zugriff auf die Audit Informationen für alle Benutzer direkt
 innerhalb der Applikation.&lt;/p&gt;
@@ -743,7 +743,7 @@ aggregierte Datenbankabfragen komplizierter und weniger effizient. Für solche
 Abfragen werden die Daten in OCQM periodisch in eine klassische
 Tabellenstruktur gespiegelt. Für die Forschung werden die Datensätze
 aufbereitet und um CSV Format bereitgestellt.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mehr Infos zu OCQMS: &lt;a href="https://www.healthdata.ai"&gt;www.healthdata.ai&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mehr Infos zu HealthData.ai: &lt;a href="https://www.healthdata.ai"&gt;www.healthdata.ai&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </content></entry><entry><title>Agile Denkwerkzeuge: «Integrität einbauen»</title><link href="https://www.seantis.ch/blog/agile-denkwerkzeuge-einbauen-von-integritaet/" rel="alternate"></link><updated>2015-03-05T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:7ec91be1-0587-3f77-851f-540509684d45</id><content type="html">&lt;blockquote&gt;&lt;p&gt;Perceived integrity means that the totality of the product achieves a
 balance of function, usablity, and economy that delights customers. Conceptual
 inegrity means that the system’s central concepts work together as a smooth,
