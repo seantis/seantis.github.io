@@ -476,7 +476,7 @@ sind, um uns gegen derartige Bedrohungen wirksam zu wappnen.&lt;/p&gt;
 &lt;li&gt;Die Datenportale der Kantone stellen jeweils einen "catalog endpoint“ zur Verfügung (z.B. &lt;a href="https://abstimmungen.gr.ch/catalog.rdf"&gt;https://abstimmungen.gr.ch/catalog.rdf&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Der "catalog endpoint“ ist ein Verzeichnis aller Datensätze mit Links zu den Daten.&lt;/li&gt;
 &lt;li&gt;Der Harvester von &lt;a href="https://opendata.swiss"&gt;opendata.swiss&lt;/a&gt; "erntet" die Daten gemäss "catalog endpoint“ automatisch periodisch.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://opendata.swiss"&gt;opendata.swiss&lt;/a&gt; listet die die Datensätze auf dem eigenen Portal auf und verlinkt diese auf die Datenportale der Kantone.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://opendata.swiss"&gt;opendata.swiss&lt;/a&gt; listet die Datensätze auf dem eigenen Portal auf und verlinkt diese auf die Datenportale der Kantone.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Dies alles geschieht automatisch ohne Zutun der Kantonsverantwortlichen. Neue Abstimmungs- bzw. Wahlresultate werden nach der Publikation auf der OneGov Cloud automatisch auch auf &lt;a href="https://opendata.swiss"&gt;opendata.swiss&lt;/a&gt; publiziert.&lt;/p&gt;
 &lt;p&gt;Die Endpoints können neben dem Portal des Bundes auch von beliebigen anderen Services als Katalog im RDF-Format für alle Datensätze eines OneGov Cloud Datenportals verwendet werden.&lt;/p&gt;
