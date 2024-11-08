@@ -1135,68 +1135,6 @@ terminology in the world.»&lt;br&gt;
  
 &lt;a href="http://en.wikipedia.org/wiki/SNOMED_CT"&gt;http://en.wikipedia.org/wiki/SNOMED_CT&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-</content></entry><entry><title>Clinical (Disease) Registry Checklist</title><link href="https://www.seantis.ch/blog/disease-registry-checklist/" rel="alternate"></link><updated>2013-12-12T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:cef457fa-9fdc-3840-8a29-1c5a2032b3c6</id><content type="html">&lt;p&gt;The table below shows how OCQMS scores according to a disease registry
-checklist: &lt;a href="http://www.scfbm.org/content/8/1/21"&gt;http://www.scfbm.org/content/8/1/21&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Learn more about OCQMS: &lt;a href="https://www.healthdata.ai"&gt;www.healthdata.ai&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;1&lt;/strong&gt;. &lt;strong&gt;Technology Choices&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;|&lt;br&gt;
----|---&lt;br&gt;
-Web-based or Desktop Application | Web-based, no Client Software Installation
-required&lt;br&gt;
-Relational Database or Unstructured Data | Relational Database (e.g.
-PostgreSQL)&lt;br&gt;
-Programming Language | Python&lt;br&gt;
-Cloud deployment vs Physical ICT Infrastructure | (Private) Cloud Deployment&lt;br&gt;
-Open Source vs Proprietary | Open Source Software Stack&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;2&lt;/strong&gt;. &lt;strong&gt;Professional Software Development&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;|&lt;br&gt;
-Appropriate Software Project Management | Agile Development Methods&lt;br&gt;
-Well-structured, Commented Code | The Zen of Python (PEP 20), Style Guide for
-Python Code (PEP 8)&lt;br&gt;
-Version Control | Git&lt;br&gt;
-Issue Tracking | Trac&lt;br&gt;
-Documentation | Sphinx, Markdown&lt;br&gt;
-Software Deployment Instructions | Migration Scripts&lt;br&gt;
-Functional and Unit Testing | Test Coverage &amp;gt;99%, &amp;gt;2'250 Unit Tests&lt;br&gt;
-Deployment Process Documented&lt;em&gt; | Configuration Management with Puppet&lt;br&gt;
-Strategies to Capture Community Feedback&lt;/em&gt; | Release Manager, Ticketing System&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;3&lt;/strong&gt;. &lt;strong&gt;Interoperability&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;|&lt;br&gt;
-Export/Import Functionality | CSV, JSON, Excel Export&lt;br&gt;
-Webservice API | Export API (REST)&lt;br&gt;
-Data Standards | SQL, XML, PDF&lt;br&gt;
-Ontology (Data Elements, Disease elements) | ICD-10, SNOMED CT&lt;br&gt;
-XML Interfaces* | DICOM, HL7&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;4&lt;/strong&gt;. &lt;strong&gt;System Design&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;| &lt;strong&gt;__&lt;/strong&gt;&lt;br&gt;
-Customisable for a Specific Disease, Patient Registry, Clinical Registry | For
-Medical Practice and Clinical Research&lt;br&gt;
-Modular Design (New Features, New Data Elements, New Ontologies) | &amp;gt;30
-Clinical Modules Available&lt;br&gt;
-Internationalization&lt;em&gt; | i18n&lt;br&gt;
-Data Model&lt;/em&gt; | Entity-Attribute-Value (EAV) Approach Combined with a Object
-Relational Mapper (ORM)&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;5&lt;/strong&gt;. &lt;strong&gt;Security&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;| &lt;strong&gt;__&lt;/strong&gt;&lt;br&gt;
-De-Identification Process | Research Database incl. De-Identification
-Transformation&lt;br&gt;
-Two Factor Authentication | YubiKey&lt;br&gt;
-Multi-level User Access | Role-based Access Control (RBAC)&lt;br&gt;
-Work Groups | Group based Permissions on Hospital Level&lt;br&gt;
-Encryption | AES (Advanced Encryption Standard), 256-bit SSL Encryption&lt;br&gt;
-Audit Trail* | Full Audit Trail (TTW)&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;6. Sustainability&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;|&lt;br&gt;
-Ease of Exchange | Online Data Dictionary, Tabular Data Export&lt;br&gt;
-Effort Required | Seamless Integration into the Clinical Workflow, Report
-Generator&lt;/p&gt;
-&lt;p&gt;Future Proofing | Standard SQL Database for Data Storage&lt;/p&gt;
-&lt;p&gt;"Business Model"* | Software as a service (SaaS)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;added to the list&lt;br&gt;
-OCQMS is (not yet) open source: therefore the open source part has been
-omitted&lt;/li&gt;
-&lt;/ul&gt;
 </content></entry><entry><title>2-Faktor-Authentifizierung in OCQMS</title><link href="https://www.seantis.ch/blog/sicheres-login-mit-2-faktor-authentifizierung/" rel="alternate"></link><updated>2013-11-27T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:ccd12687-86dd-33a8-b520-9cc3afd1e010</id><content type="html">&lt;p&gt;In den Datenbanken für die medizinische Forschung werden sensitive
 Patientendaten gespeichert. Der Zugriff auf die personenbezogenen Daten setzt
 eine sichere Authentifizierung der Benutzer voraus.
@@ -1294,4 +1232,21 @@ sind und durch Multitasking ihre Sinne vernebelt werden.&lt;/p&gt;
 Unterschiedliche Anforderungen verlangen nach unterschiedlichen Werkzeugen.&lt;br&gt;
 Einen direkten Vergleich zwischen den Python Web Frameworks Flask, Django,
 Pyramid und Plone gibt es hier: &lt;a href="http://blog.stacktrace.ch/post/49178654214"&gt;http://blog.stacktrace.ch/post/49178654214&lt;/a&gt;&lt;/p&gt;
+</content></entry><entry><title>WebCronMon - Web Monitor</title><link href="https://www.seantis.ch/blog/webcronmon-web-monitor/" rel="alternate"></link><updated>2013-04-22T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:abc94230-b1a3-340d-accb-035cfcfab1ff</id><content type="html">&lt;p&gt;At seantis we use &lt;a href="https://www.webcron.org/"&gt;Webcron.org&lt;/a&gt; to monitor our
+sites. For our customers, as well as for our office monitor screen, we wanted
+a simple auto-refreshing page that shows the status of our sites at a glance.
+We therefore wrote this small &lt;a href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt; application
+looking like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/webcronmon-web-monitor/desktop.png" alt="Webcronmon"&gt;&lt;/p&gt;
+&lt;p&gt;The monitor only shows the bare minimum of information to keep things simple:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;list monitors by group&lt;/li&gt;
+&lt;li&gt;link the monitors to the actual website&lt;/li&gt;
+&lt;li&gt;show the current state (online / offline since)&lt;/li&gt;
+&lt;li&gt;show the uptime of the last 30 days&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The site will update the list every 60 seconds by default, unless configured
+otherwise or unless the timer on the upper right is toggled with a mouse-
+click.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GitHub project: &lt;a href="https://github.com/seantis/webcronmon"&gt;https://github.com/seantis/webcronmon&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </content></entry></feed>
