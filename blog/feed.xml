@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog Feed</title><link href="https://www.seantis.ch/blog/" rel="alternate"></link><link href="https://www.seantis.ch/blog/feed.xml" rel="self"></link><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2024-05-04T00:00:00Z</updated><author><name></name></author><subtitle>Trends und Expertise. Was uns betrifft und wie wir darüber denken.</subtitle><entry><title>Strategien im Umgang mit Cyber-Risiken</title><link href="https://www.seantis.ch/blog/cyber-security-strategy/" rel="alternate"></link><updated>2024-05-04T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:53f76191-214f-3c91-b2a5-0ea5df014960</id><content type="html">&lt;p&gt;&lt;strong&gt;Erschienen im Newsletter / Magazin «Verwaltungsrat» in der Monatsausgabe Mai zum Thema Risiko: &lt;a href="https://www.weka.ch/management/unternehmensfuehrung/newsletter-verwaltungsrat.html"&gt;https://www.weka.ch/management/unternehmensfuehrung/newsletter-verwaltungsrat.html&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog Feed</title><link href="https://www.seantis.ch/blog/" rel="alternate"></link><link href="https://www.seantis.ch/blog/feed.xml" rel="self"></link><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2024-11-13T00:00:00Z</updated><author><name></name></author><subtitle>Trends und Expertise. Was uns betrifft und wie wir darüber denken.</subtitle><entry><title>Referat Cybersecurity Best Practices</title><link href="https://www.seantis.ch/blog/cyber-security-best-practice/" rel="alternate"></link><updated>2024-11-13T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:e8a1e162-95fa-3ebb-b95c-bf03c97d3200</id><content type="html">&lt;p&gt;&lt;strong&gt;&lt;a href="/blog/cyber-security-best-practice/Cybersecurity-OneGov.pdf"&gt;→ Foliensatz zum Download&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Inhalt des Referates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Die Bedrohungslage im Cyberspace verschärft sich weiter.&lt;/li&gt;
+&lt;li&gt;Im ersten Schritt muss jede Organisation definieren, was sie überhaupt zu schützen hat.&lt;/li&gt;
+&lt;li&gt;Der Zusammenhang zwischen Schwachstellen, Bedrohungen und Risiken.&lt;/li&gt;
+&lt;li&gt;Warum existieren Schwachstellen?&lt;/li&gt;
+&lt;li&gt;Wie Risikomanagement in der Praxis funktioniert: &lt;a href="https://www.seantis.ch/riskmatrix/"&gt;https://www.seantis.ch/riskmatrix/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Die Bedeutung von Standards wie NIST CSF und ISO 27001.&lt;/li&gt;
+&lt;li&gt;Der menschliche Faktor: warum Cyber-Hygiene alleine nicht ausreicht.&lt;/li&gt;
+&lt;li&gt;Der Nutzen von Penetrationstests und Schwachstellenscans.&lt;/li&gt;
+&lt;li&gt;Vulnerability Disclosure Policy: eine Einladung an &lt;del&gt;Hacker&lt;/del&gt; Security Researchers: &lt;a href="https://www.seantis.ch/blog/vulnerability-disclosure-policy/"&gt;https://www.seantis.ch/blog/vulnerability-disclosure-policy/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Über den Autor&lt;/h3&gt;
+&lt;p&gt;Fabian Reinhard ist Gründer einer IT-Firma und Mitglied mehrerer Verwaltungsräte. Als freier Doktorand forscht er an der Universität Zürich (DSI) zum Thema Cybersecurity.&lt;/p&gt;
+</content></entry><entry><title>Strategien im Umgang mit Cyber-Risiken</title><link href="https://www.seantis.ch/blog/cyber-security-strategy/" rel="alternate"></link><updated>2024-05-04T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:53f76191-214f-3c91-b2a5-0ea5df014960</id><content type="html">&lt;p&gt;&lt;strong&gt;Erschienen im Newsletter / Magazin «Verwaltungsrat» in der Monatsausgabe Mai zum Thema Risiko: &lt;a href="https://www.weka.ch/management/unternehmensfuehrung/newsletter-verwaltungsrat.html"&gt;https://www.weka.ch/management/unternehmensfuehrung/newsletter-verwaltungsrat.html&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h3&gt;Zusammenfassung für eilige Leser:innen&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Da Cyber-Risiken den Fortbestand des Unternehmens gefährden können, ist der Verwaltungsrat gesetzlich verpflichtet, sich damit zu beschäftigen.&lt;/li&gt;
@@ -1232,21 +1247,4 @@ sind und durch Multitasking ihre Sinne vernebelt werden.&lt;/p&gt;
 Unterschiedliche Anforderungen verlangen nach unterschiedlichen Werkzeugen.&lt;br&gt;
 Einen direkten Vergleich zwischen den Python Web Frameworks Flask, Django,
 Pyramid und Plone gibt es hier: &lt;a href="http://blog.stacktrace.ch/post/49178654214"&gt;http://blog.stacktrace.ch/post/49178654214&lt;/a&gt;&lt;/p&gt;
-</content></entry><entry><title>WebCronMon - Web Monitor</title><link href="https://www.seantis.ch/blog/webcronmon-web-monitor/" rel="alternate"></link><updated>2013-04-22T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:abc94230-b1a3-340d-accb-035cfcfab1ff</id><content type="html">&lt;p&gt;At seantis we use &lt;a href="https://www.webcron.org/"&gt;Webcron.org&lt;/a&gt; to monitor our
-sites. For our customers, as well as for our office monitor screen, we wanted
-a simple auto-refreshing page that shows the status of our sites at a glance.
-We therefore wrote this small &lt;a href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt; application
-looking like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="/blog/webcronmon-web-monitor/desktop.png" alt="Webcronmon"&gt;&lt;/p&gt;
-&lt;p&gt;The monitor only shows the bare minimum of information to keep things simple:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;list monitors by group&lt;/li&gt;
-&lt;li&gt;link the monitors to the actual website&lt;/li&gt;
-&lt;li&gt;show the current state (online / offline since)&lt;/li&gt;
-&lt;li&gt;show the uptime of the last 30 days&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The site will update the list every 60 seconds by default, unless configured
-otherwise or unless the timer on the upper right is toggled with a mouse-
-click.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;GitHub project: &lt;a href="https://github.com/seantis/webcronmon"&gt;https://github.com/seantis/webcronmon&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </content></entry></feed>
