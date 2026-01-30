@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>News Feed</title><link href="https://www.seantis.ch/news/" rel="alternate"/><link href="https://www.seantis.ch/news/feed.xml" rel="self"/><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2025-01-31T00:00:00Z</updated><author><name/></author><subtitle>Aktuelles aus unserer Softwareschmiede zu unseren Projekten und Lösungen.</subtitle><entry><title>Standardisierte Schnittstellen mit Open Data API von admin.digital</title><link href="https://www.seantis.ch/news/open-data-api/" rel="alternate"/><updated>2025-01-31T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:b862af18-f64a-39d5-90d2-85418d9936af</id><content type="html">&lt;p&gt;Eine Datenschnittstelle sollte möglichst standardisiert sein und neben den eigentlichen Daten auch bestimmte Meta-Informationen bereitstellen: Welche Endpunkte gibt es? Welche Filtermöglichkeiten existieren? In welcher Beziehung stehen die Daten zueinander?&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>News Feed</title><link href="https://www.seantis.ch/news/" rel="alternate"/><link href="https://www.seantis.ch/news/feed.xml" rel="self"/><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2026-01-30T00:00:00Z</updated><author><name/></author><subtitle>Aktuelles aus unserer Softwareschmiede zu unseren Projekten und Lösungen.</subtitle><entry><title>Was bringt Open Source für die Gemeindeverwaltung?</title><link href="https://www.seantis.ch/news/open-source-gemeindeverwaltung/" rel="alternate"/><updated>2026-01-30T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:e6f9f657-eec1-3dfc-bd8c-5ea57a9555ef</id><content type="html">&lt;p&gt;Das Referat zeigt auf, wie Verwaltungen von Open Source profitieren können, wenn Open Source konsequent mit einem professionellen Betriebsmodell (SaaS) und offenen Schnittstellen bzw. offenen Daten (Open Government Data) kombiniert wird. Als Praxisbeispiel dient &lt;a href="https://www.admin.digital"&gt;&lt;strong&gt;admin.digital&lt;/strong&gt;&lt;/a&gt; als modulare digitale Plattform für Gemeinden.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="/news/open-source-gemeindeverwaltung/admin-digital-OSS.pdf"&gt;→ Foliensatz zum Download&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Inhalt des Referats&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ausgangslage:&lt;/strong&gt; Open Source Software ist im Alltag der IT allgegenwärtig – die Basisinfrastruktur des Internets würde ohne Open Source kaum funktionieren – und bietet einen starken Werkzeugkasten für moderne Softwareentwicklung.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beispiel admin.digital:&lt;/strong&gt; Eine umfassende Plattform mit Modulen wie Formulare und Online-Schalter, Reservationen (Räume, Sportanlagen), Verzeichnisse (Behörden, Personen, Zuständigkeiten) sowie Publikationen (z. B. Portrait, News, Veranstaltungen, Baugesuche, digitale Siegel).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;100% Open Source:&lt;/strong&gt; admin.digital wird als Open-Source-Produkt (Webportal) plus Framework für Fachapplikationen positioniert.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vermeidbares Missverständnis:&lt;/strong&gt; Open Source ist nicht automatisch gratis. Freie Software ist primär eine Frage der Freiheit und Kontrolle, nicht des Preises.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sicht der Nutzenden:&lt;/strong&gt; Enduser verwenden Open Source täglich, ohne es zu merken; entscheidend bleibt eine gute, selbsterklärende Benutzeroberfläche.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sicht der IT- und Geschäftsleitung:&lt;/strong&gt; Datenschutz und Informationssicherheit bleiben Pflicht – unabhängig vom Lizenzmodell. Was sich ändern kann: weniger/keine Lizenzkosten, dafür rücken Betrieb, Support und Weiterentwicklung stärker in den Fokus.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Erfolgsformel:&lt;/strong&gt; &lt;strong&gt;OSS + SaaS + OGD&lt;/strong&gt; = 🤩&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OSS&lt;/strong&gt; steht für &lt;strong&gt;Freiheit/Unabhängigkeit&lt;/strong&gt; (kein Vendor-Lock-in, Quellcode anpassbar),&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SaaS&lt;/strong&gt; für &lt;strong&gt;Zuverlässigkeit/Sicherheit&lt;/strong&gt; durch professionellen Betrieb und regelmässige Updates,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OGD&lt;/strong&gt; für &lt;strong&gt;Flexibilität/Offenheit&lt;/strong&gt; durch strukturierte, maschinenlesbare Daten inklusive Dokumentation (z. B. via APIs).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Über den Referenten&lt;/h2&gt;
+&lt;p&gt;Fabian Reinhard ist Gründer und Geschäftsführer der Seantis AG und Mitglied mehrerer Verwaltungsräte. Als freier Doktorand forscht er an der Universität Zürich (DSI) zum Thema Cybersecurity.&lt;/p&gt;
+</content></entry><entry><title>Standardisierte Schnittstellen mit Open Data API von admin.digital</title><link href="https://www.seantis.ch/news/open-data-api/" rel="alternate"/><updated>2025-01-31T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:b862af18-f64a-39d5-90d2-85418d9936af</id><content type="html">&lt;p&gt;Eine Datenschnittstelle sollte möglichst standardisiert sein und neben den eigentlichen Daten auch bestimmte Meta-Informationen bereitstellen: Welche Endpunkte gibt es? Welche Filtermöglichkeiten existieren? In welcher Beziehung stehen die Daten zueinander?&lt;/p&gt;
 &lt;p&gt;Die Open Data API von admin.digital setzt hierbei auf &lt;a href="http://amundsen.com/media-types/collection/"&gt;Collection+JSON&lt;/a&gt;, einen Hypermedia-Type, der speziell für das Abfragen und Verwalten von Datensammlungen entwickelt wurde. Die Einstiegspunkte sind einfach zu finden, und von dort kann man bequem durch die Daten navigieren.&lt;/p&gt;
 &lt;p&gt;Für ein Gemeinde-Portal auf der Plattform von admin.digital gibt es zum Beispiel folgende Endpunkte:&lt;/p&gt;
 &lt;ul&gt;
@@ -578,7 +597,4 @@ flights with myControl.aero.&lt;/p&gt;
 &lt;li&gt;Remove facebook button&lt;/li&gt;
 &lt;li&gt;Change mail sender name&lt;/li&gt;
 &lt;/ul&gt;
-</content></entry><entry><title>OCQMS: Real Life Data in Real Time</title><link href="https://www.seantis.ch/news/ocqms-real-life-data-in-real-time/" rel="alternate"/><updated>2014-02-28T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:e423d459-65f0-369f-b457-62895ef7af1b</id><content type="html">&lt;p&gt;OCQMS (Open Clinical Quality Management System) ist unsere Web-Applikation an
-der Schnittstelle zwischen Dokumentation, Qualitätsmanagement und Forschung.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;OCQMS: &lt;a href="https://www.healthdata.ai"&gt;www.healhdata.ai&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </content></entry></feed>
