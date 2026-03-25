@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog Feed</title><link href="https://www.seantis.ch/blog/" rel="alternate"/><link href="https://www.seantis.ch/blog/feed.xml" rel="self"/><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2025-11-12T00:00:00Z</updated><author><name/></author><subtitle>Trends und Expertise. Was uns betrifft und wie wir darüber denken.</subtitle><entry><title>Warum wir seit 20 Jahren Open Source Software für die öffentliche Hand entwickeln</title><link href="https://www.seantis.ch/blog/open-source-oeffentliche-verwaltung/" rel="alternate"/><updated>2025-11-12T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:6dd1af8e-4f5d-3227-8ba2-30c101b39aa2</id><content type="html">&lt;p&gt;Im Sinne des Bundesgesetzes über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG) erfüllt admin.digital die zentralen Anforderungen an Transparenz, Nachvollziehbarkeit und Wiederverwendbarkeit.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog Feed</title><link href="https://www.seantis.ch/blog/" rel="alternate"/><link href="https://www.seantis.ch/blog/feed.xml" rel="self"/><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2026-03-25T00:00:00Z</updated><author><name/></author><subtitle>Trends und Expertise. Was uns betrifft und wie wir darüber denken.</subtitle><entry><title>Open Source als Fundament für digitale Souveränität</title><link href="https://www.seantis.ch/blog/open-source-digitale-souveraenitaet/" rel="alternate"/><updated>2026-03-25T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:e3ef307f-6021-33e4-b89f-a2a8b76b5e0d</id><content type="html">&lt;p&gt;&lt;strong&gt;Was hat die Luzerner Fasnacht mit digitaler Souveränität zu tun?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Diese Frage stellte Fabian Reinhard am Infosprint des Vereins OneGov.ch an den Anfang.&lt;/p&gt;
+&lt;p&gt;Eine Gemeinde veröffentlicht Fotos vom Fasnachtsumzug auf ihrem Webportal und damit auch in ihrer News-App. Plötzlich entscheidet ein globaler Plattformanbieter, dass diese Inhalte aufgrund angeblicher Gewaltdarstellungen problematisch seien. Die Gemeinde hat nichts falsch gemacht, doch ein automatisches System schlägt Alarm.&lt;/p&gt;
+&lt;p&gt;Die Folgen sind real: Diskussionen, Einschränkungen und Abhängigkeiten. So wird die Problematik der digitalen Souveränität greifbar.
+Ist Open Source Software die Lösung? Die Antwort aus der Praxis: Open Source allein reicht nicht. Aber im Zusammenspiel entsteht echte Stärke:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Open Source Software&lt;/strong&gt; schafft Freiheit und Unabhängigkeit&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Software as a Service&lt;/strong&gt; sorgt für Zuverlässigkeit und Sicherheit im Betrieb&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open Government Data&lt;/strong&gt; ermöglicht Flexibilität und Offenheit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dieses Zusammenspiel macht Organisationen wirklich handlungsfähig. Anders gesagt:
+Digitale Souveränität bedeutet, selbst entscheiden zu können – ohne von einzelnen Anbietern oder Plattformen abhängig zu sein.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Foliensatz Referat Infosprint Verein OneGov.ch: &lt;a href="/blog/open-source-digitale-souveraenitaet/admin-digital-InfoSprint.pdf"&gt;Download PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;admin.digital: Open Source Plattform für die öffentliche Hand: &lt;a href="http://www.admin.digital"&gt;www.admin.digital&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content></entry><entry><title>Warum wir seit 20 Jahren Open Source Software für die öffentliche Hand entwickeln</title><link href="https://www.seantis.ch/blog/open-source-oeffentliche-verwaltung/" rel="alternate"/><updated>2025-11-12T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:6dd1af8e-4f5d-3227-8ba2-30c101b39aa2</id><content type="html">&lt;p&gt;Im Sinne des Bundesgesetzes über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG) erfüllt admin.digital die zentralen Anforderungen an Transparenz, Nachvollziehbarkeit und Wiederverwendbarkeit.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Zusammenarbeit in der Gemeinschaft:&lt;/strong&gt; Open Source heisst für uns Unabhängigkeit, Transparenz und Mitgestaltung – kein Lock‑in. Unsere Projekte pflegen wir offen (u.a. in der OneGov.ch‑Community).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Digitale Nachhaltigkeit:&lt;/strong&gt; Offene Standards, Schnittstellen und gemeinsam geteiltes Wissen machen öffentliche IT nachhaltig nutzbar und sichern die Weiterentwicklung.&lt;/li&gt;
@@ -1230,26 +1246,4 @@ studies on inflammatory rheumatic diseases&lt;br&gt;
 &lt;a href="http://www.scqm.ch"&gt;http://www.scqm.ch&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img src="/blog/git-for-reproducibility-in-scientific-research/phd101212s.gif" alt="PHD-Revision"&gt;&lt;/p&gt;
-</content></entry><entry><title>BAU statt DAU</title><link href="https://www.seantis.ch/blog/bau-statt-dau/" rel="alternate"/><updated>2013-05-27T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:e58807e6-0b27-3a6b-9e9b-0e4f5d52168d</id><content type="html">&lt;p&gt;Die Idee hinter dem DAU ist, dass ein Programm auch ohne Hintergrundwissen der
-zukünftigen Anwender benutzbar und von ihnen intuitiv anwendbar ist
-[&lt;a href="http://de.wikipedia.org/wiki/D%C3%BCmmster_anzunehmender_User"&gt;http://de.wikipedia.org/wiki/D%C3%BCmmster_anzunehmender_User&lt;/a&gt;]. Ich finde
-das Konzept aus drei Gründen nicht überzeugend:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Der DAU ist ein theoretisches Konstrukt, das in der Realität gar nicht vorkommt.&lt;/li&gt;
-&lt;li&gt;Weil man den DAU in der freien Wildbahn nicht beobachten kann, hat jeder seine eigene Vorstellung vom DAU. Argumentationen, die auf den DAU Bezug nehmen, sind daher immer äusserst subjektiv.&lt;/li&gt;
-&lt;li&gt;Software für den DAU zu designen ist eine Frechheit gegenüber allen anderen Benutzern. Für sie wird es nämlich mühsam und sie fühlen sich nicht ernst genommen. Alle Benutzer werden für dumm verkauft.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src="/blog/bau-statt-dau/BAU.png" alt="BAU"&gt;&lt;/p&gt;
-&lt;p&gt;Der «betrunken anzunehmende User» BAU hat alle diese Nachteile nicht&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Der BAU ist real und die entsprechende Situation mit genügend Alkohol jederzeit reproduzierbar.&lt;/li&gt;
-&lt;li&gt;Der BAU ist beobachtbar. Er ist ein realer Benutzer mit gewissen Einschränkungen.&lt;/li&gt;
-&lt;li&gt;Wenn ich Software für den BAU baue, dann muss ich mir stets bewusst sein, dass der BAU zwar betrunken aber nicht dumm ist!&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Warum aber überhaupt an den BAU denken und nicht einfach nur an den nüchtern
-Benutzer? Vielleicht weil alle User durch eine Vielzahl Faktoren abgelenkt
-sind und durch Multitasking ihre Sinne vernebelt werden.&lt;/p&gt;
-&lt;p&gt;Die Idee ist von Will Dayble
-(&lt;a href="https://twitter.com/willdayble"&gt;@&lt;/a&gt;&lt;a href="https://twitter.com/willdayble"&gt;willdayble&lt;/a&gt;):
-«The User is Drunk»&lt;/p&gt;
 </content></entry></feed>
