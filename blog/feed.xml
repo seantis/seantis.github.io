@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog Feed</title><link href="https://www.seantis.ch/blog/" rel="alternate"/><link href="https://www.seantis.ch/blog/feed.xml" rel="self"/><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2026-03-25T00:00:00Z</updated><author><name/></author><subtitle>Trends und Expertise. Was uns betrifft und wie wir darüber denken.</subtitle><entry><title>Open Source als Fundament für digitale Souveränität</title><link href="https://www.seantis.ch/blog/open-source-digitale-souveraenitaet/" rel="alternate"/><updated>2026-03-25T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:e3ef307f-6021-33e4-b89f-a2a8b76b5e0d</id><content type="html">&lt;p&gt;&lt;strong&gt;Was hat die Luzerner Fasnacht mit digitaler Souveränität zu tun?&lt;/strong&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog Feed</title><link href="https://www.seantis.ch/blog/" rel="alternate"/><link href="https://www.seantis.ch/blog/feed.xml" rel="self"/><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2026-07-02T00:00:00Z</updated><author><name/></author><subtitle>Trends und Expertise. Was uns betrifft und wie wir darüber denken.</subtitle><entry><title>Gemeinsam zur neuen Informationsarchitektur der Gemeinde Horw</title><link href="https://www.seantis.ch/blog/workshop-informationsarchitektur/" rel="alternate"/><updated>2026-07-02T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:20eb228d-d8bb-37e6-9666-de7fc91d65a3</id><content type="html">&lt;p&gt;Genau daran haben die Mitarbeitenden der Gemeinde Horw gearbeitet. Der Workshop wurde durch die Beratungsfirma &lt;a href="https://stimmt.ch"&gt;Stimmt&lt;/a&gt; geführt. Im Zentrum stand die Frage, wie die neue Website der Gemeinde Horw so strukturiert werden kann, dass sie die Bedürfnisse ihrer verschiedenen Anspruchsgruppen bestmöglich erfüllt.&lt;/p&gt;
+&lt;p&gt;Im Workshop haben wir deshalb nicht nur über mögliche Inhalte, Menüs und Navigationswege gesprochen. Wir haben die zukünftige Struktur der Website konkret erarbeitet: aus Sicht der Menschen, die sie später nutzen werden.&lt;/p&gt;
+&lt;p&gt;Dazu haben die Teilnehmenden des Workshops Aufgaben, Bedürfnisse und typische Wege durch die Website analysiert, sortiert und bewertet. Welche Informationen werden besonders häufig gesucht? Welche Anliegen sollen schnell erledigt werden können? Und wie muss die Navigation aufgebaut sein, damit Nutzerinnen und Nutzer ohne Umwege zum Ziel kommen?&lt;/p&gt;
+&lt;p&gt;Schritt für Schritt entsteht so eine Informationsarchitektur, die Orientierung schafft und die Grundlage für eine nutzerfreundliche Web-Lösung bildet. Dieser gemeinsame Prozess ist ein wichtiger Bestandteil erfolgreicher digitaler Projekte: Die Struktur einer Website wird nicht am Schreibtisch allein entwickelt, sondern im Dialog mit den Menschen, die die Organisation und ihre Anspruchsgruppen am besten kennen.&lt;/p&gt;
+&lt;p&gt;Wir freuen uns, die Gemeinde Horw auf dem Weg zu ihrer neuen Website als technischer Partner begleiten zu dürfen. Ziel ist eine Lösung, die einfach funktioniert, verständlich aufgebaut ist und den digitalen Zugang zur Gemeinde weiter verbessert.&lt;/p&gt;
+</content></entry><entry><title>Open Source als Fundament für digitale Souveränität</title><link href="https://www.seantis.ch/blog/open-source-digitale-souveraenitaet/" rel="alternate"/><updated>2026-03-25T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:e3ef307f-6021-33e4-b89f-a2a8b76b5e0d</id><content type="html">&lt;p&gt;&lt;strong&gt;Was hat die Luzerner Fasnacht mit digitaler Souveränität zu tun?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Diese Frage stellte Fabian Reinhard am Infosprint des Vereins OneGov.ch an den Anfang.&lt;/p&gt;
 &lt;p&gt;Eine Gemeinde veröffentlicht Fotos vom Fasnachtsumzug auf ihrem Webportal und damit auch in ihrer News-App. Plötzlich entscheidet ein globaler Plattformanbieter, dass diese Inhalte aufgrund angeblicher Gewaltdarstellungen problematisch seien. Die Gemeinde hat nichts falsch gemacht, doch ein automatisches System schlägt Alarm.&lt;/p&gt;
 &lt;p&gt;Die Folgen sind real: Diskussionen, Einschränkungen und Abhängigkeiten. So wird die Problematik der digitalen Souveränität greifbar.
@@ -1201,49 +1206,4 @@ zwingend sowohl etwas wissen (sein geheimes Passwort) als auch etwas besitzen
 missbraucht werden. Beim Einsatz von Hardware-Tokens (wie dem YubiKey) ist
 dieses Risiko jedoch deutlich kleiner, da ein YubiKey nicht kopiert werden
 kann und der Verlust schnell bemerkt wird (Schlüsselbund weg).&lt;/p&gt;
-</content></entry><entry><title>Git for Reproducibility in Scientific Research</title><link href="https://www.seantis.ch/blog/git-for-reproducibility-in-scientific-research/" rel="alternate"/><updated>2013-08-15T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:013540fa-ef26-34bd-8855-5a3ef8fc9f95</id><content type="html">&lt;p&gt;&lt;strong&gt;«Reproducibility is the hallmark of good science.»  &lt;/strong&gt;&lt;a href="http://www.scfbm.org/content/8/1/7/"&gt;http://www.scfbm.org/content/8/1/7/&lt;/a&gt;&lt;strong&gt;  &lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;Git (Version Control System)&lt;/h3&gt;
-&lt;p&gt;Git is a decentralized and distributed version control system (VCS). It's
-widely used in the software industry to maintain code repositories.&lt;a href="http://git-scm.com"&gt;&lt;br&gt;
-http://git-scm.com&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;LaTeX (Typesetting)&lt;/h3&gt;
-&lt;p&gt;LaTeX is a high-quality typesetting system. LaTeX is the de facto standard for
-the publication of scientific documents.&lt;a href="http://www.latex-project.org"&gt;&lt;br&gt;
-http://www.latex-project.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;latex-git-log can be used to type­set the complete Git version history as
-table written in LaTeX. The typeset output (PDF document) includes the Git
-revisions (short SHA-1 hash).&lt;a href="http://www.ctan.org/tex-archive/support/latex-git-log"&gt;
-http://www.ctan.org/tex-archive/support/latex-git-log &lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;SQL Research Database (Snapshots)&lt;/h3&gt;
-&lt;p&gt;All data of the registry is mirrored to a separate SQL database (research
-database). During the transfer process data transformations take place to
-bring the data into a tabular structure and to anonymize personal subject
-data. To ensure full reproducibility of SQL queries we create periodic
-snapshots of the research database. A snapshot is a complete immutable SQL
-database with a consistent naming convention (YYYY-MM-DD: e.g. 2013-12-29)&lt;/p&gt;
-&lt;h3&gt;Sweave (R in LaTeX)&lt;/h3&gt;
-&lt;p&gt;Sweave combines R codes and LaTeX documents for reproducing results. It makes
-it easy to embed R code into LaTeX.&lt;/p&gt;
-&lt;h3&gt;Project Templates&lt;/h3&gt;
-&lt;p&gt;For each new research project a template based Git repository is  created. The
-template contains a common folder layout, scripts and LaTeX templates. The
-deployment of new repositories is managed with Puppet.&lt;br&gt;
-&lt;a href="https://puppetlabs.com"&gt;https://puppetlabs.com &lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Secure Shell Access (SSH)&lt;/h3&gt;
-&lt;p&gt;Access control to the Git research repositories and to the SQL server with the
-research snapshot database is managed with SSH public/private keys.&lt;/p&gt;
-&lt;h3&gt;GitWeb (Git Server)&lt;/h3&gt;
-&lt;p&gt;Git repositories on a Git server have a URL and could be opened to the public
-by submitting links to the Git repository alongside manuscripts sharing them
-with reviewers. To lower technical barrier (installing and maintaining a Git
-server) web-based hosting service for Git repositories such as GitHub or
-Bitbucket could be used for the collaboration as well.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://git-scm.com/book/ch4-6.html"&gt;http://git-scm.com/book/ch4-6.html&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;About SCQM&lt;br&gt;
- 
-The SCQM Foundation runs a scientific platform for prospective long-term
-studies on inflammatory rheumatic diseases&lt;br&gt;
-&lt;a href="http://www.scqm.ch"&gt;http://www.scqm.ch&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src="/blog/git-for-reproducibility-in-scientific-research/phd101212s.gif" alt="PHD-Revision"&gt;&lt;/p&gt;
 </content></entry></feed>
