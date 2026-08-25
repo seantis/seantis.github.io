@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>News Feed</title><link href="https://www.seantis.ch/news/" rel="alternate"/><link href="https://www.seantis.ch/news/feed.xml" rel="self"/><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2026-01-30T00:00:00Z</updated><author><name/></author><subtitle>Aktuelles aus unserer Softwareschmiede zu unseren Projekten und Lösungen.</subtitle><entry><title>Was bringt Open Source für die Gemeindeverwaltung?</title><link href="https://www.seantis.ch/news/open-source-gemeindeverwaltung/" rel="alternate"/><updated>2026-01-30T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:e6f9f657-eec1-3dfc-bd8c-5ea57a9555ef</id><content type="html">&lt;p&gt;Das Referat zeigt auf, wie Verwaltungen von Open Source profitieren können, wenn Open Source konsequent mit einem professionellen Betriebsmodell (SaaS) und offenen Schnittstellen bzw. offenen Daten (Open Government Data) kombiniert wird. Als Praxisbeispiel dient &lt;a href="https://www.admin.digital"&gt;&lt;strong&gt;admin.digital&lt;/strong&gt;&lt;/a&gt; als modulare digitale Plattform für Gemeinden.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>News Feed</title><link href="https://www.seantis.ch/news/" rel="alternate"/><link href="https://www.seantis.ch/news/feed.xml" rel="self"/><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2026-08-25T00:00:00Z</updated><author><name/></author><subtitle>Aktuelles aus unserer Softwareschmiede zu unseren Projekten und Lösungen.</subtitle><entry><title>Wie eine Patienten-App die Rheumabehandlung unterstützt</title><link href="https://www.seantis.ch/news/patienten-app/" rel="alternate"/><updated>2026-08-25T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:e585aa74-c3aa-3aa2-b28c-13e97efd4fdd</id><content type="html">&lt;p&gt;Ein Video der &lt;a href="https://www.scqm.ch/"&gt;SCQM Foundation&lt;/a&gt; zeigt die digitale Plattform aus drei Perspektiven: Catherine Raptis, Co-Geschäftsleiterin und Leiterin Wissenschaft bei SCQM, erläutert den Nutzen für Patientinnen und Patienten. PD Dr. med. Raphael Micheroli zeigt, wie mySCQM die medizinische Betreuung unterstützt. Und Anna Grabowski berichtet von ihren persönlichen Erfahrungen als langjährige Nutzerin.&lt;/p&gt;
+&lt;p&gt;Digitale Gesundheitslösungen wie mySCQM entstehen in enger Zusammenarbeit: Seantis hat die App und die Plattform für das nationale Rheumaregister von SCQM entwickelt und begleiten deren Weiterentwicklung bis heute.&lt;/p&gt;
+&lt;p&gt;Ein eindrückliches Beispiel dafür, wie digitale Lösungen Forschung, Behandelnde und Patientinnen und Patienten miteinander verbinden können.&lt;/p&gt;
+&lt;iframe
+  src="https://player.vimeo.com/video/1219846543"
+  width="100%"
+  height="500"
+  frameborder="0"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen&gt;
+&lt;/iframe&gt;</content></entry><entry><title>Was bringt Open Source für die Gemeindeverwaltung?</title><link href="https://www.seantis.ch/news/open-source-gemeindeverwaltung/" rel="alternate"/><updated>2026-01-30T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:e6f9f657-eec1-3dfc-bd8c-5ea57a9555ef</id><content type="html">&lt;p&gt;Das Referat zeigt auf, wie Verwaltungen von Open Source profitieren können, wenn Open Source konsequent mit einem professionellen Betriebsmodell (SaaS) und offenen Schnittstellen bzw. offenen Daten (Open Government Data) kombiniert wird. Als Praxisbeispiel dient &lt;a href="https://www.admin.digital"&gt;&lt;strong&gt;admin.digital&lt;/strong&gt;&lt;/a&gt; als modulare digitale Plattform für Gemeinden.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="/news/open-source-gemeindeverwaltung/admin-digital-OSS.pdf"&gt;→ Foliensatz zum Download&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;Inhalt des Referats&lt;/h2&gt;
 &lt;ul&gt;
@@ -582,19 +592,4 @@ Prozess ablaufen und alle Schritte müssen detailliert dokumentiert werden
 Checkout von Bioproben anhand von Use Cases definiert. In der Umsetzung wurde
 grössten Wert auf die umfassende und sorgfältige Protokollierung aller
 Schritte in der Kette vom Spital bis ins Labor gelegt.&lt;/p&gt;
-</content></entry><entry><title>myControl.aero: Documents Upload</title><link href="https://www.seantis.ch/news/mycontrol-aero-documents-upload/" rel="alternate"/><updated>2014-03-06T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:5702212d-5de8-3cc4-9306-317271b04869</id><content type="html">&lt;p&gt;Attach scans of approvals to flights or licences and find your documents
-online whenever needed. See the list of changes below and enjoy logging your
-flights with myControl.aero.&lt;/p&gt;
-&lt;p&gt; &lt;strong&gt;Visit myControl.aero: &lt;a href="https://www.mycontrol.aero/"&gt;www.myControl.aero&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; Changes and improvements:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt; Add documents storage&lt;/li&gt;
-&lt;li&gt;Add simulator flights PDF&lt;/li&gt;
-&lt;li&gt;Mountain landings is part of basic subscription package&lt;/li&gt;
-&lt;li&gt;Set NFA as default in ground duty dialog&lt;/li&gt;
-&lt;li&gt;Fix login link on unsubscribe form&lt;/li&gt;
-&lt;li&gt;Fix feature comparison dialog&lt;/li&gt;
-&lt;li&gt;Remove facebook button&lt;/li&gt;
-&lt;li&gt;Change mail sender name&lt;/li&gt;
-&lt;/ul&gt;
 </content></entry></feed>
