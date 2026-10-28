@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog Feed</title><link href="https://www.seantis.ch/blog/" rel="alternate"/><link href="https://www.seantis.ch/blog/feed.xml" rel="self"/><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2026-07-02T00:00:00Z</updated><author><name/></author><subtitle>Trends und Expertise. Was uns betrifft und wie wir darüber denken.</subtitle><entry><title>Gemeinsam zur neuen Informationsarchitektur der Gemeinde Horw</title><link href="https://www.seantis.ch/blog/workshop-informationsarchitektur/" rel="alternate"/><updated>2026-07-02T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:20eb228d-d8bb-37e6-9666-de7fc91d65a3</id><content type="html">&lt;p&gt;Genau daran haben die Mitarbeitenden der Gemeinde Horw gearbeitet. Der Workshop wurde durch die Beratungsfirma &lt;a href="https://stimmt.ch"&gt;Stimmt&lt;/a&gt; geführt. Im Zentrum stand die Frage, wie die neue Website der Gemeinde Horw so strukturiert werden kann, dass sie die Bedürfnisse ihrer verschiedenen Anspruchsgruppen bestmöglich erfüllt.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog Feed</title><link href="https://www.seantis.ch/blog/" rel="alternate"/><link href="https://www.seantis.ch/blog/feed.xml" rel="self"/><id>urn:uuid:4210e351-ad17-3131-ab0c-e12f9d2e3869</id><updated>2026-10-28T00:00:00Z</updated><author><name/></author><subtitle>Trends und Expertise. Was uns betrifft und wie wir darüber denken.</subtitle><entry><title>Ist das noch das Original? Nachvollziehbarkeit in der digitalen Planauflage</title><link href="https://www.seantis.ch/blog/nachvollziehbarkeit-planauflage/" rel="alternate"/><updated>2026-10-28T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:5a548ba5-f91b-3dcf-ad88-dda37f2968be</id><content type="html">&lt;p&gt;Diese Frage stellte Fabian Reinhard am &lt;a href="https://www.onegov.ch/info-sprint/22-info-sprint-selbstbestimmtes-handeln-wie-geht-das-27-10-26-14-19-uhr-zuerich/"&gt;22. Info Sprint des Vereins OneGov.ch&lt;/a&gt; an den Anfang seines Referats.&lt;/p&gt;
+&lt;p&gt;Die digitale Planauflage stellt Gemeinden vor besondere Herausforderungen: Baugesuche müssen öffentlich zugänglich sein, gleichzeitig gilt es, den Datenschutz sicherzustellen. Und nach Ablauf der Auflagefrist müssen die Dokumente aus Gründen der Datensparsamkeit wieder gelöscht werden.&lt;/p&gt;
+&lt;p&gt;Wie lässt sich unter diesen Voraussetzungen die Nachvollziehbarkeit sicherstellen? Die Lösung kombiniert verschiedene Technologien:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SMS-Zugriffsschutz&lt;/strong&gt; schützt die Unterlagen vor unberechtigtem Zugriff.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Audit Trail&lt;/strong&gt; dokumentiert die Publikation, Änderungen und Löschung.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kryptographische Hashes&lt;/strong&gt; bilden einen digitalen Fingerabdruck des gesamten Dossiers. Bereits kleinste Änderungen werden erkennbar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Elektronische Siegel mit qualifiziertem Zeitstempel&lt;/strong&gt; sichern Herkunft, Integrität und zeitlichen Bezug der digitalen Belege.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Auch Blockchain wäre technisch eine mögliche Lösung. Doch braucht es diese überhaupt? Die Zuständigkeiten sind bereits klar geregelt und die Herkunft der Dokumente lässt sich mit elektronischen Siegeln absichern.&lt;/p&gt;
+&lt;p&gt;Die wichtigste Erkenntnis: Eine rein technische Lösung gibt es nicht. Ob beispielsweise Dokumente tatsächlich während der gesamten Auflagefrist erreichbar waren, lässt sich nicht lückenlos beweisen. Vertrauen lässt sich nicht durch Algorithmen ersetzen.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.admin.digital"&gt;admin.digital&lt;/a&gt;: Open Source GovTech Plattform für die öffentliche Hand.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="/blog/nachvollziehbarkeit-planauflage/admin-digital-Nachvollziehbarkeit-Planauflage.pdf"&gt;→ Foliensatz zum Download (PDF)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content></entry><entry><title>Gemeinsam zur neuen Informationsarchitektur der Gemeinde Horw</title><link href="https://www.seantis.ch/blog/workshop-informationsarchitektur/" rel="alternate"/><updated>2026-07-02T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:20eb228d-d8bb-37e6-9666-de7fc91d65a3</id><content type="html">&lt;p&gt;Genau daran haben die Mitarbeitenden der Gemeinde Horw gearbeitet. Der Workshop wurde durch die Beratungsfirma &lt;a href="https://stimmt.ch"&gt;Stimmt&lt;/a&gt; geführt. Im Zentrum stand die Frage, wie die neue Website der Gemeinde Horw so strukturiert werden kann, dass sie die Bedürfnisse ihrer verschiedenen Anspruchsgruppen bestmöglich erfüllt.&lt;/p&gt;
 &lt;p&gt;Im Workshop haben wir deshalb nicht nur über mögliche Inhalte, Menüs und Navigationswege gesprochen. Wir haben die zukünftige Struktur der Website konkret erarbeitet: aus Sicht der Menschen, die sie später nutzen werden.&lt;/p&gt;
 &lt;p&gt;Dazu haben die Teilnehmenden des Workshops Aufgaben, Bedürfnisse und typische Wege durch die Website analysiert, sortiert und bewertet. Welche Informationen werden besonders häufig gesucht? Welche Anliegen sollen schnell erledigt werden können? Und wie muss die Navigation aufgebaut sein, damit Nutzerinnen und Nutzer ohne Umwege zum Ziel kommen?&lt;/p&gt;
 &lt;p&gt;Schritt für Schritt entsteht so eine Informationsarchitektur, die Orientierung schafft und die Grundlage für eine nutzerfreundliche Web-Lösung bildet. Dieser gemeinsame Prozess ist ein wichtiger Bestandteil erfolgreicher digitaler Projekte: Die Struktur einer Website wird nicht am Schreibtisch allein entwickelt, sondern im Dialog mit den Menschen, die die Organisation und ihre Anspruchsgruppen am besten kennen.&lt;/p&gt;
@@ -1180,30 +1193,4 @@ terminology in the world.»&lt;br&gt;
  
 &lt;a href="http://en.wikipedia.org/wiki/SNOMED_CT"&gt;http://en.wikipedia.org/wiki/SNOMED_CT&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-</content></entry><entry><title>2-Faktor-Authentifizierung in OCQMS</title><link href="https://www.seantis.ch/blog/sicheres-login-mit-2-faktor-authentifizierung/" rel="alternate"/><updated>2013-11-27T00:00:00Z</updated><author><name>seantis</name></author><id>urn:uuid:ccd12687-86dd-33a8-b520-9cc3afd1e010</id><content type="html">&lt;p&gt;In den Datenbanken für die medizinische Forschung werden sensitive
-Patientendaten gespeichert. Der Zugriff auf die personenbezogenen Daten setzt
-eine sichere Authentifizierung der Benutzer voraus.
-&lt;a href="https://www.healthdata.ai"&gt;OCQMS&lt;/a&gt; bietet ein sicheres Login
-mit 2-Faktor-Authentifizierung. Die Benutzer verwenden dazu
-&lt;a href="https://www.seantis.ch/blog/sicheres-login-mit-yubikey"&gt;YubiKeys&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;Unterschiedliche Arten von Tokens&lt;/h3&gt;
-&lt;p&gt;Die 2-Faktor-Authentifizierung ist flexibel implementiert, so dass
-grundsätzlich unterschiedliche Arten von Tokens verwendet werden können. Es
-lässt sich konfigurieren, ob ein YubiKey, ein Token per SMS (mTAN) oder eine
-andere Variante wie eine Strichliste mit Transaktionsnummern verwendet werden
-wird.&lt;/p&gt;
-&lt;p&gt;&lt;img src="/blog/sicheres-login-mit-2-faktor-authentifizierung/yubikey.png" alt="YubiKey"&gt;&lt;/p&gt;
-&lt;p&gt;Auf dem Screenshot fällt auf, dass auf dem Formular nur ein YubiKey und kein
-Passwort eingegeben werden muss. Diese Methode ohne Passwort wäre nicht
-sicher, da damit ein gestohlener YubiKey zur Authentifizierung genügen würde.
-Im Authentifizierungsprozess von OCQMS ist dem abgebildeten Formular deshalb
-noch ein Login-Formular mit Passwort vorgeschaltet. So muss der Benutzer
-zwingend sowohl etwas wissen (sein geheimes Passwort) als auch etwas besitzen
-(sein persönliches YubiKey).&lt;/p&gt;
-&lt;h3&gt;Sicherheit dank Hardware-Tokens&lt;/h3&gt;
-&lt;p&gt;Das „Wissen“ kann gestohlen werden, ohne dass der Eigentümer es bemerkt
-(Passwort ausgespäht). Auch das „Haben“ könnte ohne das Wissen des Benutzers
-missbraucht werden. Beim Einsatz von Hardware-Tokens (wie dem YubiKey) ist
-dieses Risiko jedoch deutlich kleiner, da ein YubiKey nicht kopiert werden
-kann und der Verlust schnell bemerkt wird (Schlüsselbund weg).&lt;/p&gt;
 </content></entry></feed>
